@@ -1,0 +1,11 @@
+// DEFAULT
+r_decal_cullsize 1
+exec joystick.cfg
+exec autoexec.cfg
+stuffcmds
+startupmenu
+sv_unlockedchapters 99
+
+// FRAGMENT
+vgui_cache_res_files 0
+toggle mat_aaquality

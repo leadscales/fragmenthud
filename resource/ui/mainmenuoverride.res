@@ -1,0 +1,6 @@
+#base "../../user/resource/ui/mainmenuoverride.res"
+#base "../../extd/resource/ui/mainmenuoverride.res"
+#base "../../frag/ext/preload.res"
+#base "../../version.vdf"
+#base "../../frag/resource/ui/mainmenuoverride.res"
+#base "../../base/resource/ui/mainmenuoverride.res"
