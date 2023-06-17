@@ -28,5 +28,6 @@
         "wide"                      "f26"
         "textalignment"             "north-west"
         "font"                      "FontMedium_8"
+        "alpha"                     "153"
     }
 }
