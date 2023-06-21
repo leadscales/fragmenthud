@@ -42,6 +42,16 @@
                 "antialias"     "1"
             }
         }
+        "Icons_XLarge"
+        {
+            "1"
+            {
+                "name"          "Icons"
+                "tall"          "24"
+                "weight"        "400"
+                "antialias"     "1"
+            }
+        }
     }
     "CustomFontFiles"
     {

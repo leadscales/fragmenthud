@@ -14,7 +14,7 @@
     }
     "ReportPlayer"
     {
-        "label"             "X"
+        "label"             "O"
         "command"           "OpenReportPlayerDialog"
         "OnlyInGame"        "1"
     }

@@ -493,7 +493,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f2"
+                "wide"                      "f6"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -582,7 +582,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f2"
+                "wide"                      "f6"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -671,7 +671,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f2"
+                "wide"                      "f6"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -760,7 +760,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f2"
+                "wide"                      "f6"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
