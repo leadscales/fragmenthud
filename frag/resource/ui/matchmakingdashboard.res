@@ -389,11 +389,11 @@
             "sound_depressed"           "UI/buttonclick.wav"
             "sound_released"            "UI/buttonclickrelease.wav"
 
-            "defaultbgcolor_override"   "FragNegative60"
-            "armedbgcolor_override"     "FragNegative100"
-            "fgcolor"                   "FragNeutral100"
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "defaultbgcolor_override"   "Blank"
+            "armedbgcolor_override"     "FragNegative20"
+            "fgcolor"                   "FragNegative100"
+            "defaultfgcolor_override"   "FragNegative100"
+            "armedfgcolor_override"     "FragNegative100"
             "roundedcorners"            "0"
         }
 
@@ -410,7 +410,7 @@
             "enabled"                   "1"
 
             "font"                      "Icons_Small"
-            "labeltext"                 "p"
+            "labeltext"                 "P"
             "textalignment"             "center"
 
             "command"                   "find_game"
@@ -418,11 +418,11 @@
             "sound_depressed"           "UI/buttonclick.wav"
             "sound_released"            "UI/buttonclickrelease.wav"
 
-            "defaultbgcolor_override"   "FragPositive60"
-            "armedbgcolor_override"     "FragPositive100"
-            "fgcolor"                   "FragNeutral100"
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "defaultbgcolor_override"   "Blank"
+            "armedbgcolor_override"     "FragPositive20"
+            "fgcolor"                   "FragPositive100"
+            "defaultfgcolor_override"   "FragPositive100"
+            "armedfgcolor_override"     "FragPositive100"
             "roundedcorners"            "0"
         }
     }

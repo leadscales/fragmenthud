@@ -244,6 +244,18 @@
         "enabled"                           "0"
     }
 
+    "Background"
+    {
+        "ControlName"                       "EditablePanel"
+        "fieldName"                         "Background"
+        "xpos"                              "0"
+        "ypos"                              "0"
+        "wide"                              "f0"
+        "tall"                              "f80"
+        "proportionaltoparent"              "1"
+        "bgcolor_override"                  "FragPanelTransparentDark40"
+    }
+
     "ClassButtonPanel"
     {
         "ControlName"                       "EditablePanel"
