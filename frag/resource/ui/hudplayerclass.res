@@ -1,5 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
+    // DISABLED
     "PlayerStatusClassImage"
     {
         "xpos"              "9999"

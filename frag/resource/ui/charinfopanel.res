@@ -74,35 +74,7 @@
         }
     }
 
-    "BackgroundHeader"
-    {
-        "xpos"                          "9999"
-        "ypos"                          "9999"
-        "wide"                          "0"
-        "tall"                          "0"
-        "visible"                       "0"
-        "enabled"                       "0"
-    }
-
-    "BackgroundFooter"
-    {
-        "xpos"                          "9999"
-        "ypos"                          "9999"
-        "wide"                          "0"
-        "tall"                          "0"
-        "visible"                       "0"
-        "enabled"                       "0"
-    }
-
-    "FooterLine"
-    {
-        "xpos"                          "9999"
-        "ypos"                          "9999"
-        "wide"                          "0"
-        "tall"                          "0"
-        "visible"                       "0"
-        "enabled"                       "0"
-    }
+    
 
     "Sheet"
     {
@@ -132,16 +104,6 @@
             "activeborder_override"         "NoBorder"
             "normalborder_override"         "NoBorder"
         }
-    }
-
-    "BackButton"
-    {
-        "xpos"                          "9999"
-        "ypos"                          "9999"
-        "wide"                          "0"
-        "tall"                          "0"
-        "visible"                       "0"
-        "enabled"                       "0"
     }
 
     "NavigationBar"
@@ -253,5 +215,44 @@
         "ypos"                              "9999"
         "labelText"                         "&e"
         "command"                           "close"
+    }
+
+    // DISABLED
+
+    "BackgroundHeader"
+    {
+        "xpos"                          "9999"
+        "ypos"                          "9999"
+        "wide"                          "0"
+        "tall"                          "0"
+        "visible"                       "0"
+        "enabled"                       "0"
+    }
+    "BackgroundFooter"
+    {
+        "xpos"                          "9999"
+        "ypos"                          "9999"
+        "wide"                          "0"
+        "tall"                          "0"
+        "visible"                       "0"
+        "enabled"                       "0"
+    }
+    "FooterLine"
+    {
+        "xpos"                          "9999"
+        "ypos"                          "9999"
+        "wide"                          "0"
+        "tall"                          "0"
+        "visible"                       "0"
+        "enabled"                       "0"
+    }
+    "BackButton"
+    {
+        "xpos"                          "9999"
+        "ypos"                          "9999"
+        "wide"                          "0"
+        "tall"                          "0"
+        "visible"                       "0"
+        "enabled"                       "0"
     }
 }

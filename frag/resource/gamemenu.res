@@ -24,4 +24,9 @@
         "command"           "engine snd_restart; hud_reloadscheme; record fix; stop"
         "OnlyInGame"        "1"
     }
+    "AtMenuBackground"
+    {
+        "command"           "engine"
+        "OnlyAtMenu"        "1"
+    }
 }

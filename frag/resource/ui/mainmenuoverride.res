@@ -23,6 +23,24 @@
         "tall"                      "f20"
     }
 
+    // A solid black background to compensate for halloween/holiday backgrounds
+    // This is a seperate element so disabling it doesnt remove the glow effect
+    // Disabled while in-game :)
+    "AtMenuBackground"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "AtMenuBackground"
+        "xpos"                      "cs-0.5"
+        "ypos"                      "cs-0.5"
+        "zpos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "o1"
+        "proportionaltoparent"      "0"
+        "bgcolor_override"          "0 0 0 255"
+        "visible"                   "1"
+        "enabled"                   "1"
+    }
+
     "BackgroundEffect"
     {
         "ControlName"               "EditablePanel"
@@ -33,7 +51,6 @@
         "wide"                      "f0"
         "tall"                      "o1"
         "proportionaltoparent"      "0"
-        "bgcolor_override"          "0 0 0 255"
         "visible"                   "1"
         "enabled"                   "1"
 
@@ -67,6 +84,7 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
+        // We add noise to reduce color banding for those with exceptionally bad monitors
         "SubImage3"
         {
             "ControlName"               "ImagePanel"
@@ -1083,6 +1101,7 @@
     }
 
     // DISABLED
+
     "CallVoteButton"
 	{
         "xpos"          "9999"

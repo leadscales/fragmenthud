@@ -18,7 +18,7 @@
     {
         "wide"                      "f26"
         "textalignment"             "south-west"
-        "font"                      "FontMedium_8"
+        "font"                      "FontMedium_9"
         "fgcolor_override"          "FragNeutral100"
     }
 
@@ -27,7 +27,7 @@
         "ypos"                      "10"
         "wide"                      "f26"
         "textalignment"             "north-west"
-        "font"                      "FontMedium_8"
+        "font"                      "FontMedium_9"
         "alpha"                     "153"
     }
 }

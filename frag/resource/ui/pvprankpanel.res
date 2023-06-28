@@ -16,33 +16,10 @@
             "wide"                          "f20"
             "font"                          "FontMedium_12"
             "textAlignment"                 "west"
-            "fgcolor_override"              "FragPrimary100"
+            "fgcolor_override"              "FragNeutral100"
             "textinsetx"                    "5"
             "use_proportional_insets"       "1"
             "allcaps"                       "1"
-        }
-
-        "NameLabelGlow"
-        {
-            "ControlName"                   "CExLabel"
-            "fieldName"                     "NameLabelGlow"
-            "xpos"                          "0"
-            "ypos"                          "0"
-            "zpos"                          "99"
-            "wide"                          "f20"
-            "tall"                          "20"
-            "font"                          "FontMedium_12_Blur"
-            "labelText"                     "%name%"
-            "textAlignment"                 "west"
-            "textinsetx"                    "5"
-            "use_proportional_insets"       "1"
-            "allcaps"                       "1"
-            "fgcolor_override"              "FragPrimary100"
-
-            if_mini
-			{
-				"visible"	"0"
-			}
         }
 
         "Desc1MainMenu"

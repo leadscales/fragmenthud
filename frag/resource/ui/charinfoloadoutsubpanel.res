@@ -18,232 +18,6 @@
         "class_distance_max"                "9999"
     }
 
-    "scout"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "soldier"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "pyro"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "demoman"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "heavyweapons"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "engineer"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "medic"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "sniper"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "spy"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowBackpackButton"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowCraftingButton"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowArmoryButton"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowTradeButton"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowPaintkitsButton"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowBackpackLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowCraftingLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowArmoryLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowTradeLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowPaintkitsLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ItemsLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "NoSteamLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "NoGCLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "SelectLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "LoadoutChangesLabel"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-    "ShowExplanationsButton"
-    {
-        "xpos"                              "9999"
-        "ypos"                              "9999"
-        "wide"                              "0"
-        "tall"                              "0"
-        "visible"                           "0"
-        "enabled"                           "0"
-    }
-
     "Background"
     {
         "ControlName"                       "EditablePanel"
@@ -1196,5 +970,233 @@
         "tall"                              "0"
         "command"                           "loadout spy"
         "labeltext"                         "&9"
+    }
+
+    // DISABLED
+
+    "scout"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "soldier"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "pyro"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "demoman"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "heavyweapons"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "engineer"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "medic"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "sniper"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "spy"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowBackpackButton"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowCraftingButton"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowArmoryButton"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowTradeButton"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowPaintkitsButton"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowBackpackLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowCraftingLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowArmoryLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowTradeLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowPaintkitsLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ItemsLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "NoSteamLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "NoGCLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "SelectLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "LoadoutChangesLabel"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
+    }
+    "ShowExplanationsButton"
+    {
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "visible"                           "0"
+        "enabled"                           "0"
     }
 }

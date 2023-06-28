@@ -1,24 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-    "HudWeaponAmmoBG"
-    {
-        "xpos"          "9999"
-        "ypos"          "9999"
-        "wide"          "0"
-        "tall"          "0"
-        "visible"       "0"
-        "enabled"       "0"
-    }
-    "HudWeaponLowAmmoImage"
-    {
-        "xpos"          "9999"
-        "ypos"          "9999"
-        "wide"          "0"
-        "tall"          "0"
-        "visible"       "0"
-        "enabled"       "0"
-    }
-
     "AmmoWeaponsAnchor"
     {
         "ControlName"               "EditablePanel"
@@ -120,5 +101,26 @@
         "fgcolor"                   "Black"
 
         "pin_to_sibling"            "AmmoInClip"
+    }
+
+    // DISABLED
+
+    "HudWeaponAmmoBG"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "HudWeaponLowAmmoImage"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
     }
 }

@@ -46,6 +46,50 @@
 "blur" "1"
 }
 }
+"FontMedium_9"
+{
+"1"
+{
+"name" "Inter Medium"
+"tall" "9"
+"weight" "500"
+"antialias" "1"
+}
+}
+"FontMedium_9_Blur"
+{
+"1"
+{
+"name" "Inter Medium"
+"tall" "9"
+"weight" "500"
+"antialias" "1"
+"blur" "1"
+}
+}
+"FontMedium_9_Additive"
+{
+"1"
+{
+"name" "Inter Medium"
+"tall" "9"
+"weight" "500"
+"antialias" "1"
+"additive" "1"
+}
+}
+"FontMedium_9_Additive_Blur"
+{
+"1"
+{
+"name" "Inter Medium"
+"tall" "9"
+"weight" "500"
+"antialias" "1"
+"additive" "1"
+"blur" "1"
+}
+}
 "FontMedium_10"
 {
 "1"
@@ -260,6 +304,50 @@
 {
 "name" "Inter Bold"
 "tall" "8"
+"weight" "700"
+"antialias" "1"
+"additive" "1"
+"blur" "1"
+}
+}
+"FontBold_9"
+{
+"1"
+{
+"name" "Inter Bold"
+"tall" "9"
+"weight" "700"
+"antialias" "1"
+}
+}
+"FontBold_9_Blur"
+{
+"1"
+{
+"name" "Inter Bold"
+"tall" "9"
+"weight" "700"
+"antialias" "1"
+"blur" "1"
+}
+}
+"FontBold_9_Additive"
+{
+"1"
+{
+"name" "Inter Bold"
+"tall" "9"
+"weight" "700"
+"antialias" "1"
+"additive" "1"
+}
+}
+"FontBold_9_Additive_Blur"
+{
+"1"
+{
+"name" "Inter Bold"
+"tall" "9"
 "weight" "700"
 "antialias" "1"
 "additive" "1"
