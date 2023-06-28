@@ -8,4 +8,6 @@ sv_unlockedchapters 99
 
 // FRAGMENT
 vgui_cache_res_files 0
+cl_hud_minmode 0
+alias cl_hud_minmode ""
 toggle mat_aaquality

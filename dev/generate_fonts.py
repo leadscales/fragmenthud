@@ -11,7 +11,7 @@ class Font(typing.NamedTuple):
     weight: int
 
 
-def generate_font_dict(fonts: list[Font], size_range: range, blur: bool) -> dict[str, typing.Any]:
+def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[str, typing.Any]:
     result = {
         "Scheme": {
             "Fonts": {},
@@ -33,7 +33,7 @@ def generate_font_dict(fonts: list[Font], size_range: range, blur: bool) -> dict
 
     # Generate Fonts
     for font in fonts:
-        for size in size_range:
+        for size in sizes:
             _d = {}
             _d.update({
                 f"{font.entry_name}_{size}": {
@@ -41,22 +41,44 @@ def generate_font_dict(fonts: list[Font], size_range: range, blur: bool) -> dict
                         "name": font.engine_name,
                         "tall": str(size),
                         "weight": str(font.weight),
-                        "antialias": "1"
+                        "antialias": "1",
                     }
                 }
             })
-            if blur:
-                _d.update({
-                    f"{font[2]}_{size}_Blur": {
-                        "1": {
-                            "name": font.engine_name,
-                            "tall": str(size),
-                            "weight": str(font.weight),
-                            "antialias": "1",
-                            "blur": "2"
-                        }
+            _d.update({
+                f"{font[2]}_{size}_Blur": {
+                    "1": {
+                        "name": font.engine_name,
+                        "tall": str(size),
+                        "weight": str(font.weight),
+                        "antialias": "1",
+                        "blur": "1"
                     }
-                })
+                }
+            })
+            _d.update({
+                f"{font.entry_name}_{size}_Additive": {
+                    "1": {
+                        "name": font.engine_name,
+                        "tall": str(size),
+                        "weight": str(font.weight),
+                        "antialias": "1",
+                        "additive": "1"
+                    }
+                }
+            })
+            _d.update({
+                f"{font[2]}_{size}_Additive_Blur": {
+                    "1": {
+                        "name": font.engine_name,
+                        "tall": str(size),
+                        "weight": str(font.weight),
+                        "antialias": "1",
+                        "additive": "1",
+                        "blur": "1"
+                    }
+                }
+            })
 
             result["Scheme"]["Fonts"].update(_d)
 
@@ -65,16 +87,23 @@ def generate_font_dict(fonts: list[Font], size_range: range, blur: bool) -> dict
 
 def main():
     root = pathlib.Path(fragment.get_project_root())
-    fonts = [
+    fonts = (
         Font("resource/fonts/Inter-Medium.ttf",
-             "Inter Medium", "FontMedium", 500)
-    ]
-    size_range = range(8, 48, 2)
+             "Inter Medium", "FontMedium", 500),
+        Font("resource/fonts/Inter-Bold.ttf", "Inter Bold", "FontBold", 700)
+    )
+    sizes = (
+        8,
+        10,
+        12,
+        16,
+        24,
+    )
 
-    font_dict = generate_font_dict(fonts, size_range, True)
+    font_dict = generate_font_dict(fonts, sizes)
 
     with open(root.joinpath("frag/resource/scheme/fonts.res"), "w") as file:
-        vdf.dump(font_dict, file, True)
+        vdf.dump(font_dict, file)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,31 @@
+event HudHealthBonusPulse
+{
+    Animate    PlayerStatusHealthValue    FgColor    FragPositive100    Linear    0.0    0.1
+}
+
+event HudHealthBonusPulseStop
+{
+    Animate    PlayerStatusHealthValue    FgColor    FragNeutral100    Linear    0.0    0.1
+}
+
+event HudHealthDyingPulse
+{
+    Animate    PlayerStatusHealthValue    FgColor    FragNegative100    Linear    0.0    0.1
+}
+
+event HudHealthDyingPulseStop
+{
+    Animate    PlayerStatusHealthValue    FgColor    FragNeutral100    Linear    0.0    0.1
+}
+
+event HudLowAmmoPulse
+{
+    Animate    AmmoInClip    FgColor    FragNegative100    Linear    0.0    0.1
+    Animate    AmmoNoClip    FgColor    FragNegative100    Linear    0.0    0.1
+}
+
+event HudLowAmmoPulseStop
+{
+    Animate    AmmoInClip    FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    AmmoNoClip    FgColor    FragNeutral100    Linear    0.0    0.1
+}

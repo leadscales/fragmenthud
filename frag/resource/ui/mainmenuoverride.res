@@ -181,7 +181,7 @@
         "wide"                  "160"
         "tall"                  "40"
         "fgcolor_override"      "FragNegative100"
-        "font"                  "FontMedium_10"
+        "font"                  "FontMedium_12"
         "textAlignment"         "west"
         "labelText"             "#TF_MM_NoGC"
         "textinsetx"            "0"
@@ -525,7 +525,7 @@
                 "auto_wide_tocontents"      "1"
 
                 "labelText"                 "#MMenu_CharacterSetup"
-                "font"                      "FontMedium_10"
+                "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
 
@@ -614,7 +614,7 @@
                 "auto_wide_tocontents"      "1"
 
                 "labelText"                 "#MMenu_Tooltip_Options"
-                "font"                      "FontMedium_10"
+                "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
 
@@ -703,7 +703,7 @@
                 "auto_wide_tocontents"      "1"
 
                 "labelText"                 "ADVANCED"
-                "font"                      "FontMedium_10"
+                "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
 
@@ -792,7 +792,7 @@
                 "auto_wide_tocontents"      "1"
 
                 "labelText"                 "#MMenu_Shop"
-                "font"                      "FontMedium_10"
+                "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
 

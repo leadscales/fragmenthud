@@ -20,7 +20,7 @@ elseif ($args.Count -gt 0) {
 }
 else {
     Write-Host "Using defaults."
-    Start-Process "steam://run/440"
+    Start-Process "steam://rungameid/440"
 }
 
 Start-Process -FilePath "C:\Program Files (x86)\Steam\steam.exe" -ArgumentList "-applaunch 440", "-w $w", "-h $h"
