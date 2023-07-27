@@ -98,7 +98,7 @@ def main():
         10,
         12,
         16,
-        24,
+        22,
     )
 
     font_dict = generate_font_dict(fonts, sizes)

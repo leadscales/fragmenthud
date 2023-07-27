@@ -17,8 +17,8 @@
             "fieldName"         "EmptyArea"
             "xpos"              "cs-0.5"
             "ypos"              "cs-0.5"
-            "wide"              "80"
-            "tall"              "80"
+            "wide"              "120"
+            "tall"              "60"
             "bgcolor_override"  "255 0 0 32"
         }
 
@@ -26,10 +26,10 @@
         {
             "ControlName"       "EditablePanel"
             "fieldName"         "Health"
-            "xpos"              "c0-s1-40"
-            "ypos"              "c40"
+            "xpos"              "c0-s1-60"
+            "ypos"              "c30"
             "wide"              "60"
-            "tall"              "20"
+            "tall"              "30"
             "bgcolor_override"  "0 255 0 32"
         }
 
@@ -37,10 +37,10 @@
         {
             "ControlName"       "EditablePanel"
             "fieldName"         "Ammo"
-            "xpos"              "c40"
-            "ypos"              "c40"
+            "xpos"              "c60"
+            "ypos"              "c30"
             "wide"              "60"
-            "tall"              "20"
+            "tall"              "30"
             "bgcolor_override"  "0 255 0 32"
         }
     }

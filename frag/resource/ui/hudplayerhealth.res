@@ -4,13 +4,27 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "PlayerStatusHealthAnchor"
-        "xpos"                      "c0-s1-40"
+        "xpos"                      "c0-s1-50"
         "ypos"                      "c40"
         "zpos"                      "4"
         "wide"                      "60"
-        "tall"                      "20"
+        "tall"                      "30"
         "proportionaltoparent"      "1"
-        "bgcolor_override"          "Blank"
+        "bgcolor_override"          "FragPanelTransparentDark60"
+        "paintBackgroundType"       "2"
+    }
+
+    "AmmoBox" // Exists so that the ammo background is persistent even when using a melee weapon
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "AmmoBox"
+        "xpos"                      "c50"
+        "ypos"                      "c40"
+        "zpos"                      "4"
+        "wide"                      "60"
+        "tall"                      "30"
+        "proportionaltoparent"      "1"
+        "bgcolor_override"          "FragPanelTransparentDark60"
         "paintBackgroundType"       "2"
     }
 
@@ -20,28 +34,11 @@
         "ypos"                      "0"
         "zpos"                      "8"
         "wide"                      "60"
-        "tall"                      "20"
+        "tall"                      "30"
         "proportionaltoparent"      "1"
-        "font"                      "FontBold_24"
+        "font"                      "FontBold_22_Additive"
         "fgcolor"                   "FragNeutral100"
-        "textalignment"             "east"
-
-        "pin_to_sibling"            "PlayerStatusHealthAnchor"
-    }
-    "PlayerStatusHealthValueShadow"
-	{
-        "ControlName"               "CExLabel"
-        "fieldName"                 "PlayerStatusHealthValueShadow"
-        "xpos"                      "0"
-        "ypos"                      "0"
-        "zpos"                      "6"
-        "wide"                      "60"
-        "tall"                      "20"
-        "proportionaltoparent"      "1"
-        "font"                      "FontBold_24_Blur"
-        "fgcolor"                   "Black"
-        "textAlignment"             "east"
-        "labeltext"                 "%health%"
+        "textalignment"             "center"
 
         "pin_to_sibling"            "PlayerStatusHealthAnchor"
     }
@@ -53,7 +50,7 @@
         "xpos"                      "-80" // I don't get it
         "ypos"                      "0"
         "wide"                      "0"
-        "tall"                      "20"
+        "tall"                      "30"
         "visible"                   "1"
         "enabled"                   "1"
 

@@ -222,44 +222,44 @@
 "blur" "1"
 }
 }
-"FontMedium_24"
+"FontMedium_22"
 {
 "1"
 {
 "name" "Inter Medium"
-"tall" "24"
+"tall" "22"
 "weight" "500"
 "antialias" "1"
 }
 }
-"FontMedium_24_Blur"
+"FontMedium_22_Blur"
 {
 "1"
 {
 "name" "Inter Medium"
-"tall" "24"
+"tall" "22"
 "weight" "500"
 "antialias" "1"
 "blur" "1"
 }
 }
-"FontMedium_24_Additive"
+"FontMedium_22_Additive"
 {
 "1"
 {
 "name" "Inter Medium"
-"tall" "24"
+"tall" "22"
 "weight" "500"
 "antialias" "1"
 "additive" "1"
 }
 }
-"FontMedium_24_Additive_Blur"
+"FontMedium_22_Additive_Blur"
 {
 "1"
 {
 "name" "Inter Medium"
-"tall" "24"
+"tall" "22"
 "weight" "500"
 "antialias" "1"
 "additive" "1"
@@ -486,44 +486,44 @@
 "blur" "1"
 }
 }
-"FontBold_24"
+"FontBold_22"
 {
 "1"
 {
 "name" "Inter Bold"
-"tall" "24"
+"tall" "22"
 "weight" "700"
 "antialias" "1"
 }
 }
-"FontBold_24_Blur"
+"FontBold_22_Blur"
 {
 "1"
 {
 "name" "Inter Bold"
-"tall" "24"
+"tall" "22"
 "weight" "700"
 "antialias" "1"
 "blur" "1"
 }
 }
-"FontBold_24_Additive"
+"FontBold_22_Additive"
 {
 "1"
 {
 "name" "Inter Bold"
-"tall" "24"
+"tall" "22"
 "weight" "700"
 "antialias" "1"
 "additive" "1"
 }
 }
-"FontBold_24_Additive_Blur"
+"FontBold_22_Additive_Blur"
 {
 "1"
 {
 "name" "Inter Bold"
-"tall" "24"
+"tall" "22"
 "weight" "700"
 "antialias" "1"
 "additive" "1"
