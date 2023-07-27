@@ -29,3 +29,25 @@ event HudLowAmmoPulseStop
     Animate    AmmoInClip    FgColor    FragNeutral100    Linear    0.0    0.1
     Animate    AmmoNoClip    FgColor    FragNeutral100    Linear    0.0    0.1
 }
+
+event HudMedicCharged
+{
+    Animate    ChargeLabel           FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    ChargeMeter           BgColor    FragPositive20     Linear    0.0    0.1
+    Animate    ChargeMeter           FgColor    FragPositive20     Linear    0.0    0.1
+    Animate    ChargeMeter           Wide       60                 Spline    0.0    0.2
+    Animate    FullyChargedStroke    Wide       60                 Spline    0.1    0.3
+    Animate    ChargeMeter           Tall       15                 Spline    0.3    0.5
+    Animate    ChargeTextLabel       FgColor    FragPositive100    Spline    0.4    0.5
+}
+
+event HudMedicChargedStop
+{
+    Animate    ChargeLabel           FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    ChargeMeter           FgColor    FragNeutral40     Linear    0.0    0.1
+    Animate    ChargeMeter           BgColor    FragNeutral20     Linear    0.0    0.1
+    Animate    FullyChargedStroke    Wide       0                 Spline    0.3    0.4
+    Animate    ChargeMeter           Tall       1                 Spline    0.0    0.2
+    Animate    ChargeMeter           Wide       40                Spline    0.3    0.5
+    Animate    ChargeTextLabel       FgColor    FragNeutral60     Spline    0.0    0.1
+}
