@@ -42,64 +42,19 @@
         "pin_to_sibling"            "MedicChargeAnchor"
     }
 
-    "ChargeMeterAnchor"
-    {
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "ChargeMeterAnchor"
-        "xpos"                      "cs-0.5"
-        "ypos"                      "c10"
-        "zpos"                      "5"
-        "wide"                      "60"
-        "tall"                      "1"
-    }
-
-    "ChargeTextLabel"
-    {
-        "ControlName"               "CExLabel"
-        "fieldName"                 "ChargeTextLabel"
-        "xpos"                      "0"
-        "ypos"                      "-1"
-        "wide"                      "60"
-        "tall"                      "14"
-        "labelText"                 "ÜBER"
-        "textAlignment"             "center"
-        "fgcolor"                   "FragNeutral60"
-        "font"                      "FontMedium_10_Additive"
-        "bgcolor_override"          "Blank"
-
-        "pin_to_sibling"            "ChargeMeterAnchor"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_TOP"
-    }
-
-    "FullyChargedStroke"
-    {
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "FullyChargedStroke"
-        "xpos"                      "0"
-        "ypos"                      "0"
-        "wide"                      "0"
-        "tall"                      "1"
-        "bgcolor_override"          "FragPositive100"
-
-        "pin_to_sibling"            "ChargeMeterAnchor"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_TOP"
-    }
-
     "ChargeMeter"
     {
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "5"
-        "wide"                      "40"
+        "wide"                      "60"
         "tall"                      "1"
-        "fgcolor_override"          "FragNeutral40"
-        "bgcolor_override"          "FragNeutral20"
+        "fgcolor_override"          "FragPositive100"
+        "bgcolor_override"          "FragNeutral100"
 
-        "pin_to_sibling"            "ChargeMeterAnchor"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+        "pin_to_sibling"            "MedicChargeAnchor"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
     }
 
     "ChargeMeter1"

@@ -11,7 +11,47 @@
         "tall"                      "30"
         "proportionaltoparent"      "1"
         "bgcolor_override"          "Blank"
-        "paintBackgroundType"       "2"
+        "paintBackgroundType"       "0"
+    }
+
+    "NeutralStroke"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "NeutralStroke"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "5"
+        "wide"                      "60"
+        "tall"                      "1"
+        "proportionaltoparent"      "1"
+        "paintBackgroundType"       "0"
+        "image"                     "replay/thumbnails/panels/fill_additive"
+        "scaleImage"                "1"
+        "drawcolor"                 "FragNeutral100"
+
+        "pin_to_sibling"            "AmmoWeaponsAnchor"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+    }
+
+    "LowStroke"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "LowStroke"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "5"
+        "wide"                      "60"
+        "tall"                      "1"
+        "proportionaltoparent"      "1"
+        "paintBackgroundType"       "0"
+        "image"                     "replay/thumbnails/panels/fill_additive"
+        "scaleImage"                "1"
+        "drawcolor"                 "FragNegative100"
+
+        "pin_to_sibling"            "AmmoWeaponsAnchor"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
     }
 
     "AmmoInClip"
