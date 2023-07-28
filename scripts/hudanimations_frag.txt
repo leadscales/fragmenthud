@@ -34,6 +34,7 @@ event HudLowAmmoPulse
 {
     Animate    AmmoInClip       FgColor    FragNegative100    Linear    0.0    0.1
     Animate    AmmoNoClip       FgColor    FragNegative100    Linear    0.0    0.1
+    Animate    AmmoInReserve    FgColor    FragNegative100    Linear    0.0    0.1
     Animate    NeutralStroke    Alpha      0                  Linear    0.0    0.1
     Animate    LowStroke        Alpha      255                Linear    0.0    0.1
 }
@@ -42,16 +43,17 @@ event HudLowAmmoPulseStop
 {
     Animate    AmmoInClip       FgColor    FragNeutral100    Linear    0.0    0.1
     Animate    AmmoNoClip       FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    AmmoInReserve    FgColor    FragNeutral100    Linear    0.0    0.1
     Animate    NeutralStroke    Alpha      255               Linear    0.0    0.1
     Animate    LowStroke        Alpha      0                 Linear    0.0    0.1
 }
 
 event HudMedicCharged
 {
-    Animate    ChargeLabel           FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    ChargeLabel    FgColor    FragPositive100    Linear    0.0    0.1
 }
 
 event HudMedicChargedStop
 {
-    Animate    ChargeLabel           FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    ChargeLabel    FgColor    FragNeutral100    Linear    0.0    0.1
 }
