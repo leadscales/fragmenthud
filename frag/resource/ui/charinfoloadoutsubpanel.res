@@ -67,7 +67,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "1"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -120,7 +120,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "2"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -173,7 +173,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "3"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -226,7 +226,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "4"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -279,7 +279,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "5"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -332,7 +332,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "6"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -385,7 +385,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "7"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -438,7 +438,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "8"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -491,7 +491,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "9"
-                "font"                      "Icons_XLarge"
+                "font"                      "Icons_XLarge_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -552,7 +552,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "I"
-                "font"                      "Icons_Medium"
+                "font"                      "Icons_Medium_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -592,7 +592,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "h"
-                "font"                      "Icons_Medium"
+                "font"                      "Icons_Medium_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -632,7 +632,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "A"
-                "font"                      "Icons_Medium"
+                "font"                      "Icons_Medium_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -672,7 +672,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "T"
-                "font"                      "Icons_Medium"
+                "font"                      "Icons_Medium_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"
@@ -712,7 +712,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "w"
-                "font"                      "Icons_Medium"
+                "font"                      "Icons_Medium_Additive"
                 "textAlignment"             "center"
 
                 "defaultbgcolor_override"   "FragPanelTransparentDark60"

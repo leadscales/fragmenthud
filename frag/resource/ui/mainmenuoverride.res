@@ -248,9 +248,9 @@
         "textinsetx"            "0"
         "textinsety"            "0"
 
-        "font"                  "Icons_Medium"
+        "font"                  "Icons_Medium_Additive"
         "fgcolor_override"      "FragNegative100"
-        "bgcolor_override"      "Blank"
+        "bgcolor_override"      "FragPanelTransparentDark20"
         "labeltext"             "~"
         "textalignment"         "center"
 
@@ -265,19 +265,21 @@
         "xpos"                  "0"
         "ypos"                  "0"
         "zpos"                  "12"
-        "wide"                  "160"
+        "wide"                  "200"
         "tall"                  "40"
         "fgcolor_override"      "FragNegative100"
-        "font"                  "FontMedium_12"
+        "font"                  "FontMedium_10_Additive"
         "textAlignment"         "west"
         "labelText"             "#TF_MM_NoGC"
-        "textinsetx"            "0"
+        "textinsetx"            "45"
         "textinsety"            "0"
+        "use_proportional_insets"   "1"
         "wrap"                  "1"
+        "bgcolor_override"      "FragNegative20"
 
         "pin_to_sibling"        "NoGCImage"
         "pin_corner_to_sibling" "PIN_TOPLEFT"
-        "pin_to_sibling_corner" "PIN_TOPRIGHT"
+        "pin_to_sibling_corner" "PIN_TOPLEFT"
     }
 
     "CycleRankTypeButton"
@@ -288,7 +290,7 @@
         "wide"                      "20"
         "tall"                      "20"
         "labelText"                 "s"
-        "font"                      "Icons_Small"
+        "font"                      "Icons_Small_Additive"
         "textinsetx"                "5"
         "textAlignment"             "east"
         "pinCorner"                 "0"
@@ -408,7 +410,7 @@
             "sound_released"            "UI/buttonclickrelease.wav"
 
             "labelText"                 "i"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "textAlignment"             "center"
 
             "paintBackgroundType"       "0"
@@ -435,7 +437,7 @@
             "sound_released"            "UI/buttonclickrelease.wav"
 
             "labelText"                 "/"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "textAlignment"             "center"
 
             "paintBackgroundType"       "0"
@@ -466,7 +468,7 @@
             "sound_released"            "UI/buttonclickrelease.wav"
 
             "labelText"                 "p"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "textAlignment"             "center"
 
             "paintBackgroundType"       "0"
@@ -497,7 +499,7 @@
             "sound_released"            "UI/buttonclickrelease.wav"
 
             "labelText"                 "c"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "textAlignment"             "center"
 
             "paintBackgroundType"       "0"
@@ -528,7 +530,7 @@
             "sound_released"            "UI/buttonclickrelease.wav"
 
             "labelText"                 "a"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "textAlignment"             "center"
 
             "paintBackgroundType"       "0"
@@ -822,7 +824,7 @@
                 "armedfgcolor_override"     "FragNeutral100"
                 "actionsignallevel"         "2"
 
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
@@ -864,7 +866,7 @@
                 "armedfgcolor_override"     "FragNeutral100"
                 "actionsignallevel"         "2"
 
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
@@ -906,7 +908,7 @@
                 "armedfgcolor_override"     "FragNeutral100"
                 "actionsignallevel"         "2"
 
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
@@ -948,7 +950,7 @@
                 "armedfgcolor_override"     "FragNeutral100"
                 "actionsignallevel"         "2"
 
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
@@ -1002,7 +1004,7 @@
             "enabled"                   "1"
             "tabPosition"               "0"
             "labelText"                 "*"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "textAlignment"             "center"
             "dulltext"                  "0"
             "brighttext"                "0"

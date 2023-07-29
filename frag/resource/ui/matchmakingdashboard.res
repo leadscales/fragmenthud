@@ -76,7 +76,7 @@
             "pinCorner"                 "0"
             "visible"                   "1"
             "enabled"                   "1"
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "Command"                   "toggle_chat"
             "proportionaltoparent"      "1"
             "labeltext"                 "C"
@@ -282,7 +282,7 @@
                 "wide"                          "20"
                 "tall"                          "20"
                 "labeltext"                     "s"
-                "font"                          "Icons_Small"
+                "font"                          "Icons_Small_Additive"
                 "textAlignment"                 "center"
                 "dulltext"                      "0"
                 "brighttext"                    "0"
@@ -317,7 +317,7 @@
                 "wide"                          "20"
                 "tall"                          "20"
                 "labeltext"                     "x"
-                "font"                          "Icons_Small"
+                "font"                          "Icons_Small_Additive"
                 "textAlignment"                 "center"
                 "dulltext"                      "0"
                 "brighttext"                    "0"
@@ -409,7 +409,7 @@
             "visible"                   "1"
             "enabled"                   "1"
 
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "labeltext"                 "x"
             "textalignment"             "center"
 
@@ -439,7 +439,7 @@
             "visible"                   "1"
             "enabled"                   "1"
 
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "labeltext"                 "P"
             "textalignment"             "center"
 
