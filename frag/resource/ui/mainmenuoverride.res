@@ -191,7 +191,7 @@
         "proportionaltoparent"  "1"
         "image"                 "replay/thumbnails/menu/side_panel_gradient"
         "scaleImage"            "1"
-        "drawcolor"             "FragPrimary60"
+        "drawcolor"             "FragPrimary40"
 
         "pin_to_sibling"        "SidePanel"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"

@@ -4,12 +4,12 @@
     {
         // UI Colors
         // Primary
-        "FragPrimary100"                    "64 144 255 255"
-        "FragPrimary80"                     "64 144 255 204"
-        "FragPrimary60"                     "64 144 255 153"
-        "FragPrimary40"                     "64 144 255 102"
-        "FragPrimary20"                     "64 144 255 51"
-        "FragPrimary05"                     "64 144 255 13"
+        "FragPrimary100"                    "96 208 255 255"
+        "FragPrimary80"                     "96 208 255 204"
+        "FragPrimary60"                     "96 208 255 153"
+        "FragPrimary40"                     "96 208 255 102"
+        "FragPrimary20"                     "96 208 255 51"
+        "FragPrimary05"                     "96 208 255 13"
         // Negative
         "FragNegative100"                   "255 64 80 255"
         "FragNegative80"                    "255 64 80 204"
