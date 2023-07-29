@@ -1,7 +1,12 @@
-#base "huditemeffectmeter_scout.res"
+#base "huditemeffectmeter.res"
 
 "Resource/UI/HudItemEffectMeter.res"
 {
+    "HudItemEffectMeter"
+    {
+        "ypos"                  "c50"
+    }
+
     "ItemEffectMeterLabel"
     {
         "textalignment"         "center"

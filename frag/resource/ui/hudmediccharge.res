@@ -70,7 +70,7 @@
         "paintBackgroundType"       "0"
         "image"                     "replay/thumbnails/panels/fill_additive"
         "scaleImage"                "1"
-        "drawcolor"                 "FragPrimary100"
+        "drawcolor"                 "FragPositive20"
         "alpha"                     "0"
 
         "pin_to_sibling"            "MedicChargeAnchor"
