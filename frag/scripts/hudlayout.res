@@ -71,4 +71,12 @@
         "wide"      "f0"
         "tall"      "480"
     }
+
+    "CHealthAccountPanel"
+    {
+        "xpos"      "c0-s1-50"
+        "ypos"      "c10"
+        "wide"      "60"
+        "tall"      "15"
+    }
 }
