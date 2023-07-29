@@ -23,14 +23,13 @@
         "wide"                      "f0"
         "tall"                      "o1"
         "proportionaltoparent"      "0"
-        "bgcolor_override"          "0 0 0 255"
         "visible"                   "1"
         "enabled"                   "1"
 
-        "SubImage1"
+        "BGImage1"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "SubImage1"
+            "fieldName"                 "BGImage1"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -42,10 +41,10 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
-        "SubImage2"
+        "BGImage2"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "SubImage2"
+            "fieldName"                 "BGImage2"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -57,10 +56,41 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
-        "SubImage3"
+        "BGEffect1"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "SubImage3"
+            "fieldName"                 "BGEffect1"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_effect_0"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGEffect2"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGEffect2"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_effect_1"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        // We add noise to reduce color banding for those with exceptionally bad monitors
+        "NoiseImage1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "NoiseImage1"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -68,13 +98,11 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/noise"
             "scaleImage"                "1"
-            "drawcolor"                 "FragPrimary100"
+            "drawcolor"                 "FragNeutral100"
             "visible"                   "1"
             "enabled"                   "1"
         }
     }
-
-    
 
     "Sheet"
     {
@@ -128,7 +156,6 @@
             "wide"                      "40"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMRight"
 
             "Button"
             {
@@ -136,7 +163,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f6"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -152,9 +179,22 @@
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
+                "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+            }
+
+            "Stroke"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
+                "proportionaltoparent"      "1"
+                "mouseinputenabled"         "0"
+                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -167,7 +207,6 @@
             "wide"                      "40"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMLeft"
 
             "Button"
             {
@@ -175,7 +214,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f6"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -191,9 +230,22 @@
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
+                "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+            }
+
+            "Stroke"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
+                "proportionaltoparent"      "1"
+                "mouseinputenabled"         "0"
+                "bgcolor_override"          "FragPrimary80"
             }
         }
     }

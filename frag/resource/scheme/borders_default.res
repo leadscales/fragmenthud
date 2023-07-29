@@ -2,6 +2,18 @@
 {
     "Borders"
     {
+        "ButtonBorder"
+        {
+            "backgroundtype"    "0"
+        }
+        "ButtonKeyFocusBorder"
+        {
+            "backgroundtype"    "0"
+        }
+        "ButtonDepressedBorder"
+        {
+            "backgroundtype"    "0"
+        }
         "FriendHighlightBorderThick"
         {
             "inset"     "0 0 0 0"

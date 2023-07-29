@@ -99,7 +99,7 @@
         "sound_depressed"               "UI/buttonclick.wav"
         "sound_released"                "UI/buttonclickrelease.wav"
         "defaultBgColor_override"       "Blank"
-        "armedBgColor_override"         "FragPanelTransparentLight20"
+        "armedBgColor_override"         "FragPanelTransparentDark20"
         "defaultfgcolor_override"       "Blank"
         "armedfgcolor_override"         "FragNeutral100"
         "border_default"                "NoBorder"

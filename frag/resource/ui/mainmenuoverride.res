@@ -9,7 +9,7 @@
         "zpos"                      "100"
         "wide"                      "f0"
         "tall"                      "20"
-        "font"                      "FontMedium_12"
+        "font"                      "FontMedium_12_Additive"
         "fgcolor"                   "FragPrimary20"
         "textAlignment"             "east"
         "textinsetx"                "5"
@@ -54,10 +54,10 @@
         "visible"                   "1"
         "enabled"                   "1"
 
-        "SubImage1"
+        "BGImage1"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "SubImage1"
+            "fieldName"                 "BGImage1"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -69,10 +69,10 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
-        "SubImage2"
+        "BGImage2"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "SubImage2"
+            "fieldName"                 "BGImage2"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -84,11 +84,41 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
-        // We add noise to reduce color banding for those with exceptionally bad monitors
-        "SubImage3"
+        "BGEffect1"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "SubImage3"
+            "fieldName"                 "BGEffect1"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_effect_0"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGEffect2"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGEffect2"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_effect_1"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        // We add noise to reduce color banding for those with exceptionally bad monitors
+        "NoiseImage1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "NoiseImage1"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -96,7 +126,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/noise"
             "scaleImage"                "1"
-            "drawcolor"                 "FragPrimary100"
+            "drawcolor"                 "FragNeutral100"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -106,44 +136,80 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "SidePanel"
-        "xpos"                      "20"
+        "xpos"                      "0"
         "ypos"                      "40"
         "zpos"                      "10"
-        "wide"                      "200"
+        "wide"                      "220"
         "tall"                      "400"
         "proportionaltoparent"      "1"
-        "paintbackgroundtype"       "2"
+        "paintbackgroundtype"       "0"
         "bgcolor_override"          "FragPanelTransparentDark60"
 
-        "RankPanelBackground"
+        "RightSideBG"
         {
             "ControlName"           "EditablePanel"
-            "fieldName"             "RankPanelBackground"
-            "xpos"                  "0"
+            "fieldName"             "RightSideBG"
+            "xpos"                  "20"
             "ypos"                  "0"
             "zpos"                  "0"
-            "wide"                  "f0"
-            "tall"                  "40"
+            "wide"                  "200"
+            "tall"                  "f0"
             "proportionaltoparent"  "1"
-            "paintbackgroundtype"   "2"
-            "roundedcorners"        "3"
-            "bgcolor_override"      "FragPanelTransparentDark20"
+            "paintbackgroundtype"   "0"
+            "bgcolor_override"      "FragPanelTransparentDark40"
         }
+    }
 
-        "ExtraButtonsBackground"
-        {
-            "ControlName"           "EditablePanel"
-            "fieldName"             "ExtraButtonsBackground"
-            "xpos"                  "0"
-            "ypos"                  "rs1"
-            "zpos"                  "0"
-            "wide"                  "f0"
-            "tall"                  "20"
-            "proportionaltoparent"  "1"
-            "paintbackgroundtype"   "2"
-            "roundedcorners"        "12"
-            "bgcolor_override"      "FragPanelTransparentDark20"
-        }
+    "SidePanelStroke"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "SidePanelStroke"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "20"
+        "wide"                  "1"
+        "tall"                  "400"
+        "proportionaltoparent"  "1"
+        "paintbackgroundtype"   "0"
+        "bgcolor_override"      "FragPrimary40"
+        "mouseinputenabled"     "0"
+
+        "pin_to_sibling"        "SidePanel"
+        "pin_corner_to_sibling" "PIN_TOPLEFT"
+        "pin_to_sibling_corner" "PIN_TOPRIGHT"
+    }
+
+    "SidePanelGradient"
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "SidePanelGradient"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "9"
+        "wide"                  "220"
+        "tall"                  "400"
+        "proportionaltoparent"  "1"
+        "image"                 "replay/thumbnails/menu/side_panel_gradient"
+        "scaleImage"            "1"
+        "drawcolor"             "FragPrimary60"
+
+        "pin_to_sibling"        "SidePanel"
+        "pin_corner_to_sibling" "PIN_TOPRIGHT"
+        "pin_to_sibling_corner" "PIN_TOPRIGHT"
+    }
+
+    "SidePanelElementsAnchor"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "SidePanelElementsAnchor"
+        "xpos"                      "-20"
+        "ypos"                      "0"
+        "zpos"                      "10"
+        "wide"                      "0"
+        "tall"                      "0"
+        "proportionaltoparent"      "1"
+
+        "pin_to_sibling"            "SidePanel"
     }
 
     "BottomPanel"
@@ -160,11 +226,14 @@
 
     "RankPanel"
     {
-        "xpos"          "20"
-        "ypos"          "40"
+        "xpos"          "0"
+        "ypos"          "0"
         "zpos"          "11"
         "wide"          "200"
         "tall"          "40"
+        "bgcolor_override"  "FragPanelTransparentDark20"
+
+        "pin_to_sibling"    "SidePanelElementsAnchor"
     }
 
     "NoGCImage"
@@ -248,6 +317,7 @@
         "wide"                      "200"
         "tall"                      "340"
         "border"                    "NoBorder"
+        "bgcolor_override"          "255 0 0 0"
 
         "pin_to_sibling"            "RankPanel"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -289,10 +359,10 @@
             "ScrollBar"
             {
                 "xpos"                  "rs1"
-                "wide"                  "2"
+                "wide"                  "0"
                 "Slider"
                 {
-                    "fgcolor_override"  "FragNeutral20"
+                    "fgcolor_override"  "Blank"
                 }
             }
         }
@@ -316,10 +386,10 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
 
-        "bgcolor_override"          "255 0 0 0"
+        "bgcolor_override"          "FragPanelTransparentDark20"
 
-        "pin_to_sibling"            "SidePanel"
-        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling"            "FriendsContainer"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
         "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 
         "Info"
@@ -341,10 +411,9 @@
             "font"                      "Icons_Small"
             "textAlignment"             "center"
 
-            "paintBackgroundType"       "2"
-            "roundedcorners"            "4"
+            "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentLight20"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
 
             "defaultfgcolor_override"   "FragNeutral100"
             "armedfgcolor_override"     "FragNeutral100"
@@ -369,10 +438,9 @@
             "font"                      "Icons_Small"
             "textAlignment"             "center"
 
-            "paintBackgroundType"       "2"
-            "roundedcorners"            "0"
+            "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentLight20"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
 
             "defaultfgcolor_override"   "FragNeutral100"
             "armedfgcolor_override"     "FragNeutral100"
@@ -401,10 +469,9 @@
             "font"                      "Icons_Small"
             "textAlignment"             "center"
 
-            "paintBackgroundType"       "2"
-            "roundedcorners"            "0"
+            "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentLight20"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
 
             "defaultfgcolor_override"   "FragNeutral100"
             "armedfgcolor_override"     "FragNeutral100"
@@ -433,10 +500,9 @@
             "font"                      "Icons_Small"
             "textAlignment"             "center"
 
-            "paintBackgroundType"       "2"
-            "roundedcorners"            "0"
+            "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentLight20"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
 
             "defaultfgcolor_override"   "FragNeutral100"
             "armedfgcolor_override"     "FragNeutral100"
@@ -465,10 +531,9 @@
             "font"                      "Icons_Small"
             "textAlignment"             "center"
 
-            "paintBackgroundType"       "2"
-            "roundedcorners"            "8"
+            "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentLight20"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
 
             "defaultfgcolor_override"   "FragNeutral100"
             "armedfgcolor_override"     "FragNeutral100"
@@ -486,7 +551,7 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "20"
-        "wide"                          "400"
+        "wide"                          "320"
         "tall"                          "20"
         "proportionaltoparent"          "1"
 
@@ -503,7 +568,6 @@
             "wide"                      "p0.25"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMRight"
 
             "Button"
             {
@@ -511,7 +575,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f6"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -520,62 +584,29 @@
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                "labelText"                 ""
-                "paintBackground"           "1"
-                "roundedcorners"            "0"
-
-                "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
-            }
-
-            "Label"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Label"
-                "xpos"                      "5"
-                "ypos"                      "0"
-                "wide"                      "f0"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "auto_wide_tocontents"      "1"
-
                 "labelText"                 "#MMenu_CharacterSetup"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
+                "paintBackground"           "1"
 
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Button" // We need to use pinning because cs-0.5 doesnt work for autoresized elements
-                "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-                "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
             }
 
-            "Icon"
+            "Stroke"
             {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Icon"
-                "xpos"                      "4"
-                "ypos"                      "0"
-                "wide"                      "o1"
-                "tall"                      "f0"
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
-
-                "labelText"                 "I"
-                "font"                      "Icons_Small"
-                "textAlignment"             "east"
-                "textinsetx"                "0"
-                "use_proportional_insets"   "1"
-
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Label"
-                "pin_corner_to_sibling"     "PIN_CENTER_RIGHT"
-                "pin_to_sibling_corner"     "PIN_CENTER_LEFT"
+                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -588,7 +619,6 @@
             "wide"                      "p0.25"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMCenter"
 
             "pin_to_sibling"            "Items"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -600,7 +630,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f6"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -609,62 +639,29 @@
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                "labelText"                 ""
-                "paintBackground"           "1"
-                "roundedcorners"            "0"
-
-                "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
-            }
-
-            "Label"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Label"
-                "xpos"                      "5"
-                "ypos"                      "0"
-                "wide"                      "f0"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "auto_wide_tocontents"      "1"
-
                 "labelText"                 "#MMenu_Tooltip_Options"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
+                "paintBackground"           "1"
 
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Button" // We need to use pinning because cs-0.5 doesnt work for autoresized elements
-                "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-                "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
             }
 
-            "Icon"
+            "Stroke"
             {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Icon"
-                "xpos"                      "4"
-                "ypos"                      "0"
-                "wide"                      "o1"
-                "tall"                      "f0"
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
-
-                "labelText"                 "s"
-                "font"                      "Icons_Small"
-                "textAlignment"             "east"
-                "textinsetx"                "0"
-                "use_proportional_insets"   "1"
-
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Label"
-                "pin_corner_to_sibling"     "PIN_CENTER_RIGHT"
-                "pin_to_sibling_corner"     "PIN_CENTER_LEFT"
+                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -677,7 +674,6 @@
             "wide"                      "p0.25"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMCenter"
 
             "pin_to_sibling"            "Options"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -689,7 +685,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f6"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -698,62 +694,29 @@
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                "labelText"                 ""
-                "paintBackground"           "1"
-                "roundedcorners"            "0"
-
-                "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
-            }
-
-            "Label"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Label"
-                "xpos"                      "5"
-                "ypos"                      "0"
-                "wide"                      "f0"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "auto_wide_tocontents"      "1"
-
                 "labelText"                 "ADVANCED"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
+                "paintBackground"           "1"
 
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Button" // We need to use pinning because cs-0.5 doesnt work for autoresized elements
-                "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-                "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
             }
 
-            "Icon"
+            "Stroke"
             {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Icon"
-                "xpos"                      "4"
-                "ypos"                      "0"
-                "wide"                      "o1"
-                "tall"                      "f0"
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
-
-                "labelText"                 "t"
-                "font"                      "Icons_Small"
-                "textAlignment"             "east"
-                "textinsetx"                "0"
-                "use_proportional_insets"   "1"
-
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Label"
-                "pin_corner_to_sibling"     "PIN_CENTER_RIGHT"
-                "pin_to_sibling_corner"     "PIN_CENTER_LEFT"
+                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -766,7 +729,6 @@
             "wide"                      "p0.25"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMLeft"
 
             "pin_to_sibling"            "AdvOptions"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -778,7 +740,7 @@
                 "fieldName"                 "Button"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "f6"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
@@ -787,62 +749,29 @@
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                "labelText"                 ""
-                "paintBackground"           "1"
-                "roundedcorners"            "0"
-
-                "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
-            }
-
-            "Label"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Label"
-                "xpos"                      "5"
-                "ypos"                      "0"
-                "wide"                      "f0"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "auto_wide_tocontents"      "1"
-
                 "labelText"                 "#MMenu_Shop"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
+                "paintBackground"           "1"
 
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Button" // We need to use pinning because cs-0.5 doesnt work for autoresized elements
-                "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-                "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
             }
 
-            "Icon"
+            "Stroke"
             {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Icon"
-                "xpos"                      "4"
-                "ypos"                      "0"
-                "wide"                      "o1"
-                "tall"                      "f0"
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
-
-                "labelText"                 "$"
-                "font"                      "Icons_Small"
-                "textAlignment"             "east"
-                "textinsetx"                "0"
-                "use_proportional_insets"   "1"
-
-                "fgcolor"                   "FragNeutral100"
-
-                "pin_to_sibling"            "Label"
-                "pin_corner_to_sibling"     "PIN_CENTER_RIGHT"
-                "pin_to_sibling_corner"     "PIN_CENTER_LEFT"
+                "bgcolor_override"          "FragPrimary80"
             }
         }
     }

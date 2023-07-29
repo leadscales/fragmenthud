@@ -172,13 +172,15 @@
 
                     "ContinuousProgressBar"
                     {
-                        "wide"                  "f4"
-                        "tall"                  "f4"
+                        "xpos"                  "cs-0.5"
+                        "wide"                  "f0"
+                        "tall"                  "f0"
                         "fgcolor_override"      "FragPrimary20"
-                        "bgcolor_override"      "FragPrimary20"
+                        "bgcolor_override"      "Blank"
 
                         "if_mini"
                         {
+                            "xpos"              "cs-0.5"
 						    "wide"			    "f2"
 						    "tall"			    "f2"
                         }

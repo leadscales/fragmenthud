@@ -83,11 +83,11 @@
             "sound_depressed"           "UI/buttonclick.wav"
             "sound_released"            "UI/buttonclickrelease.wav"
 
-            "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentLight20"
+            "defaultbgcolor_override"   "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
             "fgcolor"                   "FragNeutral100"
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
 
             "SubImage"
             {
@@ -98,6 +98,20 @@
                 "visible"                   "0"
                 "enabled"                   "0"
             }
+        }
+
+        "SlotsBG"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "SlotsBG"
+            "xpos"                      "40"
+            "ypos"                      "0"
+            "zpos"                      "99"
+            "wide"                      "120"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "mouseinputenabled"         "0"
+            "bgcolor_override"          "FragPanelTransparentDark20"
         }
 
         "PartySlot0"
@@ -368,12 +382,27 @@
             "enabled"                   "0"
         }
 
+        "GameButtonsBG"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "GameButtonsBG"
+            "xpos"                      "rs1"
+            "ypos"                      "0"
+            "zpos"                      "99"
+            "wide"                      "80"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "mouseinputenabled"         "0"
+            "bgcolor_override"          "FragPanelTransparentDark40"
+        }
+
         "QuitButton2"
         {
             "ControlName"               "CExButton"
             "fieldName"                 "QuitButton2"
             "xpos"                      "rs1"
             "ypos"                      "0"
+            "zpos"                      "100"
             "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"
@@ -403,6 +432,7 @@
             "fieldName"                 "FindAGameButton2"
             "xpos"                      "rs1-40"
             "ypos"                      "0"
+            "zpos"                      "100"
             "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"
