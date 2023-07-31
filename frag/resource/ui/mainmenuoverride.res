@@ -785,13 +785,13 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "21"
-        "wide"                          "80"
-        "tall"                          "20"
+        "wide"                          "20"
+        "tall"                          "80"
         "proportionaltoparent"          "1"
 
-        "pin_to_sibling"                "BottomPanel"
-        "pin_corner_to_sibling"         "PIN_TOPRIGHT"
-        "pin_to_sibling_corner"         "PIN_TOPRIGHT"
+        "pin_to_sibling"                "SidePanel"
+        "pin_corner_to_sibling"         "PIN_TOPLEFT"
+        "pin_to_sibling_corner"         "PIN_TOPLEFT"
 
         "CallVote"
         {
@@ -799,11 +799,10 @@
             "fieldName"                 "CallVote"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "20"
-            "tall"                      "f0"
+            "wide"                      "f0"
+            "tall"                      "20"
             "visible"                   "1"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMRight"
 
             "SubButton"
             {
@@ -817,11 +816,10 @@
                 "enabled"                   "1"
                 "proportionaltoparent"      "1"
 
-                "roundedcorners"            "0"
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
+                "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -837,15 +835,14 @@
             "fieldName"                 "MutePlayer"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "20"
-            "tall"                      "f0"
+            "wide"                      "f0"
+            "tall"                      "20"
             "visible"                   "1"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMCenter"
 
             "pin_to_sibling"            "CallVote"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
-            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 
             "SubButton"
             {
@@ -859,11 +856,10 @@
                 "enabled"                   "1"
                 "proportionaltoparent"      "1"
 
-                "roundedcorners"            "0"
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
+                "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -879,15 +875,14 @@
             "fieldName"                 "ReportPlayer"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "20"
-            "tall"                      "f0"
+            "wide"                      "f0"
+            "tall"                      "20"
             "visible"                   "1"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMCenter"
 
             "pin_to_sibling"            "MutePlayer"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
-            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 
             "SubButton"
             {
@@ -901,11 +896,10 @@
                 "enabled"                   "1"
                 "proportionaltoparent"      "1"
 
-                "roundedcorners"            "0"
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
+                "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -921,15 +915,14 @@
             "fieldName"                 "FixIssues"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "20"
-            "tall"                      "f0"
+            "wide"                      "f0"
+            "tall"                      "20"
             "visible"                   "1"
             "proportionaltoparent"      "1"
-            "border"                    "FragMMLeft"
 
             "pin_to_sibling"            "ReportPlayer"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
-            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 
             "SubButton"
             {
@@ -943,11 +936,10 @@
                 "enabled"                   "1"
                 "proportionaltoparent"      "1"
 
-                "roundedcorners"            "0"
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPanelTransparentLight20"
+                "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -973,8 +965,8 @@
         "enabled"                   "1"
 
         "pin_to_sibling"            "SidePanel"
-        "pin_corner_to_sibling"     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 
         "SubImage"
         {
@@ -1023,12 +1015,8 @@
 
     "Notifications_Panel"
     {
-        "xpos"                          "0"
-        "ypos"                          "0"
-
-        "pin_to_sibling"                "Notifications_ShowButtonPanel"
-        "pin_corner_to_sibling"         "PIN_TOPLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+        "xpos"                          "cs-0.5"
+        "ypos"                          "cs-0.5"
     }
 
     // DISABLED

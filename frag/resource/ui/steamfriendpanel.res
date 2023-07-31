@@ -12,7 +12,7 @@
         "xpos"                      "3"
         "paintBorder"               "0"
         "defaultbgcolor_override"   "Blank"
-        "armedbgcolor_override"     "FragPrimary20"
+        "armedbgcolor_override"     "FragPanelTransparentDark40"
     }
 
     "NameLabel"
