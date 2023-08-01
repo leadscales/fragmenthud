@@ -79,4 +79,12 @@
         "wide"      "60"
         "tall"      "15"
     }
+
+    "CHudAccountPanel"
+    {
+        "xpos"      "0"
+        "ypos"      "0"
+        "wide"      "f0"
+        "tall"      "480"
+    }
 }
