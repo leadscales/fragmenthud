@@ -87,4 +87,20 @@
         "wide"      "f0"
         "tall"      "480"
     }
+
+    "HudDemomanPipes"
+    {
+        "xpos"      "0"
+        "ypos"      "0"
+        "wide"      "f0"
+        "tall"      "480"
+    }
+
+    "HudDemomanCharge"
+    {
+        "xpos"      "0"
+        "ypos"      "0"
+        "wide"      "f0"
+        "tall"      "480"
+    }
 }

@@ -28,41 +28,18 @@
         "ypos"                      "c10"
         "zpos"                      "0"
         "wide"                      "60"
-        "tall"                      "15"
-    }
-
-    "MetalIcon"
-    {
-        "ControlName"               "CExLabel"
-        "xpos"                      "0"
-        "ypos"                      "0"
-        "wide"                      "15"
-        "tall"                      "15"
-        "font"                      "Icons_Small_Additive"
-        "fgcolor"                   "FragNeutral20"
-        "textAlignment"             "center"
-        "textinsetx"                "0"
-        "use_proportional_insets"   "1"
-        "labelText"                 "6"
-        "auto_wide_tocontents"      "1"
-
-        "pin_to_sibling"            "AccountValue"
-        "pin_corner_to_sibling"     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+        "tall"                      "30"
     }
 
     "AccountValue"
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "30"
+        "wide"                      "60"
         "tall"                      "15"
         "textAlignment"             "center"
-        "textinsetx"                "5"
-        "use_proportional_insets"   "1"
         "font"                      "FontMedium_12_Additive"
         "fgcolor"                   "FragNeutral40"
-        "auto_wide_tocontents"      "1"
 
         "pin_to_sibling"            "AccountElementAnchor"
         "pin_corner_to_sibling"     "PIN_CENTER_TOP"
