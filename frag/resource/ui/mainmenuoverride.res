@@ -19,8 +19,13 @@
 
     "DashboardDimmer"
     {
+        "ControlName"               "CExButton"
+        "ypos"                      "20"
         "wide"                      "f0"
-        "tall"                      "f20"
+        "tall"                      "f40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
+        "armedbgcolor_override"     "FragPanelTransparentDark60"
+        "paintBorder"               "0"
     }
 
     // A solid black background to compensate for halloween/holiday backgrounds

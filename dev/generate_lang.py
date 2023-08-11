@@ -63,7 +63,9 @@ def main():
         "TF_Competitive_LevelTier1": "%s1 : 1",
         "TF_Competitive_Level": "%s1 : %s2",
         "TF_Competitive_Placements_Multiple": "N/A",
-        "TF_Competitive_Placements_Singular": "N/A"
+        "TF_Competitive_Placements_Singular": "N/A",
+        "TF_Casual_SelectedMaps_Plural": "%s1",
+        "TF_Casual_SelectedMaps_Singular": "%s1"
     }
 
     lang_objects = generate_lang_objects(lang_tokens, langs)

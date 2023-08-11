@@ -222,6 +222,50 @@
                 "blur"          "1"
             }
         }
+        "Icons_XXLarge"
+        {
+            "1"
+            {
+                "name"          "Icons"
+                "tall"          "42"
+                "weight"        "400"
+                "antialias"     "1"
+            }
+        }
+        "Icons_XXLarge_Blur"
+        {
+            "1"
+            {
+                "name"          "Icons"
+                "tall"          "42"
+                "weight"        "400"
+                "antialias"     "1"
+                "blur"          "1"
+            }
+        }
+        "Icons_XXLarge_Additive"
+        {
+            "1"
+            {
+                "name"          "Icons"
+                "tall"          "42"
+                "weight"        "400"
+                "antialias"     "1"
+                "additive"      "1"
+            }
+        }
+        "Icons_XXLarge_Additive_Blur"
+        {
+            "1"
+            {
+                "name"          "Icons"
+                "tall"          "42"
+                "weight"        "400"
+                "antialias"     "1"
+                "additive"      "1"
+                "blur"          "1"
+            }
+        }
     }
     "CustomFontFiles"
     {

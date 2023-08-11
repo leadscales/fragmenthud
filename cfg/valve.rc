@@ -10,4 +10,4 @@ sv_unlockedchapters 99
 vgui_cache_res_files 0
 cl_hud_minmode 0
 alias cl_hud_minmode ""
-toggle mat_aaquality
+wait 20; showconsole; wait 10; toggle mat_aaquality; hideconsole

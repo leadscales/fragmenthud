@@ -47,6 +47,36 @@
         "FragNeutral20"                     "255 255 255 51"
         // Ranking etc
         "FragGold100"                       "255 192 96 255"
+
+        "FragCasual100"                     "64 176 255 255"
+        "FragCompetitive100"                "255 64 80 255"
+        "FragMvM100"                        "64 255 224 255"
+        "FragCommunity100"                  "255 144 64 255"
+
+        "FragCasual80"                      "64 176 255 204"
+        "FragCompetitive80"                 "255 64 80 204"
+        "FragMvM80"                         "64 255 224 204"
+        "FragCommunity80"                   "255 144 64 204"
+
+        "FragCasual60"                      "64 176 255 153"
+        "FragCompetitive60"                 "255 64 80 153"
+        "FragMvM60"                         "64 255 224 153"
+        "FragCommunity60"                   "255 144 64 153"
+
+        "FragCasual40"                      "64 176 255 102"
+        "FragCompetitive40"                 "255 64 80 102"
+        "FragMvM40"                         "64 255 224 102"
+        "FragCommunity40"                   "255 144 64 102"
+
+        "FragCasual20"                      "64 176 255 51"
+        "FragCompetitive20"                 "255 64 80 51"
+        "FragMvM20"                         "64 255 224 51"
+        "FragCommunity20"                   "255 144 64 51"
+
+        "FragCasual05"                      "64 176 255 13"
+        "FragCompetitive05"                 "255 64 80 13"
+        "FragMvM05"                         "64 255 224 13"
+        "FragCommunity05"                   "255 144 64 13"
         // Panel Colors
         // Opaque
         "FragPanelOpaque100"                "255 255 255 255"
