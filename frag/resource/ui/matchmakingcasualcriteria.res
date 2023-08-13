@@ -143,16 +143,37 @@
             }
         }
 
+        "SelectedCountIcon"
+        {
+            "ControlName"               "CExLabel"
+            "fieldName"                 "SelectedCountIcon"
+            "xpos"                      "5"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "20"
+            "labelText"                 "M"
+            "font"                      "Icons_Small_Additive"
+            "fgcolor"                   "FragCasual100"
+            "textAlignment"             "west"
+            "auto_wide_tocontents"      "1"
+            "mouseinputenabled"         "0"
+        }
+
         "SelectedCount"
         {
-            "xpos"                      "0"
+            "xpos"                      "3"
             "ypos"                      "0"
             "wide"                      "f0"
             "tall"                      "20"
             "font"                      "FontMedium_12_Additive"
-            "textinsetx"                "5"
+            "textinsetx"                "0"
             "use_proportional_insets"   "1"
             "allcaps"                   "1"
+            "mouseinputenabled"         "0"
+
+            "pin_to_sibling"            "SelectedCountIcon"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
         }
 
         "GameModesList"
