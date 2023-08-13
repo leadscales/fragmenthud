@@ -8,13 +8,6 @@
         "TFOrange"                                  "96 208 255 255"
         "Purple"                                    "96 208 255 255"
 
-        "PartyMember1"                              "96 208 255 255"
-        "PartyMember2"                              "96 255 176 255"
-        "PartyMember3"                              "255 240 96 255"
-        "PartyMember4"                              "255 176 96  255"
-        "PartyMember5"                              "255 96 112 255"
-        "PartyMember6"                              "255 96 176 255"
-
         "White"                                     "255 255 255 255"
         "Red"                                       "255 64 80 153"
         "RedSolid"                                  "255 64 80 255"
