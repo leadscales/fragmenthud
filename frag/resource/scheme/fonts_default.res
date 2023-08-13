@@ -8,7 +8,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
             }
@@ -17,7 +17,7 @@
                 "name"          "Inter Medium"
                 "tall"          "13" [$WIN32]
                 "tall"          "20" [$X360]
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 767"
             }
@@ -25,7 +25,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "768 1023"
                 "antialias"     "1"
@@ -34,7 +34,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "20"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1024 1199"
                 "antialias"     "1"
@@ -43,7 +43,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "24"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
@@ -53,32 +53,7 @@
                 "name"          "Inter Medium"
                 "tall"          "12"
                 "range"         "0x0000 0x00FF"
-                "weight"        "900"
-            }
-            "7"
-            {
-                "name"          "Arial"
-                "tall"          "12"
-                "range"         "0x0000 0x00FF"
-                "weight"        "800"
-            }
-        }
-        "DefaultUnderline"
-        {
-            "1"
-            {
-                "name"          "Tahoma"
-                "tall"          "12"
                 "weight"        "500"
-                "underline"     "1"
-                "range"         "0x0000 0x017F"
-            }
-            "2"
-            {
-                "name"          "Arial"
-                "tall"          "11"
-                "range"         "0x0000 0x00FF"
-                "weight"        "800"
             }
         }
         "DefaultSmall"
@@ -87,7 +62,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
             }
@@ -95,7 +70,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "13"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 767"
             }
@@ -103,7 +78,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "768 1023"
                 "antialias"     "1"
@@ -112,7 +87,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "20"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1024 1199"
                 "antialias"     "1"
@@ -121,17 +96,10 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "22"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
-            }
-            "6"
-            {
-                "name"          "Arial"
-                "tall"          "12"
-                "range"         "0x0000 0x00FF"
-                "weight"        "0"
             }
         }
         "DefaultVerySmall"
@@ -140,7 +108,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
             }
@@ -148,7 +116,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 767"
             }
@@ -156,7 +124,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "768 1023"
                 "antialias"     "1"
@@ -165,7 +133,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1024 1199"
                 "antialias"     "1"
@@ -174,7 +142,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "16"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
@@ -186,7 +154,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "18"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
             }
@@ -194,7 +162,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "21"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 767"
             }
@@ -202,7 +170,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "22"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "768 1023"
                 "antialias"     "1"
@@ -211,7 +179,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "28"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1024 1199"
                 "antialias"     "1"
@@ -220,7 +188,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "30"
-                "weight"        "900"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
@@ -230,26 +198,7 @@
                 "name"          "Inter Medium"
                 "tall"          "20"
                 "range"         "0x0000 0x00FF"
-                "weight"        "900"
-            }
-            "7"
-            {
-                "name"          "Arial"
-                "tall"          "20"
-                "range"         "0x0000 0x00FF"
-                "weight"        "800"
-            }
-        }
-        "CenterPrintText"
-        {
-            "1"
-            {
-                "name"          "Trebuchet MS" [!$OSX]
-                "name"          "Helvetica" [$OSX]
-                "tall"          "18"
-                "weight"        "900"
-                "antialias"     "1"
-                "additive"      "1"
+                "weight"        "500"
             }
         }
         "PlayerPanelPlayerName"
@@ -269,7 +218,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "700"
+                "weight"        "500"
                 "yres"          "480 599"
             }
             "2"
@@ -277,28 +226,28 @@
                 "name"          "Inter Medium"
                 "tall"          "13" [$WIN32]
                 "tall"          "23" [$X360]
-                "weight"        "700"
+                "weight"        "500"
                 "yres"          "600 767"
             }
             "3"
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "700"
+                "weight"        "500"
                 "yres"          "768 1023"
             }
             "4"
             {
                 "name"          "Inter Medium"
                 "tall"          "20"
-                "weight"        "700"
+                "weight"        "500"
                 "yres"          "1024 1199"
             }
             "5"
             {
                 "name"          "Inter Medium"
                 "tall"          "24"
-                "weight"        "700"
+                "weight"        "500"
                 "yres"          "1200 10000"
             }
         }
@@ -600,7 +549,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "9"
-                "weight"        "0"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -611,7 +560,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "9"
-                "weight"        "0"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -622,7 +571,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "6"
-                "weight"        "0"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -635,7 +584,7 @@
                 "tall"              "12"
                 "tall_hidef"        "14"
                 "tall_lodef"        "16"
-                "weight"            "400"
+                "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -649,70 +598,6 @@
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
-            }
-        }
-        "GameUIButtons"
-        {
-            "1"
-            {
-                "bitmap"            "1"
-                "name"              "Buttons"
-                "scalex"            "0.5"
-                "scalex_lodef"      "0.75"
-                "scaley"            "0.5"
-                "scaley_lodef"      "0.75"
-            }
-        }
-        "GameUIButtonsSmall"
-        {
-            "1" [$X360]
-            {
-                "bitmap"        "1"
-                "name"          "Buttons"
-                "scalex"        "0.5"
-                "scaley"        "0.5"
-            }
-        }
-        "GameUIButtonsSmallest"
-        {
-            "1" [$X360]
-            {
-                "bitmap"        "1"
-                "name"          "Buttons"
-                "scalex"        "0.4"
-                "scaley"        "0.4"
-            }
-        }
-        "GameUIButtonsSteamController"
-        {
-            "1"
-            {
-                "bitmap"            "1"
-                "name"              "ButtonsSC"
-                "scalex"            "0.5"
-                "scalex_lodef"      "0.75"
-                "scaley"            "0.5"
-                "scaley_lodef"      "0.75"
-            }
-        }
-        "GameUIButtonsSteamControllerSmall"
-        {
-            "1"
-            {
-                "bitmap"        "1"
-                "name"          "ButtonsSC"
-                "scalex"        "0.25"
-                "scaley"        "0.25"
-            }
-        }
-        "GameUIButtonsSteamControllerSmallest"
-        {
-            "1"
-            {
-                "bitmap"        "1"
-                "name"          "ButtonsSC"
-                "scalex"        "0.15"
-                "scaley"        "0.15"
             }
         }
         "GameUIButtonText"
@@ -794,7 +679,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "15"
-                "weight"        "700"
+                "weight"        "500"
                 "antialias"     "1"
                 "yres"          "1 599"
                 "range"         "0x0000 0x017F"
@@ -805,7 +690,7 @@
                 "name"          "Inter Medium"
                 "tall"          "15" [$WIN32]
                 "tall"          "21" [$X360]
-                "weight"        "700"
+                "weight"        "500"
                 "antialias"     "1"
                 "yres"          "600 767"
                 "range"         "0x0000 0x017F"
@@ -815,7 +700,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "18"
-                "weight"        "900"
+                "weight"        "500"
                 "antialias"     "1"
                 "yres"          "768 1023"
                 "range"         "0x0000 0x017F"
@@ -824,7 +709,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "21"
-                "weight"        "900"
+                "weight"        "500"
                 "antialias"     "1"
                 "yres"          "1024 1199"
                 "range"         "0x0000 0x017F"
@@ -833,160 +718,21 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "24"
-                "weight"        "1000"
+                "weight"        "500"
                 "antialias"     "1"
                 "yres"          "1200 10000"
                 "range"         "0x0000 0x017F"
             }
         }
-        "DebugOverlay"
-        {
-            "1" [$WIN32]
-            {
-                "name"          "Courier New"
-                "tall"          "14"
-                "weight"        "400"
-                "outline"       "1"
-                "range"         "0x0000 0x017F"
-            }
-            "1" [$X360]
-            {
-                "name"          "Tahoma"
-                "tall"          "18"
-                "weight"        "200"
-                "outline"       "1"
-            }
-        }
-        "TFTypeDeath"
-        {
-            "1"
-            {
-                "name"          "tfd"
-                "tall"          "28"
-                "weight"        "0"
-                "additive"      "0"
-                "antialias"     "1"
-            }
-        }
-        "Icons"
-        {
-            "1"
-            {
-                "name"          "Team Fortress"
-                "tall"          "28"
-                "weight"        "0"
-                "additive"      "1"
-                "antialias"     "1"
-            }
-        }
-        "BetaFont"
-        {
-            "1"
-            {
-                "name"          "Courier New"
-                "tall"          "90"
-                "weight"        "900"
-                "range"         "0x0000 0x007F"
-                "antialias"     "1"
-                "additive"      "0"
-            }
-        }
         "HudNumbers"
         {
-            "1"
-            {
-                "name"          "Team Fortress"
-                "tall"          "28"
-                "weight"        "0"
-                "additive"      "1"
-                "antialias"     "1"
-            }
             "2"
             {
                 "name"          "Inter Medium"
                 "tall"          "28"
-                "weight"        "0"
+                "weight"        "500"
                 "additive"      "1"
                 "antialias"     "1"
-            }
-        }
-        "CloseCaption_Normal"
-        {
-            "1"
-            {
-                "name"              "Tahoma"
-                "tall"              "24"
-                "tall_hidef"        "32"
-                "weight"            "500"
-                "range"             "0x0000 0x017F"
-            }
-        }
-        "CloseCaption_Italic"
-        {
-            "1"
-            {
-                "name"              "Tahoma"
-                "tall"              "24"
-                "tall_hidef"        "32"
-                "weight"            "500"
-                "italic"            "1"
-                "range"             "0x0000 0x017F"
-            }
-        }
-        "CloseCaption_Bold"
-        {
-            "1"
-            {
-                "name"              "Tahoma"
-                "tall"              "24"
-                "tall_hidef"        "32"
-                "weight"            "900"
-                "range"             "0x0000 0x017F"
-            }
-        }
-        "CloseCaption_BoldItalic"
-        {
-            "1"
-            {
-                "name"              "Tahoma"
-                "tall"              "24"
-                "tall_hidef"        "32"
-                "weight"            "900"
-                "italic"            "1"
-                "range"             "0x0000 0x017F"
-            }
-        }
-        "CloseCaption_Small"
-        {
-            "1"
-            {
-                "name"              "Tahoma"
-                "tall"              "16"
-                "tall_hidef"        "24"
-                "weight"            "900"
-                "range"             "0x0000 0x017F"
-            }
-        }
-        "Marlett"
-        {
-            "1"
-            {
-                "name"          "Marlett"
-                "tall"          "20"
-                "weight"        "0"
-                "symbol"        "1"
-                "range"         "0x0000 0x007F"
-            }
-        }
-        "MarlettSmall"
-        {
-            "1"
-            {
-                "name"          "Marlett"
-                "tall"          "14"
-                "weight"        "0"
-                "symbol"        "1"
-                "range"         "0x0000 0x007F"
             }
         }
         "MenuMainTitle"
@@ -1028,7 +774,7 @@
                 "tall"              "13"
                 "tall_hidef"        "14"
                 "tall_lodef"        "17"
-                "weight"            "800"
+                "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -1096,7 +842,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "6"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1109,7 +855,7 @@
                 "tall"              "8"
                 "tall_hidef"        "10"
                 "tall_lodef"        "14"
-                "weight"            "400"
+                "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -1122,7 +868,7 @@
                 "tall"              "10"
                 "tall_hidef"        "12"
                 "tall_lodef"        "14"
-                "weight"            "400"
+                "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -1223,7 +969,7 @@
                 "tall"              "52"
                 "tall_lodef"        "80"
                 "range"             "0x0000 0x00FF"
-                "weight"            "400"
+                "weight"            "500"
                 "yres"              "1 599"
                 "antialias"         "1"
             }
@@ -1233,7 +979,7 @@
                 "tall"              "72"
                 "tall_hidef"        "120"
                 "range"             "0x0000 0x00FF"
-                "weight"            "400"
+                "weight"            "500"
                 "yres"              "600 767"
                 "antialias"         "1"
             }
@@ -1242,7 +988,7 @@
                 "name"          "Inter Medium"
                 "tall"          "100"
                 "range"         "0x0000 0x00FF"
-                "weight"        "400"
+                "weight"        "500"
                 "yres"          "768 1023"
                 "antialias"     "1"
             }
@@ -1251,7 +997,7 @@
                 "name"          "Inter Medium"
                 "tall"          "140"
                 "range"         "0x0000 0x00FF"
-                "weight"        "400"
+                "weight"        "500"
                 "yres"          "1024 1199"
                 "antialias"     "1"
             }
@@ -1260,7 +1006,7 @@
                 "name"          "Inter Medium"
                 "tall"          "180"
                 "range"         "0x0000 0x00FF"
-                "weight"        "400"
+                "weight"        "500"
                 "yres"          "1200 10000"
                 "antialias"     "1"
             }
@@ -1283,7 +1029,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1294,7 +1040,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "20"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1305,7 +1051,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1316,7 +1062,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1327,7 +1073,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1340,7 +1086,7 @@
                 "tall"              "10"
                 "tall_hidef"        "12"
                 "tall_lodef"        "14"
-                "weight"            "400"
+                "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -1351,7 +1097,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "12"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "480 599"
                 "dropshadow"        "0"
             }
@@ -1359,7 +1105,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "13"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "600 767"
                 "dropshadow"        "0"
             }
@@ -1367,7 +1113,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "14"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "768 1023"
                 "dropshadow"        "0"
             }
@@ -1375,7 +1121,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "20"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "1024 1199"
                 "dropshadow"        "0"
             }
@@ -1383,7 +1129,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "24"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "1200 10000"
                 "dropshadow"        "0"
             }
@@ -1394,7 +1140,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "12"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "480 599"
                 "dropshadow"        "1"
             }
@@ -1402,7 +1148,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "13"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "600 767"
                 "dropshadow"        "1"
             }
@@ -1410,7 +1156,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "14"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "768 1023"
                 "dropshadow"        "1"
             }
@@ -1418,7 +1164,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "20"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "1024 1199"
                 "dropshadow"        "1"
             }
@@ -1426,7 +1172,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "24"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "1200 10000"
                 "dropshadow"        "1"
             }
@@ -1437,7 +1183,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "10"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "480 599"
                 "dropshadow"        "1"
             }
@@ -1445,7 +1191,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "10"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "600 767"
                 "dropshadow"        "1"
             }
@@ -1453,7 +1199,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "13"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "768 1023"
                 "dropshadow"        "1"
             }
@@ -1461,7 +1207,7 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "14"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "1024 1199"
                 "dropshadow"        "1"
             }
@@ -1469,21 +1215,9 @@
             {
                 "name"              "Inter Medium"
                 "tall"              "15"
-                "weight"            "700"
+                "weight"            "500"
                 "yres"              "1200 10000"
                 "dropshadow"        "1"
-            }
-        }
-        "MenuSmallestFont"
-        {
-            "1"
-            {
-                "name"              "Arial Black"
-                "tall"              "8"
-                "tall_lodef"        "12"
-                "range"             "0x0000 0x00FF"
-                "weight"            "300"
-                "antialias"         "1"
             }
         }
         "MenuSmallFont"
@@ -1494,7 +1228,7 @@
                 "tall"              "14"
                 "tall_lodef"        "18"
                 "range"             "0x0000 0x00FF"
-                "weight"            "300"
+                "weight"            "500"
                 "weight_lodef"      "600"
                 "antialias"         "1"
             }
@@ -1531,7 +1265,7 @@
                 "tall"              "8"
                 "tall_hidef"        "10"
                 "tall_lodef"        "12"
-                "weight"            "0"
+                "weight"            "500"
                 "additive"          "1"
                 "antialias"         "1"
             }
@@ -1544,7 +1278,7 @@
                 "tall"              "9"
                 "tall_hidef"        "10"
                 "tall_lodef"        "16"
-                "weight"            "400"
+                "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -1556,7 +1290,7 @@
                 "name"          "Inter Medium"
                 "tall"          "11" [!$OSX]
                 "tall"          "9" [$OSX]
-                "weight"        "800"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1591,24 +1325,6 @@
                 "weight"            "500"
             }
         }
-        "MatchmakingDialogMenuBrowserHostname"
-        {
-            "1"
-            {
-                "name"          "Trebuchet MS"
-                "tall"          "22"
-                "weight"        "900"
-            }
-        }
-        "MatchmakingDialogMenuBrowserDetails"
-        {
-            "1"
-            {
-                "name"          "Trebuchet MS"
-                "tall"          "18"
-                "weight"        "900"
-            }
-        }
         "MatchmakingDialogMenuMedium"
         {
             "1"
@@ -1634,7 +1350,7 @@
                 "name"              "Inter Medium"
                 "tall"              "22"
                 "tall_lodef"        "18"
-                "weight"            "900"
+                "weight"            "500"
             }
         }
         "MatchmakingDialogMenuSmallest"
@@ -1644,7 +1360,7 @@
                 "name"              "Inter Medium"
                 "tall"              "18"
                 "tall_lodef"        "18"
-                "weight"            "900"
+                "weight"            "500"
             }
         }
         "RankingDialogHeaders"
@@ -1653,7 +1369,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "15"
-                "weight"        "900"
+                "weight"        "500"
             }
         }
         "TeamMenuBold"
@@ -1673,7 +1389,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "11"
-                "weight"        "600"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1684,18 +1400,8 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "18"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
-                "antialias"     "1"
-            }
-        }
-        "AchievementNotification"
-        {
-            "1"
-            {
-                "name"          "Trebuchet MS"
-                "tall"          "14"
-                "weight"        "900"
                 "antialias"     "1"
             }
         }
@@ -1705,7 +1411,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "600"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1727,7 +1433,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -1738,7 +1444,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
                 "antialias"     "1"
@@ -1747,7 +1453,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 1199"
                 "antialias"     "1"
@@ -1756,7 +1462,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "15"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
@@ -1889,7 +1595,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "0"
+                "weight"        "500"
                 "additive"      "1"
                 "antialias"     "1"
             }
@@ -1900,7 +1606,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "0"
+                "weight"        "500"
                 "additive"      "1"
                 "antialias"     "1"
             }
@@ -1911,7 +1617,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "0"
+                "weight"        "500"
                 "antialias"     "1"
             }
         }
@@ -1921,7 +1627,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "0"
+                "weight"        "500"
                 "blur"          "3"
                 "additive"      "1"
                 "antialias"     "1"
@@ -1933,85 +1639,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "7"
-                "weight"        "0"
-                "antialias"     "1"
-            }
-        }
-        "QuestFlavorText"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "10"
-                "weight"        "400"
-                "yres"          "480 599"
-                "additive"      "0"
-                "antialias"     "1"
-            }
-            "2"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "14"
-                "weight"        "400"
-                "additive"      "0"
-                "yres"          "600 1023"
-                "antialias"     "1"
-            }
-            "3"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "18"
-                "weight"        "400"
-                "additive"      "0"
-                "yres"          "1024 6000"
-                "antialias"     "1"
-            }
-        }
-        "QuestObjectiveText"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "10"
-                "weight"        "800"
-                "yres"          "480 599"
-                "additive"      "0"
-                "antialias"     "1"
-            }
-            "2"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "14"
-                "weight"        "800"
-                "additive"      "0"
-                "yres"          "600 1023"
-                "antialias"     "1"
-            }
-            "3"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "18"
-                "weight"        "800"
-                "additive"      "0"
-                "yres"          "1024 6000"
-                "antialias"     "1"
-            }
-        }
-        "QuestLargeText"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "16"
-                "weight"        "400"
-                "additive"      "0"
+                "weight"        "500"
                 "antialias"     "1"
             }
         }
@@ -2032,7 +1660,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "400"
+                "weight"        "500"
                 "yres"          "480 599"
                 "additive"      "0"
                 "antialias"     "1"
@@ -2041,7 +1669,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "yres"          "600 1023"
                 "antialias"     "1"
@@ -2050,7 +1678,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "22"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "yres"          "1024 6000"
                 "antialias"     "1"
@@ -2062,7 +1690,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "400"
+                "weight"        "500"
                 "yres"          "480 599"
                 "additive"      "0"
                 "antialias"     "1"
@@ -2072,7 +1700,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "yres"          "600 1023"
                 "antialias"     "1"
@@ -2082,7 +1710,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "22"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "yres"          "1024 6000"
                 "antialias"     "1"
@@ -2095,7 +1723,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "800"
+                "weight"        "500"
                 "yres"          "480 599"
                 "additive"      "0"
                 "antialias"     "1"
@@ -2104,7 +1732,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "800"
+                "weight"        "500"
                 "additive"      "0"
                 "yres"          "600 1023"
                 "antialias"     "1"
@@ -2113,7 +1741,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "18"
-                "weight"        "800"
+                "weight"        "500"
                 "additive"      "0"
                 "yres"          "1024 6000"
                 "antialias"     "1"
@@ -2125,7 +1753,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "13"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -2136,7 +1764,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "16"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -2147,7 +1775,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "10"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -2158,7 +1786,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "8"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -2169,7 +1797,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "8"
-                "weight"        "0"
+                "weight"        "500"
                 "antialias"     "1"
             }
         }
@@ -2179,21 +1807,9 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "8"
-                "weight"        "400"
+                "weight"        "500"
                 "antialias"     "1"
                 "additive"      "0"
-            }
-        }
-        "TradeUp_Quote"
-        {
-            "1"
-            {
-                "name"          "Trebuchet MS"
-                "tall"          "9"
-                "weight"        "400"
-                "antialias"     "1"
-                "additive"      "0"
-                "italic"        "1"
             }
         }
         "ReplayVerySmall"
@@ -2202,7 +1818,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
             }
@@ -2210,7 +1826,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 767"
             }
@@ -2218,7 +1834,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "768 1023"
                 "antialias"     "1"
@@ -2227,7 +1843,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1024 1199"
                 "antialias"     "1"
@@ -2236,7 +1852,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "16"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
@@ -2259,7 +1875,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "12"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "480 599"
             }
@@ -2267,7 +1883,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "13"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "600 767"
             }
@@ -2275,7 +1891,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "14"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "768 1023"
                 "antialias"     "1"
@@ -2284,7 +1900,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "20"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1024 1199"
                 "antialias"     "1"
@@ -2293,17 +1909,10 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "22"
-                "weight"        "0"
+                "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "yres"          "1200 6000"
                 "antialias"     "1"
-            }
-            "6"
-            {
-                "name"          "Arial"
-                "tall"          "12"
-                "range"         "0x0000 0x00FF"
-                "weight"        "0"
             }
         }
         "ReplayMediumSmall"
@@ -2405,7 +2014,7 @@
             {
                 "name"          "Inter Medium"
                 "tall"          "9"
-                "weight"        "400"
+                "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
             }
@@ -2442,67 +2051,6 @@
                 "additive"          "0"
                 "antialias"         "1"
                 "dropshadow"        "1"
-            }
-        }
-        "QuestMap_Small_Blur"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "7"
-                "weight"        "0"
-                "blur"          "3"
-                "additive"      "1"
-                "antialias"     "1"
-            }
-        }
-        "QuestMap_Small"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "7"
-                "weight"        "400"
-                "additive"      "0"
-                "antialias"     "1"
-            }
-        }
-        "QuestMap_Medium"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "10"
-                "weight"        "400"
-                "additive"      "0"
-                "antialias"     "1"
-            }
-        }
-        "QuestMap_Large"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "14"
-                "weight"        "400"
-                "additive"      "0"
-                "antialias"     "1"
-            }
-        }
-        "QuestMap_Huge"
-        {
-            "1"
-            {
-                "name"          "OCR A Extended" [$WINDOWS]
-                "name"          "ocra"
-                "tall"          "30"
-                "weight"        "400"
-                "additive"      "0"
-                "antialias"     "1"
             }
         }
     }
