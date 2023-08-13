@@ -420,10 +420,10 @@
 
             "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPrimary20"
 
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
         }
 
         "Console"
@@ -447,10 +447,10 @@
 
             "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPrimary20"
 
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "Info"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -478,10 +478,10 @@
 
             "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPrimary20"
 
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "Console"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -509,10 +509,10 @@
 
             "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPrimary20"
 
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "DemoUI"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -540,10 +540,10 @@
 
             "paintBackgroundType"       "0"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPrimary20"
 
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "Contracts"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
