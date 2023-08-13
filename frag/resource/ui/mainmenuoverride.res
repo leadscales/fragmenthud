@@ -144,63 +144,65 @@
         "xpos"                      "0"
         "ypos"                      "40"
         "zpos"                      "10"
-        "wide"                      "220"
+        "wide"                      "221"
         "tall"                      "400"
         "proportionaltoparent"      "1"
         "paintbackgroundtype"       "0"
-        "bgcolor_override"          "FragPanelTransparentDark60"
+        "bgcolor_override"          "Blank"
 
-        "RightSideBG"
+        "SidePanelGradient"
+        {
+            "ControlName"           "ImagePanel"
+            "fieldName"             "SidePanelGradient"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "f0"
+            "proportionaltoparent"  "1"
+            "image"                 "replay/thumbnails/menu/side_panel_gradient"
+            "scaleImage"            "1"
+            "drawcolor"             "FragPrimary40"
+        }
+
+        "SidePanelStroke"
         {
             "ControlName"           "EditablePanel"
-            "fieldName"             "RightSideBG"
-            "xpos"                  "20"
+            "fieldName"             "SidePanelStroke"
+            "xpos"                  "rs1"
             "ypos"                  "0"
-            "zpos"                  "0"
-            "wide"                  "200"
+            "wide"                  "1"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "paintbackgroundtype"   "0"
-            "bgcolor_override"      "FragPanelTransparentDark40"
+            "bgcolor_override"      "FragPrimary40"
+            "mouseinputenabled"     "0"
         }
-    }
 
-    "SidePanelStroke"
-    {
-        "ControlName"           "EditablePanel"
-        "fieldName"             "SidePanelStroke"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "zpos"                  "20"
-        "wide"                  "1"
-        "tall"                  "400"
-        "proportionaltoparent"  "1"
-        "paintbackgroundtype"   "0"
-        "bgcolor_override"      "FragPrimary40"
-        "mouseinputenabled"     "0"
+        "BGPanel"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BGPanel"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "f1"
+            "tall"                  "f0"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark60"
 
-        "pin_to_sibling"        "SidePanel"
-        "pin_corner_to_sibling" "PIN_TOPLEFT"
-        "pin_to_sibling_corner" "PIN_TOPRIGHT"
-    }
-
-    "SidePanelGradient"
-    {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "SidePanelGradient"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "zpos"                  "9"
-        "wide"                  "220"
-        "tall"                  "400"
-        "proportionaltoparent"  "1"
-        "image"                 "replay/thumbnails/menu/side_panel_gradient"
-        "scaleImage"            "1"
-        "drawcolor"             "FragPrimary40"
-
-        "pin_to_sibling"        "SidePanel"
-        "pin_corner_to_sibling" "PIN_TOPRIGHT"
-        "pin_to_sibling_corner" "PIN_TOPRIGHT"
+            "RightSideBG"
+            {
+                "ControlName"           "EditablePanel"
+                "fieldName"             "RightSideBG"
+                "xpos"                  "rs1"
+                "ypos"                  "0"
+                "zpos"                  "0"
+                "wide"                  "200"
+                "tall"                  "f0"
+                "proportionaltoparent"  "1"
+                "paintbackgroundtype"   "0"
+                "bgcolor_override"      "FragPanelTransparentDark60"
+            }
+        }
     }
 
     "SidePanelElementsAnchor"
@@ -1162,15 +1164,6 @@
         "enabled"       "0"
     }
     "EventPromo"
-    {
-        "xpos"          "9999"
-        "ypos"          "9999"
-        "wide"          "0"
-        "tall"          "0"
-        "visible"       "0"
-        "enabled"       "0"
-    }
-    "SafeMode"
     {
         "xpos"          "9999"
         "ypos"          "9999"
