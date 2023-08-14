@@ -9,19 +9,6 @@
         "tall"                  "f6"
         "mouseinputenabled"     "0"
     }
-    "EmptyImage"
-    {
-        "ControlName"       "CExLabel"
-        "xpos"              "0"
-        "ypos"              "0"
-        "zpos"              "8"
-        "wide"              "f0"
-        "tall"              "f2"
-        "labelText"         "+"
-        "font"              "Icons_Small_Additive"
-        "textAlignment"     "center"
-        "fgcolor"           "255 255 255 13"
-    }
     "LeaderIcon"
     {
         "ControlName"               "CExLabel"
@@ -65,6 +52,12 @@
         "labelText"                 "!"
         "font"                      "Icons_ExSmall"
         "fgcolor"                   "FragNegative100"
+    }
+    "EmptyImage"
+    {
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
     }
     "StatusDimmer"
     {
