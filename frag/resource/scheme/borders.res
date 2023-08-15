@@ -2,47 +2,54 @@
 {
     "Borders"
     {
-        "FragMMLeft"
+        "FragColorSelection"
         {
-            "inset"     "0 0 0 0"
-            "Left"
+            "Top"
             {
                 "1"
                 {
-                    "color"         "255 255 255 26"
-                    "offset"        "8 8"
+                    "Color"         "FragNeutral100"
+                }
+                "2"
+                {
+                    "Color"         "0 0 0 255"
+                    "Offset"        "1 1"
                 }
             }
-        }
-        "FragMMCenter"
-        {
-            "inset"     "0 0 0 0"
+            "Bottom"
+            {
+                "1"
+                {
+                    "Color"         "FragNeutral100"
+                }
+                "2"
+                {
+                    "Color"         "0 0 0 255"
+                    "Offset"        "1 1"
+                }
+            }
             "Left"
             {
                 "1"
                 {
-                    "color"         "255 255 255 26"
-                    "offset"        "8 8"
+                    "Color"         "FragNeutral100"
+                }
+                "2"
+                {
+                    "Color"         "0 0 0 255"
+                    "Offset"        "1 1"
                 }
             }
             "Right"
             {
                 "1"
                 {
-                    "color"         "255 255 255 26"
-                    "offset"        "8 8"
+                    "Color"         "FragNeutral100"
                 }
-            }
-        }
-        "FragMMRight"
-        {
-            "inset"     "0 0 0 0"
-            "Right"
-            {
-                "1"
+                "2"
                 {
-                    "color"         "255 255 255 26"
-                    "offset"        "8 8"
+                    "Color"         "0 0 0 255"
+                    "Offset"        "1 1"
                 }
             }
         }

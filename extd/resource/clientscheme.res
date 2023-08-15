@@ -1,0 +1,5 @@
+#base "color/primary_ptr.res"
+#base "color/negative_ptr.res"
+#base "color/warning_ptr.res"
+#base "color/positive_ptr.res"
+#base "color/colors.res"

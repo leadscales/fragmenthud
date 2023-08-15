@@ -560,7 +560,7 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "20"
-        "wide"                          "320"
+        "wide"                          "400"
         "tall"                          "20"
         "proportionaltoparent"          "1"
 
@@ -574,7 +574,7 @@
             "fieldName"                 "Items"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "p0.25"
+            "wide"                      "p0.2"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
 
@@ -625,7 +625,7 @@
             "fieldName"                 "Options"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "p0.25"
+            "wide"                      "p0.2"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
 
@@ -680,7 +680,7 @@
             "fieldName"                 "AdvOptions"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "p0.25"
+            "wide"                      "p0.2"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
 
@@ -735,7 +735,7 @@
             "fieldName"                 "Store"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "p0.25"
+            "wide"                      "p0.2"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
 
@@ -759,6 +759,61 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "#MMenu_Shop"
+                "font"                      "FontMedium_12"
+                "textAlignment"             "center"
+                "allcaps"                   "1"
+                "paintBackground"           "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+            }
+
+            "Stroke"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "Stroke"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "rs1"
+                "wide"                      "f2"
+                "tall"                      "1"
+                "proportionaltoparent"      "1"
+                "mouseinputenabled"         "0"
+                "bgcolor_override"          "FragPrimary80"
+            }
+        }
+
+        "Customize"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Customize"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "p0.2"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Store"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "Button"
+            {
+                "ControlName"               "CExButton"
+                "fieldName"                 "Button"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "proportionaltoparent"      "1"
+
+                "command"                   "engine toggle cl_mainmenu_safemode 0 1"
+                "actionsignallevel"         "3"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+
+                "labelText"                 "CUSTOMIZE"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"

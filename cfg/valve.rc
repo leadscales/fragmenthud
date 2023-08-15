@@ -11,3 +11,11 @@ vgui_cache_res_files 0
 cl_hud_minmode 0
 alias cl_hud_minmode ""
 wait 20; showconsole; wait 10; toggle mat_aaquality; hideconsole
+// FRAGMENT EXEC
+exec frag_cprimary
+exec frag_cnegative
+exec frag_cwarning
+exec frag_cpositive
+// FRAGMENT ALIASES
+alias frag_cb "sixense_clear_bindings"
+alias frag_cl "con_logfile ."
