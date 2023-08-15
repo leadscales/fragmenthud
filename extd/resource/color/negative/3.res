@@ -8,5 +8,10 @@
 "FragNegative40" "255 160 64 102"
 "FragNegative20" "255 160 64 51"
 "FragNegative05" "255 160 64 13"
+"HUDDeathWarning" "255 160 64 255"
+"ItemAttribNegative" "255 160 64 255"
+"ItemLimitedQuantity" "255 160 64 255"
+"LightRed" "255 160 64 255"
+"LighterRed" "255 160 64 255"
 }
 }

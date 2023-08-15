@@ -8,5 +8,12 @@
 "FragPrimary40" "64 255 208 102"
 "FragPrimary20" "64 255 208 51"
 "FragPrimary05" "64 255 208 13"
+"Orange" "64 255 208 255"
+"OrangeDim" "64 255 208 102"
+"LightOrange" "64 255 208 102"
+"TFOrange" "64 255 208 255"
+"Purple" "64 255 208 255"
+"CreditsGreen" "64 255 208 255"
+"ItemSetItemEquipped" "64 255 208 255"
 }
 }

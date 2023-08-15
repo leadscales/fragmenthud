@@ -8,5 +8,8 @@
 "FragWarning40" "255 64 64 102"
 "FragWarning20" "255 64 64 51"
 "FragWarning05" "255 64 64 13"
+"ItemIsotope" "255 64 64 255"
+"ItemBundleItem" "255 64 64 255"
+"ItemLimitedUse" "255 64 64 255"
 }
 }

@@ -8,5 +8,9 @@
 "FragPositive40" "255 64 112 102"
 "FragPositive20" "255 64 112 51"
 "FragPositive05" "255 64 112 13"
+"GreenSolid" "255 64 112 255"
+"StoreGreen" "255 64 112 255"
+"ItemAttribPositive" "255 64 112 255"
+"SaleGreen" "255 64 112 255"
 }
 }

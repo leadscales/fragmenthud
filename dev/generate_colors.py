@@ -83,7 +83,38 @@ def generate_color_dict(
         current = {}
         for ak, av in color_alphas.items():
             current.update({
-                f"Frag{color_class}{ak}": color.as_vdf(av)
+                f"Frag{color_class}{ak}": color.as_vdf(av),
+            })
+        if color_class == "Primary":
+            current.update({
+                "Orange": color.as_vdf(255),
+                "OrangeDim": color.as_vdf(102),
+                "LightOrange": color.as_vdf(102),
+                "TFOrange": color.as_vdf(255),
+                "Purple": color.as_vdf(255),
+                "CreditsGreen": color.as_vdf(255),
+                "ItemSetItemEquipped": color.as_vdf(255)
+            })
+        elif color_class == "Negative":
+            current.update({
+                "HUDDeathWarning": color.as_vdf(255),
+                "ItemAttribNegative": color.as_vdf(255),
+                "ItemLimitedQuantity": color.as_vdf(255),
+                "LightRed": color.as_vdf(255),
+                "LighterRed": color.as_vdf(255)
+            })
+        elif color_class == "Warning":
+            current.update({
+                "ItemIsotope": color.as_vdf(255),
+                "ItemBundleItem": color.as_vdf(255),
+                "ItemLimitedUse": color.as_vdf(255)
+            })
+        elif color_class == "Positive":
+            current.update({
+                "GreenSolid": color.as_vdf(255),
+                "StoreGreen": color.as_vdf(255),
+                "ItemAttribPositive": color.as_vdf(255),
+                "SaleGreen": color.as_vdf(255)
             })
         result.update({count: current})
 
