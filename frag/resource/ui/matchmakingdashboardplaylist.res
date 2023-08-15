@@ -183,6 +183,6 @@
         "tall"          "f0"
         "visible"       "1"
         "enabled"       "1"
-        "bgcolor_override"  "Blank"
+        "bgcolor_override"  "FragPanelTransparentDark80"
     }
 }
