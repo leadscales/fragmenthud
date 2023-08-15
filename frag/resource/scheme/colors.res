@@ -16,23 +16,28 @@
         "FragNegative60"                    "255 64 64 153"
         "FragNegative40"                    "255 64 64 102"
         "FragNegative20"                    "255 64 64 51"
+        "FragNegative05"                    "255 64 64 13"
         // Warning
         "FragWarning100"                    "255 160 64 255"
         "FragWarning80"                     "255 160 64 204"
         "FragWarning60"                     "255 160 64 153"
         "FragWarning40"                     "255 160 64 102"
         "FragWarning20"                     "255 160 64 51"
+        "FragWarning05"                     "255 160 64 13"
         // Positive
         "FragPositive100"                   "64 255 160 255"
         "FragPositive80"                    "64 255 160 204"
         "FragPositive60"                    "64 255 160 153"
         "FragPositive40"                    "64 255 160 102"
         "FragPositive20"                    "64 255 160 51"
+        "FragPositive05"                    "64 255 160 13"
         // Neutral
         "FragNeutral100"                    "255 255 255 255"
         "FragNeutral80"                     "255 255 255 204"
         "FragNeutral60"                     "255 255 255 153"
         "FragNeutral40"                     "255 255 255 102"
+        "FragNeutral20"                     "255 255 255 51"
+        "FragNeutral05"                     "255 255 255 13"
         // Teams
         "FragRed100"                        "255 64 64 255"
         "FragRed80"                         "255 64 64 204"

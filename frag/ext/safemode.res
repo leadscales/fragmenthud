@@ -1,3 +1,6 @@
+#base "safemode_infopanel_ptr.res"
+#base "safemode_infopanel.res"
+
 #base "safemode_colors.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -122,42 +125,12 @@
         {
             "ControlName"               "EditablePanel"
             "fieldName"                 "InfoPanel"
-            "xpos"                      "1"
+            "xpos"                      "0"
             "ypos"                      "rs1"
             "wide"                      "f21"
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "bgcolor_override"          "FragPanelTransparentDark20"
-
-            "InfoIcon"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "InfoIcon"
-                "xpos"                      "0"
-                "ypos"                      "0"
-                "wide"                      "20"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "labelText"                 "i"
-                "font"                      "Icons_Small_Additive"
-                "textAlignment"             "center"
-                "fgcolor"                   "FragNegative80"
-            }
-
-            "InfoText"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "InfoText"
-                "xpos"                      "20"
-                "ypos"                      "0"
-                "wide"                      "f25"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "labelText"                 "A game restart is required color related changes to take effect."
-                "font"                      "FontMedium_9_Additive"
-                "fgcolor"                   "FragNegative80"
-                "wrap"                      "1"
-            }
         }
 
         "ScrollingPanel"
