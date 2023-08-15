@@ -133,6 +133,32 @@
             "bgcolor_override"          "FragPanelTransparentDark20"
         }
 
+        "QuickRestartButton"
+        {
+            "ControlName"               "CExButton"
+            "fieldName"                 "QuickRestartButton"
+            "xpos"                      "1"
+            "ypos"                      "rs1-20"
+            "wide"                      "f21"
+            "tall"                      "10"
+            "proportionaltoparent"      "1"
+
+            "labelText"                 "▶ [UNSTABLE] QUICK RESTART TF2"
+            "textAlignment"             "west"
+            "textinsetx"                "5"
+            "use_proportional_insets"   "1"
+            "font"                      "FontMedium_9_Additive"
+
+            "paintBackground"           "0"
+            "defaultfgcolor_override"   "FragNegative60"
+            "armedfgcolor_override"     "FragNegative100"
+
+            "command"                   "engine _restart"
+            "actionsignallevel"         "2"
+            "sound_depressed"           "UI/buttonclick.wav"
+            "sound_released"            "UI/buttonclickrelease.wav"
+        }
+
         "ScrollingPanel"
         {
             "ControlName"               "CExScrollingEditablePanel"
@@ -140,7 +166,7 @@
             "xpos"                      "1"
             "ypos"                      "20"
             "wide"                      "f19"
-            "tall"                      "f40"
+            "tall"                      "f50"
             "proportionaltoparent"      "1"
 
             "ContentPanel"
