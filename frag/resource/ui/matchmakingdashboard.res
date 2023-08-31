@@ -428,7 +428,7 @@
                 "ypos"                      "0"
                 "zpos"                      "0"
                 "wide"                      "f0"
-                "tall"                      "f0"
+                "tall"                      "20"
                 "visible"                   "1"
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/menu/queue_stripes"
@@ -436,18 +436,30 @@
                 "drawcolor"                 "FragPositive100"
                 "alpha"                     "13"
             }
-            "QueueText"
+            "QueueTextAnchor"
             {
-                "ControlName"               "CAutoFittingLabel"
-                "fieldName"                 "QueueText"
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "QueueTextAnchor"
                 "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "200"
+                "wide"                      "0"
+                "tall"                      "0"
+                "proportionaltoparent"      "1"
+            }
+            "QueueText2"
+            {
+                "ControlName"               "CExLabel"
+                "fieldName"                 "QueueText2"
+                "xpos"                      "-5"
+                "ypos"                      "0"
+                "wide"                      "f0"
                 "tall"                      "f0"
                 "visible"                   "1"
                 "enabled"                   "1"
                 "font"                      "FontMedium_12_Additive"
                 "fgcolor_override"          "FragPositive100"
+                "fgcolor"                   "FragPositive100"
+                "bgcolor_override"          "Blank"
                 "textAlignment"             "center"
                 "labelText"                 "%queue_state%"
                 "textinsetx"                "0"
@@ -456,32 +468,22 @@
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
 
-                "fonts"
-                {
-                    "0"
-                    {
-                        "font"      "FontMedium_12"
-                    }
-                    "1"
-                    {
-                        "font"      "FontMedium_12"
-                    }
-                    "2"
-                    {
-                        "font"      "FontMedium_12"
-                    }
-                }
+                "auto_wide_tocontents"      "1"
+
+                "pin_to_sibling"            "QueueTextAnchor"
+                "pin_corner_to_sibling"     "PIN_CENTER_TOP"
+                "pin_to_sibling_corner"     "PIN_CENTER_TOP"
             }
 
             "MultiQueuesManageButton"
             {
                 "ControlName"                   "CExImageButton"
                 "fieldName"                     "MultiQueuesManageButton"
-                "xpos"                          "rs1"
+                "xpos"                          "0"
                 "ypos"                          "0"
-                "wide"                          "40"
+                "wide"                          "20"
                 "tall"                          "20"
-                "labeltext"                     "x"
+                "labeltext"                     "X"
                 "font"                          "Icons_Small"
                 "textAlignment"                 "center"
                 "dulltext"                      "0"
@@ -493,12 +495,16 @@
                 "proportionaltoparent"          "1"
                 "actionsignallevel"             "3"
                 "paintbackground"               "1"
-                "fgcolor"                       "FragNegative100"
-                "defaultFgColor_override"       "FragNegative100"
-                "armedFgColor_override"         "FragNegative100"
-                "depressedFgColor_override"     "FragNegative100"
+                "fgcolor"                       "FragPositive20"
+                "defaultFgColor_override"       "FragPositive20"
+                "armedFgColor_override"         "FragPositive100"
+                "depressedFgColor_override"     "FragPositive100"
                 "defaultbgcolor_override"       "Blank"
-                "armedbgcolor_override"         "FragNegative20"
+                "armedbgcolor_override"         "Blank"
+
+                "pin_to_sibling"                "QueueText2"
+                "pin_corner_to_sibling"         "PIN_TOPLEFT"
+                "pin_to_sibling_corner"         "PIN_TOPRIGHT"
 
                 "SubImage"
                 {
@@ -514,12 +520,12 @@
             {
                 "ControlName"                   "CExImageButton"
                 "fieldName"                     "CloseButton"
-                "xpos"                          "rs1"
+                "xpos"                          "0"
                 "ypos"                          "0"
-                "wide"                          "40"
+                "wide"                          "20"
                 "tall"                          "20"
-                "labeltext"                     "x"
-                "font"                          "Icons_Small"
+                "labeltext"                     "X"
+                "font"                          "Icons_Small_Additive"
                 "textAlignment"                 "center"
                 "dulltext"                      "0"
                 "brighttext"                    "0"
@@ -530,12 +536,16 @@
                 "proportionaltoparent"          "1"
                 "actionsignallevel"             "3"
                 "paintbackground"               "1"
-                "fgcolor"                       "FragNegative100"
-                "defaultFgColor_override"       "FragNegative100"
-                "armedFgColor_override"         "FragNegative100"
-                "depressedFgColor_override"     "FragNegative100"
+                "fgcolor"                       "FragPositive20"
+                "defaultFgColor_override"       "FragPositive20"
+                "armedFgColor_override"         "FragPositive100"
+                "depressedFgColor_override"     "FragPositive100"
                 "defaultbgcolor_override"       "Blank"
-                "armedbgcolor_override"         "FragNegative20"
+                "armedbgcolor_override"         "Blank"
+
+                "pin_to_sibling"                "QueueText2"
+                "pin_corner_to_sibling"         "PIN_TOPLEFT"
+                "pin_to_sibling_corner"         "PIN_TOPRIGHT"
 
                 "SubImage"
                 {
@@ -548,6 +558,15 @@
                 }
             }
 
+            "QueueText"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
             "OuterShadow"
             {
                 "xpos"                      "9999"
@@ -634,7 +653,7 @@
             "fieldName"                 "QuitButton2"
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "zpos"                      "99"
+            "zpos"                      "100"
             "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"
