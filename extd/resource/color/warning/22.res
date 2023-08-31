@@ -2,14 +2,14 @@
 {
 "Colors"
 {
-"FragWarning100" "255 64 208 255"
-"FragWarning80" "255 64 208 204"
-"FragWarning60" "255 64 208 153"
-"FragWarning40" "255 64 208 102"
-"FragWarning20" "255 64 208 51"
-"FragWarning05" "255 64 208 13"
-"ItemIsotope" "255 64 208 255"
-"ItemBundleItem" "255 64 208 255"
-"ItemLimitedUse" "255 64 208 255"
+"FragWarning100" "64 160 255 255"
+"FragWarning80" "64 160 255 204"
+"FragWarning60" "64 160 255 153"
+"FragWarning40" "64 160 255 102"
+"FragWarning20" "64 160 255 51"
+"FragWarning05" "64 160 255 13"
+"ItemIsotope" "64 160 255 255"
+"ItemBundleItem" "64 160 255 255"
+"ItemLimitedUse" "64 160 255 255"
 }
 }

@@ -24,34 +24,46 @@ class Color(typing.NamedTuple):
 colors: tuple[Color, ...] = (
     #
     Color(255, 64, 64),
-    Color(255, 112, 64),
+    Color(255, 96, 64),
+    Color(255, 128, 64),
     Color(255, 160, 64),
-    Color(255, 208, 64),
+    Color(255, 192, 64),
+    Color(255, 224, 64),
     #
     Color(255, 255, 64),
-    Color(208, 255, 64),
+    Color(224, 255, 64),
+    Color(192, 255, 64),
     Color(160, 255, 64),
-    Color(112, 255, 64),
+    Color(128, 255, 64),
+    Color(96, 255, 64),
     #
     Color(64, 255, 64),
-    Color(64, 255, 112),
+    Color(64, 255, 96),
+    Color(64, 255, 128),
     Color(64, 255, 160),
-    Color(64, 255, 208),
+    Color(64, 255, 192),
+    Color(64, 255, 224),
     #
     Color(64, 255, 255),
-    Color(64, 208, 255),
+    Color(64, 224, 255),
+    Color(64, 192, 255),
     Color(64, 160, 255),
-    Color(64, 112, 255),
+    Color(64, 128, 255),
+    Color(64, 96, 255),
     #
     Color(64, 64, 255),
-    Color(112, 64, 255),
+    Color(96, 64, 255),
+    Color(128, 64, 255),
     Color(160, 64, 255),
-    Color(208, 64, 255),
+    Color(192, 64, 255),
+    Color(224, 64, 255),
     #
     Color(255, 64, 255),
-    Color(255, 64, 208),
+    Color(255, 64, 224),
+    Color(255, 64, 192),
     Color(255, 64, 160),
-    Color(255, 64, 112),
+    Color(255, 64, 128),
+    Color(255, 64, 96),
 )
 
 color_classes: tuple[str, ...] = (
@@ -141,6 +153,61 @@ def generate_color_cfg(
     return result
 
 
+def generate_color_res(
+    colors: tuple[Color, ...],
+    color_class: str
+) -> dict:
+    result = {}
+
+    for color in range(len(colors)):
+        _d = {}
+        _ci = color+1
+        _d = {
+            str(_ci): {
+                "ControlName": "CExButton",
+                "fieldName": str(_ci),
+                "xpos": "0",
+                "ypos": "0",
+                "wide": "5",
+                "tall": "f0",
+                "proportionaltoparent": "1",
+                "defaultbgcolor_override": f"FragCColor{_ci}_60",
+                "armedbgcolor_override": f"FragCColor{_ci}_100",
+                "border_armed": "FragColorSelection",
+                "labelText": "",
+                "command": f"engine frag_c{color_class.lower()}_{_ci}",
+                "actionsignallevel": "8",
+                "sound_depressed": "ui/buttonclick.wav",
+                "sound_released": "ui/buttonclickrelease.wav"
+            }
+        }
+        if _ci > 1:
+            _d[str(_ci)].update({
+                "pin_to_sibling": str(color),
+                "pin_corner_to_sibling": "PIN_TOPLEFT",
+                "pin_to_sibling_corner": "PIN_TOPRIGHT"
+            })
+        result.update(_d)
+
+    return {
+        "Resource/UI/MainMenuOverride.res": {
+            "SafeMode": {
+                "ScrollingPanel": {
+                    "ContentPanel": {
+                        "Colors": {
+                            "Buttons": {
+                                color_class: {
+                                    "ButtonContainer": result
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
 def main():
     root = pathlib.Path(fragment.get_project_root())
     colors_dir = root.joinpath("extd/resource/color")
@@ -170,6 +237,10 @@ def main():
         _dir = root.joinpath("cfg/")
         with open(_dir.joinpath(f"frag_c{color_class.lower()}.cfg"), "w") as file:
             file.write(generate_color_cfg(colors, color_class))
+
+        # GEN BUTTON RES
+        with open(root.joinpath(f"frag/ext/safemode_colors_{color_class.lower()}.res"), "w") as file:
+            vdf.dump(generate_color_res(colors, color_class), file)
 
     # GENERATE COLOR COLLECTION RES FOR LATER USES
     color_dict = {
