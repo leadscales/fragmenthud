@@ -52,6 +52,10 @@
         "FragNeutral20"                     "255 255 255 51"
         // Ranking etc
         "FragGold100"                       "255 192 96 255"
+        "FragGold80"                        "255 192 96 204"
+        "FragGold60"                        "255 192 96 153"
+        "FragGold40"                        "255 192 96 102"
+        "FragGold20"                        "255 192 96 51"
 
         "FragCasual100"                     "64 160 255 255"
         "FragCompetitive100"                "255 64 64 255"

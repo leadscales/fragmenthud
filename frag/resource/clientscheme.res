@@ -6,4 +6,5 @@
 #base "scheme/colors_default.res"
 #base "scheme/fonts_default.res"
 #base "scheme/borders_default.res"
+#base "scheme/borders_backpack.res"
 #base "scheme/basesettings_default.res"

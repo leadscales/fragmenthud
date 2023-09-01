@@ -14,6 +14,78 @@
         {
             "backgroundtype"    "0"
         }
+        "ComboBoxBorder"
+        {
+            "inset"     "0 0 0 0"
+            "Left"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+            "Right"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+            "Top"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+            "Bottom"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+        }
+        "DarkComboBoxBorder"
+        {
+            "inset"     "0 0 0 0"
+            "Left"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+            "Right"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+            "Top"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+            "Bottom"
+            {
+                "1"
+                {
+                    "color"         "Blank"
+                    "offset"        "0 0"
+                }
+            }
+        }
         "FriendHighlightBorderThick"
         {
             "inset"     "0 0 0 0"

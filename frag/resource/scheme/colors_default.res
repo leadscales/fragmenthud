@@ -95,5 +95,28 @@
         "LighterRed"                                "255 64 96 255"
         "LighterDarkBrown"                          "51 51 51 255"
         "DarkBrown"                                 "26 26 26 255"
+
+        "QualityColorNormal"                        "192 192 192 255"
+        "QualityColorrarity1"                       "64 255 96 255"
+        "QualityColorrarity4"                       "176 64 255 255"
+        "QualityColorVintage"                       "64 144 255 255"
+        "QualityColorUnique"                        "255 224 64 255"
+        "QualityColorCommunity"                     "144 255 64 255"
+        "QualityColorDeveloper"                     "255 64 224 255"
+        "QualityColorSelfMade"                      "144 255 64 255"
+        "QualityColorCustomized"                    "64 144 255 255"
+        "QualityColorStrange"                       "255 128 64 255"
+        "QualityColorCompleted"                     "176 64 255 255"
+        "QualityColorHaunted"                       "64 255 192 255"
+        "QualityColorCollectors"                    "255 64 64 255"
+        "QualityColorPaintkitWeapon"                "255 255 255 255"
+
+        "ItemRarityDefault"                         "128 128 128 255"
+        "ItemRarityCommon"                          "96 192 192 255"
+        "ItemRarityUncommon"                        "64 160 255 255"
+        "ItemRarityRare"                            "64 96 255 255"
+        "ItemRarityMythical"                        "144 64 255 255"
+        "ItemRarityLegendary"                       "240 64 255 255"
+        "ItemRarityAncient"                         "255 64 96 255"
     }
 }
