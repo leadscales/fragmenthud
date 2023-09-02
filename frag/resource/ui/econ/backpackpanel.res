@@ -221,6 +221,7 @@
         "fgcolor"                       "FragNeutral100"
         "font"                          "FontMedium_12_Additive"
         "textAlignment"                 "west"
+        "allcaps"                       "1"
 
         "pin_to_sibling"                "ClassIcon"
         "pin_corner_to_sibling"         "PIN_CENTER_LEFT"

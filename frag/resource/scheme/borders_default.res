@@ -4,15 +4,15 @@
     {
         "ButtonBorder"
         {
-            "backgroundtype"    "0"
+            "backgroundtype"        "0"
         }
         "ButtonKeyFocusBorder"
         {
-            "backgroundtype"    "0"
+            "backgroundtype"        "0"
         }
         "ButtonDepressedBorder"
         {
-            "backgroundtype"    "0"
+            "backgroundtype"        "0"
         }
         "ComboBoxBorder"
         {
@@ -141,6 +141,24 @@
                     "offset"        "0 0"
                 }
             }
+        }
+        "EconItemBorder"
+        {
+            "image"                     "replay/thumbnails/panels/econ_item_border"
+            "color"                     "FragPanelOpaque40"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
+        }
+        "LoadoutItemMouseOverBorder"
+        {
+            "image"                     "replay/thumbnails/panels/econ_item_border"
+            "color"                     "FragPanelOpaque30"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
         }
     }
 }
