@@ -1,0 +1,1 @@
+"TFFatLineBorder" is what the backpack item popup uses when you reload menus
