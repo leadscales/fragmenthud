@@ -43,6 +43,8 @@ def main():
         "Scoreboard_NoTimeLimitNew": "",
         "Scoreboard_ChangeOnRoundEndNew": "",
         "Scoreboard_Server": "%s1",
+        "TF_ScoreBoard_Player": "%s1",
+        "TF_ScoreBoard_Players": "%s1",
         "TF_playerid_mediccharge": "%s1%",
         "TF_playerid_mediccharge_wpn": "%s1% (%s2)",
         "TF_playerid_object_upgrading": "%s1",

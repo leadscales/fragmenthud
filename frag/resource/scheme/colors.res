@@ -44,11 +44,13 @@
         "FragRed60"                         "255 64 64 153"
         "FragRed40"                         "255 64 64 102"
         "FragRed20"                         "255 64 64 51"
+        "FragRed05"                         "255 64 64 13"
         "FragBlu100"                        "64 160 255 255"
         "FragBlu80"                         "64 160 255 204"
         "FragBlu60"                         "64 160 255 153"
         "FragBlu40"                         "64 160 255 102"
         "FragBlu20"                         "64 160 255 51"
+        "FragBlu05"                         "64 160 255 13"
         "FragNeutral20"                     "255 255 255 51"
         // Ranking etc
         "FragGold100"                       "255 192 96 255"
