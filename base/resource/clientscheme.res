@@ -130,7 +130,7 @@ Scheme
 		"ItemAttribLevel"						"117 107 94 255"
 		"ItemAttribNeutral"						"235 226 202 255"
 		"ItemAttribPositive"					"153 204 255 255"
-		"ItemAttribNegative"					"255 64 96 255"
+		"ItemAttribNegative"					"255 64 64 255"
 
 		"ItemSetName"							"225 255 15 255"
 		"ItemSetItemEquipped"					"149 175 12 255"
