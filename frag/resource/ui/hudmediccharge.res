@@ -79,7 +79,7 @@
     }
 
     "ChargeMeter1"
-	{
+    {
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "5"
@@ -91,7 +91,7 @@
         "pin_to_sibling"            "ChargeMeter"
     }
     "ChargeMeter2"
-	{
+    {
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "5"
@@ -105,7 +105,7 @@
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
     "ChargeMeter3"
-	{
+    {
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "5"
@@ -119,7 +119,7 @@
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
     "ChargeMeter4"
-	{
+    {
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "5"

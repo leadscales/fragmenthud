@@ -89,7 +89,7 @@
     }
 
     "PlayerStatusHealthValue"
-	{
+    {
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "8"

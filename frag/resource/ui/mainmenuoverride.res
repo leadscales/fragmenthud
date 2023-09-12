@@ -1084,7 +1084,7 @@
     // DISABLED
 
     "CallVoteButton"
-	{
+    {
         "xpos"          "9999"
         "ypos"          "9999"
         "wide"          "0"
@@ -1093,7 +1093,7 @@
         "enabled"       "0"
     }
     "ReportPlayerButton"
-	{
+    {
         "xpos"          "9999"
         "ypos"          "9999"
         "wide"          "0"
@@ -1102,7 +1102,7 @@
         "enabled"       "0"
     }
     "RequestCoachButton"
-	{
+    {
         "xpos"          "9999"
         "ypos"          "9999"
         "wide"          "0"
@@ -1111,7 +1111,7 @@
         "enabled"       "0"
     }
     "MutePlayersButton"
-	{
+    {
         "xpos"          "9999"
         "ypos"          "9999"
         "wide"          "0"

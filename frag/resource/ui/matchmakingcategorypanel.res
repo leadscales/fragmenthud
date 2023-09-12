@@ -14,7 +14,7 @@
 
         "BGColor"
         {
-            "bgcolor_override"	"FragPanelOpaque10"
+            "bgcolor_override"  "FragPanelOpaque10"
         }
 
         "EntryToggleButton"
