@@ -176,7 +176,7 @@
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_light_top"
             "scaleImage"            "1"
-            "drawcolor"             "FragBlu40"
+            "drawcolor"             "FragBlu20"
         }
 
         "pin_to_sibling"        "BlueScoreBG"
@@ -336,7 +336,7 @@
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_light_top"
             "scaleImage"            "1"
-            "drawcolor"             "FragRed40"
+            "drawcolor"             "FragRed20"
         }
 
         "pin_to_sibling"        "RedScoreBG"
