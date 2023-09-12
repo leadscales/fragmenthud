@@ -159,7 +159,7 @@
             "wide"                  "f0"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient"
+            "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
             "scaleImage"            "1"
             "drawcolor"             "FragPrimary40"
         }
