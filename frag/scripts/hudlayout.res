@@ -103,4 +103,12 @@
         "wide"      "f0"
         "tall"      "480"
     }
+
+    "HudControlPointIcons"
+    {
+        "ypos"              "410"
+        "separator_width"   "1"
+        "separator_height"  "1"
+        "height_offset"     "5"
+    }
 }

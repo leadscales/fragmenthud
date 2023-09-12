@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+    "$baseTexture"              "vgui/replay/thumbnails/obj_icons/cp_cap"
+    "$translucent"              "1"
+    "$vertexalpha"              "1"
+    "$vertexcolor"              "1"
+    "$color"                    "{64 160 255}"
+    "$detail"                   "vgui/replay/thumbnails/obj_icons/cp_mask"
+    "$detailblendmode"          "9"
+    "$separatedetailuvs"        "1"
+}
