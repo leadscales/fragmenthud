@@ -1,6 +1,6 @@
 #base "safemode_colors_primary.res"
+#base "safemode_colors_accent.res"
 #base "safemode_colors_negative.res"
-#base "safemode_colors_warning.res"
 #base "safemode_colors_positive.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -128,12 +128,47 @@
                                 "proportionaltoparent"      "1"
                             }
                         }
+                        "Accent"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "Accent"
+                            "xpos"                      "0"
+                            "ypos"                      "20"
+                            "wide"                      "f0"
+                            "tall"                      "20"
+                            "proportionaltoparent"      "1"
+
+                            "Label"
+                            {
+                                "ControlName"               "CExLabel"
+                                "fieldName"                 "Label"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f0"
+                                "tall"                      "15"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "ACCENT: "
+                                "font"                      "FontMedium_12_Additive"
+                                "fgcolor"                   "FragAccent100"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "5"
+                                "ypos"                      "rs1"
+                                "wide"                      "180"
+                                "tall"                      "5"
+                                "proportionaltoparent"      "1"
+                            }
+                        }
                         "Negative"
                         {
                             "ControlName"               "EditablePanel"
                             "fieldName"                 "Negative"
                             "xpos"                      "0"
-                            "ypos"                      "20"
+                            "ypos"                      "40"
                             "wide"                      "f0"
                             "tall"                      "20"
                             "proportionaltoparent"      "1"
@@ -150,41 +185,6 @@
                                 "labelText"                 "NEGATIVE:"
                                 "font"                      "FontMedium_12_Additive"
                                 "fgcolor"                   "FragNegative100"
-                            }
-
-                            "ButtonContainer"
-                            {
-                                "ControlName"               "EditablePanel"
-                                "fieldName"                 "ButtonContainer"
-                                "xpos"                      "5"
-                                "ypos"                      "rs1"
-                                "wide"                      "180"
-                                "tall"                      "5"
-                                "proportionaltoparent"      "1"
-                            }
-                        }
-                        "Warning"
-                        {
-                            "ControlName"               "EditablePanel"
-                            "fieldName"                 "Warning"
-                            "xpos"                      "0"
-                            "ypos"                      "40"
-                            "wide"                      "f0"
-                            "tall"                      "20"
-                            "proportionaltoparent"      "1"
-
-                            "Label"
-                            {
-                                "ControlName"               "CExLabel"
-                                "fieldName"                 "Label"
-                                "xpos"                      "5"
-                                "ypos"                      "0"
-                                "wide"                      "f0"
-                                "tall"                      "15"
-                                "proportionaltoparent"      "1"
-                                "labelText"                 "WARNING:"
-                                "font"                      "FontMedium_12_Additive"
-                                "fgcolor"                   "FragWarning100"
                             }
 
                             "ButtonContainer"

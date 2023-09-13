@@ -68,8 +68,8 @@ colors: tuple[Color, ...] = (
 
 color_classes: tuple[str, ...] = (
     "Primary",
+    "Accent",
     "Negative",
-    "Warning",
     "Positive"
 )
 
@@ -107,6 +107,12 @@ def generate_color_dict(
                 "CreditsGreen": color.as_vdf(255),
                 "ItemSetItemEquipped": color.as_vdf(255)
             })
+        elif color_class == "Accent":
+            current.update({
+                "ItemIsotope": color.as_vdf(255),
+                "ItemBundleItem": color.as_vdf(255),
+                "ItemLimitedUse": color.as_vdf(255)
+            })
         elif color_class == "Negative":
             current.update({
                 "HUDDeathWarning": color.as_vdf(255),
@@ -114,12 +120,6 @@ def generate_color_dict(
                 "ItemLimitedQuantity": color.as_vdf(255),
                 "LightRed": color.as_vdf(255),
                 "LighterRed": color.as_vdf(255)
-            })
-        elif color_class == "Warning":
-            current.update({
-                "ItemIsotope": color.as_vdf(255),
-                "ItemBundleItem": color.as_vdf(255),
-                "ItemLimitedUse": color.as_vdf(255)
             })
         elif color_class == "Positive":
             current.update({
@@ -214,12 +214,6 @@ def main():
 
     for color_class in color_classes:
         # RES AND PTR
-        base_ptr = colors_dir.joinpath(color_class.lower()+"_ptr.res")
-        base_ptr.parent.mkdir(exist_ok=True, parents=True)
-        with open(base_ptr, "w") as file:
-            file.write(
-                f"#base \"../../../../cfg/frag_c{color_class.lower()}.txt\""
-            )
         _dir = colors_dir.joinpath(color_class.lower())
         _dir.mkdir(exist_ok=True, parents=True)
 

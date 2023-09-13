@@ -39,7 +39,8 @@
         "textalignment"                 "east"
         "textinsetx"                    "5"
         "use_proportional_insets"       "1"
-        "font"                          "FontMedium_10"
+        "font"                          "FontMedium_10_Additive"
+        "fgcolor"                       "FragAccent100"
     }
     "ItemEffectMeter"
     {

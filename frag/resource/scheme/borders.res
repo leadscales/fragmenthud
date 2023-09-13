@@ -12,7 +12,7 @@
                 }
                 "2"
                 {
-                    "Color"         "0 0 0 255"
+                    "Color"         "FragNeutral100"
                     "Offset"        "1 1"
                 }
             }
@@ -24,7 +24,7 @@
                 }
                 "2"
                 {
-                    "Color"         "0 0 0 255"
+                    "Color"         "FragNeutral100"
                     "Offset"        "1 1"
                 }
             }
@@ -36,7 +36,7 @@
                 }
                 "2"
                 {
-                    "Color"         "0 0 0 255"
+                    "Color"         "FragNeutral100"
                     "Offset"        "1 1"
                 }
             }
@@ -48,7 +48,7 @@
                 }
                 "2"
                 {
-                    "Color"         "0 0 0 255"
+                    "Color"         "FragNeutral100"
                     "Offset"        "1 1"
                 }
             }

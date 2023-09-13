@@ -10,6 +10,13 @@
         "FragPrimary40"                     "64 192 255 102"
         "FragPrimary20"                     "64 192 255 51"
         "FragPrimary05"                     "64 192 255 13"
+        // Accent
+        "FragAccent100"                     "255 192 64 255"
+        "FragAccent80"                      "255 192 64 204"
+        "FragAccent60"                      "255 192 64 153"
+        "FragAccent40"                      "255 192 64 102"
+        "FragAccent20"                      "255 192 64 51"
+        "FragAccent05"                      "255 192 64 13"
         // Negative
         "FragNegative100"                   "255 96 64 255"
         "FragNegative80"                    "255 96 64 204"
@@ -17,13 +24,6 @@
         "FragNegative40"                    "255 96 64 102"
         "FragNegative20"                    "255 96 64 51"
         "FragNegative05"                    "255 96 64 13"
-        // Warning
-        "FragWarning100"                    "255 192 64 255"
-        "FragWarning80"                     "255 192 64 204"
-        "FragWarning60"                     "255 192 64 153"
-        "FragWarning40"                     "255 192 64 102"
-        "FragWarning20"                     "255 192 64 51"
-        "FragWarning05"                     "255 192 64 13"
         // Positive
         "FragPositive100"                   "64 255 160 255"
         "FragPositive80"                    "64 255 160 204"

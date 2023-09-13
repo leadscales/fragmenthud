@@ -75,10 +75,10 @@
         "wide"                      "60"
         "tall"                      "15"
         "textAlignment"             "east"
-        "font"                      "FontMedium_10"
+        "font"                      "FontMedium_10_Additive"
         "textinsetx"                "5"
         "use_proportional_insets"   "1"
-        "fgcolor"                   "FragNeutral100"
+        "fgcolor"                   "FragAccent100"
 
         "pin_to_sibling"            "AccountElementAnchor"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"

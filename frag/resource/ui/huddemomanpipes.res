@@ -98,7 +98,7 @@
             "font"                      "FontMedium_10_Additive"
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
-            "fgcolor"                   "FragNeutral100"
+            "fgcolor"                   "FragAccent100"
 
             "pin_to_sibling"            "PipeElementAnchor"
             "pin_corner_to_sibling"     "PIN_CENTER_TOP"
@@ -159,7 +159,7 @@
             "tall"                      "1"
             "image"                     "replay/thumbnails/panels/fill_additive"
             "scaleImage"                "1"
-            "drawcolor"                 "FragNegative100"
+            "drawcolor"                 "FragNeutral100"
 
             "pin_to_sibling"            "PipeElementAnchor"
             "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
@@ -179,7 +179,7 @@
             "textAlignment"             "west"
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
-            "fgcolor"                   "FragNegative100"
+            "fgcolor"                   "FragNeutral100"
 
             "pin_to_sibling"            "PipeElementAnchor"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
