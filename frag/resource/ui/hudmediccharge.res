@@ -49,8 +49,8 @@
         "zpos"                      "5"
         "wide"                      "60"
         "tall"                      "1"
-        "fgcolor_override"          "FragPositive100"
-        "bgcolor_override"          "FragPositive20"
+        "fgcolor_override"          "FragAccent100"
+        "bgcolor_override"          "FragAccent20"
 
         "pin_to_sibling"            "MedicChargeAnchor"
         "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
@@ -70,7 +70,7 @@
         "paintBackgroundType"       "0"
         "image"                     "replay/thumbnails/panels/fill_additive"
         "scaleImage"                "1"
-        "drawcolor"                 "FragPositive20"
+        "drawcolor"                 "FragAccent20"
         "alpha"                     "0"
 
         "pin_to_sibling"            "MedicChargeAnchor"

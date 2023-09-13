@@ -50,13 +50,13 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-    Animate     ChargeLabel            FgColor    FragPositive100    Linear    0.0    0.1
+    Animate     ChargeLabel            FgColor    FragAccent100    Linear    0.0    0.1
     //
-    Animate     FullChargeEffect       Alpha      255                Linear    0.0    0.0
-    Animate     FullChargeEffect       XPos       0                  Linear    0.0    0.0
-    Animate     FullChargeEffect       Wide       60                 Spline    0.0    0.5
-    Animate     FullChargeEffect       XPos       -60                Spline    0.5    1.0
-    Animate     FullChargeEffect       Wide       0                  Spline    0.5    1.0
+    Animate     FullChargeEffect       Alpha      255              Linear    0.0    0.0
+    Animate     FullChargeEffect       XPos       0                Linear    0.0    0.0
+    Animate     FullChargeEffect       Wide       60               Spline    0.0    0.5
+    Animate     FullChargeEffect       XPos       -60              Spline    0.5    1.0
+    Animate     FullChargeEffect       Wide       0                Spline    0.5    1.0
     RunEvent    HudMedicChargedLoop    1.5
 }
 
