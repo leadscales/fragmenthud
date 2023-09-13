@@ -22,11 +22,11 @@
 
     "ChargeMeter"
     {
-        "xpos"              "cs-0.5"
-        "ypos"              "c8"
-        "wide"              "15"
+        "xpos"              "c50"
+        "ypos"              "c39"
+        "wide"              "60"
         "tall"              "1"
-        "fgcolor_override"  "FragNeutral100"
+        "alpha"             "255"
         "bgcolor_override"  "FragNeutral20"
     }
 
@@ -49,23 +49,6 @@
             "wide"                      "60"
             "tall"                      "16"
             "bgcolor_override"          "FragPanelTransparentDark60"
-        }
-
-        "PipesStroke"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "PipesStroke"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "60"
-            "tall"                      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral100"
-
-            "pin_to_sibling"            "PipeElementAnchor"
-            "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
-            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
         }
 
         "PipesLabel"
@@ -147,23 +130,6 @@
             "wide"                      "60"
             "tall"                      "16"
             "bgcolor_override"          "FragPanelTransparentDark60"
-        }
-
-        "PipesStroke"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "PipesStroke"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "60"
-            "tall"                      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral100"
-
-            "pin_to_sibling"            "PipeElementAnchor"
-            "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
-            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
         }
 
         "PipesLabel"

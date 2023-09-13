@@ -136,6 +136,24 @@
         "localbackgroundcolor"  "FragPanelTransparentLight20"
     }
 
+    "CMainTargetID"
+    {
+        "ypos"              "c5"
+        "tall"              "20"
+    }
+    "CSecondaryTargetID"
+    {
+        "ypos"              "c85"
+        "tall"              "20"
+    }
+    "CSpectatorTargetID"
+    {
+        "ypos"              "c105"
+        "tall"              "20"
+        "x_offset"          "0"
+        "y_offset"          "0"
+    }
+
     // DISABLED
 
     "HudBowCharge"
