@@ -111,4 +111,28 @@
         "separator_height"  "1"
         "height_offset"     "5"
     }
+
+    "HudDeathNotice"
+    {
+        "xpos"              "r645"
+        "ypos"              "22"
+        "wide"              "640"
+        "tall"              "480"
+
+        "maxdeathnotices"   "6"
+        "iconscale"         "0"
+        "lineheight"        "15"
+        "linespacing"       "0.1"
+        "cornerradius"      "0"
+
+        "textfont"          "FontMedium_10"
+
+        "teamblue"          "FragBlu100"
+        "teamred"           "FragRed100"
+        "iconcolor"         "FragNeutral100"
+        "localplayercolor"  "FragPanelOpaque0"
+
+        "basebackgroundcolor"   "FragPanelTransparentDark60"
+        "localbackgroundcolor"  "FragPanelTransparentLight20"
+    }
 }
