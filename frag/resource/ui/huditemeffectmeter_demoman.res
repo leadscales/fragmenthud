@@ -21,7 +21,7 @@
     {
         "xpos"                          "0"
         "ypos"                          "0"
-        "wide"                          "45"
+        "wide"                          "40"
         "tall"                          "15"
         "proportionaltoparent"          "1"
         "textalignment"                 "west"
@@ -33,10 +33,10 @@
     {
         "xpos"                          "rs1"
         "ypos"                          "0"
-        "wide"                          "15"
+        "wide"                          "20"
         "tall"                          "15"
         "proportionaltoparent"          "1"
-        "textalignment"                 "west"
+        "textalignment"                 "east"
         "textinsetx"                    "5"
         "use_proportional_insets"       "1"
         "font"                          "FontMedium_10"

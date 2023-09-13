@@ -24,8 +24,11 @@
         "ypos"                  "rs1"
         "zpos"                  "6"
         "wide"                  "p0.5"
-        "tall"                  "1"
+        "tall"                  "f0"
         "proportionaltoparent"  "1"
+        "fgcolor_override"      "FragNeutral100"
+        "bgcolor_override"      "Blank"
+        "alpha"                 "51"
     }
 
     "ItemEffectIcon"
