@@ -1,3 +1,4 @@
+#base "../../extd/resource/clientscheme.res"
 #base "scheme/colors.res"
 
 "Scheme"

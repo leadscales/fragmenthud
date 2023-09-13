@@ -1,5 +1,6 @@
-#base "color/primary_ptr.res"
-#base "color/negative_ptr.res"
-#base "color/warning_ptr.res"
-#base "color/positive_ptr.res"
-#base "color/colors.res"
+#base "../_pointers/cprimary_ptr.res"
+#base "../_pointers/cnegative_ptr.res"
+#base "../_pointers/cwarning_ptr.res"
+#base "../_pointers/cpositive_ptr.res"
+
+#base "../_color/customization_colors.res"

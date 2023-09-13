@@ -76,7 +76,7 @@
                             "paintBackground"           "0"
                             "defaultfgcolor_override"   "FragNegative40"
                             "armedfgcolor_override"     "FragNegative100"
-                            "command"                   "engine frag_cprimary_clear; frag_cnegative_clear; frag_cwarning_clear; frag_cpositive_clear;"
+                            "command"                   "engine frag_cprimary=def; frag_cnegative=def; frag_cwarning=def; frag_cpositive=def;"
                             "actionsignallevel"         "6"
                             "sound_depressed"           "UI/buttonclick.wav"
                             "sound_released"            "UI/buttonclickrelease.wav"

@@ -141,13 +141,13 @@ def generate_color_cfg(
 
     _file = f"frag_c{color_class.lower()}.txt"
 
-    result += f"alias frag_c{color_class.lower()}_clear \"{SCB}; {SWB} {_file};\"\n\n"
+    result += f"alias \"frag_c{color_class.lower()}=def\" \"{SCB}; {SWB} {_file};\"\n\n"
 
     for i in range(len(colors)):
         _i = i+1
-        _alias = f"frag_c{color_class.lower()}_{_i}"
-        _echo = f"#base ../custom/fragmenthud/extd/resource/color/{color_class.lower()}/{_i}.res"
-        s = f"alias {_alias} \"frag_c{color_class.lower()}_clear; con_logfile cfg/{_file}; echo {_echo}; frag_cl;\"\n"
+        _alias = f"frag_c{color_class.lower()}={_i}"
+        _echo = f"#base ../custom/fragmenthud/extd/_color/{color_class.lower()}/{_i}.res"
+        s = f"alias \"{_alias}\" \"frag_c{color_class.lower()}=def; con_logfile cfg/{_file}; echo {_echo}; frag_cl;\"\n"
         result += s
 
     return result
@@ -175,7 +175,7 @@ def generate_color_res(
                 "armedbgcolor_override": f"FragCColor{_ci}_100",
                 "border_armed": "FragColorSelection",
                 "labelText": "",
-                "command": f"engine frag_c{color_class.lower()}_{_ci}",
+                "command": f"engine frag_c{color_class.lower()}={_ci}",
                 "actionsignallevel": "8",
                 "sound_depressed": "ui/buttonclick.wav",
                 "sound_released": "ui/buttonclickrelease.wav"
@@ -210,7 +210,7 @@ def generate_color_res(
 
 def main():
     root = pathlib.Path(fragment.get_project_root())
-    colors_dir = root.joinpath("extd/resource/color")
+    colors_dir = root.joinpath("extd/_color")
 
     for color_class in color_classes:
         # RES AND PTR
@@ -218,7 +218,7 @@ def main():
         base_ptr.parent.mkdir(exist_ok=True, parents=True)
         with open(base_ptr, "w") as file:
             file.write(
-                f"#base \"../../../../../cfg/frag_c{color_class.lower()}.txt\""
+                f"#base \"../../../../cfg/frag_c{color_class.lower()}.txt\""
             )
         _dir = colors_dir.joinpath(color_class.lower())
         _dir.mkdir(exist_ok=True, parents=True)
@@ -255,7 +255,7 @@ def main():
             _d = {f"FragCColor{_i}_{ak}": color.as_vdf(av)}
             color_dict["Scheme"]["Colors"].update(_d)
 
-    with open(root.joinpath("extd/resource/color/colors.res"), "w") as file:
+    with open(root.joinpath("extd/_color/customization_colors.res"), "w") as file:
         vdf.dump(color_dict, file)
 
 
