@@ -1,20 +1,51 @@
 "Resource/UI/MainMenuOverride.res"
 {
-    "version"
+    "VersionAnchor"
     {
-        "ControlName"               "CExLabel"
-        "fieldName"                 "version"
-        "xpos"                      "rs1"
-        "ypos"                      "rs1-20"
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "VersionAnchor"
+        "xpos"                      "r5"
+        "ypos"                      "r40"
         "zpos"                      "100"
-        "wide"                      "f0"
-        "tall"                      "20"
-        "font"                      "FontMedium_12_Additive"
-        "fgcolor"                   "FragPrimary20"
-        "textAlignment"             "east"
-        "textinsetx"                "5"
-        "use_proportional_insets"   "1"
+        "wide"                      "0"
+        "tall"                      "0"
         "mouseinputenabled"         "0"
+    }
+
+    "VersionNumber"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "VersionNumber"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "100"
+        "wide"                  "0"
+        "tall"                  "20"
+        "auto_wide_tocontents"  "1"
+        "font"                  "FontMedium_12_Additive"
+        "fgcolor"               "FragAccent100"
+
+        "pin_to_sibling"        "VersionAnchor"
+        "pin_corner_to_sibling" "PIN_TOPRIGHT"
+        "pin_to_sibling_corner" "PIN_TOPRIGHT"
+    }
+
+    "VersionText"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "VersionText"
+        "xpos"                  "2"
+        "ypos"                  "0"
+        "zpos"                  "100"
+        "wide"                  "0"
+        "tall"                  "20"
+        "auto_wide_tocontents"  "1"
+        "font"                  "FontMedium_12_Additive"
+        "fgcolor"               "FragPrimary100"
+
+        "pin_to_sibling"        "VersionNumber"
+        "pin_corner_to_sibling" "PIN_TOPRIGHT"
+        "pin_to_sibling_corner" "PIN_TOPLEFT"
     }
 
     "DashboardDimmer"

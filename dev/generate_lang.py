@@ -29,7 +29,32 @@ def main():
     root = pathlib.Path(fragment.get_project_root())
 
     langs = {
+        "brazilian",
+        "bulgarian",
+        "czech",
+        "danish",
+        "dutch",
         "english",
+        "finnish",
+        "french",
+        "german",
+        "greek",
+        "hungarian",
+        "italian",
+        "japanese",
+        "korean",
+        "koreana",
+        "norwegian",
+        "polish",
+        "portuguese",
+        "romanian",
+        "russian",
+        "schinese",
+        "spanish",
+        "swedish",
+        "tchinese",
+        "thai",
+        "turkish",
         "pirate"
     }
 
