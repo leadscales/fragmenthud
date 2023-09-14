@@ -16,96 +16,6 @@
         "tall"              "480"
         "bgcolor_override"  "FragPanelTransparentDark60"
     }
-    "BackgroundEffect"
-    {
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "BackgroundEffect"
-        "xpos"                      "cs-0.5"
-        "ypos"                      "cs-0.5"
-        "zpos"                      "0"
-        "wide"                      "f0"
-        "tall"                      "o1"
-        "proportionaltoparent"      "0"
-        "visible"                   "1"
-        "enabled"                   "1"
-
-        "BGImage1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGImage1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/background_0"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral20"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGImage2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGImage2"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/background_1"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral20"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/background_effect_0"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral20"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect2"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/background_effect_1"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral20"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        // We add noise to reduce color banding for those with exceptionally bad monitors
-        "NoiseImage1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "NoiseImage1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/noise"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragNeutral100"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-    }
 
     "TitleBG"
     {
@@ -116,14 +26,14 @@
         "zpos"              "1"
         "wide"              "f0"
         "tall"              "40"
-        "bgcolor_override"  "FragPanelTransparentDark40"
+        "bgcolor_override"  "FragPanelOpaque10"
     }
 
     "MapInfoTitle"
     {
         "xpos"              "cs-0.5"
         "ypos"              "0"
-        "zpos"              "1"
+        "zpos"              "2"
         "wide"              "f0"
         "tall"              "20"
         "font"              "FontMedium_16"
@@ -135,13 +45,13 @@
     {
         "xpos"              "cs-0.5"
         "ypos"              "20"
-        "zpos"              "1"
+        "zpos"              "2"
         "wide"              "f0"
         "tall"              "20"
-        "font"              "FontMedium_12"
+        "font"              "FontMedium_12_Additive"
         "textalignment"     "center"
         "allcaps"           "1"
-        "fgcolor"           "FragNeutral40"
+        "fgcolor"           "FragAccent100"
     }
     "MapInfoText"
     {
@@ -214,7 +124,7 @@
                 "font"                      "Icons_Medium"
                 "textAlignment"             "center"
 
-                "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                "defaultbgcolor_override"   "FragPanelTransparentDark60"
                 "armedbgcolor_override"     "FragPanelTransparentLight20"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragNeutral100"
@@ -266,7 +176,7 @@
                 "font"                      "Icons_Medium"
                 "textAlignment"             "center"
 
-                "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                "defaultbgcolor_override"   "FragPanelTransparentDark60"
                 "armedbgcolor_override"     "FragPanelTransparentLight20"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragNeutral100"

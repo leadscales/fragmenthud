@@ -16,89 +16,6 @@
         "tall"              "480"
         "bgcolor_override"  "FragPanelTransparentDark60"
     }
-    "BackgroundEffect"
-    {   
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "BackgroundEffect"
-        "xpos"                      "cs-0.5"
-        "ypos"                      "cs-0.5"
-        "zpos"                      "0"
-        "wide"                      "f0"
-        "tall"                      "o1"
-        "proportionaltoparent"      "0"
-        "visible"                   "1"
-        "enabled"                   "1"
-        "alpha"                     "255"
-
-        "BGImage1"
-        {
-            "ControlName"               "CTFImagePanel"
-            "fieldName"                 "BGImage1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "teambg_0"                  "replay/thumbnails/menu/background_0"
-            "teambg_1"                  "replay/thumbnails/menu/background_0"
-            "teambg_2"                  "replay/thumbnails/menu/background_0_red"
-            "teambg_3"                  "replay/thumbnails/menu/background_0_blu"
-            "scaleImage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGImage2"
-        {
-            "ControlName"               "CTFImagePanel"
-            "fieldName"                 "BGImage2"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "teambg_0"                  "replay/thumbnails/menu/background_1"
-            "teambg_1"                  "replay/thumbnails/menu/background_1"
-            "teambg_2"                  "replay/thumbnails/menu/background_1_red"
-            "teambg_3"                  "replay/thumbnails/menu/background_1_blu"
-            "scaleImage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect1"
-        {
-            "ControlName"               "CTFImagePanel"
-            "fieldName"                 "BGEffect1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "teambg_0"                  "replay/thumbnails/menu/background_effect_0"
-            "teambg_1"                  "replay/thumbnails/menu/background_effect_0"
-            "teambg_2"                  "replay/thumbnails/menu/background_effect_0_red"
-            "teambg_3"                  "replay/thumbnails/menu/background_effect_0_blu"
-            "scaleImage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect2"
-        {
-            "ControlName"               "CTFImagePanel"
-            "fieldName"                 "BGEffect2"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "teambg_0"                  "replay/thumbnails/menu/background_effect_1"
-            "teambg_1"                  "replay/thumbnails/menu/background_effect_1"
-            "teambg_2"                  "replay/thumbnails/menu/background_effect_1_red"
-            "teambg_3"                  "replay/thumbnails/menu/background_effect_1_blu"
-            "scaleImage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-    }
 
     "Title"
     {
@@ -114,7 +31,7 @@
         "textalignment"     "center"
         "allcaps"           "1"
         "fgcolor"           "FragNeutral100"
-        "bgcolor_override"  "FragPanelTransparentDark40"
+        "bgcolor_override"  "FragPanelOpaque10"
     }
 
     "BottomBar"
@@ -158,7 +75,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -222,7 +139,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -288,7 +205,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -354,7 +271,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -420,7 +337,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -486,7 +403,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -552,7 +469,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -618,7 +535,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -684,7 +601,7 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -745,7 +662,7 @@
         "wide"                      "40"
         "tall"                      "40"
         "pinCorner"                 "0"
-        "labelText"                 "T"
+        "labelText"                 "r"
         "font"                      "Icons_Medium"
         "textAlignment"             "center"
         "command"                   "joinclass random"
@@ -753,7 +670,7 @@
         "sound_released"            "UI/buttonclickrelease.wav"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
@@ -795,7 +712,7 @@
         "sound_released"            "UI/buttonclickrelease.wav"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark60"
         "armedbgcolor_override"     "FragPanelTransparentLight20"
         "selectedbgcolor_override"  "FragPanelTransparentLight20"
         "defaultfgcolor_override"   "FragNeutral100"
