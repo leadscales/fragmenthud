@@ -154,6 +154,14 @@
         "y_offset"          "0"
     }
 
+    "HudKothTimeStatus"
+    {
+        "xpos"              "cs-0.5"
+        "ypos"              "5"
+        "wide"              "60"
+        "tall"              "20"
+    }
+
     // DISABLED
 
     "HudBowCharge"

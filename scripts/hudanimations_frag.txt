@@ -75,3 +75,21 @@ event HudMedicChargedStop
     Animate      FullChargeEffect       Alpha      0                 Linear    0.0    1.0
     Animate      ChargeLabel            FgColor    FragNeutral100    Linear    1.5    1.6
 }
+
+event TeamStatus_PlayerDead
+{
+}
+
+event TeamStatus_PlayerAlive
+{
+}
+
+event ActiveTimerHighlight
+{
+    Animate    TimePanelValue    FgColor    FragAccent100    Linear    0.0    0.1
+}
+
+event ActiveTimerDim
+{
+    Animate    TimePanelValue    FgColor    FragNeutral100    Linear    0.0    0.1
+}
