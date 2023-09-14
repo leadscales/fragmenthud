@@ -60,7 +60,7 @@
         "wide"                      "320"
         "tall"                      "20"
         "border"                    "NoBorder"
-        "bgcolor_override"          "Blank"
+        "bgcolor_override"          "FragPanelTransparentDark60"
 
         "BluStroke"
         {
@@ -86,22 +86,13 @@
             "image"                 "replay/thumbnails/panels/fill_additive_red"
             "scaleImage"            "1"
         }
-        "BGPanel"
-        {
-            "ControlName"           "EditablePanel"
-            "fieldName"             "BGPanel"
-            "xpos"                  "0"
-            "ypos"                  "1"
-            "wide"                  "f0"
-            "tall"                  "f1"
-            "proportionaltoparent"  "1"
-            "bgcolor_override"      "FragPanelTransparentDark60"
-        }
     }
 
     "roundcounter"
     {
-        "ypos"                      "9999"
+        "ypos"                      "5"
+        "wide"                      "60"
+        "tall"                      "22"
     }
 
     "TeamStatus"
