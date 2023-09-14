@@ -42,7 +42,7 @@
                 "wide"                      "18"
                 "tall"                      "1"
                 "fgcolor"                   "Blank"
-                "bgcolor_override"          "FragGold100"
+                "bgcolor_override"          "FragAccent100"
                 "paintBackground"           "1"
                 "paintBackgroundType"       "0"
                 "roundedcorners"            "0"
@@ -80,8 +80,8 @@
                 "paintBackground"           "1"
                 "paintbackgroundtype"       "0"
                 "roundedcorners"            "0"
-                "bgcolor_override"          "FragGold20"
-                "fgcolor_override"          "FragGold100"
+                "bgcolor_override"          "FragAccent20"
+                "fgcolor_override"          "FragAccent100"
                 "font"                      "FontMedium_10_Additive"
             }
         }
