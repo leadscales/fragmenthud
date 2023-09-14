@@ -19,3 +19,5 @@ exec frag_cpositive
 // FRAGMENT ALIASES
 alias frag_cb "sixense_clear_bindings"
 alias frag_cl "con_logfile ."
+alias frag_rm "toggle mat_aaquality"
+alias frag_rh "hud_reloadscheme"

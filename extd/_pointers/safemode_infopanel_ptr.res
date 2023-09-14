@@ -1,0 +1,1 @@
+#base "../../../fragmenthud/extd/_safemode/safemode_infopanel_renamed.res"

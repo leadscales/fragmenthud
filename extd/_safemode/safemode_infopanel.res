@@ -16,6 +16,18 @@
                 "bgcolor_override"          "FragNegative100"
             }
 
+            "InfoBackground"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "InfoStroke"
+                "xpos"                      "1"
+                "ypos"                      "0"
+                "wide"                      "f1"
+                "tall"                      "f0"
+                "proportionaltoparent"      "1"
+                "bgcolor_override"          "FragNegative20"
+            }
+
             "InfoIcon"
             {
                 "ControlName"               "CExLabel"
@@ -29,24 +41,22 @@
                 "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "fgcolor"                   "FragNegative100"
-                "bgcolor_override"          "FragNegative05"
+                "bgcolor_override"          "Blank"
             }
 
             "InfoText"
             {
                 "ControlName"               "CExLabel"
                 "fieldName"                 "InfoText"
-                "xpos"                      "1"
+                "xpos"                      "20"
                 "ypos"                      "0"
-                "wide"                      "f1"
+                "wide"                      "f22"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
                 "labelText"                 "HUD folder is not renamed. Customizations will not work."
-                "textinsetx"                "23"
-                "use_proportional_insets"   "1"
                 "font"                      "FontMedium_9_Additive"
                 "fgcolor"                   "FragNegative100"
-                "bgcolor_override"          "FragNegative05"
+                "bgcolor_override"          "Blank"
                 "wrap"                      "1"
             }
         }
