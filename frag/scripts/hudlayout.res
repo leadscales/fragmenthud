@@ -162,6 +162,12 @@
         "tall"              "20"
     }
 
+    "NotificationPanel"
+    {
+        "ypos"              "60"
+        "tall"              "120"
+    }
+
     // DISABLED
 
     "HudBowCharge"
