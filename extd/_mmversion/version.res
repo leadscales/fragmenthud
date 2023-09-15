@@ -2,7 +2,7 @@
 {
     "VersionNumber"
     {
-        "labeltext"     "0.7.9"
+        "labeltext"     "0.8.0"
     }
     "VersionText"
     {

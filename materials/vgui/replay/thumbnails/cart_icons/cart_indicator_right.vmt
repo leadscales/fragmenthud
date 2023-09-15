@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$baseTexture"      "vgui/replay/thumbnails/cart_icons/cart_indicator"
+    "$translucent"      "1"
+    "$vertexalpha"      "1"
+    "$vertexcolor"      "1"
+}
