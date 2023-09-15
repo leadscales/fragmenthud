@@ -53,15 +53,16 @@ def main():
 
     for lang in languages:
         _l = {}
-        if lang in LANG_CUSTOM_DATA:
-            _l = LANG_CUSTOM_DATA[lang]
-        else:
-            _l = LANG_CUSTOM_DATA["english"]
+        _l.clear()
 
-        with open(LANGUAGES_PATH.joinpath(f"chat_{lang}.txt"), "wb") as file:
+        if lang in LANG_CUSTOM_DATA:
+            _l = LANG_CUSTOM_DATA[lang].copy()
             if lang == "english":
                 _l.update({"FRAG_Version": hud_version})
                 _l.update(LANG_OVERRIDE_DATA)
+            else:
+                pass
+
             _w = {}
             _w = {
                 "lang": {
@@ -69,10 +70,16 @@ def main():
                     "Tokens": _l
                 }
             }
+
+            _w_text = ""
             _w_text = vdf.dumps(_w)
             _w_text = _w_text.replace("\n", "\r\n")
             _w_text = b"\xff\xfe" + _w_text.encode("utf-16-le")
-            file.write(_w_text)
+
+            with open(LANGUAGES_PATH.joinpath(f"chat_{lang}.txt"), "wb") as file:
+                file.write(_w_text)
+        else:
+            pass
 
 
 if __name__ == "__main__":

@@ -734,7 +734,7 @@
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                "labelText"                 "ADVANCED"
+                "labelText"                 "#TF_MvM_Advanced"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
@@ -844,7 +844,7 @@
                 "sound_depressed"           "UI/buttonclick.wav"
                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                "labelText"                 "CUSTOMIZE"
+                "labelText"                 "#MMenu_Customize"
                 "font"                      "FontMedium_12"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
