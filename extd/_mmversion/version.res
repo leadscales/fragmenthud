@@ -2,7 +2,7 @@
 {
     "VersionNumber"
     {
-        "labeltext"     "0.8.0"
+        "labeltext"     "#FRAG_Version"
     }
     "VersionText"
     {

@@ -23,7 +23,7 @@
 
             "InfoText"
             {
-                "labeltext"             "Changing colors requires a game restart to take effect after applying. The game may hang momentarily when applying changes, this is normal."
+                "labeltext"             "#FRAG_Safemode_HangWarn"
                 "fgcolor"               "FragAccent100"
             }
         }

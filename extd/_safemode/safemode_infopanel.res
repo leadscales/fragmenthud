@@ -53,7 +53,7 @@
                 "wide"                      "f22"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
-                "labelText"                 "HUD folder is not renamed. Customizations will not work."
+                "labelText"                 "#FRAG_Safemode_RenameWarn"
                 "font"                      "FontMedium_9_Additive"
                 "fgcolor"                   "FragNegative100"
                 "bgcolor_override"          "Blank"

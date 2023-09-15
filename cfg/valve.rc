@@ -6,18 +6,26 @@ stuffcmds
 startupmenu
 sv_unlockedchapters 99
 
-// FRAGMENT
-vgui_cache_res_files 0
-cl_hud_minmode 0
-alias cl_hud_minmode ""
-wait 20; showconsole; wait 10; toggle mat_aaquality; hideconsole
-// FRAGMENT EXEC
-exec frag_cprimary
-exec frag_caccent
-exec frag_cnegative
-exec frag_cpositive
 // FRAGMENT ALIASES
 alias frag_cb "sixense_clear_bindings"
 alias frag_cl "con_logfile ."
 alias frag_rm "toggle mat_aaquality"
 alias frag_rh "hud_reloadscheme"
+
+// FRAGMENT EXEC
+exec frag_oobe
+exec frag_cprimary
+exec frag_caccent
+exec frag_cnegative
+exec frag_cpositive
+
+alias frag_oobe_exec "exec frag_oobe_exec"
+exec frag_oobe_dismissed.txt
+frag_oobe_exec
+
+// FRAGMENT SETTINGS
+vgui_cache_res_files 0
+cl_hud_minmode 0
+alias cl_hud_minmode ""
+con_timestamp 0
+wait 20; showconsole; wait 10; toggle mat_aaquality; hideconsole

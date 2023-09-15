@@ -1,0 +1,5 @@
+[english]
+FRAG_Oobe_Description = "Thank you for downloading FRAGMENTHUD.\n\nThis HUD is work-in-progress, so things may break. Please make an issue on GitHub or ask for help on our Discord server if you encounter any issues.\n\nThis message will not show again.\n\nThank you <3\n\n-Lead"
+FRAG_Oobe_HangWarn = "TF2 may hang momentarily when exiting this menu, this is normal and the game has not crashed."
+FRAG_Safemode_HangWarn = "Changing colors requires a game restart to take effect after applying. The game may hang momentarily when applying changes, this is normal."
+FRAG_Safemode_RenameWarn = "HUD folder is not renamed. Customizations will not work."

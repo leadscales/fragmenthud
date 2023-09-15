@@ -2,111 +2,77 @@ import fragment
 import vdf
 import typing
 import pathlib
+import tomllib
 
-
-class Lang(typing.NamedTuple):
-    name: str
-    data: dict
-
-
-def generate_lang_objects(data: dict[str, str], langs: typing.Iterable[str]) -> list[Lang]:
-    result = []
-
-    for lang in langs:
-        _d = {
-            "lang": {
-                "Language": lang.title(),
-                "Tokens": data
-            }
-        }
-        _l = Lang(lang, _d)
-        result.append(_l)
-
-    return result
+languages = {
+    "brazilian",
+    "bulgarian",
+    "czech",
+    "danish",
+    "dutch",
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "greek",
+    "hungarian",
+    "italian",
+    "japanese",
+    "korean",
+    "koreana",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "romanian",
+    "russian",
+    "schinese",
+    "spanish",
+    "swedish",
+    "tchinese",
+    "thai",
+    "turkish",
+    "pirate"
+}
 
 
 def main():
     root = pathlib.Path(fragment.get_project_root())
 
-    langs = {
-        "brazilian",
-        "bulgarian",
-        "czech",
-        "danish",
-        "dutch",
-        "english",
-        "finnish",
-        "french",
-        "german",
-        "greek",
-        "hungarian",
-        "italian",
-        "japanese",
-        "korean",
-        "koreana",
-        "norwegian",
-        "polish",
-        "portuguese",
-        "romanian",
-        "russian",
-        "schinese",
-        "spanish",
-        "swedish",
-        "tchinese",
-        "thai",
-        "turkish",
-        "pirate"
-    }
+    VERSION_PATH = root.joinpath("version.txt")
+    LANG_CUSTOM = root.joinpath("dev/lang_custom.toml")
+    LANG_OVERRIDE = root.joinpath("dev/lang_override.toml")
 
-    lang_tokens = {
-        "Scoreboard_TimeLeft": "%s1:%s2:%s3",
-        "Scoreboard_TimeLeftNoHours": "%s1:%s2",
-        "Scoreboard_NoTimeLimit": "",
-        "Scoreboard_TimeLeftLabel": "",
-        "Scoreboard_TimeLeftNew": "%s1:%s2:%s3",
-        "Scoreboard_TimeLeftNoHoursNew": "%s1:%s2",
-        "Scoreboard_NoTimeLimitNew": "",
-        "Scoreboard_ChangeOnRoundEndNew": "",
-        "Scoreboard_Server": "%s1",
-        "TF_ScoreBoard_Player": "%s1",
-        "TF_ScoreBoard_Players": "%s1",
-        "TF_playerid_mediccharge": "%s1%",
-        "TF_playerid_mediccharge_wpn": "%s1% (%s2)",
-        "TF_playerid_object_upgrading": "%s1",
-        "TF_playerid_object_upgrading_level": "(%s1) %s2",
-        "TF_playerid_healer": "",
-        "TF_playerid_healtarget": "",
-        "game_respawntime_now": "0",
-        "game_respawntime_in_sec": "1",
-        "game_respawntime_in_secs": "%s1",
-        "game_respawntime_stalemate": "",
-        "game_respawntime_next_round": "",
-        "TF_Arena_NoRespawning": "",
-        "TF_ClassLimitUnder": "%s1/%s2",
-        "TF_Gas": "GAS",
-        "TF_PyroRage": "PHLOG",
-        "TF_SmgCharge": "CARBINE",
-        "TF_Revenge": "CRITS",
-        "TF_Competitive_LevelTier1": "%s1 : 1",
-        "TF_Competitive_Level": "%s1 : %s2",
-        "TF_Competitive_Placements_Multiple": "N/A",
-        "TF_Competitive_Placements_Singular": "N/A",
-        "TF_Casual_SelectedMaps_Plural": "%s1",
-        "TF_Casual_SelectedMaps_Singular": "%s1"
-    }
+    LANGUAGES_PATH = root.joinpath("resource/")
 
-    lang_objects = generate_lang_objects(lang_tokens, langs)
+    with open(LANG_CUSTOM, "rb") as file:
+        LANG_CUSTOM_DATA: dict[str, dict[str, str]] = tomllib.load(file)
+    with open(LANG_OVERRIDE, "rb") as file:
+        LANG_OVERRIDE_DATA = tomllib.load(file)
+    with open(VERSION_PATH, "r") as file:
+        hud_version = file.read()
 
-    for lang in lang_objects:
-        # Convert the dict to str
-        lang_text = vdf.dumps(lang.data)
-        # Make the line endings Windows instead of Unix
-        lang_text = lang_text.replace("\n", "\r\n")
-        # The extra data at the start is needed or else it won't load, so is the encoding
-        data = b"\xff\xfe" + lang_text.encode("utf-16-le")
-        # Finally write it
-        with open(root.joinpath(f"resource/chat_{lang.name}.txt"), "wb") as file:
-            file.write(data)
+    for lang in languages:
+        _l = {}
+        if lang in LANG_CUSTOM_DATA:
+            _l = LANG_CUSTOM_DATA[lang]
+        else:
+            _l = LANG_CUSTOM_DATA["english"]
+
+        with open(LANGUAGES_PATH.joinpath(f"chat_{lang}.txt"), "wb") as file:
+            if lang == "english":
+                _l.update({"FRAG_Version": hud_version})
+                _l.update(LANG_OVERRIDE_DATA)
+            _w = {}
+            _w = {
+                "lang": {
+                    "Language": lang.title(),
+                    "Tokens": _l
+                }
+            }
+            _w_text = vdf.dumps(_w)
+            _w_text = _w_text.replace("\n", "\r\n")
+            _w_text = b"\xff\xfe" + _w_text.encode("utf-16-le")
+            file.write(_w_text)
 
 
 if __name__ == "__main__":
