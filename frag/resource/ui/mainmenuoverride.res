@@ -871,6 +871,98 @@
         }
     }
 
+    "TertiaryButtons"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "TertiaryButtons"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "21"
+        "wide"                          "20"
+        "tall"                          "40"
+        "proportionaltoparent"          "1"
+
+        "pin_to_sibling"                "SidePanel"
+        "pin_corner_to_sibling"         "PIN_TOPLEFT"
+        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+
+        "BugReport"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "BugReport"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "20"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary60"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "Discord"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Discord"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "20"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "BugReport"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary60"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+    }
+
     "InGameButtons"
     {
         "ControlName"                   "EditablePanel"
@@ -882,9 +974,9 @@
         "tall"                          "80"
         "proportionaltoparent"          "1"
 
-        "pin_to_sibling"                "SidePanel"
+        "pin_to_sibling"                "TertiaryButtons"
         "pin_corner_to_sibling"         "PIN_TOPLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
 
         "CallVote"
         {
@@ -910,9 +1002,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedbgcolor_override"     "FragAccent20"
+                "defaultfgcolor_override"   "FragAccent100"
+                "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -950,9 +1042,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedbgcolor_override"     "FragAccent20"
+                "defaultfgcolor_override"   "FragAccent100"
+                "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -990,9 +1082,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedbgcolor_override"     "FragAccent20"
+                "defaultfgcolor_override"   "FragAccent100"
+                "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -1030,9 +1122,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedbgcolor_override"     "FragAccent20"
+                "defaultfgcolor_override"   "FragAccent100"
+                "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -1095,7 +1187,9 @@
             "brighttext"                "0"
             "default"                   "1"
             "actionsignallevel"         "2"
-            "defaultfgcolor_override"   "FragNeutral100"
+            "defaultbgcolor_override"   "Blank"
+            "armedbgcolor_override"     "FragPrimary20"
+            "defaultfgcolor_override"   "FragPrimary60"
             "armedfgcolor_override"     "FragPrimary100"
 
             "SubImage"
@@ -1110,6 +1204,37 @@
     {
         "xpos"                          "cs-0.5"
         "ypos"                          "cs-0.5"
+    }
+
+    "TooltipPanel"
+    {
+        "wide"                          "200"
+        "tall"                          "20"
+        "border"                        "NoBorder"
+        "bgcolor_override"              "FragPanelTransparentDark80"
+
+        "TipSubLabel"
+        {
+            "xpos"                      "10"
+            "ypos"                      "0"
+            "wide"                      "220"
+            "tall"                      "20"
+            "proportionaltoparent"      "0"
+            "font"                      "FontMedium_10_Additive"
+            "fgcolor"                   "FragNeutral100"
+            "fgcolor_override"          "FragNeutral100"
+        }
+        "TipLabel"
+        {
+            "xpos"                      "10"
+            "ypos"                      "0"
+            "wide"                      "220"
+            "tall"                      "20"
+            "proportionaltoparent"      "0"
+            "font"                      "FontMedium_10_Additive"
+            "fgcolor"                   "FragNeutral100"
+            "fgcolor_override"          "FragNeutral100"
+        }
     }
 
     // DISABLED
