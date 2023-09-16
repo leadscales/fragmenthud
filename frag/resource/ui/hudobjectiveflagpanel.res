@@ -16,6 +16,64 @@
         }
     }
 
+    "WhiteLine"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "WhiteLine"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "100"
+        "tall"                      "1"
+        "bgcolor_override"          "FragNeutral100"
+
+        "if_specialdelivery"
+        {
+            "visible"               "0"
+        }
+
+        "pin_to_sibling"            "FlagPanelBG"
+        "pin_corner_to_sibling"     "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
+    }
+    "BlueLine"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "BlueLine"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "1"
+        "bgcolor_override"          "FragBlu100"
+
+        "if_specialdelivery"
+        {
+            "visible"               "0"
+        }
+
+        "pin_to_sibling"            "FlagPanelBG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+    }
+    "RedLine"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "RedLine"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "1"
+        "bgcolor_override"          "FragRed100"
+
+        "if_specialdelivery"
+        {
+            "visible"               "0"
+        }
+
+        "pin_to_sibling"            "FlagPanelBG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMRIGHT"
+    }
+
     "BlueScore"
     {
         "xpos"                      "0"
@@ -24,9 +82,9 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "textalignment"             "center"
-        "font"                      "FontBold_16_Additive"
+        "font"                      "FontBold_16"
         "fgcolor"                   "FragBlu100"
-        "bgcolor_override"          "FragBlu20"
+        "bgcolor_override"          "Blank"
 
         "pin_to_sibling"            "FlagPanelBG"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -40,9 +98,9 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "textalignment"             "center"
-        "font"                      "FontBold_16_Additive"
+        "font"                      "FontBold_16"
         "fgcolor"                   "FragRed100"
-        "bgcolor_override"          "FragRed20"
+        "bgcolor_override"          "Blank"
 
         "pin_to_sibling"            "FlagPanelBG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
