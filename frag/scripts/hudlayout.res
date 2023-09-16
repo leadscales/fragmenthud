@@ -168,6 +168,14 @@
         "tall"              "120"
     }
 
+    "HudMenuTauntSelection"
+    {
+        "xpos"              "cs-0.5"
+        "ypos"              "rs1-50"
+        "wide"              "400"
+        "tall"              "100"
+    }
+
     // DISABLED
 
     "HudBowCharge"
