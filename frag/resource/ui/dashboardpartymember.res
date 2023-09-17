@@ -17,7 +17,7 @@
         "zpos"                      "11"
         "proportionaltoparent"      "1"
         "labelText"                 "S"
-        "font"                      "Icons_ExSmall"
+        "font"                      "Icons_XSmall"
         "fgcolor"                   "FragAccent100"
     }
     "BannedIcon"
@@ -28,7 +28,7 @@
         "zpos"                      "12"
         "proportionaltoparent"      "1"
         "labelText"                 "~"
-        "font"                      "Icons_ExSmall"
+        "font"                      "Icons_XSmall"
         "fgcolor"                   "FragNegative100"
     }
     "OutOfDateIcon"
@@ -39,7 +39,7 @@
         "zpos"                      "12"
         "proportionaltoparent"      "1"
         "labelText"                 "d"
-        "font"                      "Icons_ExSmall"
+        "font"                      "Icons_XSmall"
         "fgcolor"                   "FragNegative100"
     }
     "OfflineIcon"
@@ -50,7 +50,7 @@
         "zpos"                      "12"
         "proportionaltoparent"      "1"
         "labelText"                 "!"
-        "font"                      "Icons_ExSmall"
+        "font"                      "Icons_XSmall"
         "fgcolor"                   "FragNegative100"
     }
     "EmptyImage"

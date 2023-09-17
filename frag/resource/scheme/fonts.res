@@ -12,17 +12,6 @@
 "antialias" "1"
 }
 }
-"FontMedium_8_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "8"
-"weight" "500"
-"antialias" "1"
-"blur" "1"
-}
-}
 "FontMedium_8_Additive"
 {
 "1"
@@ -34,18 +23,6 @@
 "additive" "1"
 }
 }
-"FontMedium_8_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "8"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontMedium_9"
 {
 "1"
@@ -54,17 +31,6 @@
 "tall" "9"
 "weight" "500"
 "antialias" "1"
-}
-}
-"FontMedium_9_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "9"
-"weight" "500"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontMedium_9_Additive"
@@ -78,18 +44,6 @@
 "additive" "1"
 }
 }
-"FontMedium_9_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "9"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontMedium_10"
 {
 "1"
@@ -98,17 +52,6 @@
 "tall" "10"
 "weight" "500"
 "antialias" "1"
-}
-}
-"FontMedium_10_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "10"
-"weight" "500"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontMedium_10_Additive"
@@ -122,18 +65,6 @@
 "additive" "1"
 }
 }
-"FontMedium_10_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "10"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontMedium_12"
 {
 "1"
@@ -142,17 +73,6 @@
 "tall" "12"
 "weight" "500"
 "antialias" "1"
-}
-}
-"FontMedium_12_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "12"
-"weight" "500"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontMedium_12_Additive"
@@ -166,18 +86,6 @@
 "additive" "1"
 }
 }
-"FontMedium_12_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "12"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontMedium_16"
 {
 "1"
@@ -186,17 +94,6 @@
 "tall" "16"
 "weight" "500"
 "antialias" "1"
-}
-}
-"FontMedium_16_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "16"
-"weight" "500"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontMedium_16_Additive"
@@ -210,18 +107,6 @@
 "additive" "1"
 }
 }
-"FontMedium_16_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "16"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontMedium_22"
 {
 "1"
@@ -230,17 +115,6 @@
 "tall" "22"
 "weight" "500"
 "antialias" "1"
-}
-}
-"FontMedium_22_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "22"
-"weight" "500"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontMedium_22_Additive"
@@ -254,18 +128,6 @@
 "additive" "1"
 }
 }
-"FontMedium_22_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Medium"
-"tall" "22"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontBold_8"
 {
 "1"
@@ -274,17 +136,6 @@
 "tall" "8"
 "weight" "700"
 "antialias" "1"
-}
-}
-"FontBold_8_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "8"
-"weight" "700"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontBold_8_Additive"
@@ -298,18 +149,6 @@
 "additive" "1"
 }
 }
-"FontBold_8_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "8"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontBold_9"
 {
 "1"
@@ -318,17 +157,6 @@
 "tall" "9"
 "weight" "700"
 "antialias" "1"
-}
-}
-"FontBold_9_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "9"
-"weight" "700"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontBold_9_Additive"
@@ -342,18 +170,6 @@
 "additive" "1"
 }
 }
-"FontBold_9_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "9"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontBold_10"
 {
 "1"
@@ -362,17 +178,6 @@
 "tall" "10"
 "weight" "700"
 "antialias" "1"
-}
-}
-"FontBold_10_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "10"
-"weight" "700"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontBold_10_Additive"
@@ -386,18 +191,6 @@
 "additive" "1"
 }
 }
-"FontBold_10_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "10"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontBold_12"
 {
 "1"
@@ -406,17 +199,6 @@
 "tall" "12"
 "weight" "700"
 "antialias" "1"
-}
-}
-"FontBold_12_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "12"
-"weight" "700"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontBold_12_Additive"
@@ -430,18 +212,6 @@
 "additive" "1"
 }
 }
-"FontBold_12_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "12"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontBold_16"
 {
 "1"
@@ -450,17 +220,6 @@
 "tall" "16"
 "weight" "700"
 "antialias" "1"
-}
-}
-"FontBold_16_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "16"
-"weight" "700"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontBold_16_Additive"
@@ -474,18 +233,6 @@
 "additive" "1"
 }
 }
-"FontBold_16_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "16"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
-}
-}
 "FontBold_22"
 {
 "1"
@@ -494,17 +241,6 @@
 "tall" "22"
 "weight" "700"
 "antialias" "1"
-}
-}
-"FontBold_22_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "22"
-"weight" "700"
-"antialias" "1"
-"blur" "1"
 }
 }
 "FontBold_22_Additive"
@@ -516,18 +252,6 @@
 "weight" "700"
 "antialias" "1"
 "additive" "1"
-}
-}
-"FontBold_22_Additive_Blur"
-{
-"1"
-{
-"name" "Inter Bold"
-"tall" "22"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-"blur" "1"
 }
 }
 }

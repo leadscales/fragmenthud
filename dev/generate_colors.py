@@ -171,7 +171,7 @@ def generate_color_res(
                 "wide": "5",
                 "tall": "f0",
                 "proportionaltoparent": "1",
-                "defaultbgcolor_override": f"FragCColor{_ci}_60",
+                "defaultbgcolor_override": f"FragCColor{_ci}_100",
                 "armedbgcolor_override": f"FragCColor{_ci}_100",
                 "border_armed": "FragColorSelection",
                 "labelText": "",
@@ -233,7 +233,7 @@ def main():
             file.write(generate_color_cfg(colors, color_class))
 
         # GEN BUTTON RES
-        with open(root.joinpath(f"frag/ext/safemode_colors_{color_class.lower()}.res"), "w") as file:
+        with open(root.joinpath(f"extd/_safemode/safemode_colors_{color_class.lower()}.res"), "w") as file:
             vdf.dump(generate_color_res(colors, color_class), file)
 
     # GENERATE COLOR COLLECTION RES FOR LATER USES
@@ -245,9 +245,8 @@ def main():
     for i in range(len(colors)):
         _i = i+1
         color = colors[i]
-        for ak, av in color_alphas.items():
-            _d = {f"FragCColor{_i}_{ak}": color.as_vdf(av)}
-            color_dict["Scheme"]["Colors"].update(_d)
+        _d = {f"FragCColor{_i}_100": color.as_vdf(255)}
+        color_dict["Scheme"]["Colors"].update(_d)
 
     with open(root.joinpath("extd/_color/customization_colors.res"), "w") as file:
         vdf.dump(color_dict, file)

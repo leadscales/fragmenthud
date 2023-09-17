@@ -46,17 +46,6 @@ def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[
                 }
             })
             _d.update({
-                f"{font[2]}_{size}_Blur": {
-                    "1": {
-                        "name": font.engine_name,
-                        "tall": str(size),
-                        "weight": str(font.weight),
-                        "antialias": "1",
-                        "blur": "1"
-                    }
-                }
-            })
-            _d.update({
                 f"{font.entry_name}_{size}_Additive": {
                     "1": {
                         "name": font.engine_name,
@@ -64,18 +53,6 @@ def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[
                         "weight": str(font.weight),
                         "antialias": "1",
                         "additive": "1"
-                    }
-                }
-            })
-            _d.update({
-                f"{font[2]}_{size}_Additive_Blur": {
-                    "1": {
-                        "name": font.engine_name,
-                        "tall": str(size),
-                        "weight": str(font.weight),
-                        "antialias": "1",
-                        "additive": "1",
-                        "blur": "1"
                     }
                 }
             })
