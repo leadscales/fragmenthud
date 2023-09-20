@@ -4,8 +4,8 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "MedicChargeAnchor"
-        "xpos"                      "c50"
-        "ypos"                      "c40"
+        "xpos"                      "c35"
+        "ypos"                      "c60"
         "zpos"                      "4"
         "wide"                      "60"
         "tall"                      "30"

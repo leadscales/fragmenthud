@@ -24,8 +24,8 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "AccountElementAnchor"
-        "xpos"                      "c50"
-        "ypos"                      "c25"
+        "xpos"                      "c35"
+        "ypos"                      "c45"
         "zpos"                      "0"
         "wide"                      "60"
         "tall"                      "16"
@@ -83,5 +83,15 @@
         "pin_to_sibling"            "AccountElementAnchor"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+
+    "MetalIcon"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
     }
 }

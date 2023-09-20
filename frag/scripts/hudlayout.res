@@ -17,42 +17,9 @@
             "fieldName"         "EmptyArea"
             "xpos"              "cs-0.5"
             "ypos"              "cs-0.5"
-            "wide"              "100"
-            "tall"              "80"
+            "wide"              "190"
+            "tall"              "90"
             "bgcolor_override"  "255 0 0 32"
-        }
-
-        "Health"
-        {
-            "ControlName"       "EditablePanel"
-            "fieldName"         "Health"
-            "xpos"              "c0-s1-50"
-            "ypos"              "c40"
-            "wide"              "60"
-            "tall"              "30"
-            "bgcolor_override"  "0 255 0 32"
-        }
-
-        "Ammo"
-        {
-            "ControlName"       "EditablePanel"
-            "fieldName"         "Ammo"
-            "xpos"              "c50"
-            "ypos"              "c40"
-            "wide"              "60"
-            "tall"              "30"
-            "bgcolor_override"  "0 255 0 32"
-        }
-
-        "ChargeBarsAndMedicVaccinatorStatus"
-        {
-            "ControlName"       "EditablePanel"
-            "fieldName"         "ChargeBarsAndMedicVaccinatorStatus"
-            "xpos"              "cs-0.5"
-            "ypos"              "c10"
-            "wide"              "60"
-            "tall"              "30"
-            "bgcolor_override"  "0 0 255 32"
         }
     }
 
@@ -74,8 +41,8 @@
 
     "CHealthAccountPanel"
     {
-        "xpos"      "c0-s1-50"
-        "ypos"      "c10"
+        "xpos"      "c0-s1-35"
+        "ypos"      "c45"
         "wide"      "60"
         "tall"      "15"
     }
@@ -138,12 +105,12 @@
 
     "CMainTargetID"
     {
-        "ypos"              "c5"
+        "ypos"              "c15"
         "tall"              "20"
     }
     "CSecondaryTargetID"
     {
-        "ypos"              "c85"
+        "ypos"              "c105"
         "tall"              "20"
     }
     "CSpectatorTargetID"

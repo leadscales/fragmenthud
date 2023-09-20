@@ -2,8 +2,8 @@
 {
     "HudItemEffectMeter"
     {
-        "xpos"      "c50"
-        "ypos"      "c70"
+        "xpos"      "c35"
+        "ypos"      "c90"
         "wide"      "60"
         "tall"      "15"
     }

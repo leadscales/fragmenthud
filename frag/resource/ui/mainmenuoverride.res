@@ -1191,6 +1191,7 @@
             "armedbgcolor_override"     "FragPrimary20"
             "defaultfgcolor_override"   "FragPrimary60"
             "armedfgcolor_override"     "FragPrimary100"
+            "paintBackground"           "1"
 
             "SubImage"
             {

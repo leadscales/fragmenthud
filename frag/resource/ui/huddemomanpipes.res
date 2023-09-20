@@ -22,18 +22,30 @@
 
     "ChargeMeter"
     {
-        "xpos"              "c50"
-        "ypos"              "c39"
+        "xpos"              "c35"
+        "ypos"              "c60"
         "wide"              "60"
         "tall"              "1"
         "alpha"             "255"
-        "bgcolor_override"  "FragNeutral20"
+        "bgcolor_override"  "FragPanelOpaque60"
+    }
+
+    "PipeElementBar"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "PipeElementBar"
+        "xpos"                  "c35"
+        "ypos"                  "c60"
+        "wide"                  "60"
+        "tall"                  "1"
+        "alpha"                 "255"
+        "bgcolor_override"      "FragPanelOpaque60"
     }
 
     "PipesPresentPanel"
     {
-        "xpos"          "c50"
-        "ypos"          "c25"
+        "xpos"          "c35"
+        "ypos"          "c45"
         "wide"          "60"
         "tall"          "16"
 
@@ -47,7 +59,7 @@
             "ypos"                      "0"
             "zpos"                      "0"
             "wide"                      "60"
-            "tall"                      "16"
+            "tall"                      "15"
             "bgcolor_override"          "FragPanelTransparentDark60"
         }
 
@@ -113,8 +125,8 @@
 
     "NoPipesPresentPanel"
     {
-        "xpos"          "c50"
-        "ypos"          "c25"
+        "xpos"          "c35"
+        "ypos"          "c45"
         "wide"          "60"
         "tall"          "16"
 
@@ -128,7 +140,7 @@
             "ypos"                      "0"
             "zpos"                      "0"
             "wide"                      "60"
-            "tall"                      "16"
+            "tall"                      "15"
             "bgcolor_override"          "FragPanelTransparentDark60"
         }
 

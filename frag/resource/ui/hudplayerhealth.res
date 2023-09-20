@@ -4,8 +4,8 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "PlayerStatusHealthAnchor"
-        "xpos"                      "c0-s1-50"
-        "ypos"                      "c40"
+        "xpos"                      "c0-s1-35"
+        "ypos"                      "c60"
         "zpos"                      "4"
         "wide"                      "60"
         "tall"                      "30"
@@ -18,8 +18,8 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "AmmoBox"
-        "xpos"                      "c50"
-        "ypos"                      "c40"
+        "xpos"                      "c35"
+        "ypos"                      "c60"
         "zpos"                      "4"
         "wide"                      "60"
         "tall"                      "30"

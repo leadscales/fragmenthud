@@ -4,7 +4,7 @@
 {
     "HudItemEffectMeter"
     {
-        "ypos"                  "c50"
+        "ypos"                  "c70"
     }
 
     "ItemEffectMeterLabel"

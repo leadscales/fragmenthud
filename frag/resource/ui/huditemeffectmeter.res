@@ -3,7 +3,7 @@
     "HudItemEffectMeter"
     {
         "xpos"                      "cs-0.5"
-        "ypos"                      "c60"
+        "ypos"                      "c80"
         "wide"                      "60"
         "tall"                      "10"
     }
