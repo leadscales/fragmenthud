@@ -30,23 +30,23 @@
 
     "TauntModelPanel1"
     {
-        "xpos"                      "20"
-        "ypos"                      "30"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "xpos"                      "5"
+        "ypos"                      "25"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
     }
     "TauntModelPanel2"
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel1"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -56,11 +56,11 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel2"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -70,11 +70,11 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel3"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -84,11 +84,11 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel4"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -98,11 +98,11 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel5"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -112,11 +112,11 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel6"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -126,138 +126,19 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "45"
-        "tall"                      "f60"
+        "wide"                      "40"
+        "tall"                      "40"
         "proportionaltoparent"      "1"
-        "model_ypos"                "6"
-        "model_tall"                "36"
+        "model_ypos"                "8"
+        "model_tall"                "30"
 
         "pin_to_sibling"            "TauntModelPanel7"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
 
-    "NumberLabel1"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel1"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel2"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel2"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel3"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel3"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel4"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel4"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel5"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel5"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel6"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel6"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel7"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel7"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
-    "NumberLabel8"
-    {
-        "xpos"                      "0"
-        "ypos"                      "1"
-        "wide"                      "16"
-        "tall"                      "16"
-        "proportionaltoparent"      "1"
-        "font"                      "FontMedium_12"
-        "fgcolor"                   "FragPanelOpaque0"
-        "bgcolor_override"          "FragNeutral20"
-
-        "pin_to_sibling"            "TauntModelPanel8"
-        "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"     "PIN_CENTER_BOTTOM"
-    }
     // DISABLED
+
     "MainBackground"
     {
         "xpos"          "9999"
@@ -376,6 +257,78 @@
         "enabled"       "0"
     }
     "NumberBg8"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel1"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel2"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel3"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel4"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel5"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel6"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel7"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
+    "NumberLabel8"
     {
         "xpos"          "9999"
         "ypos"          "9999"

@@ -138,9 +138,9 @@
     "HudMenuTauntSelection"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "rs1-50"
-        "wide"              "400"
-        "tall"              "100"
+        "ypos"              "rs1-5"
+        "wide"              "330"
+        "tall"              "70"
     }
 
     // DISABLED
