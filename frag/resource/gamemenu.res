@@ -1,5 +1,35 @@
 "GameMenu"
 {
+    "Info"
+    {
+        "label"             "i"
+        "command"           "engine echo test"
+        "tooltip"           "#FRAG_Buttons_Info"
+    }
+    "Console"
+    {
+        "label"             "/"
+        "command"           "engine toggleconsole"
+        "tooltip"           "#FRAG_Buttons_Console"
+    }
+    "DemoUI"
+    {
+        "label"             "g"
+        "command"           "engine demoui"
+        "tooltip"           "#FRAG_Buttons_DemoUI"
+    }
+    "Contracts"
+    {
+        "label"             "c"
+        "command"           "engine show_quest_log"
+        "tooltip"           "#Context_ConTracker"
+    }
+    "Achievements"
+    {
+        "label"             "a"
+        "command"           "openachievementsdialog"
+        "tooltip"           "#MMenu_Tooltip_Achievements"
+    }
     "BugReport"
     {
         "label"             "b"

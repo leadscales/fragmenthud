@@ -434,153 +434,198 @@
 
         "Info"
         {
-            "ControlName"               "CExButton"
+            "ControlName"               "EditablePanel"
             "fieldName"                 "Info"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "40"
             "tall"                      "f0"
+            "visible"                   "1"
             "proportionaltoparent"      "1"
 
-            "command"                   "engine echo test"
-            "actionsignallevel"         "2"
-            "sound_depressed"           "UI/buttonclick.wav"
-            "sound_released"            "UI/buttonclickrelease.wav"
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
 
-            "labelText"                 "i"
-            "font"                      "Icons_Small_Additive"
-            "textAlignment"             "center"
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "3"
 
-            "paintBackgroundType"       "0"
-            "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary20"
-
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragPrimary100"
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
         }
 
         "Console"
         {
-            "ControlName"               "CExButton"
+            "ControlName"               "EditablePanel"
             "fieldName"                 "Console"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "40"
             "tall"                      "f0"
+            "visible"                   "1"
             "proportionaltoparent"      "1"
-
-            "command"                   "engine toggleconsole"
-            "actionsignallevel"         "2"
-            "sound_depressed"           "UI/buttonclick.wav"
-            "sound_released"            "UI/buttonclickrelease.wav"
-
-            "labelText"                 "/"
-            "font"                      "Icons_Small_Additive"
-            "textAlignment"             "center"
-
-            "paintBackgroundType"       "0"
-            "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary20"
-
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "Info"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
         }
 
         "DemoUI"
         {
-            "ControlName"               "CExButton"
+            "ControlName"               "EditablePanel"
             "fieldName"                 "DemoUI"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "40"
             "tall"                      "f0"
+            "visible"                   "1"
             "proportionaltoparent"      "1"
-
-            "command"                   "engine demoui"
-            "actionsignallevel"         "2"
-            "sound_depressed"           "UI/buttonclick.wav"
-            "sound_released"            "UI/buttonclickrelease.wav"
-
-            "labelText"                 "p"
-            "font"                      "Icons_Small_Additive"
-            "textAlignment"             "center"
-
-            "paintBackgroundType"       "0"
-            "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary20"
-
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "Console"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
         }
 
         "Contracts"
         {
-            "ControlName"               "CExButton"
+            "ControlName"               "EditablePanel"
             "fieldName"                 "Contracts"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "40"
             "tall"                      "f0"
+            "visible"                   "1"
             "proportionaltoparent"      "1"
-
-            "command"                   "engine show_quest_log"
-            "actionsignallevel"         "2"
-            "sound_depressed"           "UI/buttonclick.wav"
-            "sound_released"            "UI/buttonclickrelease.wav"
-
-            "labelText"                 "c"
-            "font"                      "Icons_Small_Additive"
-            "textAlignment"             "center"
-
-            "paintBackgroundType"       "0"
-            "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary20"
-
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "DemoUI"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
         }
 
         "Achievements"
         {
-            "ControlName"               "CExButton"
+            "ControlName"               "EditablePanel"
             "fieldName"                 "Achievements"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "40"
             "tall"                      "f0"
+            "visible"                   "1"
             "proportionaltoparent"      "1"
-
-            "command"                   "OpenAchievementsDialog"
-            "actionsignallevel"         "2"
-            "sound_depressed"           "UI/buttonclick.wav"
-            "sound_released"            "UI/buttonclickrelease.wav"
-
-            "labelText"                 "a"
-            "font"                      "Icons_Small_Additive"
-            "textAlignment"             "center"
-
-            "paintBackgroundType"       "0"
-            "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary20"
-
-            "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragPrimary100"
 
             "pin_to_sibling"            "Contracts"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
         }
     }
 

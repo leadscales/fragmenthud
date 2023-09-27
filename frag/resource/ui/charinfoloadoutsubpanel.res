@@ -37,7 +37,7 @@
         "xpos"                              "cs-0.5"
         "ypos"                              "cs-0.5-40"
         "zpos"                              "5"
-        "wide"                              "630"
+        "wide"                              "593"
         "tall"                              "120"
         "bgcolor_override"                  "Blank"
 
@@ -47,7 +47,7 @@
             "fieldName"                     "Scout"
             "xpos"                          "0"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -55,10 +55,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout scout"
@@ -80,9 +80,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -94,9 +94,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Soldier"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -108,10 +108,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout soldier"
@@ -133,9 +133,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -147,9 +147,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Pyro"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -161,10 +161,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout pyro"
@@ -186,9 +186,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -200,9 +200,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Demoman"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -214,10 +214,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout demoman"
@@ -239,9 +239,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -253,9 +253,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Heavyweapons"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -267,10 +267,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout heavyweapons"
@@ -292,9 +292,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -306,9 +306,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Engineer"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -320,10 +320,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout engineer"
@@ -345,9 +345,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -359,9 +359,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Medic"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -373,10 +373,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout medic"
@@ -398,9 +398,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -412,9 +412,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Sniper"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -426,10 +426,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout sniper"
@@ -451,9 +451,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -465,9 +465,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Spy"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "70"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -479,10 +479,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f1"
                 "proportionaltoparent"      "1"
 
                 "command"                   "loadout spy"
@@ -504,9 +504,9 @@
             {
                 "ControlName"               "EditablePanel"
                 "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "rs1"
+                "wide"                      "f0"
                 "tall"                      "1"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
@@ -522,7 +522,7 @@
         "xpos"                              "cs-0.5"
         "ypos"                              "rs1-85"
         "zpos"                              "5"
-        "wide"                              "300"
+        "wide"                              "329"
         "tall"                              "30"
         "bgcolor_override"                  "Blank"
 
@@ -530,9 +530,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Backpack"
-            "xpos"                          "1"
+            "xpos"                          "0"
             "ypos"                          "0"
-            "wide"                          "60"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -540,10 +540,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
                 "command"                   "backpack"
@@ -566,9 +566,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Crafting"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "60"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -580,10 +580,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
                 "command"                   "crafting"
@@ -606,9 +606,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Armory"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "60"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -620,10 +620,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
                 "command"                   "armory"
@@ -646,9 +646,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Trade"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "60"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -660,10 +660,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
                 "command"                   "trading"
@@ -686,9 +686,9 @@
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "Paintkits"
-            "xpos"                          "0"
+            "xpos"                          "1"
             "ypos"                          "0"
-            "wide"                          "60"
+            "wide"                          "65"
             "tall"                          "f0"
             "proportionaltoparent"          "1"
 
@@ -700,10 +700,10 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "cs-0.5"
-                "wide"                      "f2"
-                "tall"                      "f2"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
                 "proportionaltoparent"      "1"
 
                 "command"                   "paintkit_preview"
