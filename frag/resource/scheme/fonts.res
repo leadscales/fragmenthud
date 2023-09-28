@@ -6,7 +6,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "8"
 "weight" "500"
 "antialias" "1"
@@ -16,7 +16,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "8"
 "weight" "500"
 "antialias" "1"
@@ -27,7 +27,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "9"
 "weight" "500"
 "antialias" "1"
@@ -37,7 +37,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "9"
 "weight" "500"
 "antialias" "1"
@@ -48,7 +48,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "10"
 "weight" "500"
 "antialias" "1"
@@ -58,7 +58,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "10"
 "weight" "500"
 "antialias" "1"
@@ -69,7 +69,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "12"
 "weight" "500"
 "antialias" "1"
@@ -79,7 +79,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "12"
 "weight" "500"
 "antialias" "1"
@@ -90,7 +90,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "16"
 "weight" "500"
 "antialias" "1"
@@ -100,7 +100,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "16"
 "weight" "500"
 "antialias" "1"
@@ -111,7 +111,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "22"
 "weight" "500"
 "antialias" "1"
@@ -121,7 +121,7 @@
 {
 "1"
 {
-"name" "Inter Medium"
+"name" "Infortress-Medium"
 "tall" "22"
 "weight" "500"
 "antialias" "1"
@@ -132,7 +132,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "8"
 "weight" "700"
 "antialias" "1"
@@ -142,7 +142,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "8"
 "weight" "700"
 "antialias" "1"
@@ -153,7 +153,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "9"
 "weight" "700"
 "antialias" "1"
@@ -163,7 +163,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "9"
 "weight" "700"
 "antialias" "1"
@@ -174,7 +174,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "10"
 "weight" "700"
 "antialias" "1"
@@ -184,7 +184,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "10"
 "weight" "700"
 "antialias" "1"
@@ -195,7 +195,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "12"
 "weight" "700"
 "antialias" "1"
@@ -205,7 +205,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "12"
 "weight" "700"
 "antialias" "1"
@@ -216,7 +216,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "16"
 "weight" "700"
 "antialias" "1"
@@ -226,7 +226,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "16"
 "weight" "700"
 "antialias" "1"
@@ -237,7 +237,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "22"
 "weight" "700"
 "antialias" "1"
@@ -247,7 +247,7 @@
 {
 "1"
 {
-"name" "Inter Bold"
+"name" "Infortress-Bold"
 "tall" "22"
 "weight" "700"
 "antialias" "1"
@@ -259,13 +259,13 @@
 {
 "20"
 {
-"font" "resource/fonts/Inter-Medium-TN.ttf"
-"name" "Inter Medium"
+"font" "resource/fonts/Infortress-Medium.ttf"
+"name" "Infortress-Medium"
 }
 "21"
 {
-"font" "resource/fonts/Inter-Bold-TN.ttf"
-"name" "Inter Bold"
+"font" "resource/fonts/Infortress-Bold.ttf"
+"name" "Infortress-Bold"
 }
 }
 }

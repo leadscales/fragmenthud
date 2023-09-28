@@ -68,14 +68,14 @@ def main():
     root = pathlib.Path(fragment.get_project_root())
     fonts = (
         Font(
-            path="resource/fonts/Inter-Medium-TN.ttf",
-            engine_name="Inter Medium",
+            path="resource/fonts/Infortress-Medium.ttf",
+            engine_name="Infortress-Medium",
             entry_name="FontMedium",
             weight=500
         ),
         Font(
-            path="resource/fonts/Inter-Bold-TN.ttf",
-            engine_name="Inter Bold",
+            path="resource/fonts/Infortress-Bold.ttf",
+            engine_name="Infortress-Bold",
             entry_name="FontBold",
             weight=700
         )

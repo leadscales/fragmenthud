@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -14,7 +14,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "13" [$WIN32]
                 "tall"          "20" [$X360]
                 "weight"        "500"
@@ -23,7 +23,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -32,7 +32,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -41,7 +41,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -50,7 +50,7 @@
             }
             "6"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "range"         "0x0000 0x00FF"
                 "weight"        "500"
@@ -60,7 +60,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -68,7 +68,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "13"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -76,7 +76,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -85,7 +85,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -94,7 +94,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "22"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -106,7 +106,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -114,7 +114,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -122,7 +122,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -131,7 +131,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -140,7 +140,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "16"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -152,7 +152,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -160,7 +160,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "21"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -168,7 +168,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "22"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -177,7 +177,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "28"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -186,7 +186,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "30"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -195,7 +195,7 @@
             }
             "6"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "range"         "0x0000 0x00FF"
                 "weight"        "500"
@@ -205,7 +205,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "6"
                 "weight"        "500"
                 "additive"      "0"
@@ -216,14 +216,14 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "yres"          "480 599"
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "13" [$WIN32]
                 "tall"          "23" [$X360]
                 "weight"        "500"
@@ -231,21 +231,21 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "yres"          "768 1023"
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "yres"          "1024 1199"
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "yres"          "1200 10000"
@@ -255,7 +255,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "24"
                 "tall_lodef"        "80"
                 "weight"            "500"
@@ -265,7 +265,7 @@
             }
             "2"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "32"
                 "tall_hidef"        "120"
                 "weight"            "500"
@@ -275,7 +275,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "44"
                 "weight"        "500"
                 "additive"      "0"
@@ -284,7 +284,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "48"
                 "weight"        "500"
                 "additive"      "0"
@@ -293,7 +293,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "52"
                 "weight"        "500"
                 "additive"      "0"
@@ -305,7 +305,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "44"
                 "tall_lodef"        "52"
                 "weight"            "500"
@@ -317,7 +317,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "35"
                 "tall_lodef"        "40"
                 "weight"            "500"
@@ -329,7 +329,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "36"
                 "tall_hidef"        "48"
                 "weight"            "500"
@@ -341,7 +341,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "30"
                 "weight"        "500"
                 "additive"      "0"
@@ -352,7 +352,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "30"
                 "weight"        "500"
                 "additive"      "0"
@@ -363,7 +363,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "24"
                 "tall_lodef"        "28"
                 "weight"            "500"
@@ -375,7 +375,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "additive"      "0"
@@ -386,7 +386,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "additive"      "0"
@@ -397,7 +397,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
                 "additive"      "0"
@@ -408,7 +408,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "18"
@@ -421,7 +421,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "20"
@@ -434,7 +434,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14"
                 "tall_lodef"        "16"
                 "weight"            "500"
@@ -446,7 +446,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "16"
                 "weight"        "500"
                 "additive"      "0"
@@ -457,7 +457,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -468,7 +468,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14"
                 "weight"            "500"
                 "additive"          "0"
@@ -480,7 +480,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -491,7 +491,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "11"
                 "weight"            "500"
                 "additive"          "0"
@@ -503,7 +503,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -514,7 +514,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "4"
                 "weight"        "500"
                 "additive"      "0"
@@ -525,7 +525,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
@@ -536,7 +536,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "16"
                 "weight"        "500"
                 "additive"      "0"
@@ -547,7 +547,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
@@ -558,7 +558,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
@@ -569,7 +569,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "6"
                 "weight"        "500"
                 "additive"      "0"
@@ -580,7 +580,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "12"
                 "tall_hidef"        "14"
                 "tall_lodef"        "16"
@@ -593,7 +593,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -604,7 +604,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "18"
@@ -617,7 +617,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "16"
                 "tall_hidef"        "22"
                 "tall_lodef"        "22"
@@ -630,7 +630,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "additive"      "0"
@@ -641,7 +641,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
@@ -652,7 +652,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "8"
                 "tall_hidef"        "9"
                 "tall_lodef"        "10"
@@ -665,7 +665,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "8"
                 "tall_hidef"        "7"
                 "weight"            "500"
@@ -677,7 +677,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "15"
                 "weight"        "500"
                 "antialias"     "1"
@@ -687,7 +687,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "15" [$WIN32]
                 "tall"          "21" [$X360]
                 "weight"        "500"
@@ -698,7 +698,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
                 "antialias"     "1"
@@ -707,7 +707,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "21"
                 "weight"        "500"
                 "antialias"     "1"
@@ -716,7 +716,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "antialias"     "1"
@@ -728,7 +728,7 @@
         {
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "28"
                 "weight"        "500"
                 "additive"      "1"
@@ -739,7 +739,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "antialias"     "1"
                 "weight"        "500"
@@ -749,7 +749,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "11"
                 "tall_lodef"        "14"
                 "antialias"         "1"
@@ -760,7 +760,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "antialias"     "1"
                 "weight"        "500"
@@ -770,7 +770,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "13"
                 "tall_hidef"        "14"
                 "tall_lodef"        "17"
@@ -783,7 +783,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "28"
                 "tall_lodef"        "48"
                 "tall_hidef"        "48"
@@ -798,7 +798,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "40"
                 "tall_lodef"        "48"
                 "tall_hidef"        "48"
@@ -813,7 +813,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "24"
                 "tall_lodef"        "36"
                 "tall_hidef"        "36"
@@ -826,7 +826,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14" [!$OSX]
                 "tall"              "15" [$OSX]
                 "tall_lodef"        "32"
@@ -840,7 +840,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "6"
                 "weight"        "500"
                 "additive"      "0"
@@ -851,7 +851,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "8"
                 "tall_hidef"        "10"
                 "tall_lodef"        "14"
@@ -864,7 +864,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "10"
                 "tall_hidef"        "12"
                 "tall_lodef"        "14"
@@ -877,7 +877,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x007F"
@@ -889,7 +889,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "range"         "0x0000 0x007F"
@@ -901,7 +901,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "20"
                 "tall_hidef"        "24"
                 "tall_lodef"        "24"
@@ -915,7 +915,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x007F"
@@ -927,7 +927,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "range"         "0x0000 0x007F"
@@ -939,7 +939,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "34"
                 "tall_hidef"        "38"
                 "tall_lodef"        "38"
@@ -953,7 +953,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "36"
                 "tall_hidef"        "48"
                 "weight"            "500"
@@ -965,7 +965,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "52"
                 "tall_lodef"        "80"
                 "range"             "0x0000 0x00FF"
@@ -975,7 +975,7 @@
             }
             "2"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "72"
                 "tall_hidef"        "120"
                 "range"             "0x0000 0x00FF"
@@ -985,7 +985,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "100"
                 "range"         "0x0000 0x00FF"
                 "weight"        "500"
@@ -994,7 +994,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "140"
                 "range"         "0x0000 0x00FF"
                 "weight"        "500"
@@ -1003,7 +1003,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "180"
                 "range"         "0x0000 0x00FF"
                 "weight"        "500"
@@ -1015,7 +1015,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "36"
                 "weight"        "500"
                 "range"         "0x0000 0x007F"
@@ -1027,7 +1027,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1038,7 +1038,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "additive"      "0"
@@ -1049,7 +1049,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1060,7 +1060,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
@@ -1071,7 +1071,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "additive"      "0"
@@ -1082,7 +1082,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "10"
                 "tall_hidef"        "12"
                 "tall_lodef"        "14"
@@ -1095,7 +1095,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "12"
                 "weight"            "500"
                 "yres"              "480 599"
@@ -1103,7 +1103,7 @@
             }
             "2"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "13"
                 "weight"            "500"
                 "yres"              "600 767"
@@ -1111,7 +1111,7 @@
             }
             "3"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14"
                 "weight"            "500"
                 "yres"              "768 1023"
@@ -1119,7 +1119,7 @@
             }
             "4"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "20"
                 "weight"            "500"
                 "yres"              "1024 1199"
@@ -1127,7 +1127,7 @@
             }
             "5"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "24"
                 "weight"            "500"
                 "yres"              "1200 10000"
@@ -1138,7 +1138,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "12"
                 "weight"            "500"
                 "yres"              "480 599"
@@ -1146,7 +1146,7 @@
             }
             "2"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "13"
                 "weight"            "500"
                 "yres"              "600 767"
@@ -1154,7 +1154,7 @@
             }
             "3"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14"
                 "weight"            "500"
                 "yres"              "768 1023"
@@ -1162,7 +1162,7 @@
             }
             "4"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "20"
                 "weight"            "500"
                 "yres"              "1024 1199"
@@ -1170,7 +1170,7 @@
             }
             "5"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "24"
                 "weight"            "500"
                 "yres"              "1200 10000"
@@ -1181,7 +1181,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "10"
                 "weight"            "500"
                 "yres"              "480 599"
@@ -1189,7 +1189,7 @@
             }
             "2"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "10"
                 "weight"            "500"
                 "yres"              "600 767"
@@ -1197,7 +1197,7 @@
             }
             "3"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "13"
                 "weight"            "500"
                 "yres"              "768 1023"
@@ -1205,7 +1205,7 @@
             }
             "4"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14"
                 "weight"            "500"
                 "yres"              "1024 1199"
@@ -1213,7 +1213,7 @@
             }
             "5"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "15"
                 "weight"            "500"
                 "yres"              "1200 10000"
@@ -1224,7 +1224,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "14"
                 "tall_lodef"        "18"
                 "range"             "0x0000 0x00FF"
@@ -1237,7 +1237,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1249,7 +1249,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1261,7 +1261,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "8"
                 "tall_hidef"        "10"
                 "tall_lodef"        "12"
@@ -1274,7 +1274,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "9"
                 "tall_hidef"        "10"
                 "tall_lodef"        "16"
@@ -1287,7 +1287,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11" [!$OSX]
                 "tall"          "9" [$OSX]
                 "weight"        "500"
@@ -1299,7 +1299,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "36"
                 "tall_lodef"        "28"
                 "weight"            "500"
@@ -1309,7 +1309,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "30"
                 "tall_lodef"        "22"
                 "weight"            "500"
@@ -1319,7 +1319,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "28"
                 "tall_lodef"        "24"
                 "weight"            "500"
@@ -1329,7 +1329,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "22"
                 "weight"        "500"
             }
@@ -1338,7 +1338,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
             }
@@ -1347,7 +1347,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "22"
                 "tall_lodef"        "18"
                 "weight"            "500"
@@ -1357,7 +1357,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "18"
                 "tall_lodef"        "18"
                 "weight"            "500"
@@ -1367,7 +1367,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "15"
                 "weight"        "500"
             }
@@ -1376,7 +1376,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "36"
                 "weight"        "500"
                 "additive"      "0"
@@ -1387,7 +1387,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -1398,7 +1398,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
                 "additive"      "0"
@@ -1409,7 +1409,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
@@ -1420,7 +1420,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
@@ -1431,7 +1431,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "additive"      "0"
@@ -1442,7 +1442,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1451,7 +1451,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1460,7 +1460,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "15"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1472,7 +1472,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "additive"      "0"
@@ -1483,7 +1483,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
@@ -1494,7 +1494,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "additive"      "0"
@@ -1505,7 +1505,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
                 "additive"      "0"
@@ -1516,7 +1516,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "additive"      "0"
@@ -1527,7 +1527,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "antialias"     "1"
                 "weight"        "500"
@@ -1537,7 +1537,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "additive"      "0"
@@ -1548,7 +1548,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -1559,7 +1559,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1570,7 +1570,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
@@ -1581,7 +1581,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "blur"          "3"
@@ -1593,7 +1593,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "additive"      "1"
@@ -1604,7 +1604,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "additive"      "1"
@@ -1615,7 +1615,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "antialias"     "1"
@@ -1625,7 +1625,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "blur"          "3"
@@ -1637,7 +1637,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "7"
                 "weight"        "500"
                 "antialias"     "1"
@@ -1647,7 +1647,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "antialias"     "1"
                 "custom"        "1" [$OSX]
@@ -1658,7 +1658,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "yres"          "480 599"
@@ -1667,7 +1667,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1676,7 +1676,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "22"
                 "weight"        "500"
                 "additive"      "0"
@@ -1688,7 +1688,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "yres"          "480 599"
@@ -1698,7 +1698,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1708,7 +1708,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "22"
                 "weight"        "500"
                 "additive"      "0"
@@ -1721,7 +1721,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "yres"          "480 599"
@@ -1730,7 +1730,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1739,7 +1739,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "18"
                 "weight"        "500"
                 "additive"      "0"
@@ -1751,7 +1751,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "13"
                 "weight"        "500"
                 "additive"      "0"
@@ -1762,7 +1762,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "16"
                 "weight"        "500"
                 "additive"      "0"
@@ -1773,7 +1773,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
@@ -1784,7 +1784,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "additive"      "0"
@@ -1795,7 +1795,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "antialias"     "1"
@@ -1805,7 +1805,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "8"
                 "weight"        "500"
                 "antialias"     "1"
@@ -1816,7 +1816,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1824,7 +1824,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1832,7 +1832,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1841,7 +1841,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1850,7 +1850,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "16"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1862,7 +1862,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -1873,7 +1873,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "12"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1881,7 +1881,7 @@
             }
             "2"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "13"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1889,7 +1889,7 @@
             }
             "3"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1898,7 +1898,7 @@
             }
             "4"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "20"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1907,7 +1907,7 @@
             }
             "5"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "22"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
@@ -1919,7 +1919,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "additive"      "0"
@@ -1930,7 +1930,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1941,7 +1941,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "18"
@@ -1954,7 +1954,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "additive"      "0"
@@ -1965,7 +1965,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "20"
@@ -1978,7 +1978,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "14"
                 "weight"        "500"
                 "additive"      "0"
@@ -1989,7 +1989,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "24"
                 "weight"        "500"
                 "additive"      "0"
@@ -2000,7 +2000,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "15"
                 "weight"        "500"
                 "range"         "0x0000 0x007F"
@@ -2012,7 +2012,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
@@ -2023,7 +2023,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "antialias"     "1"
@@ -2033,7 +2033,7 @@
         {
             "1"
             {
-                "name"          "Inter Medium"
+                "name"          "Infortress-Medium"
                 "tall"          "11"
                 "weight"        "500"
                 "blur"          "3"
@@ -2045,7 +2045,7 @@
         {
             "1"
             {
-                "name"              "Inter Medium"
+                "name"              "Infortress-Medium"
                 "tall"              "12"
                 "weight"            "500"
                 "additive"          "0"
