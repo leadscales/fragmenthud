@@ -2,9 +2,11 @@ import fragment
 import vdf
 import typing
 import pathlib
+import dataclasses
 
 
-class Font(typing.NamedTuple):
+@dataclasses.dataclass(frozen=True, kw_only=True)
+class Font():
     path: str
     engine_name: str
     entry_name: str
@@ -52,7 +54,7 @@ def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[
                         "tall": str(size),
                         "weight": str(font.weight),
                         "antialias": "1",
-                        "additive": "1"
+                        "additive": "1",
                     }
                 }
             })
@@ -65,9 +67,18 @@ def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[
 def main():
     root = pathlib.Path(fragment.get_project_root())
     fonts = (
-        Font("resource/fonts/Inter-Medium.ttf",
-             "Inter Medium", "FontMedium", 500),
-        Font("resource/fonts/Inter-Bold.ttf", "Inter Bold", "FontBold", 700)
+        Font(
+            path="resource/fonts/Inter-Medium-TN.ttf",
+            engine_name="Inter Medium",
+            entry_name="FontMedium",
+            weight=500
+        ),
+        Font(
+            path="resource/fonts/Inter-Bold-TN.ttf",
+            engine_name="Inter Bold",
+            entry_name="FontBold",
+            weight=700
+        )
     )
     sizes = (
         8,

@@ -259,12 +259,12 @@
 {
 "20"
 {
-"font" "resource/fonts/Inter-Medium.ttf"
+"font" "resource/fonts/Inter-Medium-TN.ttf"
 "name" "Inter Medium"
 }
 "21"
 {
-"font" "resource/fonts/Inter-Bold.ttf"
+"font" "resource/fonts/Inter-Bold-TN.ttf"
 "name" "Inter Bold"
 }
 }
