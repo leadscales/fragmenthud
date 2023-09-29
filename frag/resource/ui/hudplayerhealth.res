@@ -96,7 +96,7 @@
         "wide"                      "60"
         "tall"                      "30"
         "proportionaltoparent"      "1"
-        "font"                      "FontBold_22_Additive"
+        "font"                      "FontHealth_Large"
         "fgcolor"                   "FragNeutral100"
         "textalignment"             "center"
 
