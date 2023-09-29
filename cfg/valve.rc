@@ -18,6 +18,7 @@ exec frag_cprimary
 exec frag_caccent
 exec frag_cnegative
 exec frag_cpositive
+exec frag_scoreboard
 
 alias frag_oobe_exec "exec frag_oobe_exec"
 exec frag_oobe_dismissed.txt

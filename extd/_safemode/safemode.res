@@ -3,6 +3,7 @@
 #base "safemode_infopanel.res"
 
 #base "safemode_colors.res"
+#base "safemode_scoreboard.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -89,10 +90,11 @@
                 "wide"                      "f20"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
-                "labelText"                 "CUSTOMIZE"
+                "labelText"                 "#MMenu_Customize"
                 "font"                      "FontMedium_12_Additive"
                 "textinsetx"                "5"
                 "use_proportional_insets"   "1"
+                "allcaps"                   "1"
                 "fgcolor"                   "FragNeutral100"
             }
 
@@ -102,7 +104,7 @@
                 "fieldName"                 "ApplyButton"
                 "xpos"                      "rs1"
                 "ypos"                      "0"
-                "wide"                      "40"
+                "wide"                      "20"
                 "tall"                      "20"
                 "proportionaltoparent"      "1"
 
@@ -115,7 +117,7 @@
 
                 "defaultfgcolor_override"   "FragPositive100"
                 "armedfgcolor_override"     "FragPositive100"
-                "defaultbgcolor_override"   "FragPositive05"
+                "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPositive20"
 
                 "sound_depressed"           "UI/buttonclick.wav"
@@ -157,13 +159,23 @@
                 "tall"                  "4000"
                 "proportionaltoparent"  "1"
                 "bgcolor_override"      "Blank"
+
+                "Colors"
+                {
+                }
+                "Scoreboard"
+                {
+                    "pin_to_sibling"            "Colors"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
             }
 
             "Scrollbar"
             {
                 "ControlName"           "ScrollBar"
                 "fieldName"             "Scrollbar"
-                "xpos"                  "rs1-1"
+                "xpos"                  "rs1-3"
                 "ypos"                  "0"
                 "wide"                  "2"
                 "tall"                  "f0"

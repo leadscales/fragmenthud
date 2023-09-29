@@ -1,0 +1,1 @@
+#base "../../_pointers/scoreboard_ptr.res"

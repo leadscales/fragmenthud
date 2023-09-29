@@ -23,7 +23,7 @@
 
             "InfoText"
             {
-                "labeltext"             "#FRAG_Safemode_HangWarn"
+                "text"                  "#FRAG_Safemode_Warn"
                 "fgcolor"               "FragAccent100"
             }
         }
