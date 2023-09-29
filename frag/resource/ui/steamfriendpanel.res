@@ -9,7 +9,7 @@
 
     "InteractButton"
     {
-        "xpos"                      "3"
+        "xpos"                      "0"
         "paintBorder"               "0"
         "defaultbgcolor_override"   "Blank"
         "armedbgcolor_override"     "FragPrimary05"
@@ -17,7 +17,8 @@
 
     "NameLabel"
     {
-        "wide"                      "f26"
+        "xpos"                      "rs1-5"
+        "wide"                      "f30"
         "textalignment"             "south-west"
         "font"                      "FontMedium_9_Additive"
         "fgcolor_override"          "FragNeutral100"
@@ -25,8 +26,9 @@
 
     "StatusLabel"
     {
+        "xpos"                      "rs1-5"
         "ypos"                      "10"
-        "wide"                      "f26"
+        "wide"                      "f30"
         "textalignment"             "north-west"
         "font"                      "FontMedium_9_Additive"
         "alpha"                     "153"

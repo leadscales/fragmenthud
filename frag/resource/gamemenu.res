@@ -3,7 +3,7 @@
     "Info"
     {
         "label"             "i"
-        "command"           "engine echo test"
+        "command"           "engine frag_info"
         "tooltip"           "#FRAG_Buttons_Info"
     }
     "Console"
@@ -35,6 +35,12 @@
         "label"             "b"
         "command"           "url https://github.com/leadscales/fragmenthud/issues"
         "tooltip"           "#FRAG_Buttons_BugReport"
+    }
+    "Translate"
+    {
+        "label"             "L"
+        "command"           "engine echo replaceme"
+        "tooltip"           "#FRAG_Buttons_Translate"
     }
     "Discord"
     {

@@ -382,13 +382,15 @@
             "xpos"                  "0"
             "ypos"                  "cs-0.5"
             "wide"                  "f0"
-            "tall"                  "f10"
+            "tall"                  "f4"
 
             "columns_count"         "1"
             "inset_x"               "0"
             "inset_y"               "0"
             "row_gap"               "0"
             "column_gap"            "0"
+            "restrict_width"        "0"
+            "scroll_step"           "20"
 
             "friendpanel_kv"
             {
@@ -924,7 +926,7 @@
         "ypos"                          "0"
         "zpos"                          "21"
         "wide"                          "20"
-        "tall"                          "40"
+        "tall"                          "60"
         "proportionaltoparent"          "1"
 
         "pin_to_sibling"                "SidePanel"
@@ -967,6 +969,46 @@
             }
         }
 
+        "Translate"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Translate"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "20"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "BugReport"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary60"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
         "Discord"
         {
             "ControlName"               "EditablePanel"
@@ -978,7 +1020,7 @@
             "visible"                   "1"
             "proportionaltoparent"      "1"
 
-            "pin_to_sibling"            "BugReport"
+            "pin_to_sibling"            "Translate"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 

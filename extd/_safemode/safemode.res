@@ -141,13 +141,15 @@
 
         "ScrollingPanel"
         {
-            "ControlName"               "CExScrollingEditablePanel"
+            "ControlName"               "CScrollableList"
             "fieldName"                 "ScrollingPanel"
             "xpos"                      "1"
-            "ypos"                      "20"
-            "wide"                      "f19"
-            "tall"                      "f60"
+            "ypos"                      "22"
+            "wide"                      "200"
+            "tall"                      "f64"
             "proportionaltoparent"      "1"
+            "restrict_width"            "0"
+            "scroll_step"               "20"
 
             "ContentPanel"
             {
@@ -155,10 +157,10 @@
                 "fieldName"             "ContentPanel"
                 "xpos"                  "0"
                 "ypos"                  "0"
-                "wide"                  "f2"
-                "tall"                  "4000"
+                "wide"                  "f0"
+                "tall"                  "1000"
                 "proportionaltoparent"  "1"
-                "bgcolor_override"      "Blank"
+                "bgcolor_override"      "255 0 0 0"
 
                 "Colors"
                 {
@@ -173,38 +175,8 @@
 
             "Scrollbar"
             {
-                "ControlName"           "ScrollBar"
-                "fieldName"             "Scrollbar"
-                "xpos"                  "rs1-3"
-                "ypos"                  "0"
-                "wide"                  "2"
-                "tall"                  "f0"
-                "proportionaltoparent"  "1"
+                "wide"                  "0"
                 "nobuttons"             "1"
-
-                "Slider"
-                {
-                    "fgcolor_override"  "FragNeutral20"
-                }
-
-                "UpButton"
-                {
-                    "xpos"              "9999"
-                    "ypos"              "9999"
-                    "wide"              "0"
-                    "tall"              "0"
-                    "visible"           "0"
-                    "enabled"           "0"
-                }
-                "DownButton"
-                {
-                    "xpos"              "9999"
-                    "ypos"              "9999"
-                    "wide"              "0"
-                    "tall"              "0"
-                    "visible"           "0"
-                    "enabled"           "0"
-                }
             }
         }
 

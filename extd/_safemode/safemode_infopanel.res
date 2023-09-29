@@ -35,7 +35,7 @@
                 "xpos"                      "cs-0.5"
                 "ypos"                      "cs-0.5"
                 "wide"                      "f10"
-                "tall"                      "f6"
+                "tall"                      "f10"
                 "proportionaltoparent"      "1"
                 "text"                      "#FRAG_Safemode_RenameWarn"
                 "textAlignment"             "north-west"

@@ -1,6 +1,5 @@
 import fragment
 import vdf
-import typing
 import pathlib
 import tomllib
 
@@ -80,6 +79,20 @@ def main():
                 file.write(_w_text)
         else:
             pass
+
+    with open(root.joinpath("cfg/frag_info.cfg"), "w") as file:
+        d = LANG_CUSTOM_DATA["other"]["FRAG_InfoCMD"].format(
+            hud_version,
+            "discord.gg/yADdaAPvc4"
+        )
+
+        d = "clear; showconsole; echo " + d
+        d = d.replace("\n", "; echo ")
+        d += ";"
+
+        s = f"alias \"frag_info\" \"{d}\""
+
+        file.write(s)
 
 
 if __name__ == "__main__":

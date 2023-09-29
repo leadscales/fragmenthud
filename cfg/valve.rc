@@ -13,12 +13,15 @@ alias frag_rm "toggle mat_aaquality"
 alias frag_rh "hud_reloadscheme"
 
 // FRAGMENT EXEC
+exec frag_info
 exec frag_oobe
 exec frag_cprimary
 exec frag_caccent
 exec frag_cnegative
 exec frag_cpositive
 exec frag_scoreboard
+
+alias frag_customreset "frag_cprimary=def; frag_caccent=def; frag_cnegative=def; frag_cpositive=def; frag_scoreboard=def;"
 
 alias frag_oobe_exec "exec frag_oobe_exec"
 exec frag_oobe_dismissed.txt
