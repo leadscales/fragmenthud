@@ -3,4 +3,5 @@ __pycache__/
 *.cache
 *.tga
 *.psd
+*.ai
 user/
