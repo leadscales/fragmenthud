@@ -39,7 +39,7 @@
         "tall"                      "1"
         "proportionaltoparent"      "1"
         "paintBackgroundType"       "0"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/in_game/speedometer"
         "scaleImage"                "1"
         "drawcolor"                 "FragNeutral100"
 
@@ -59,7 +59,7 @@
         "tall"                      "1"
         "proportionaltoparent"      "1"
         "paintBackgroundType"       "0"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/in_game/speedometer"
         "scaleImage"                "1"
         "drawcolor"                 "FragPositive100"
 
@@ -79,7 +79,7 @@
         "tall"                      "1"
         "proportionaltoparent"      "1"
         "paintBackgroundType"       "0"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/in_game/speedometer"
         "scaleImage"                "1"
         "drawcolor"                 "FragNegative100"
 

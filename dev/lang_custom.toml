@@ -21,6 +21,7 @@ FRAG_Buttons_FixIssues = "Attempt to fix any HUD/visual/audio issues"
 FRAG_Buttons_BugReport = "Report an issue with the HUD"
 FRAG_Buttons_Translate = "Help translate FRAGMENTHUD"
 FRAG_Buttons_Discord = "Join our Discord server for help"
+FRAG_Buttons_LeadProfile = "View developer profile"
 
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"

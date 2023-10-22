@@ -926,7 +926,7 @@
         "ypos"                          "0"
         "zpos"                          "21"
         "wide"                          "20"
-        "tall"                          "60"
+        "tall"                          "80"
         "proportionaltoparent"          "1"
 
         "pin_to_sibling"                "SidePanel"
@@ -1021,6 +1021,46 @@
             "proportionaltoparent"      "1"
 
             "pin_to_sibling"            "Translate"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary60"
+                "armedfgcolor_override"     "FragPrimary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "Profile"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Profile"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "20"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Discord"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 

@@ -21,6 +21,9 @@ class Color(typing.NamedTuple):
         )
 
 
+# Some colors have been manually adjusted to be closer in percieved luminance.
+# If it is <50 on LAB's Lightness channel, it will be clamped to there.
+
 colors: tuple[Color, ...] = (
     #
     Color(255, 64, 64),
@@ -49,13 +52,13 @@ colors: tuple[Color, ...] = (
     Color(64, 192, 255),
     Color(64, 160, 255),
     Color(64, 128, 255),
-    Color(64, 96, 255),
+    Color(78, 105, 255),  # (64, 96, 255)
     #
-    Color(64, 64, 255),
-    Color(96, 64, 255),
-    Color(128, 64, 255),
-    Color(160, 64, 255),
-    Color(192, 64, 255),
+    Color(112, 103, 255),  # (64, 64, 255)
+    Color(139, 98, 255),  # (96, 64, 255)
+    Color(159, 90, 255),  # (128, 64, 255)
+    Color(179, 81, 255),  # (160, 64, 255)
+    Color(196, 69, 255),  # (192, 64, 255)
     Color(224, 64, 255),
     #
     Color(255, 64, 255),

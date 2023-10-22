@@ -48,6 +48,12 @@
         "command"           "url https://discord.gg/yADdaAPvc4"
         "tooltip"           "#FRAG_Buttons_Discord"
     }
+    "Profile"
+    {
+        "label"             "§"
+        "command"           "url https://steamcommunity.com/profiles/76561199066986123"
+        "tooltip"           "#FRAG_Buttons_LeadProfile"
+    }
     "CallVote"
     {
         "label"             "V"
