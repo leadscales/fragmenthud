@@ -122,16 +122,14 @@
             }
         }
     }
-    // DISABLED
     "PlayerStatusClassImage"
     {
-        "xpos"              "9999"
-        "ypos"              "9999"
-        "wide"              "0"
-        "tall"              "0"
-        "visible"           "0"
-        "enabled"           "0"
+        "xpos"              "5"
+        "ypos"              "rs1"
+        "wide"              "80"
+        "tall"              "80"
     }
+    // DISABLED
     "PlayerStatusSpyImage"
     {
         "xpos"              "9999"
