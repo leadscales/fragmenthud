@@ -22,6 +22,7 @@
         "wide"                  "0"
         "tall"                  "20"
         "auto_wide_tocontents"  "1"
+        "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
         "fgcolor"               "FragAccent100"
 
@@ -40,12 +41,32 @@
         "wide"                  "0"
         "tall"                  "20"
         "auto_wide_tocontents"  "1"
+        "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
         "fgcolor"               "FragPrimary100"
 
         "pin_to_sibling"        "VersionNumber"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"
         "pin_to_sibling_corner" "PIN_TOPLEFT"
+    }
+
+    "OSLabel"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "OSLabel"
+        "xpos"                  "5"
+        "ypos"                  "r40"
+        "zpos"                  "100"
+        "wide"                  "200"
+        "tall"                  "20"
+        "auto_wide_tocontents"  "1"
+        "mouseinputenabled"     "0"
+        "font"                  "FontMedium_12_Additive"
+        "fgcolor"               "FragPrimary20"
+
+        "labelText"             "WIN32" [$WINDOWS]
+        "labelText"             "OSX"   [$OSX]
+        "labelText"             "LINUX" [$LINUX]
     }
 
     "DashboardDimmer"
