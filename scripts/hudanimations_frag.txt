@@ -51,7 +51,6 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
     Animate     ChargeLabel            FgColor    FragAccent100    Linear    0.0    0.1
-    //
     Animate     FullChargeEffect       Alpha      255              Linear    0.0    0.0
     Animate     FullChargeEffect       XPos       0                Linear    0.0    0.0
     Animate     FullChargeEffect       Wide       60               Spline    0.0    0.5
@@ -81,6 +80,34 @@ event TeamStatus_PlayerDead
 }
 
 event TeamStatus_PlayerAlive
+{
+}
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+event HudSpyDisguiseChanged
+{
+}
+
+event HudSpyDisguiseHide
+{
+}
+
+event HudSpyDisguiseFadeIn
+{
+}
+
+event HudSpyDisguiseFadeOut
 {
 }
 

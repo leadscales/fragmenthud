@@ -224,6 +224,24 @@
             "draw_corner_width"         "0"
             "draw_corner_height"        "0"
         }
+        "TFFatLineBorderRedBG"
+        {
+            "image"                     "replay/thumbnails/panels/fill_80"
+            "color"                     "FragRed100"
+            "src_corner_height"         "0"
+            "src_corner_width"          "0"
+            "draw_corner_width"         "0"
+            "draw_corner_height"        "0"
+        }
+        "TFFatLineBorderBlueBG"
+        {
+            "image"                     "replay/thumbnails/panels/fill_80"
+            "color"                     "FragBlu100"
+            "src_corner_height"         "0"
+            "src_corner_width"          "0"
+            "draw_corner_width"         "0"
+            "draw_corner_height"        "0"
+        }
         "GrayDialogBorder"
         {
             "image"                     "replay/thumbnails/panels/fill_100"

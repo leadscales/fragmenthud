@@ -57,7 +57,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_0"
-            "scaleImage"                "1"
+            "tileImage"                 "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -72,7 +72,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_1"
-            "scaleImage"                "1"
+            "tileImage"                 "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -87,7 +87,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_effect_0"
-            "scaleImage"                "1"
+            "tileImage"                 "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -102,12 +102,11 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_effect_1"
-            "scaleImage"                "1"
+            "tileImage"                 "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
         }
-        // We add noise to reduce color banding for those with exceptionally bad monitors
         "NoiseImage1"
         {
             "ControlName"               "ImagePanel"
@@ -118,7 +117,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/noise"
-            "scaleImage"                "1"
+            "tileImage"                 "1"
             "drawcolor"                 "FragNeutral100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -163,15 +162,16 @@
     {
         "xpos"                          "cs-0.5"
         "ypos"                          "0"
-        "wide"                          "360"
-        "tall"                          "480"
+        "wide"                          "640"
+        "tall"                          "400"
 
         "fov"                           "35"
         "allow_manip"                   "1"
 
         "model"
         {
-            "origin_z"                  "-30"
+            "origin_x"                  "300"
+            "origin_z"                  "-45"
         }
     }
 

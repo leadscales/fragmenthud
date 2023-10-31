@@ -1,6 +1,36 @@
 import pathlib
 import os
 
+LANGUAGES = {
+    "brazilian",
+    "bulgarian",
+    "czech",
+    "danish",
+    "dutch",
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "greek",
+    "hungarian",
+    "italian",
+    "japanese",
+    "korean",
+    "koreana",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "romanian",
+    "russian",
+    "schinese",
+    "spanish",
+    "swedish",
+    "tchinese",
+    "thai",
+    "turkish",
+    "pirate"
+}
+
 
 def get_project_root(root_file: str = "info.vdf") -> os.PathLike:
     file = pathlib.Path(__file__)

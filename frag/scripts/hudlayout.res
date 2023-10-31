@@ -82,7 +82,7 @@
     "HudDeathNotice"
     {
         "xpos"              "r645"
-        "ypos"              "22"
+        "ypos"              "23"
         "wide"              "640"
         "tall"              "480"
 
@@ -141,6 +141,50 @@
         "ypos"              "rs1-5"
         "wide"              "330"
         "tall"              "70"
+    }
+
+    HudWeaponSelection
+    {
+        "fieldName"                 "HudWeaponSelection"
+        "xpos"                      "0"
+        "wide"                      "f0"
+        "ypos"                      "0"
+        "tall"                      "480"
+
+        "RightMargin"               "5"
+        "RightMargin_hidef"         "5"
+
+        "SmallBoxWide"              "120"
+        "SmallBoxTall"              "60"
+
+        "LargeBoxWide"              "120"
+        "LargeBoxTall"              "60"
+
+        "BoxGap"                    "1"
+
+        "SelectionNumberXPos"       "2"
+        "SelectionNumberYPos"       "2"
+
+        "IconXPos"                  "8"
+        "IconYPos"                  "0"
+
+        "TextYPos"                  "70"
+        "ErrorYPos"                 "48"
+
+        "TextColor"                 "Blank"
+
+        "MaxSlots"                  "6"
+        "PlaySelectSounds"          "1"
+
+        "Alpha"                     "255"
+        "SelectionAlpha"            "255"
+        "BoxColor"                  "FragPanelTransparentDark60"
+        "SelectedBoxClor"           "0 0 0 0"
+        "SelectionNumberFg"         "FragNeutral100"
+        "NumberColor"               "FragNeutral100"
+
+        "NumberFont"                "FontMedium_10"
+        "TextFont"                  "FontMedium_10"
     }
 
     // DISABLED

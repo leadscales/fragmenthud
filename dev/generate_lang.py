@@ -3,35 +3,7 @@ import vdf
 import pathlib
 import tomllib
 
-languages = {
-    "brazilian",
-    "bulgarian",
-    "czech",
-    "danish",
-    "dutch",
-    "english",
-    "finnish",
-    "french",
-    "german",
-    "greek",
-    "hungarian",
-    "italian",
-    "japanese",
-    "korean",
-    "koreana",
-    "norwegian",
-    "polish",
-    "portuguese",
-    "romanian",
-    "russian",
-    "schinese",
-    "spanish",
-    "swedish",
-    "tchinese",
-    "thai",
-    "turkish",
-    "pirate"
-}
+languages = fragment.LANGUAGES
 
 
 def main():
@@ -40,6 +12,7 @@ def main():
     VERSION_PATH = root.joinpath("version.txt")
     LANG_CUSTOM = root.joinpath("dev/lang_custom.toml")
     LANG_OVERRIDE = root.joinpath("dev/lang_override.toml")
+    LANG_CHAT = root.joinpath("dev/lang_chat.toml")
 
     LANGUAGES_PATH = root.joinpath("resource/")
 
@@ -47,8 +20,24 @@ def main():
         LANG_CUSTOM_DATA: dict[str, dict[str, str]] = tomllib.load(file)
     with open(LANG_OVERRIDE, "rb") as file:
         LANG_OVERRIDE_DATA = tomllib.load(file)
+    with open(LANG_CHAT, "rb") as file:
+        LANG_CHAT_DATA = tomllib.load(file)
     with open(VERSION_PATH, "r") as file:
         hud_version = file.read()
+
+    CONTROL_CHARS = {
+        r"NC": b"\x01".decode(),
+        r"TCF": b"\x02".decode(),
+        r"TC": b"\x03".decode(),
+        r"LC": b"\x04".decode(),
+        r"AC": b"\x05".decode(),
+    }
+
+    for k, v in LANG_CHAT_DATA.items():
+        k: str
+        v: str
+
+        LANG_CHAT_DATA[k] = v.format(**CONTROL_CHARS)
 
     for lang in languages:
         _l = {}
@@ -59,6 +48,7 @@ def main():
             if lang == "english":
                 _l.update({"FRAG_Version": hud_version})
                 _l.update(LANG_OVERRIDE_DATA)
+                _l.update(LANG_CHAT_DATA)
             else:
                 pass
 

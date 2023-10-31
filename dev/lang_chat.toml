@@ -1,0 +1,16 @@
+# NC   = NORMAL COLOR ONWARDS
+# TCF  = TEAM COLOR UNTIL PLAYER NAME
+# TC   = TEAM COLOR ONWARDS
+# LC   = LOCATION COLOR ONWARDS
+# AC   = ACHIEVEMENT COLOR ONWARDS
+"TF_Chat_Team_Loc" = "{LC}[%s3] {NC}[TEAM] {TC}%s1{NC}: %s2"
+"TF_Chat_Team" = "{NC}[TEAM] {TC}%s1: {NC}%s2"
+"TF_Chat_Team_Dead" = "{NC}[DEAD] [TEAM] {TC}%s1{NC}: %s2"
+"TF_Chat_Spec" = "{NC}[SPEC] {TC}%s1{NC}: %s2"
+"TF_Chat_All" = "{TCF}%s1: %s2"
+"TF_Chat_AllDead" = "{NC}[DEAD] {TC}%s1{NC}: %s2"
+"TF_Chat_AllSpec" = "{NC}[SPEC] {TC}%s1{NC}: %s2"
+"TF_Chat_Coach" = "{NC}[COACH] {TC}%s1{NC}: %s2"
+"TF_Name_Change" = "{NC}[NAME CHANGE] {TC}%s1 {NC}> {TC}%s2"
+"TF_Class_Change" = "{NC}[CLASS CHANGE] {TC}%s1 {NC}> {TC}%s2"
+"TF_Chat_Party" = "[PARTY] "

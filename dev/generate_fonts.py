@@ -4,6 +4,8 @@ import typing
 import pathlib
 import dataclasses
 
+languages = fragment.LANGUAGES
+
 
 @dataclasses.dataclass(frozen=True, kw_only=True)
 class Font():
@@ -22,13 +24,21 @@ def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[
     }
 
     # Generate CustomFontFiles
+    lang_dict = {}
+    for language in languages:
+        lang_dict.update({
+            language: {
+                "range": "0x0020 0x2116"
+            }
+        })
     for i in range(len(fonts)):
         _i = fonts[i]
         _d = {}
         _d.update({
             str(20+i): {
                 "font": _i.path,
-                "name": _i.engine_name
+                "name": _i.engine_name,
+                **lang_dict
             }
         })
         result["Scheme"]["CustomFontFiles"].update(_d)

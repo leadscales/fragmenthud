@@ -261,11 +261,227 @@
 {
 "font" "resource/fonts/Infortress-Medium.ttf"
 "name" "Infortress-Medium"
+"greek"
+{
+"range" "0x0020 0x2116"
+}
+"english"
+{
+"range" "0x0020 0x2116"
+}
+"finnish"
+{
+"range" "0x0020 0x2116"
+}
+"german"
+{
+"range" "0x0020 0x2116"
+}
+"japanese"
+{
+"range" "0x0020 0x2116"
+}
+"brazilian"
+{
+"range" "0x0020 0x2116"
+}
+"koreana"
+{
+"range" "0x0020 0x2116"
+}
+"thai"
+{
+"range" "0x0020 0x2116"
+}
+"bulgarian"
+{
+"range" "0x0020 0x2116"
+}
+"pirate"
+{
+"range" "0x0020 0x2116"
+}
+"romanian"
+{
+"range" "0x0020 0x2116"
+}
+"schinese"
+{
+"range" "0x0020 0x2116"
+}
+"hungarian"
+{
+"range" "0x0020 0x2116"
+}
+"korean"
+{
+"range" "0x0020 0x2116"
+}
+"dutch"
+{
+"range" "0x0020 0x2116"
+}
+"danish"
+{
+"range" "0x0020 0x2116"
+}
+"french"
+{
+"range" "0x0020 0x2116"
+}
+"italian"
+{
+"range" "0x0020 0x2116"
+}
+"spanish"
+{
+"range" "0x0020 0x2116"
+}
+"czech"
+{
+"range" "0x0020 0x2116"
+}
+"polish"
+{
+"range" "0x0020 0x2116"
+}
+"tchinese"
+{
+"range" "0x0020 0x2116"
+}
+"russian"
+{
+"range" "0x0020 0x2116"
+}
+"turkish"
+{
+"range" "0x0020 0x2116"
+}
+"swedish"
+{
+"range" "0x0020 0x2116"
+}
+"portuguese"
+{
+"range" "0x0020 0x2116"
+}
+"norwegian"
+{
+"range" "0x0020 0x2116"
+}
 }
 "21"
 {
 "font" "resource/fonts/Infortress-Bold.ttf"
 "name" "Infortress-Bold"
+"greek"
+{
+"range" "0x0020 0x2116"
+}
+"english"
+{
+"range" "0x0020 0x2116"
+}
+"finnish"
+{
+"range" "0x0020 0x2116"
+}
+"german"
+{
+"range" "0x0020 0x2116"
+}
+"japanese"
+{
+"range" "0x0020 0x2116"
+}
+"brazilian"
+{
+"range" "0x0020 0x2116"
+}
+"koreana"
+{
+"range" "0x0020 0x2116"
+}
+"thai"
+{
+"range" "0x0020 0x2116"
+}
+"bulgarian"
+{
+"range" "0x0020 0x2116"
+}
+"pirate"
+{
+"range" "0x0020 0x2116"
+}
+"romanian"
+{
+"range" "0x0020 0x2116"
+}
+"schinese"
+{
+"range" "0x0020 0x2116"
+}
+"hungarian"
+{
+"range" "0x0020 0x2116"
+}
+"korean"
+{
+"range" "0x0020 0x2116"
+}
+"dutch"
+{
+"range" "0x0020 0x2116"
+}
+"danish"
+{
+"range" "0x0020 0x2116"
+}
+"french"
+{
+"range" "0x0020 0x2116"
+}
+"italian"
+{
+"range" "0x0020 0x2116"
+}
+"spanish"
+{
+"range" "0x0020 0x2116"
+}
+"czech"
+{
+"range" "0x0020 0x2116"
+}
+"polish"
+{
+"range" "0x0020 0x2116"
+}
+"tchinese"
+{
+"range" "0x0020 0x2116"
+}
+"russian"
+{
+"range" "0x0020 0x2116"
+}
+"turkish"
+{
+"range" "0x0020 0x2116"
+}
+"swedish"
+{
+"range" "0x0020 0x2116"
+}
+"portuguese"
+{
+"range" "0x0020 0x2116"
+}
+"norwegian"
+{
+"range" "0x0020 0x2116"
+}
 }
 }
 }
