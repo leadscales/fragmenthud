@@ -1,0 +1,8 @@
+"Refract"
+{
+    "$normalmap"            "vgui/replay/thumbnails/in_game/refract_45deg_bl"
+    "$refractamount"        "0.0"
+    "$refracttint"          "{255 255 255}"
+    "$refractblur"          "0"
+    "$bluramount"           "0"
+}

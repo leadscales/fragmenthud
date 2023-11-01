@@ -124,7 +124,7 @@
     "HudKothTimeStatus"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "5"
+        "ypos"              "0"
         "wide"              "60"
         "tall"              "20"
     }

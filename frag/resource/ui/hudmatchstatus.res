@@ -9,7 +9,7 @@
     "ObjectiveStatusTimePanel"
     {
         "xpos"                      "cs-0.5"
-        "ypos"                      "5"
+        "ypos"                      "0"
         "wide"                      "60"
         "tall"                      "40"
         "delta_item_x"              "9999"
@@ -23,7 +23,7 @@
         "if_match"
         {
             "xpos"                      "cs-0.5"
-            "ypos"                      "5"
+            "ypos"                      "0"
             "wide"                      "60"
             "tall"                      "40"
             "delta_item_x"              "9999"
@@ -56,11 +56,23 @@
 
     "BGFrame"
     {
-        "ypos"                      "5"
-        "wide"                      "320"
+        "ypos"                      "0"
+        "wide"                      "520"
         "tall"                      "20"
         "border"                    "NoBorder"
-        "bgcolor_override"          "FragPanelTransparentDark60"
+        "bgcolor_override"          "Blank"
+
+        "BGPanel"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BGPanel"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "f0"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark60"
+        }
 
         "BluStroke"
         {
@@ -68,29 +80,108 @@
             "fieldName"             "BluStroke"
             "xpos"                  "c0-s1"
             "ypos"                  "0"
-            "wide"                  "160"
+            "wide"                  "260"
             "tall"                  "1"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/panels/fill_additive_blu"
+            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "drawcolor"             "FragBlu100"
             "scaleImage"            "1"
         }
+
         "RedStroke"
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "RedStroke"
             "xpos"                  "c0"
             "ypos"                  "0"
-            "wide"                  "160"
+            "wide"                  "260"
             "tall"                  "1"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/panels/fill_additive_red"
+            "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
+            "drawcolor"             "FragRed100"
+            "scaleImage"            "1"
+        }
+
+        "BluScoreBGLight"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BluScoreBGLight"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "260"
+            "tall"                  "o1"
+            "proportionaltoparent"  "1"
+
+            "SubImage"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "SubImage"
+                "xpos"                  "cs-0.5-150"
+                "ypos"                  "0"
+                "wide"                  "p3.5"
+                "tall"                  "p3.5"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/menu/side_panel_light_top"
+                "scaleImage"            "1"
+                "drawcolor"             "FragBlu05"
+            }
+        }
+
+        "RedScoreBGLight"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "RedScoreBGLight"
+            "xpos"                  "rs1"
+            "ypos"                  "0"
+            "wide"                  "260"
+            "tall"                  "o1"
+            "proportionaltoparent"  "1"
+
+            "SubImage"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "SubImage"
+                "xpos"                  "cs-0.5+150"
+                "ypos"                  "0"
+                "wide"                  "p3.5"
+                "tall"                  "p3.5"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/menu/side_panel_light_top"
+                "scaleImage"            "1"
+                "drawcolor"             "FragRed05"
+            }
+        }
+
+        "RefractorL"
+        {
+            "ControlName"           "ImagePanel"
+            "fieldName"             "RefractorL"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "20"
+            "tall"                  "20"
+            "proportionaltoparent"  "1"
+            "image"                 "replay/thumbnails/in_game/refract_45deg_tl"
+            "scaleImage"            "1"
+        }
+
+        "RefractorR"
+        {
+            "ControlName"           "ImagePanel"
+            "fieldName"             "RefractorR"
+            "xpos"                  "rs1"
+            "ypos"                  "0"
+            "wide"                  "20"
+            "tall"                  "20"
+            "proportionaltoparent"  "1"
+            "image"                 "replay/thumbnails/in_game/refract_45deg_tr"
             "scaleImage"            "1"
         }
     }
 
     "roundcounter"
     {
-        "ypos"                      "5"
+        "ypos"                      "0"
         "wide"                      "60"
         "tall"                      "22"
     }
@@ -98,7 +189,7 @@
     "TeamStatus"
     {
         "xpos"                      "0"
-        "ypos"                      "5"
+        "ypos"                      "0"
         "tall"                      "40"
 
         "max_size"                  "20"
@@ -106,9 +197,9 @@
         "12v12_gap"                 "1"
 
         "team1_base_x"              "c-35"
-        "team1_max_expand"          "120"
+        "team1_max_expand"          "200"
         "team2_base_x"              "c35"
-        "team2_max_expand"          "120"
+        "team2_max_expand"          "200"
 
         "playerpanels_kv"
         {
@@ -122,8 +213,8 @@
             "color_portrait_bg_red_dead"            "Blank"
             "color_portrait_bg_blue_dead"           "Blank"
 
-            "color_portrait_bg_red_local_player"    "Blank"
-            "color_portrait_bg_blue_local_player"   "Blank"
+            "color_portrait_bg_red_local_player"    "FragPanelTransparentDark40"
+            "color_portrait_bg_blue_local_player"   "FragPanelTransparentDark40"
 
             "color_bar_health_high"                 "FragNeutral100"
             "color_bar_health_med"                  "FragNeutral100"
@@ -138,23 +229,38 @@
             "classimage"
             {
                 "xpos"          "cs-0.5"
-                "ypos"          "1"
-                "wide"          "19"
-                "tall"          "19"
+                "ypos"          "2"
+                "wide"          "16"
+                "tall"          "16"
+            }
+
+            "classimagebg"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "classimagebg"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "0"
+                "zpos"                      "2"
+                "wide"                      "f0"
+                "tall"                      "20"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "PaintBackgroundType"       "0"
+                "proportionaltoparent"      "1"
             }
 
             "healthbar"
             {
-                "xpos"                  "0"
-                "ypos"                  "21"
+                "xpos"                  "cs-0.5"
+                "ypos"                  "19"
                 "wide"                  "f0"
                 "tall"                  "1"
                 "bgcolor_override"      "FragPanelTransparentDark60"
             }
             "overhealbar"
             {
-                "xpos"                  "0"
-                "ypos"                  "21"
+                "xpos"                  "cs-0.5"
+                "ypos"                  "19"
                 "wide"                  "f0"
                 "tall"                  "1"
                 "fgcolor_override"      "FragPositive100"
@@ -165,8 +271,8 @@
             {
                 "ypos"                  "20"
                 "tall"                  "10"
-                "font"                  "FontMedium_9_Additive"
-                "fgcolor"               "FragNegative100"
+                "font"                  "FontMedium_8_Additive"
+                "fgcolor"               "FragAccent100"
             }
 
             // DISABLED
