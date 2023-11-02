@@ -8,7 +8,7 @@
         "enabled"                   "1"
         "xpos"                      "5"
         "ypos"                      "25"
-        "wide"                      "240"
+        "wide"                      "280"
         "tall"                      "120"
         "PaintBackgroundType"       "0"
         "roundedcorners"            "0"
