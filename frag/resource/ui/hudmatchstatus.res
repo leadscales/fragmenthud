@@ -169,7 +169,7 @@
     {
         "ypos"                      "5"
         "wide"                      "60"
-        "tall"                      "22"
+        "tall"                      "20"
     }
 
     "TeamStatus"
