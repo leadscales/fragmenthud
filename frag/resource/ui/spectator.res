@@ -3,7 +3,7 @@
     "ReinforcementsLabel"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "65"
+        "ypos"              "c0-s1-60"
         "wide"              "f0"
         "tall"              "20"
         "font"              "FontMedium_16"
@@ -11,7 +11,7 @@
     "BuyBackLabel"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "85"
+        "ypos"              "c0-s1-40"
         "wide"              "f0"
         "tall"              "20"
         "font"              "FontMedium_16"

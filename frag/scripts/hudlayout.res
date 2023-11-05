@@ -82,7 +82,7 @@
     "HudDeathNotice"
     {
         "xpos"              "r645"
-        "ypos"              "23"
+        "ypos"              "27"
         "wide"              "640"
         "tall"              "480"
 
@@ -124,7 +124,7 @@
     "HudKothTimeStatus"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "0"
+        "ypos"              "5"
         "wide"              "60"
         "tall"              "20"
     }

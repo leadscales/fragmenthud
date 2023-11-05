@@ -9,7 +9,7 @@
     "ObjectiveStatusTimePanel"
     {
         "xpos"                      "cs-0.5"
-        "ypos"                      "0"
+        "ypos"                      "5"
         "wide"                      "60"
         "tall"                      "40"
         "delta_item_x"              "9999"
@@ -23,7 +23,7 @@
         "if_match"
         {
             "xpos"                      "cs-0.5"
-            "ypos"                      "0"
+            "ypos"                      "5"
             "wide"                      "60"
             "tall"                      "40"
             "delta_item_x"              "9999"
@@ -56,8 +56,8 @@
 
     "BGFrame"
     {
-        "ypos"                      "0"
-        "wide"                      "520"
+        "ypos"                      "5"
+        "wide"                      "480"
         "tall"                      "20"
         "border"                    "NoBorder"
         "bgcolor_override"          "Blank"
@@ -72,6 +72,18 @@
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "bgcolor_override"      "FragPanelTransparentDark60"
+        }
+        
+        "TimePanelBG"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BGPanel"
+            "xpos"                  "cs-0.5"
+            "ypos"                  "0"
+            "wide"                  "60"
+            "tall"                  "f0"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark20"
         }
 
         "BluStroke"
@@ -151,37 +163,11 @@
                 "drawcolor"             "FragRed05"
             }
         }
-
-        "RefractorL"
-        {
-            "ControlName"           "ImagePanel"
-            "fieldName"             "RefractorL"
-            "xpos"                  "0"
-            "ypos"                  "0"
-            "wide"                  "20"
-            "tall"                  "20"
-            "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/in_game/refract_45deg_tl"
-            "scaleImage"            "1"
-        }
-
-        "RefractorR"
-        {
-            "ControlName"           "ImagePanel"
-            "fieldName"             "RefractorR"
-            "xpos"                  "rs1"
-            "ypos"                  "0"
-            "wide"                  "20"
-            "tall"                  "20"
-            "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/in_game/refract_45deg_tr"
-            "scaleImage"            "1"
-        }
     }
 
     "roundcounter"
     {
-        "ypos"                      "0"
+        "ypos"                      "5"
         "wide"                      "60"
         "tall"                      "22"
     }
@@ -189,9 +175,10 @@
     "TeamStatus"
     {
         "xpos"                      "0"
-        "ypos"                      "0"
+        "ypos"                      "5"
         "tall"                      "40"
 
+        "min_size"                  "20"
         "max_size"                  "20"
         "6v6_gap"                   "1"
         "12v12_gap"                 "1"
@@ -213,8 +200,8 @@
             "color_portrait_bg_red_dead"            "Blank"
             "color_portrait_bg_blue_dead"           "Blank"
 
-            "color_portrait_bg_red_local_player"    "FragPanelTransparentDark40"
-            "color_portrait_bg_blue_local_player"   "FragPanelTransparentDark40"
+            "color_portrait_bg_red_local_player"    "FragRed05"
+            "color_portrait_bg_blue_local_player"   "FragBlu05"
 
             "color_bar_health_high"                 "FragNeutral100"
             "color_bar_health_med"                  "FragNeutral100"

@@ -4,7 +4,7 @@
     {
         "ypos"      "0"
         "wide"      "60"
-        "tall"      "20"
+        "tall"      "22"
 
         "starting_width"            "0" // Unused?
         "width_per_round"           "0" // Unused?
@@ -13,7 +13,7 @@
 
         "RoundIndicatorPanel_kv"
         {
-            "ypos"                  "19"
+            "ypos"                  "21"
             "wide"                  "5"
             "tall"                  "1"
             "proportionaltoparent"  "1"
@@ -22,7 +22,7 @@
         }
         "RoundWinPanelRed_kv"
         {
-            "ypos"                  "19"
+            "ypos"                  "21"
             "wide"                  "5"
             "tall"                  "1"
             "proportionaltoparent"  "1"
@@ -31,7 +31,7 @@
         }
         "RoundWinPanelBlue_kv"
         {
-            "ypos"                  "19"
+            "ypos"                  "21"
             "wide"                  "5"
             "tall"                  "1"
             "proportionaltoparent"  "1"
