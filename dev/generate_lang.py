@@ -24,6 +24,8 @@ def main():
         LANG_CHAT_DATA = tomllib.load(file)
     with open(VERSION_PATH, "r") as file:
         hud_version = file.read()
+    with open(root.joinpath("cfg/frag_startmsg.txt"), "r") as file:
+        startmsg = file.readlines()
 
     CONTROL_CHARS = {
         r"NC": b"\x01".decode(),
@@ -80,9 +82,20 @@ def main():
         d = d.replace("\n", "; echo ")
         d += ";"
 
-        s = f"alias \"frag_info\" \"{d}\""
+        s = f"alias \"frag_info\" \"{d}\"\n"
+        s += f"alias \"frag_version\" \"echo {hud_version}\"\n"
 
         file.write(s)
+
+    with open(root.joinpath("cfg/frag_startmsg.cfg"), "w") as file:
+        lines = startmsg
+        for line in range(len(lines)):
+            _line = lines[line]
+            _line = _line.strip("\n")
+            _line = _line.format(**{"version": hud_version.center(48)})
+            lines[line] = "echo \"" + _line + "\""
+
+        file.write("\n".join(lines))
 
 
 if __name__ == "__main__":

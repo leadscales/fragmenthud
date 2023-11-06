@@ -33,3 +33,6 @@ cl_hud_minmode 0
 alias cl_hud_minmode ""
 con_timestamp 0
 wait 20; showconsole; wait 10; toggle mat_aaquality; hideconsole
+
+// ECHO INFO
+exec frag_startmsg
