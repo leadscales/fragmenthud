@@ -1,22 +1,5 @@
 "Resource/UI/HudPlayerClass.res"
 {
-    "ClassGeneralBG"
-    {
-        "ControlName"           "CTFImagePanel"
-        "fieldName"             "ClassGeneralBG"
-        "xpos"                  "0"
-        "ypos"                  "rs1"
-        "zpos"                  "1"
-        "wide"                  "80"
-        "tall"                  "10"
-        "proportionaltoparent"  "1"
-        "teambg_0"              "replay/thumbnails/in_game/class_panel_gradient_neutral"
-        "teambg_1"              "replay/thumbnails/in_game/class_panel_gradient_neutral"
-        "teambg_2"              "replay/thumbnails/in_game/class_panel_gradient_red"
-        "teambg_3"              "replay/thumbnails/in_game/class_panel_gradient_blu"
-        "scaleImage"            "1"
-        "alpha"                 "255"
-    }
     "classmodelpanel"
     {
         "xpos"                  "0"
