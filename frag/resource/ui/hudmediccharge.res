@@ -23,7 +23,7 @@
         "tall"                      "30"
         "labelText"                 "#TF_UberchargeMinHUD"
         "textalignment"             "center"
-        "font"                      "FontBold_22_Additive"
+        "font"                      "FontHealth_Large"
 
         "pin_to_sibling"            "MedicChargeAnchor"
     }
@@ -37,7 +37,7 @@
         "tall"                      "30"
         "labelText"                 "#TF_IndividualUberchargesMinHUD"
         "textalignment"             "center"
-        "font"                      "FontBold_22_Additive"
+        "font"                      "FontHealth_Large"
 
         "pin_to_sibling"            "MedicChargeAnchor"
     }
