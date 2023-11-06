@@ -23,5 +23,30 @@ FRAG_Buttons_Translate = "Help translate FRAGMENTHUD"
 FRAG_Buttons_Discord = "Join our Discord server for help"
 FRAG_Buttons_LeadProfile = "View developer profile"
 
+[russian]
+FRAG_Oobe_Description = "Спасибо, что скачали FRAGMENTHUD.\n\nЭтот ХАД пока в разработке, поэтому некоторые вещи могут ломаться. Сообщайте о проблемах на ГитХабе или попросите помощи на нашем дискорд сервере.\n\nЭто уведомление больше не появится.\n\nСпасибо <3\n\n-Lead"
+FRAG_Oobe_HangWarn = "TF2 может ненадолго зависнуть при выходе из этого меню, это нормально, игра не вылетела."
+
+FRAG_Safemode_Warn = "Рекомендуется применить изменения ПЕРЕД тем как заходить на сервер, это снижает шанс того, что они сломаются. После того как вы применили изменения, нужно будет перезапустить игру, чтобы цвета поменялись."
+FRAG_Safemode_RenameWarn = "Папка с ХАДом не переименована. Кастомизация не будет работать."
+
+FRAG_Safemode_Colors_Title = "ЦВЕТА"
+FRAG_Safemode_Colors_Primary = "ГЛАВНЫЙ"
+FRAG_Safemode_Colors_Accent = "ВТОРОСТЕПЕННЫЙ"
+FRAG_Safemode_Colors_Negative = "ОТРИЦАТЕЛЬНЫЙ"
+FRAG_Safemode_Colors_Positive = "ПОЛОЖИТЕЛЬНЫЙ"
+
+FRAG_Safemode_Scoreboard_Title = "Таблица счёта"
+FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (НЕОГРАНИЧЕННЫЙ)"
+
+FRAG_Buttons_Info = "о ХАДе"
+FRAG_Buttons_Console = "Консоль"
+FRAG_Buttons_DemoUI = "Демо"
+FRAG_Buttons_FixIssues = "Попытаться решить проблемы с ХАДом/интерфейсом/звуком"
+FRAG_Buttons_BugReport = "Сообщить об ошибке"
+FRAG_Buttons_Translate = "Помочь с переводом FRAGMENTHUD"
+FRAG_Buttons_Discord = "Обратиться в наш дискорд сервер за помощью"
+FRAG_Buttons_LeadProfile = "Профиль создателя"
+
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"
