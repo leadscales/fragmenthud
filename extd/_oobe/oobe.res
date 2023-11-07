@@ -103,133 +103,309 @@
             }
         }
 
-        "HangWarning"
-        {
-            "ControlName"               "CExLabel"
-            "fieldName"                 "Head"
-            "xpos"                      "cs-0.5"
-            "ypos"                      "rs1"
-            "wide"                      "640"
-            "tall"                      "20"
-            "labelText"                 "#FRAG_Oobe_HangWarn"
-            "font"                      "FontMedium_12_Additive"
-            "textAlignment"             "center"
-            "fgcolor"                   "FragPrimary40"
-        }
-
-        "Background"
+        "TopBar"
         {
             "ControlName"                   "EditablePanel"
-            "fieldName"                     "Background"
-            "xpos"                          "cs-0.5"
-            "ypos"                          "cs-0.5"
+            "fieldName"                     "TopBar"
+            "xpos"                          "0"
+            "ypos"                          "0"
+            "zpos"                          "100"
+            "wide"                          "f0"
+            "tall"                          "20"
+            "bgcolor_override"              "FragPanelTransparentDark60"
+
+            "QuitButtonBG"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "QuitButtonBG"
+                "xpos"                      "rs1"
+                "ypos"                      "0"
+                "wide"                      "40"
+                "tall"                      "20"
+                "bgcolor_override"          "FragPanelTransparentDark40"
+            }
+
+            "QuitButton"
+            {
+                "ControlName"               "CExButton"
+                "fieldName"                 "QuitButton"
+                "xpos"                      "rs1"
+                "ypos"                      "0"
+                "wide"                      "40"
+                "tall"                      "20"
+
+                "font"                      "Icons_Small"
+                "labeltext"                 "x"
+                "textalignment"             "center"
+
+                "command"                   "engine quit"
+                "actionsignallevel"         "3"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragNegative20"
+                "fgcolor"                   "FragNegative100"
+                "defaultfgcolor_override"   "FragNegative100"
+                "armedfgcolor_override"     "FragNegative100"
+                "roundedcorners"            "0"
+            }
+
+            "Title"
+            {
+                "ControlName"               "CExLabel"
+                "fieldName"                 "Title"
+                "xpos"                      "5"
+                "ypos"                      "0"
+                "wide"                      "f45"
+                "tall"                      "20"
+                
+                "labelText"                 "FRAGMENTHUD"
+                "font"                      "FontMedium_12_Additive"
+                "fgcolor"                   "FragPrimary100"
+            }
+        }
+
+        "ContentBG"
+        {
+            "ControlName"                   "EditablePanel"
+            "fieldName"                     "ContentBG"
+            "xpos"                          "0"
+            "ypos"                          "40"
+            "zpos"                          "100"
             "wide"                          "f0"
             "tall"                          "f80"
             "bgcolor_override"              "FragPanelTransparentDark60"
 
-            "Head"
+            "ContentPanel"
+            {
+                "ControlName"                   "EditablePanel"
+                "fieldName"                     "ContentPanel"
+                "xpos"                          "cs-0.5"
+                "ypos"                          "20"
+                "wide"                          "400"
+                "tall"                          "f40"
+                "proportionaltoparent"          "1"
+
+                "TitlePanel"
+                {
+                    "ControlName"                   "EditablePanel"
+                    "fieldName"                     "TitlePanel"
+                    "xpos"                          "0"
+                    "ypos"                          "0"
+                    "wide"                          "f0"
+                    "tall"                          "40"
+                    "proportionaltoparent"          "1"
+
+                    "TitleLabel"
+                    {
+                        "ControlName"               "CExLabel"
+                        "fieldName"                 "TitleLabel"
+                        "xpos"                      "0"
+                        "ypos"                      "5"
+                        "wide"                      "f0"
+                        "tall"                      "f0"
+                        "proportionaltoparent"      "1"
+                        
+                        "labelText"                 "FRAGMENTHUD"
+                        "textAlignment"             "north"
+                        "font"                      "FontBold_22_Additive"
+                        "fgcolor"                   "FragAccent100"
+                    }
+                    "VersionLabel"
+                    {
+                        "ControlName"               "CExLabel"
+                        "fieldName"                 "VersionLabel"
+                        "xpos"                      "0"
+                        "ypos"                      "rs1-5"
+                        "wide"                      "f0"
+                        "tall"                      "f0"
+                        "proportionaltoparent"      "1"
+                        
+                        "labelText"                 "#FRAG_Version"
+                        "textAlignment"             "south"
+                        "font"                      "FontMedium_12_Additive"
+                        "fgcolor"                   "FragPrimary100"
+                    }
+                }
+
+                "BodyPanel"
+                {
+                    "ControlName"                   "CScrollableList"
+                    "fieldName"                     "BodyPanel"
+                    "xpos"                          "0"
+                    "ypos"                          "60"
+                    "wide"                          "f0"
+                    "tall"                          "f100"
+                    "proportionaltoparent"          "1"
+                    "restrict_width"                "0"
+                    "scroll_step"                   "5"
+
+                    "BodyText"
+                    {
+                        "ControlName"               "CExLabel"
+                        "fieldName"                 "BodyText"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "9999"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "#FRAG_Oobe_Description"
+                        "font"                      "FontMedium_12"
+                        "textAlignment"             "north-west"
+                        "wrap"                      "1"
+                        "fgcolor"                   "FragNeutral100"
+                    }
+
+                    "Scrollbar"
+                    {
+                        "wide"                      "0"
+                        "nobuttons"                 "1"
+                    }
+                }
+
+                "ButtonsPanel"
+                {
+                    "ControlName"                   "EditablePanel"
+                    "fieldName"                     "ButtonsPanel"
+                    "xpos"                          "0"
+                    "ypos"                          "rs1"
+                    "wide"                          "f0"
+                    "tall"                          "20"
+                    "proportionaltoparent"          "1"
+
+                    "Continue"
+                    {
+                        "ControlName"               "CExButton"
+                        "fieldName"                 "Continue"
+                        "xpos"                      "c0-s1-61"
+                        "ypos"                      "0"
+                        "wide"                      "120"
+                        "tall"                      "20"
+                        "proportionaltoparent"      "1"
+
+                        "labelText"                 "#ConfirmButtonText"
+                        "allcaps"                   "1"
+                        "font"                      "FontMedium_12_Additive"
+                        "textAlignment"             "center"
+
+                        "command"                   "engine frag_oobe=off; frag_rm"
+                        "actionsignallevel"         "5"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+
+                        "defaultbgcolor_override"   "FragPanelTransparentDark60"
+                        "armedbgcolor_override"     "FragPrimary20"
+                        "defaultfgcolor_override"   "FragNeutral100"
+                        "armedfgcolor_override"     "FragPrimary100"
+                    }
+                    "Github"
+                    {
+                        "ControlName"               "CExButton"
+                        "fieldName"                 "Github"
+                        "xpos"                      "cs-0.5"
+                        "ypos"                      "0"
+                        "wide"                      "120"
+                        "tall"                      "20"
+                        "proportionaltoparent"      "1"
+
+                        "labelText"                 "GITHUB"
+                        "allcaps"                   "1"
+                        "font"                      "FontMedium_12_Additive"
+                        "textAlignment"             "center"
+
+                        "command"                   "url https://github.com/leadscales/fragmenthud"
+                        "actionsignallevel"         "5"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+
+                        "defaultbgcolor_override"   "FragPanelTransparentDark60"
+                        "armedbgcolor_override"     "FragPrimary20"
+                        "defaultfgcolor_override"   "FragNeutral100"
+                        "armedfgcolor_override"     "FragPrimary100"
+                    }
+                    "Discord"
+                    {
+                        "ControlName"               "CExButton"
+                        "fieldName"                 "Discord"
+                        "xpos"                      "c61"
+                        "ypos"                      "0"
+                        "wide"                      "120"
+                        "tall"                      "20"
+                        "proportionaltoparent"      "1"
+
+                        "labelText"                 "DISCORD"
+                        "allcaps"                   "1"
+                        "font"                      "FontMedium_12_Additive"
+                        "textAlignment"             "center"
+
+                        "command"                   "url https://discord.gg/yADdaAPvc4"
+                        "actionsignallevel"         "5"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+
+                        "defaultbgcolor_override"   "FragPanelTransparentDark60"
+                        "armedbgcolor_override"     "FragPrimary20"
+                        "defaultfgcolor_override"   "FragNeutral100"
+                        "armedfgcolor_override"     "FragPrimary100"
+                    }
+                }
+            }
+        }
+
+        "BottomBar"
+        {
+            "ControlName"                   "EditablePanel"
+            "fieldName"                     "BottomBar"
+            "xpos"                          "0"
+            "ypos"                          "rs1"
+            "zpos"                          "100"
+            "wide"                          "f0"
+            "tall"                          "20"
+            "bgcolor_override"              "FragPanelTransparentDark60"
+
+            "Flag"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "Flag"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "40"
+                "tall"                      "20"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/menu/prideflag"
+                "scaleImage"                "1"
+                "alpha"                     "153"
+            }
+
+            "Icon"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "Icon"
+                "xpos"                      "rs1-4"
+                "ypos"                      "4"
+                "wide"                      "12"
+                "tall"                      "12"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/menu/leadicon"
+                "scaleImage"                "1"
+                "alpha"                     "255"
+                "drawcolor"                 "FragAccent100"
+            }
+
+            "HangWarning"
             {
                 "ControlName"               "CExLabel"
-                "fieldName"                 "Head"
+                "fieldName"                 "HangWarning"
                 "xpos"                      "cs-0.5"
-                "ypos"                      "20"
+                "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "20"
-                "labelText"                 "FRAGMENTHUD"
-                "font"                      "FontBold_22_Additive"
-                "textAlignment"             "center"
-                "fgcolor"                   "FragAccent100"
-            }
-
-            "Version"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Version"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "40"
-                "wide"                      "f0"
-                "tall"                      "20"
-                "labelText"                 "#FRAG_Version"
+                "proportionaltoparent"      "1"
+                "labelText"                 "#FRAG_Oobe_HangWarn"
                 "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
-                "fgcolor"                   "FragPrimary100"
-            }
-
-            "Body"
-            {
-                "ControlName"               "CExLabel"
-                "fieldName"                 "Body"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "80"
-                "wide"                      "400"
-                "tall"                      "f220"
-                "labelText"                 "#FRAG_Oobe_Description"
-                "font"                      "FontMedium_12"
-                "textAlignment"             "north-west"
-                "wrap"                      "1"
-                "fgcolor"                   "FragNeutral100"
-            }
-
-            "Continue"
-            {
-                "ControlName"               "CExButton"
-                "fieldName"                 "Continue"
-                "xpos"                      "c0-s1-41"
-                "ypos"                      "rs1-100"
-                "wide"                      "80"
-                "tall"                      "20"
-                "labelText"                 "#ConfirmButtonText"
-                "allcaps"                   "1"
-                "font"                      "FontMedium_12_Additive"
-                "textAlignment"             "center"
-                "command"                   "engine frag_oobe=off; frag_rm"
-                "actionsignallevel"         "3"
-                "sound_depressed"           "UI/buttonclick.wav"
-                "sound_released"            "UI/buttonclickrelease.wav"
-                "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                "armedbgcolor_override"     "FragPrimary20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
-            }
-            "GitHub"
-            {
-                "ControlName"               "CExButton"
-                "fieldName"                 "GitHub"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1-100"
-                "wide"                      "80"
-                "tall"                      "20"
-                "labelText"                 "GITHUB"
-                "allcaps"                   "1"
-                "font"                      "FontMedium_12_Additive"
-                "textAlignment"             "center"
-                "command"                   "url https://github.com/leadscales/fragmenthud"
-                "sound_depressed"           "UI/buttonclick.wav"
-                "sound_released"            "UI/buttonclickrelease.wav"
-                "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                "armedbgcolor_override"     "FragPrimary20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
-            }
-            "Discord"
-            {
-                "ControlName"               "CExButton"
-                "fieldName"                 "Discord"
-                "xpos"                      "c41"
-                "ypos"                      "rs1-100"
-                "wide"                      "80"
-                "tall"                      "20"
-                "labelText"                 "DISCORD"
-                "allcaps"                   "1"
-                "font"                      "FontMedium_12_Additive"
-                "textAlignment"             "center"
-                "command"                   "url https://discord.gg/yADdaAPvc4"
-                "sound_depressed"           "UI/buttonclick.wav"
-                "sound_released"            "UI/buttonclickrelease.wav"
-                "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                "armedbgcolor_override"     "FragPrimary20"
-                "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "fgcolor"                   "FragPrimary40"
             }
         }
     }
