@@ -6,7 +6,7 @@
         "fieldName"                 "FlagPanelBG"
         "xpos"                      "cs-0.5"
         "ypos"                      "rs1-5"
-        "wide"                      "180"
+        "wide"                      "190"
         "tall"                      "20"
         "bgcolor_override"          "Blank"
 
@@ -16,7 +16,7 @@
             "fieldName"                 "CenterBG"
             "xpos"                      "cs-0.5"
             "ypos"                      "0"
-            "wide"                      "138"
+            "wide"                      "f42"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "bgcolor_override"          "FragPanelTransparentDark60"
@@ -48,9 +48,9 @@
         {
             "ControlName"           "EditablePanel"
             "fieldName"             "BluScoreBGLight"
-            "xpos"                  "c0-s1"
+            "xpos"                  "21"
             "ypos"                  "0"
-            "wide"                  "69"
+            "wide"                  "70"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
 
@@ -65,7 +65,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/menu/side_panel_light_left"
                 "scaleImage"            "1"
-                "drawcolor"             "FragBlu05"
+                "drawcolor"             "FragBlu10"
             }
         }
 
@@ -73,9 +73,9 @@
         {
             "ControlName"           "EditablePanel"
             "fieldName"             "RedScoreBGLight"
-            "xpos"                  "c0"
+            "xpos"                  "rs1-21"
             "ypos"                  "0"
-            "wide"                  "69"
+            "wide"                  "70"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
 
@@ -90,7 +90,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/menu/side_panel_light_right"
                 "scaleImage"            "1"
-                "drawcolor"             "FragRed05"
+                "drawcolor"             "FragRed10"
             }
         }
 
@@ -203,7 +203,7 @@
 
     "BlueFlag"
     {
-        "xpos"                      "c0-s1-90"
+        "xpos"                      "c0-s1-100"
         "ypos"                      "rs1"
         "wide"                      "40"
         "tall"                      "40"
@@ -217,7 +217,7 @@
     }
     "RedFlag"
     {
-        "xpos"                      "c90"
+        "xpos"                      "c100"
         "ypos"                      "rs1"
         "wide"                      "40"
         "tall"                      "40"
