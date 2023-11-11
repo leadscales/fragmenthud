@@ -82,7 +82,7 @@
         "ItemAttribNeutral"                         "255 255 255 255"
         "ItemAttribPositive"                        "64 255 160 255"
         "ItemAttribNegative"                        "255 96 64 255"
-        "ItemSetName"                               "64 192 255 255"
+        "ItemSetName"                               "255 192 64 255"
         "ItemSetItemEquipped"                       "255 255 255 255"
         "ItemSetItemMissing"                        "128 128 128 255"
         "ItemIsotope"                               "225 192 64 255"
