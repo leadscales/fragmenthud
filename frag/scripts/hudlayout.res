@@ -187,6 +187,15 @@
         "TextFont"                  "FontMedium_10"
     }
 
+    "QueueHUDStatus" // Unused? Still keeping just in case.
+    {
+        "xpos"                      "5"
+        "ypos"                      "5"
+        "wide"                      "20"
+        "tall"                      "20"
+        "alpha"                     "255"
+    }
+
     // DISABLED
 
     "HudBowCharge"

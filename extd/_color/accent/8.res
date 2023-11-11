@@ -11,5 +11,6 @@
 "ItemIsotope" "224 255 64 255"
 "ItemBundleItem" "224 255 64 255"
 "ItemLimitedUse" "224 255 64 255"
+"ItemSetName" "224 255 64 255"
 }
 }

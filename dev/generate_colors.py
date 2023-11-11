@@ -114,7 +114,8 @@ def generate_color_dict(
             current.update({
                 "ItemIsotope": color.as_vdf(255),
                 "ItemBundleItem": color.as_vdf(255),
-                "ItemLimitedUse": color.as_vdf(255)
+                "ItemLimitedUse": color.as_vdf(255),
+                "ItemSetName": color.as_vdf(255)
             })
         elif color_class == "Negative":
             current.update({
