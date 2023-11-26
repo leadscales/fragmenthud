@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"      "vgui/replay/thumbnails/in_game/hitmarker"
+    "$baseTexture"      "vgui/replay/thumbnails/hitmarker/3"
     "$translucent"      "1"
     "$vertexalpha"      "1"
     "$vertexcolor"      "1"

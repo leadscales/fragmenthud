@@ -12,6 +12,8 @@ FRAG_Safemode_Colors_Negative = "NEGATIVE"
 FRAG_Safemode_Colors_Positive = "POSITIVE"
 
 FRAG_Safemode_Hitmarker_Title = "HITMARKER"
+FRAG_Safemode_HitmarkerShape_Title = "HITMARKER SHAPE"
+FRAG_Safemode_HitmarkerSize_Title = "HITMARKER SIZE"
 
 FRAG_Safemode_Scoreboard_Title = "SCOREBOARD"
 FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (UNRESTRICTED)"
@@ -24,6 +26,10 @@ FRAG_Buttons_BugReport = "Report an issue with the HUD"
 FRAG_Buttons_Translate = "Help translate FRAGMENTHUD"
 FRAG_Buttons_Discord = "Join our Discord server for help"
 FRAG_Buttons_LeadProfile = "View developer profile"
+
+FRAG_Etc_Small = "Small"
+FRAG_Etc_Medium = "Medium"
+FRAG_Etc_Large = "Large"
 
 [russian]
 FRAG_Oobe_Description = "Спасибо, что скачали FRAGMENTHUD.\n\nЭтот ХАД пока в разработке, поэтому некоторые вещи могут ломаться. Сообщайте о проблемах на ГитХабе или попросите помощи на нашем дискорд сервере.\n\nЭто уведомление больше не появится.\n\nСпасибо <3\n\n-Lead"

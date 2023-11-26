@@ -4,6 +4,8 @@
 
 #base "safemode_colors.res"
 #base "safemode_hitmarker.res"
+#base "safemode_hitmarker_shape.res"
+#base "safemode_hitmarker_size.res"
 #base "safemode_scoreboard.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -172,9 +174,21 @@
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }
-                "Scoreboard"
+                "HitmarkerShape"
                 {
                     "pin_to_sibling"            "Hitmarker"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "HitmarkerSize"
+                {
+                    "pin_to_sibling"            "HitmarkerShape"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Scoreboard"
+                {
+                    "pin_to_sibling"            "HitmarkerSize"
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }

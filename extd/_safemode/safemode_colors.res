@@ -136,9 +136,11 @@
                                 "fieldName"                 "ButtonContainer"
                                 "xpos"                      "cs-0.5"
                                 "ypos"                      "21"
-                                "wide"                      "188"
+                                "wide"                      "f12"
                                 "tall"                      "16"
                                 "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
                             }
                         }
                         "Accent"
@@ -183,7 +185,7 @@
                                 "fieldName"                 "ButtonContainer"
                                 "xpos"                      "cs-0.5"
                                 "ypos"                      "21"
-                                "wide"                      "188"
+                                "wide"                      "F12"
                                 "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
@@ -230,7 +232,7 @@
                                 "fieldName"                 "ButtonContainer"
                                 "xpos"                      "cs-0.5"
                                 "ypos"                      "21"
-                                "wide"                      "188"
+                                "wide"                      "F12"
                                 "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
@@ -277,7 +279,7 @@
                                 "fieldName"                 "ButtonContainer"
                                 "xpos"                      "cs-0.5"
                                 "ypos"                      "21"
-                                "wide"                      "188"
+                                "wide"                      "F12"
                                 "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
