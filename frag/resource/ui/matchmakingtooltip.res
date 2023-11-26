@@ -2,8 +2,8 @@
 {
     "TooltipPanel"
     {
-        "wide"                  "200"
-        "tall"                  "20"
+        "wide"                  "0"
+        "tall"                  "0"
         "border"                "NoBorder"
         "bgcolor_override"      "FragPanelTransparentDark80"
         "TipLabel"
@@ -22,10 +22,11 @@
             }
             "xpos"                      "5"
             "ypos"                      "5"
-            "wide"                      "200"
-            "tall"                      "20"
+            "wide"                      "0"
+            "tall"                      "0"
             "fgcolor"                   "FragNeutral100"
             "fgcolor_override"          "FragNeutral100"
+            "wrap"                      "0"
         }
     }
 }

@@ -3,7 +3,7 @@
     // holy shit !!!!
     "ElementAnchor"
     {
-        "ypos"              "40"
+        "ypos"              "45"
     }
     "CentralScoreBG"
     {
@@ -11,13 +11,13 @@
     }
     "BluePlayerList"
     {
-        "ypos"              "60"
+        "ypos"              "65"
         "tall"              "310"
         "linespacing"       "10"
     }
     "RedPlayerList"
     {
-        "ypos"              "60"
+        "ypos"              "65"
         "tall"              "310"
         "linespacing"       "10"
     }
