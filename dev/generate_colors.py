@@ -2,6 +2,9 @@ import fragment
 import vdf
 import typing
 import pathlib
+import colorsys
+import typing
+import shutil
 
 SWB = "sixense_write_bindings"
 SCB = "frag_cb"
@@ -21,53 +24,100 @@ class Color(typing.NamedTuple):
         )
 
 
-# Some colors have been manually adjusted to be closer in percieved luminance.
-# If it is <50 on LAB's Lightness channel, it will be clamped to there.
+def clamp(min_: float | int, max_: float | int, value: float | int):
+    return max(min_, min(value, max_))
 
-colors: tuple[Color, ...] = (
-    #
-    Color(255, 64, 64),
-    Color(255, 96, 64),
-    Color(255, 128, 64),
-    Color(255, 160, 64),
-    Color(255, 192, 64),
-    Color(255, 224, 64),
-    #
-    Color(255, 255, 64),
-    Color(224, 255, 64),
-    Color(192, 255, 64),
-    Color(160, 255, 64),
-    Color(128, 255, 64),
-    Color(96, 255, 64),
-    #
-    Color(64, 255, 64),
-    Color(64, 255, 96),
-    Color(64, 255, 128),
-    Color(64, 255, 160),
-    Color(64, 255, 192),
-    Color(64, 255, 224),
-    #
-    Color(64, 255, 255),
-    Color(64, 224, 255),
-    Color(64, 192, 255),
-    Color(64, 160, 255),
-    Color(64, 128, 255),
-    Color(78, 105, 255),  # (64, 96, 255)
-    #
-    Color(112, 103, 255),  # (64, 64, 255)
-    Color(139, 98, 255),  # (96, 64, 255)
-    Color(159, 90, 255),  # (128, 64, 255)
-    Color(179, 81, 255),  # (160, 64, 255)
-    Color(196, 69, 255),  # (192, 64, 255)
-    Color(224, 64, 255),
-    #
-    Color(255, 64, 255),
-    Color(255, 64, 224),
-    Color(255, 64, 192),
-    Color(255, 64, 160),
-    Color(255, 64, 128),
-    Color(255, 64, 96),
-)
+
+def g2l(f: float) -> float:
+    if f >= 0.0031308:
+        return (1.055*(f**(1.0/2.4))-0.055)
+    else:
+        return 12.92*f
+
+
+def l2g(f: float) -> float:
+    if f >= 0.04045:
+        return ((f+0.055)/(1+0.055))**2.4
+    else:
+        return f/12.92
+
+
+def rgb_to_oklab(rgb_f: typing.Sequence[float]) -> tuple[float, ...]:
+    rgb_f = tuple(map(g2l, rgb_f))
+    l = (0.4122214708 * rgb_f[0]) +\
+        (0.5363325363 * rgb_f[1]) +\
+        (0.0514459929 * rgb_f[2])
+    m = (0.2119034982 * rgb_f[0]) +\
+        (0.6806995451 * rgb_f[1]) +\
+        (0.1073969566 * rgb_f[2])
+    s = (0.0883024619 * rgb_f[0]) +\
+        (0.2817188376 * rgb_f[1]) +\
+        (0.6299787005 * rgb_f[2])
+
+    l_ = l**(1.0/3)
+    m_ = m**(1.0/3)
+    s_ = s**(1.0/3)
+
+    return (
+        0.2104542553*l_ + 0.7936177850*m_ - 0.0040720468*s_,
+        1.9779984951*l_ - 2.4285922050*m_ + 0.4505937099*s_,
+        0.0259040371*l_ + 0.7827717662*m_ - 0.8086757660*s_,
+    )
+
+
+def oklab_to_rgb(oklab_f: typing.Sequence[float]) -> tuple[float, ...]:
+    l_ = (
+        oklab_f[0] +
+        oklab_f[1]*(+0.3963377774) +
+        oklab_f[2]*(+0.2158037573)
+    )
+    m_ = (
+        oklab_f[0] +
+        oklab_f[1]*(-0.1055613458) +
+        oklab_f[2]*(-0.0638541728)
+    )
+
+    s_ = (
+        oklab_f[0] +
+        oklab_f[1]*(-0.0894841775) +
+        oklab_f[2]*(-1.2914855480)
+    )
+
+    l = l_**3
+    m = m_**3
+    s = s_**3
+
+    r = l * +4.0767416621 + m * -3.3077115913 + s * +0.2309699292
+    g = l * -1.2684380046 + m * +2.6097574011 + s * -0.3413193965
+    b = l * -0.0041960863 + m * -0.7034186147 + s * +1.7076147010
+
+    return (
+        l2g(r),
+        l2g(g),
+        l2g(b)
+    )
+
+
+def generate_color_sequence(count: int, min_luminance: float) -> tuple[Color, ...]:
+    result = []
+    coefficient = 1/count
+
+    for i in range(count):
+        color_rgb = colorsys.hsv_to_rgb(coefficient*i, 0.75, 1.0)
+        color_oklab = list(rgb_to_oklab(color_rgb))
+        if color_oklab[0] < min_luminance/100:
+            color_oklab[0] = min_luminance/100
+        color_rgb = oklab_to_rgb(color_oklab)
+        color_rgb_int = (int(j*255) for j in color_rgb)
+        color_rgb_int = tuple(clamp(0, 255, j) for j in color_rgb_int)
+        result.append(Color(*color_rgb_int))
+
+    return tuple(result)
+
+
+colors = generate_color_sequence(47, 87.1)
+
+# the math for all of this is probably really wrong but it does what i want it to do anyways so who cares
 
 color_classes: tuple[str, ...] = (
     "Primary",
@@ -87,7 +137,7 @@ color_alphas: dict[str, int] = {
 
 
 def generate_color_dict(
-    colors: tuple[Color, ...],
+    colors: typing.Sequence[Color],
     color_class: str,
     color_alphas: dict[str, int]
 ) -> dict:
@@ -138,7 +188,7 @@ def generate_color_dict(
 
 
 def generate_color_cfg(
-    colors: tuple[Color, ...],
+    colors: typing.Sequence[Color],
     color_class: str
 ) -> str:
     result = ""
@@ -158,7 +208,7 @@ def generate_color_cfg(
 
 
 def generate_color_res(
-    colors: tuple[Color, ...],
+    colors: typing.Sequence[Color],
     color_class: str
 ) -> dict:
     result = {}
@@ -172,7 +222,7 @@ def generate_color_res(
                 "fieldName": str(_ci),
                 "xpos": "0",
                 "ypos": "0",
-                "wide": "5",
+                "wide": "3",
                 "tall": "f0",
                 "proportionaltoparent": "1",
                 "defaultbgcolor_override": f"FragCColor{_ci}_100",
@@ -187,6 +237,7 @@ def generate_color_res(
         }
         if _ci > 1:
             _d[str(_ci)].update({
+                "xpos": "1",
                 "pin_to_sibling": str(color),
                 "pin_corner_to_sibling": "PIN_TOPLEFT",
                 "pin_to_sibling_corner": "PIN_TOPRIGHT"
@@ -215,6 +266,7 @@ def generate_color_res(
 def main():
     root = pathlib.Path(fragment.get_project_root())
     colors_dir = root.joinpath("extd/_color")
+    shutil.rmtree(colors_dir)
 
     for color_class in color_classes:
         # RES AND PTR

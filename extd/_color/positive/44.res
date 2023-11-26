@@ -1,0 +1,16 @@
+"Scheme"
+{
+"Colors"
+{
+"FragPositive100" "255 63 161 255"
+"FragPositive80" "255 63 161 204"
+"FragPositive60" "255 63 161 153"
+"FragPositive40" "255 63 161 102"
+"FragPositive20" "255 63 161 51"
+"FragPositive05" "255 63 161 13"
+"GreenSolid" "255 63 161 255"
+"StoreGreen" "255 63 161 255"
+"ItemAttribPositive" "255 63 161 255"
+"SaleGreen" "255 63 161 255"
+}
+}

@@ -35,6 +35,14 @@
         "wide"              "0"
         "tall"              "0"
         "bgcolor_override"  "0 0 0 0"
+
+        "if_mvm"
+        {
+            "xpos"              "c-300"
+            "ypos"              "70"
+            "wide"              "0"
+            "tall"              "0"
+        }
     }
 
     "CentralScoreBG"
@@ -49,6 +57,15 @@
         "bgcolor_override"  "FragPanelTransparentDark60"
 
         "pin_to_sibling"    "ElementAnchor"
+
+        "if_mvm"
+        {
+            "xpos"              "0"
+            "ypos"              "0"
+            "zpos"              "5"
+            "wide"              "600"
+            "tall"              "340"
+        }
     }
 
     "BottomTCStroke"
@@ -151,6 +168,11 @@
         }
 
         "pin_to_sibling"    "CentralScoreBG"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "BlueScoreBGLight"
@@ -182,6 +204,11 @@
         "pin_to_sibling"        "BlueScoreBG"
         "pin_corner_to_sibling" "PIN_TOPLEFT"
         "pin_to_sibling_corner" "PIN_TOPLEFT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "BlueScoreBGStroke"
@@ -200,6 +227,11 @@
         "pin_to_sibling"        "BlueScoreBG"
         "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
         "pin_to_sibling_corner" "PIN_TOPLEFT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "BlueTeamScore"
@@ -219,6 +251,11 @@
         "bgcolor_override"          "FragBlu20"
 
         "pin_to_sibling"            "BlueScoreBG"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "BlueTeamName"
@@ -244,6 +281,11 @@
         "pin_to_sibling"            "BlueTeamScore"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "BlueTeamPlayerCount"
@@ -263,6 +305,11 @@
         "pin_to_sibling"            "BlueScoreBG"
         "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     // RED
@@ -311,6 +358,11 @@
         "pin_to_sibling"        "CentralScoreBG"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"
         "pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "RedScoreBGLight"
@@ -342,6 +394,11 @@
         "pin_to_sibling"        "RedScoreBG"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"
         "pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "RedScoreBGStroke"
@@ -360,6 +417,11 @@
         "pin_to_sibling"        "RedScoreBG"
         "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
         "pin_to_sibling_corner" "PIN_TOPLEFT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "RedTeamScore"
@@ -381,6 +443,11 @@
         "pin_to_sibling"            "RedScoreBG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "RedTeamName"
@@ -406,6 +473,11 @@
         "pin_to_sibling"            "RedTeamScore"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     "RedTeamPlayerCount"
@@ -425,6 +497,11 @@
         "pin_to_sibling"            "RedScoreBG"
         "pin_corner_to_sibling"     "PIN_BOTTOMRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+        "if_mvm"
+        {
+            "visible"       "0"
+        }
     }
 
     // MISC
@@ -433,10 +510,10 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"         "TopBar"
-        "xpos"              "0"
-        "ypos"              "0"
+        "xpos"              "5"
+        "ypos"              "5"
         "zpos"              "5"
-        "wide"              "f0"
+        "wide"              "f10"
         "tall"              "20"
         "bgcolor_override"  "FragPanelTransparentDark60"
     }
@@ -444,10 +521,10 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"         "BottomBar"
-        "xpos"              "0"
-        "ypos"              "rs1"
+        "xpos"              "5"
+        "ypos"              "rs1-5"
         "zpos"              "5"
-        "wide"              "f0"
+        "wide"              "f10"
         "tall"              "20"
         "bgcolor_override"  "FragPanelTransparentDark60"
     }
@@ -457,7 +534,7 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "10"
-        "wide"                      "p0.45"
+        "wide"                      "p0.44"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "visible"                   "1"
@@ -480,7 +557,7 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "10"
-        "wide"                      "p0.1"
+        "wide"                      "60"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "visible"                   "1"
@@ -503,7 +580,7 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "10"
-        "wide"                      "p0.45"
+        "wide"                      "p0.44" //280
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "visible"                   "1"
@@ -527,7 +604,7 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "10"
-        "wide"                      "p0.45"
+        "wide"                      "p0.44"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "visible"                   "1"
@@ -550,7 +627,7 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "10"
-        "wide"                      "p0.45"
+        "wide"                      "p0.44"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "visible"                   "1"

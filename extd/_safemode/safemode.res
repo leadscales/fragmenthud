@@ -3,6 +3,7 @@
 #base "safemode_infopanel.res"
 
 #base "safemode_colors.res"
+#base "safemode_hitmarker.res"
 #base "safemode_scoreboard.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -165,9 +166,15 @@
                 "Colors"
                 {
                 }
-                "Scoreboard"
+                "Hitmarker"
                 {
                     "pin_to_sibling"            "Colors"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Scoreboard"
+                {
+                    "pin_to_sibling"            "Hitmarker"
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }

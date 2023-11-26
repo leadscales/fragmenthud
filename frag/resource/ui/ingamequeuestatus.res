@@ -23,7 +23,7 @@
         "enabled"                   "1"
         "image"                     "replay/thumbnails/menu/loading_icon"
         "scaleImage"                "1"
-        "drawcolor"                 "FragAccent40"
+        "drawcolor"                 "FragAccent100"
     }
 
     // DISABLED

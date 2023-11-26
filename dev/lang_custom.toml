@@ -11,6 +11,8 @@ FRAG_Safemode_Colors_Accent = "ACCENT"
 FRAG_Safemode_Colors_Negative = "NEGATIVE"
 FRAG_Safemode_Colors_Positive = "POSITIVE"
 
+FRAG_Safemode_Hitmarker_Title = "HITMARKER"
+
 FRAG_Safemode_Scoreboard_Title = "SCOREBOARD"
 FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (UNRESTRICTED)"
 

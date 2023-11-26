@@ -18,7 +18,7 @@
                     "xpos"                      "0"
                     "ypos"                      "0"
                     "wide"                      "f0"
-                    "tall"                      "100"
+                    "tall"                      "180"
                     "proportionaltoparent"      "1"
                     "bgcolor_override"          "0 255 0 0"
 
@@ -101,17 +101,29 @@
                             "xpos"                      "0"
                             "ypos"                      "0"
                             "wide"                      "f0"
-                            "tall"                      "20"
+                            "tall"                      "40"
                             "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "39"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
 
                             "Label"
                             {
                                 "ControlName"               "CExLabel"
                                 "fieldName"                 "Label"
-                                "xpos"                      "5"
+                                "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f0"
-                                "tall"                      "15"
+                                "wide"                      "f20"
+                                "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Primary"
                                 "font"                      "FontMedium_12_Additive"
@@ -122,10 +134,10 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "5"
-                                "ypos"                      "rs1"
-                                "wide"                      "180"
-                                "tall"                      "5"
+                                "xpos"                      "cs-0.5"
+                                "ypos"                      "21"
+                                "wide"                      "188"
+                                "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
                         }
@@ -134,19 +146,31 @@
                             "ControlName"               "EditablePanel"
                             "fieldName"                 "Accent"
                             "xpos"                      "0"
-                            "ypos"                      "20"
+                            "ypos"                      "40"
                             "wide"                      "f0"
-                            "tall"                      "20"
+                            "tall"                      "40"
                             "proportionaltoparent"      "1"
+
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "39"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
 
                             "Label"
                             {
                                 "ControlName"               "CExLabel"
                                 "fieldName"                 "Label"
-                                "xpos"                      "5"
+                                "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f0"
-                                "tall"                      "15"
+                                "wide"                      "f20"
+                                "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Accent"
                                 "font"                      "FontMedium_12_Additive"
@@ -157,10 +181,10 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "5"
-                                "ypos"                      "rs1"
-                                "wide"                      "180"
-                                "tall"                      "5"
+                                "xpos"                      "cs-0.5"
+                                "ypos"                      "21"
+                                "wide"                      "188"
+                                "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
                         }
@@ -169,19 +193,31 @@
                             "ControlName"               "EditablePanel"
                             "fieldName"                 "Negative"
                             "xpos"                      "0"
-                            "ypos"                      "40"
+                            "ypos"                      "80"
                             "wide"                      "f0"
-                            "tall"                      "20"
+                            "tall"                      "40"
                             "proportionaltoparent"      "1"
+
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "39"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
 
                             "Label"
                             {
                                 "ControlName"               "CExLabel"
                                 "fieldName"                 "Label"
-                                "xpos"                      "5"
+                                "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f0"
-                                "tall"                      "15"
+                                "wide"                      "f20"
+                                "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Negative"
                                 "font"                      "FontMedium_12_Additive"
@@ -192,10 +228,10 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "5"
-                                "ypos"                      "rs1"
-                                "wide"                      "180"
-                                "tall"                      "5"
+                                "xpos"                      "cs-0.5"
+                                "ypos"                      "21"
+                                "wide"                      "188"
+                                "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
                         }
@@ -204,19 +240,31 @@
                             "ControlName"               "EditablePanel"
                             "fieldName"                 "Positive"
                             "xpos"                      "0"
-                            "ypos"                      "60"
+                            "ypos"                      "120"
                             "wide"                      "f0"
-                            "tall"                      "20"
+                            "tall"                      "40"
                             "proportionaltoparent"      "1"
+
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "39"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
 
                             "Label"
                             {
                                 "ControlName"               "CExLabel"
                                 "fieldName"                 "Label"
-                                "xpos"                      "5"
+                                "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f0"
-                                "tall"                      "15"
+                                "wide"                      "f20"
+                                "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Positive"
                                 "font"                      "FontMedium_12_Additive"
@@ -227,10 +275,10 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "5"
-                                "ypos"                      "rs1"
-                                "wide"                      "180"
-                                "tall"                      "5"
+                                "xpos"                      "cs-0.5"
+                                "ypos"                      "21"
+                                "wide"                      "188"
+                                "tall"                      "16"
                                 "proportionaltoparent"      "1"
                             }
                         }
