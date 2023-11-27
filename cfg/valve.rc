@@ -21,6 +21,7 @@ exec frag_cnegative
 exec frag_cpositive
 exec frag_scoreboard
 exec frag_hitmarker
+exec frag_killfeed
 
 alias frag_customreset "frag_cprimary=def; frag_caccent=def; frag_cnegative=def; frag_cpositive=def; frag_scoreboard=def;"
 

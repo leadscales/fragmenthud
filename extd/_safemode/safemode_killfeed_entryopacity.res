@@ -1,0 +1,233 @@
+"Resource/UI/MainMenuOverride.res"
+{
+    "SafeMode"
+    {
+        "ScrollingPanel"
+        {
+            "ContentPanel"
+            {
+                "Killfeed"
+                {
+                    "Sections"
+                    {
+                        "EntryOpacity"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "EntryOpacity"
+                            "xpos"                      "0"
+                            "ypos"                      "45"
+                            "wide"                      "f0"
+                            "tall"                      "44"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CExLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "20"
+                                "ypos"                      "0"
+                                "wide"                      "f30"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Killfeed_EntryOpacity"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_12_Additive"
+                                "fgcolor"                   "FragNeutral100"
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_kfentryopacity=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "100"
+                                {
+                                    "ControlName"               "CExButton"
+                                    "fieldName"                 "100"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "29"
+                                    "tall"                      "19"
+                                    "proportionaltoparent"      "1"
+                                    "labelText"                 "100"
+                                    "allcaps"                   "1"
+                                    "textAlignment"             "center"
+                                    "font"                      "FontMedium_12_Additive"
+                                    "fgcolor"                   "FragPrimary100"
+                                    "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                                    "armedbgcolor_override"     "FragPrimary20"
+                                    "defaultfgcolor_override"   "FragNeutral100"
+                                    "armedfgcolor_override"     "FragPrimary100"
+                                    "command"                   "engine frag_kfentryopacity=100"
+                                    "actionsignallevel"         "8"
+                                    "sound_depressed"           "UI/buttonclick.wav"
+                                    "sound_released"            "UI/buttonclickrelease.wav"
+                                }
+
+                                "80"
+                                {
+                                    "ControlName"               "CExButton"
+                                    "fieldName"                 "80"
+                                    "xpos"                      "30"
+                                    "ypos"                      "0"
+                                    "wide"                      "29"
+                                    "tall"                      "19"
+                                    "proportionaltoparent"      "1"
+                                    "labelText"                 "80"
+                                    "allcaps"                   "1"
+                                    "textAlignment"             "center"
+                                    "font"                      "FontMedium_12_Additive"
+                                    "fgcolor"                   "FragPrimary100"
+                                    "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                                    "armedbgcolor_override"     "FragPrimary20"
+                                    "defaultfgcolor_override"   "FragNeutral100"
+                                    "armedfgcolor_override"     "FragPrimary100"
+                                    "command"                   "engine frag_kfentryopacity=80"
+                                    "actionsignallevel"         "8"
+                                    "sound_depressed"           "UI/buttonclick.wav"
+                                    "sound_released"            "UI/buttonclickrelease.wav"
+                                }
+
+                                "60"
+                                {
+                                    "ControlName"               "CExButton"
+                                    "fieldName"                 "60"
+                                    "xpos"                      "60"
+                                    "ypos"                      "0"
+                                    "wide"                      "29"
+                                    "tall"                      "19"
+                                    "proportionaltoparent"      "1"
+                                    "labelText"                 "60"
+                                    "allcaps"                   "1"
+                                    "textAlignment"             "center"
+                                    "font"                      "FontMedium_12_Additive"
+                                    "fgcolor"                   "FragPrimary100"
+                                    "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                                    "armedbgcolor_override"     "FragPrimary20"
+                                    "defaultfgcolor_override"   "FragNeutral100"
+                                    "armedfgcolor_override"     "FragPrimary100"
+                                    "command"                   "engine frag_kfentryopacity=60"
+                                    "actionsignallevel"         "8"
+                                    "sound_depressed"           "UI/buttonclick.wav"
+                                    "sound_released"            "UI/buttonclickrelease.wav"
+                                }
+
+                                "40"
+                                {
+                                    "ControlName"               "CExButton"
+                                    "fieldName"                 "40"
+                                    "xpos"                      "90"
+                                    "ypos"                      "0"
+                                    "wide"                      "29"
+                                    "tall"                      "19"
+                                    "proportionaltoparent"      "1"
+                                    "labelText"                 "40"
+                                    "allcaps"                   "1"
+                                    "textAlignment"             "center"
+                                    "font"                      "FontMedium_12_Additive"
+                                    "fgcolor"                   "FragPrimary100"
+                                    "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                                    "armedbgcolor_override"     "FragPrimary20"
+                                    "defaultfgcolor_override"   "FragNeutral100"
+                                    "armedfgcolor_override"     "FragPrimary100"
+                                    "command"                   "engine frag_kfentryopacity=40"
+                                    "actionsignallevel"         "8"
+                                    "sound_depressed"           "UI/buttonclick.wav"
+                                    "sound_released"            "UI/buttonclickrelease.wav"
+                                }
+
+                                "20"
+                                {
+                                    "ControlName"               "CExButton"
+                                    "fieldName"                 "20"
+                                    "xpos"                      "120"
+                                    "ypos"                      "0"
+                                    "wide"                      "29"
+                                    "tall"                      "19"
+                                    "proportionaltoparent"      "1"
+                                    "labelText"                 "20"
+                                    "allcaps"                   "1"
+                                    "textAlignment"             "center"
+                                    "font"                      "FontMedium_12_Additive"
+                                    "fgcolor"                   "FragPrimary100"
+                                    "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                                    "armedbgcolor_override"     "FragPrimary20"
+                                    "defaultfgcolor_override"   "FragNeutral100"
+                                    "armedfgcolor_override"     "FragPrimary100"
+                                    "command"                   "engine frag_kfentryopacity=20"
+                                    "actionsignallevel"         "8"
+                                    "sound_depressed"           "UI/buttonclick.wav"
+                                    "sound_released"            "UI/buttonclickrelease.wav"
+                                }
+
+                                "0"
+                                {
+                                    "ControlName"               "CExButton"
+                                    "fieldName"                 "0"
+                                    "xpos"                      "150"
+                                    "ypos"                      "0"
+                                    "wide"                      "29"
+                                    "tall"                      "19"
+                                    "proportionaltoparent"      "1"
+                                    "labelText"                 "0"
+                                    "allcaps"                   "1"
+                                    "textAlignment"             "center"
+                                    "font"                      "FontMedium_12_Additive"
+                                    "fgcolor"                   "FragPrimary100"
+                                    "defaultbgcolor_override"   "FragPanelTransparentDark40"
+                                    "armedbgcolor_override"     "FragPrimary20"
+                                    "defaultfgcolor_override"   "FragNeutral100"
+                                    "armedfgcolor_override"     "FragPrimary100"
+                                    "command"                   "engine frag_kfentryopacity=0"
+                                    "actionsignallevel"         "8"
+                                    "sound_depressed"           "UI/buttonclick.wav"
+                                    "sound_released"            "UI/buttonclickrelease.wav"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

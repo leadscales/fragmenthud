@@ -86,7 +86,7 @@
         "wide"              "640"
         "tall"              "480"
 
-        "maxdeathnotices"   "24"
+        "maxdeathnotices"   "6"
         "iconscale"         "0"
         "lineheight"        "15"
         "linespacing"       "0.1"

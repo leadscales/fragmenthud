@@ -6,6 +6,7 @@
 #base "safemode_hitmarker.res"
 #base "safemode_hitmarker_shape.res"
 #base "safemode_hitmarker_size.res"
+#base "safemode_killfeed.res"
 #base "safemode_scoreboard.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -152,7 +153,7 @@
             "tall"                      "f64"
             "proportionaltoparent"      "1"
             "restrict_width"            "0"
-            "scroll_step"               "20"
+            "scroll_step"               "10"
 
             "ContentPanel"
             {
@@ -186,9 +187,15 @@
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }
-                "Scoreboard"
+                "Killfeed"
                 {
                     "pin_to_sibling"            "HitmarkerSize"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Scoreboard"
+                {
+                    "pin_to_sibling"            "Killfeed"
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }

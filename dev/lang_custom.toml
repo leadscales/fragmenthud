@@ -18,6 +18,10 @@ FRAG_Safemode_HitmarkerSize_Title = "HITMARKER SIZE"
 FRAG_Safemode_Scoreboard_Title = "SCOREBOARD"
 FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (UNRESTRICTED)"
 
+FRAG_Safemode_Killfeed_Title = "KILLFEED"
+FRAG_Safemode_Killfeed_MaxEntries = "MAXIMUM ENTRIES"
+FRAG_Safemode_Killfeed_EntryOpacity = "ENTRY OPACITY"
+
 FRAG_Buttons_Info = "HUD Info"
 FRAG_Buttons_Console = "Console"
 FRAG_Buttons_DemoUI = "DemoUI"
