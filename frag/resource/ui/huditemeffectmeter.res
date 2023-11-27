@@ -32,6 +32,7 @@
         "proportionaltoparent"      "1"
         "disabledfgcolor2_override" "FragNeutral100"
         "font"                      "FontMedium_9"
+        "allcaps"                   "1"
     }
 
     "ItemEffectMeter"
