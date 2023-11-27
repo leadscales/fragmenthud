@@ -17,7 +17,7 @@ FRAG_Safemode_Hitmarker_Shape = "HITMARKER SHAPE"
 FRAG_Safemode_Hitmarker_Size = "HITMARKER SIZE"
 
 FRAG_Safemode_Scoreboard_Title = "SCOREBOARD"
-FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (UNRESTRICTED)"
+FRAG_Safemode_Scoreboard_Format = "FORMAT"
 
 FRAG_Safemode_Killfeed_Title = "KILLFEED"
 FRAG_Safemode_Killfeed_MaxEntries = "MAXIMUM ENTRIES"
