@@ -19,7 +19,7 @@
                             "wide"                      "f0"
                             "tall"                      "44"
                             "proportionaltoparent"      "1"
-                            
+
                             "BGPanel"
                             {
                                 "ControlName"               "EditablePanel"
@@ -36,22 +36,22 @@
                             {
                                 "ControlName"               "CExLabel"
                                 "fieldName"                 "Title"
-                                "xpos"                      "20"
+                                "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f30"
+                                "wide"                      "f20"
                                 "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Killfeed_MaxEntries"
                                 "allcaps"                   "1"
-                                "font"                      "FontMedium_12_Additive"
-                                "fgcolor"                   "FragNeutral100"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "FragAccent40"
                             }
 
                             "ResetButton"
                             {
                                 "ControlName"               "CExButton"
                                 "fieldName"                 "ResetButton"
-                                "xpos"                      "5"
+                                "xpos"                      "rs1-10"
                                 "ypos"                      "0"
                                 "wide"                      "15"
                                 "tall"                      "20"
