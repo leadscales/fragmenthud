@@ -49,8 +49,17 @@ FRAG_Safemode_Colors_Accent = "ВТОРОСТЕПЕННЫЙ"
 FRAG_Safemode_Colors_Negative = "ОТРИЦАТЕЛЬНЫЙ"
 FRAG_Safemode_Colors_Positive = "ПОЛОЖИТЕЛЬНЫЙ"
 
+FRAG_Safemode_Hitmarker_Title = "Хитмаркер"
+FRAG_Safemode_Hitmarker_Toggle = "Включить/Выключить хитмаркер"
+FRAG_Safemode_Hitmarker_Shape = "Форма"
+FRAG_Safemode_Hitmarker_Size = "Размер"
+
 FRAG_Safemode_Scoreboard_Title = "Таблица счёта"
-FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (НЕОГРАНИЧЕННЫЙ)"
+FRAG_Safemode_Scoreboard_Format = "Формат"
+
+FRAG_Safemode_Killfeed_Title = "КИЛЛФИД"
+FRAG_Safemode_Killfeed_MaxEntries = "МАКСИМУМ ОТОБРАЖАЕМЫХ СТРОК"
+FRAG_Safemode_Killfeed_EntryOpacity = "ПРОЗРАЧНОСТЬ СТРОК"
 
 FRAG_Buttons_Info = "о ХАДе"
 FRAG_Buttons_Console = "Консоль"
@@ -60,6 +69,10 @@ FRAG_Buttons_BugReport = "Сообщить об ошибке"
 FRAG_Buttons_Translate = "Помочь с переводом FRAGMENTHUD"
 FRAG_Buttons_Discord = "Обратиться в наш дискорд сервер за помощью"
 FRAG_Buttons_LeadProfile = "Профиль создателя"
+
+FRAG_Etc_Small = "Маленький"
+FRAG_Etc_Medium = "Средний"
+FRAG_Etc_Large = "Большой"
 
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"

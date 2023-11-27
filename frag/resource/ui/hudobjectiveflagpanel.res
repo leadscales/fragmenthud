@@ -150,6 +150,11 @@
         {
             "visible"               "0"
         }
+
+        "if_mvm"
+        {
+            "visible"               "0"
+        }
     }
 
     "BlueScore"
