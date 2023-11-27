@@ -91,12 +91,6 @@
                         "wide"                      "f0"
                         "tall"                      "f20"
                         "proportionaltoparent"      "1"
-
-                        "MaxEntries"
-                        {
-
-                        }
-
                     }
                 }
             }
