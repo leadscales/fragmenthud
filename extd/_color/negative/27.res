@@ -2,16 +2,16 @@
 {
 "Colors"
 {
-"FragNegative100" "63 193 254 255"
-"FragNegative80" "63 193 254 204"
-"FragNegative60" "63 193 254 153"
-"FragNegative40" "63 193 254 102"
-"FragNegative20" "63 193 254 51"
-"FragNegative05" "63 193 254 13"
-"HUDDeathWarning" "63 193 254 255"
-"ItemAttribNegative" "63 193 254 255"
-"ItemLimitedQuantity" "63 193 254 255"
-"LightRed" "63 193 254 255"
-"LighterRed" "63 193 254 255"
+"FragNegative100" "63 254 178 255"
+"FragNegative80" "63 254 178 204"
+"FragNegative60" "63 254 178 153"
+"FragNegative40" "63 254 178 102"
+"FragNegative20" "63 254 178 51"
+"FragNegative05" "63 254 178 13"
+"HUDDeathWarning" "63 254 178 255"
+"ItemAttribNegative" "63 254 178 255"
+"ItemLimitedQuantity" "63 254 178 255"
+"LightRed" "63 254 178 255"
+"LighterRed" "63 254 178 255"
 }
 }

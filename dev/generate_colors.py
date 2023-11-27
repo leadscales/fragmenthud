@@ -115,7 +115,7 @@ def generate_color_sequence(count: int, min_luminance: float) -> tuple[Color, ..
     return tuple(result)
 
 
-colors = generate_color_sequence(47, 87.1)
+colors = generate_color_sequence(60, 87.1)
 
 # the math for all of this is probably really wrong but it does what i want it to do anyways so who cares
 
@@ -220,14 +220,13 @@ def generate_color_res(
             str(_ci): {
                 "ControlName": "CExButton",
                 "fieldName": str(_ci),
-                "xpos": "0",
+                "xpos": f"{3*color}",
                 "ypos": "0",
                 "wide": "3",
                 "tall": "f0",
                 "proportionaltoparent": "1",
-                "defaultbgcolor_override": f"FragCColor{_ci}_100",
-                "armedbgcolor_override": f"FragCColor{_ci}_100",
-                "border_armed": "FragColorSelection",
+                "defaultbgcolor_override": f"Blank",
+                "armedbgcolor_override": f"255 255 255 {int(255*0.4)}",
                 "labelText": "",
                 "command": f"engine frag_c{color_class.lower()}={_ci}",
                 "actionsignallevel": "8",
@@ -235,13 +234,13 @@ def generate_color_res(
                 "sound_released": "ui/buttonclickrelease.wav"
             }
         }
-        if _ci > 1:
-            _d[str(_ci)].update({
-                "xpos": "1",
-                "pin_to_sibling": str(color),
-                "pin_corner_to_sibling": "PIN_TOPLEFT",
-                "pin_to_sibling_corner": "PIN_TOPRIGHT"
-            })
+        # if _ci > 1:
+        #     _d[str(_ci)].update({
+        #         "xpos": "1",
+        #         "pin_to_sibling": str(color),
+        #         "pin_corner_to_sibling": "PIN_TOPLEFT",
+        #         "pin_to_sibling_corner": "PIN_TOPRIGHT"
+        #     })
         result.update(_d)
 
     return {
@@ -250,7 +249,7 @@ def generate_color_res(
                 "ScrollingPanel": {
                     "ContentPanel": {
                         "Colors": {
-                            "Buttons": {
+                            "Sections": {
                                 color_class: {
                                     "ButtonContainer": result
                                 }
@@ -293,19 +292,19 @@ def main():
             vdf.dump(generate_color_res(colors, color_class), file)
 
     # GENERATE COLOR COLLECTION RES FOR LATER USES
-    color_dict = {
-        "Scheme": {
-            "Colors": {}
-        }
-    }
-    for i in range(len(colors)):
-        _i = i+1
-        color = colors[i]
-        _d = {f"FragCColor{_i}_100": color.as_vdf(255)}
-        color_dict["Scheme"]["Colors"].update(_d)
+    # color_dict = {
+    #     "Scheme": {
+    #         "Colors": {}
+    #     }
+    # }
+    # for i in range(len(colors)):
+    #     _i = i+1
+    #     color = colors[i]
+    #     _d = {f"FragCColor{_i}_100": color.as_vdf(255)}
+    #     color_dict["Scheme"]["Colors"].update(_d)
 
-    with open(root.joinpath("extd/_color/customization_colors.res"), "w") as file:
-        vdf.dump(color_dict, file)
+    # with open(root.joinpath("extd/_color/customization_colors.res"), "w") as file:
+    #     vdf.dump(color_dict, file)
 
 
 if __name__ == "__main__":

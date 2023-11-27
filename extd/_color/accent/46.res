@@ -2,15 +2,15 @@
 {
 "Colors"
 {
-"FragAccent100" "255 63 112 255"
-"FragAccent80" "255 63 112 204"
-"FragAccent60" "255 63 112 153"
-"FragAccent40" "255 63 112 102"
-"FragAccent20" "255 63 112 51"
-"FragAccent05" "255 63 112 13"
-"ItemIsotope" "255 63 112 255"
-"ItemBundleItem" "255 63 112 255"
-"ItemLimitedUse" "255 63 112 255"
-"ItemSetName" "255 63 112 255"
+"FragAccent100" "164 66 255 255"
+"FragAccent80" "164 66 255 204"
+"FragAccent60" "164 66 255 153"
+"FragAccent40" "164 66 255 102"
+"FragAccent20" "164 66 255 51"
+"FragAccent05" "164 66 255 13"
+"ItemIsotope" "164 66 255 255"
+"ItemBundleItem" "164 66 255 255"
+"ItemLimitedUse" "164 66 255 255"
+"ItemSetName" "164 66 255 255"
 }
 }
