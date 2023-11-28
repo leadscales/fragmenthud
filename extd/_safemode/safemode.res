@@ -17,6 +17,7 @@
         "wide"                      "221"
         "tall"                      "400"
         "proportionaltoparent"      "0"
+        "bgcolor_override"          "FragPrimary05"
 
         "SafeModeGradient"
         {
@@ -24,7 +25,7 @@
             "fieldName"             "SafeModeGradient"
             "xpos"                  "0"
             "ypos"                  "0"
-            "wide"                  "f0"
+            "wide"                  "p1.2"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
@@ -68,7 +69,7 @@
                 "tall"                  "f0"
                 "proportionaltoparent"  "1"
                 "paintbackgroundtype"   "0"
-                "bgcolor_override"      "FragPanelTransparentDark60"
+                "bgcolor_override"      "FragPanelTransparentDark40"
             }
         }
 
@@ -81,7 +82,7 @@
             "wide"                      "f21"
             "tall"                      "20"
             "proportionaltoparent"      "1"
-            "bgcolor_override"          "FragPanelTransparentDark20"
+            "bgcolor_override"          "FragPanelTransparentDark40"
 
             "TitleText"
             {
@@ -138,7 +139,7 @@
             "wide"                      "f20"
             "tall"                      "40"
             "proportionaltoparent"      "1"
-            "bgcolor_override"          "FragPanelTransparentDark20"
+            "bgcolor_override"          "Blank"
         }
 
         "ScrollingPanel"
@@ -147,11 +148,11 @@
             "fieldName"                 "ScrollingPanel"
             "xpos"                      "1"
             "ypos"                      "22"
-            "wide"                      "200"
+            "wide"                      "f0"
             "tall"                      "f64"
             "proportionaltoparent"      "1"
             "restrict_width"            "0"
-            "scroll_step"               "10"
+            "scroll_step"               "15"
 
             "ContentPanel"
             {
@@ -159,8 +160,8 @@
                 "fieldName"             "ContentPanel"
                 "xpos"                  "0"
                 "ypos"                  "0"
-                "wide"                  "f0"
-                "tall"                  "1000"
+                "wide"                  "f20"
+                "tall"                  "4000"
                 "proportionaltoparent"  "1"
                 "bgcolor_override"      "255 0 0 0"
 
@@ -189,8 +190,35 @@
 
             "Scrollbar"
             {
-                "wide"                  "0"
+                "xpos"                  "202"
+                "wide"                  "16"
+                "proportionaltoparent"  "1"
                 "nobuttons"             "1"
+                
+                "Slider"
+                {
+                    "bgcolor_override"          "FragPanelTransparentDark40"
+                    "fgcolor_override"          "FragPrimary20"
+                }
+
+                "UpButton"
+                {
+                    "xpos"              "9999"
+                    "ypos"              "9999"
+                    "wide"              "0"
+                    "tall"              "0"
+                    "visible"           "0"
+                    "enabled"           "0"
+                }
+                "DownButton"
+                {
+                    "xpos"              "9999"
+                    "ypos"              "9999"
+                    "wide"              "0"
+                    "tall"              "0"
+                    "visible"           "0"
+                    "enabled"           "0"
+                }
             }
         }
 

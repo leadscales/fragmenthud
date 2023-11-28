@@ -199,7 +199,7 @@
         "tall"                      "400"
         "proportionaltoparent"      "1"
         "paintbackgroundtype"       "0"
-        "bgcolor_override"          "Blank"
+        "bgcolor_override"          "FragPrimary05"
 
         "SidePanelGradient"
         {
@@ -207,7 +207,7 @@
             "fieldName"             "SidePanelGradient"
             "xpos"                  "0"
             "ypos"                  "0"
-            "wide"                  "f0"
+            "wide"                  "p1.2"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
@@ -251,13 +251,13 @@
                 "tall"                  "f0"
                 "proportionaltoparent"  "1"
                 "paintbackgroundtype"   "0"
-                "bgcolor_override"      "FragPanelTransparentDark60"
+                "bgcolor_override"      "FragPanelTransparentDark40"
             }
         }
     }
 
     "SidePanelElementsAnchor"
-    {
+{
         "ControlName"               "EditablePanel"
         "fieldName"                 "SidePanelElementsAnchor"
         "xpos"                      "-20"
@@ -279,17 +279,17 @@
         "zpos"                      "10"
         "wide"                      "f0"
         "tall"                      "20"
-        "bgcolor_override"          "FragPanelTransparentDark60"
+        "bgcolor_override"          "FragPanelTransparentDark40"
     }
 
     "RankPanel"
     {
-        "xpos"          "0"
-        "ypos"          "0"
-        "zpos"          "11"
-        "wide"          "200"
-        "tall"          "40"
-        "bgcolor_override"  "FragPanelTransparentDark20"
+        "xpos"              "0"
+        "ypos"              "0"
+        "zpos"              "11"
+        "wide"              "200"
+        "tall"              "40"
+        "bgcolor_override"  "FragPanelTransparentDark40"
 
         "pin_to_sibling"    "SidePanelElementsAnchor"
     }
@@ -448,7 +448,7 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
 
-        "bgcolor_override"          "FragPanelTransparentDark20"
+        "bgcolor_override"          "FragPanelTransparentDark40"
 
         "pin_to_sibling"            "FriendsContainer"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"

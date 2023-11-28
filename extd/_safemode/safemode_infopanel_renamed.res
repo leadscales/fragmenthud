@@ -11,7 +11,7 @@
 
             "InfoBackground"
             {
-                "bgcolor_override"      "Blank"
+                "bgcolor_override"      "FragPanelTransparentDark40"
             }
 
             "InfoIcon"

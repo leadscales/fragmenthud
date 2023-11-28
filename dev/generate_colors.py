@@ -226,7 +226,7 @@ def generate_color_res(
                 "tall": "f0",
                 "proportionaltoparent": "1",
                 "defaultbgcolor_override": f"Blank",
-                "armedbgcolor_override": f"255 255 255 {int(255*0.4)}",
+                "armedbgcolor_override": f"0 0 0 {int(255*0.6)}",
                 "labelText": "",
                 "command": f"engine frag_c{color_class.lower()}={_ci}",
                 "actionsignallevel": "8",
