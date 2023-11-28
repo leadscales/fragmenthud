@@ -103,6 +103,23 @@
         "localbackgroundcolor"  "FragPanelTransparentLight20"
     }
 
+    "HudDamageIndicator"
+    {
+        "minimumwidth"          "10.0"
+        "maximumwidth"          "10.0"
+
+        "minimumheight"         "40.0"
+        "maximumheight"         "40.0"
+
+        "minimumtime"           "1.5"
+        "maximumtime"           "2.0"
+
+        "startradius"           "40.0"
+        "endradius"             "30.0"
+
+        "noise"                 "0.05"
+    }
+
     "CMainTargetID"
     {
         "ypos"              "c15"
