@@ -144,7 +144,19 @@
         "tall"                          "20"
         "proportionaltoparent"          "1"
 
-        "bgcolor_override"              "FragPanelTransparentDark40"
+        "bgcolor_override"              "FragPrimary05"
+
+        "Darkener"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Darkener"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "bgcolor_override"          "FragPanelTransparentDark60"
+        }
 
         "Back"
         {

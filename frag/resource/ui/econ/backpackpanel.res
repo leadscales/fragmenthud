@@ -99,7 +99,7 @@
         "proportionaltoparent"      "0"
         "visible"                   "1"
         "enabled"                   "1"
-        "bgcolor_override"          "FragPanelTransparentDark20"
+        "bgcolor_override"          "FragPanelTransparentDark40"
     }
 
     "BackgroundEffect"

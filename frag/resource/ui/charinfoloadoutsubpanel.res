@@ -27,7 +27,7 @@
         "wide"                              "f0"
         "tall"                              "f80"
         "proportionaltoparent"              "1"
-        "bgcolor_override"                  "FragPanelTransparentDark20"
+        "bgcolor_override"                  "FragPanelTransparentDark40"
     }
 
     "ClassButtonPanel"
