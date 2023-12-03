@@ -261,226 +261,226 @@
 {
 "font" "resource/fonts/Infortress-Medium.ttf"
 "name" "Infortress-Medium"
-"greek"
+"korean"
 {
-"range" "0x0020 0x2116"
-}
-"english"
-{
-"range" "0x0020 0x2116"
-}
-"finnish"
-{
-"range" "0x0020 0x2116"
-}
-"german"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "japanese"
 {
-"range" "0x0020 0x2116"
-}
-"brazilian"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "koreana"
 {
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
-"thai"
+"english"
 {
-"range" "0x0020 0x2116"
-}
-"bulgarian"
-{
-"range" "0x0020 0x2116"
-}
-"pirate"
-{
-"range" "0x0020 0x2116"
-}
-"romanian"
-{
-"range" "0x0020 0x2116"
-}
-"schinese"
-{
-"range" "0x0020 0x2116"
-}
-"hungarian"
-{
-"range" "0x0020 0x2116"
-}
-"korean"
-{
-"range" "0x0020 0x2116"
-}
-"dutch"
-{
-"range" "0x0020 0x2116"
-}
-"danish"
-{
-"range" "0x0020 0x2116"
-}
-"french"
-{
-"range" "0x0020 0x2116"
-}
-"italian"
-{
-"range" "0x0020 0x2116"
-}
-"spanish"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "czech"
 {
-"range" "0x0020 0x2116"
-}
-"polish"
-{
-"range" "0x0020 0x2116"
-}
-"tchinese"
-{
-"range" "0x0020 0x2116"
-}
-"russian"
-{
-"range" "0x0020 0x2116"
-}
-"turkish"
-{
-"range" "0x0020 0x2116"
-}
-"swedish"
-{
-"range" "0x0020 0x2116"
-}
-"portuguese"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "norwegian"
 {
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
+}
+"bulgarian"
+{
+"range" "0x0020 0x2BFF"
+}
+"spanish"
+{
+"range" "0x0020 0x2BFF"
+}
+"thai"
+{
+"range" "0x0020 0x2BFF"
+}
+"portuguese"
+{
+"range" "0x0020 0x2BFF"
+}
+"dutch"
+{
+"range" "0x0020 0x2BFF"
+}
+"hungarian"
+{
+"range" "0x0020 0x2BFF"
+}
+"french"
+{
+"range" "0x0020 0x2BFF"
+}
+"tchinese"
+{
+"range" "0x0020 0x2BFF"
+}
+"brazilian"
+{
+"range" "0x0020 0x2BFF"
+}
+"german"
+{
+"range" "0x0020 0x2BFF"
+}
+"greek"
+{
+"range" "0x0020 0x2BFF"
+}
+"polish"
+{
+"range" "0x0020 0x2BFF"
+}
+"russian"
+{
+"range" "0x0020 0x2BFF"
+}
+"danish"
+{
+"range" "0x0020 0x2BFF"
+}
+"pirate"
+{
+"range" "0x0020 0x2BFF"
+}
+"swedish"
+{
+"range" "0x0020 0x2BFF"
+}
+"italian"
+{
+"range" "0x0020 0x2BFF"
+}
+"turkish"
+{
+"range" "0x0020 0x2BFF"
+}
+"schinese"
+{
+"range" "0x0020 0x2BFF"
+}
+"finnish"
+{
+"range" "0x0020 0x2BFF"
+}
+"romanian"
+{
+"range" "0x0020 0x2BFF"
 }
 }
 "21"
 {
 "font" "resource/fonts/Infortress-Bold.ttf"
 "name" "Infortress-Bold"
-"greek"
+"korean"
 {
-"range" "0x0020 0x2116"
-}
-"english"
-{
-"range" "0x0020 0x2116"
-}
-"finnish"
-{
-"range" "0x0020 0x2116"
-}
-"german"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "japanese"
 {
-"range" "0x0020 0x2116"
-}
-"brazilian"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "koreana"
 {
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
-"thai"
+"english"
 {
-"range" "0x0020 0x2116"
-}
-"bulgarian"
-{
-"range" "0x0020 0x2116"
-}
-"pirate"
-{
-"range" "0x0020 0x2116"
-}
-"romanian"
-{
-"range" "0x0020 0x2116"
-}
-"schinese"
-{
-"range" "0x0020 0x2116"
-}
-"hungarian"
-{
-"range" "0x0020 0x2116"
-}
-"korean"
-{
-"range" "0x0020 0x2116"
-}
-"dutch"
-{
-"range" "0x0020 0x2116"
-}
-"danish"
-{
-"range" "0x0020 0x2116"
-}
-"french"
-{
-"range" "0x0020 0x2116"
-}
-"italian"
-{
-"range" "0x0020 0x2116"
-}
-"spanish"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "czech"
 {
-"range" "0x0020 0x2116"
-}
-"polish"
-{
-"range" "0x0020 0x2116"
-}
-"tchinese"
-{
-"range" "0x0020 0x2116"
-}
-"russian"
-{
-"range" "0x0020 0x2116"
-}
-"turkish"
-{
-"range" "0x0020 0x2116"
-}
-"swedish"
-{
-"range" "0x0020 0x2116"
-}
-"portuguese"
-{
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
 }
 "norwegian"
 {
-"range" "0x0020 0x2116"
+"range" "0x0020 0x2BFF"
+}
+"bulgarian"
+{
+"range" "0x0020 0x2BFF"
+}
+"spanish"
+{
+"range" "0x0020 0x2BFF"
+}
+"thai"
+{
+"range" "0x0020 0x2BFF"
+}
+"portuguese"
+{
+"range" "0x0020 0x2BFF"
+}
+"dutch"
+{
+"range" "0x0020 0x2BFF"
+}
+"hungarian"
+{
+"range" "0x0020 0x2BFF"
+}
+"french"
+{
+"range" "0x0020 0x2BFF"
+}
+"tchinese"
+{
+"range" "0x0020 0x2BFF"
+}
+"brazilian"
+{
+"range" "0x0020 0x2BFF"
+}
+"german"
+{
+"range" "0x0020 0x2BFF"
+}
+"greek"
+{
+"range" "0x0020 0x2BFF"
+}
+"polish"
+{
+"range" "0x0020 0x2BFF"
+}
+"russian"
+{
+"range" "0x0020 0x2BFF"
+}
+"danish"
+{
+"range" "0x0020 0x2BFF"
+}
+"pirate"
+{
+"range" "0x0020 0x2BFF"
+}
+"swedish"
+{
+"range" "0x0020 0x2BFF"
+}
+"italian"
+{
+"range" "0x0020 0x2BFF"
+}
+"turkish"
+{
+"range" "0x0020 0x2BFF"
+}
+"schinese"
+{
+"range" "0x0020 0x2BFF"
+}
+"finnish"
+{
+"range" "0x0020 0x2BFF"
+}
+"romanian"
+{
+"range" "0x0020 0x2BFF"
 }
 }
 }

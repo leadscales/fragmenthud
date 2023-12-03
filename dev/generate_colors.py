@@ -1,10 +1,13 @@
 import colorsys
 import pathlib
 import shutil
+import sys
 import typing
 
 import fragment
 import vdf
+
+from PIL import Image, ImageDraw
 
 SWB = "sixense_write_bindings"
 SCB = "frag_cb"
@@ -30,16 +33,16 @@ def clamp(minimum: int | float, maximum: int | float, value: int | float):
 
 def gamma_to_linear(value: int | float):
     if value >= 0.0031308:
-        return (1.055*(value**(1.0/2.4))-0.055)
+        return (1.055 * (value**(1.0 / 2.4)) - 0.055)
     else:
-        return 12.92*value
+        return 12.92 * value
 
 
 def linear_to_gamma(value: int | float):
     if value >= 0.04045:
-        return ((value+0.055)/(1+0.055))**2.4
+        return ((value + 0.055) / (1 + 0.055))**2.4
     else:
-        return value/12.92
+        return value / 12.92
 
 
 def rgb_to_oklab(rgb: typing.Sequence[float]) -> tuple[float, float, float]:
@@ -55,33 +58,33 @@ def rgb_to_oklab(rgb: typing.Sequence[float]) -> tuple[float, float, float]:
         (0.2817188376 * rgb[1]) +\
         (0.6299787005 * rgb[2])
 
-    l_ = l**(1.0/3)
-    m_ = m**(1.0/3)
-    s_ = s**(1.0/3)
+    l_ = l**(1.0 / 3)
+    m_ = m**(1.0 / 3)
+    s_ = s**(1.0 / 3)
 
     return (
-        0.2104542553*l_ + 0.7936177850*m_ - 0.0040720468*s_,
-        1.9779984951*l_ - 2.4285922050*m_ + 0.4505937099*s_,
-        0.0259040371*l_ + 0.7827717662*m_ - 0.8086757660*s_,
+        0.2104542553 * l_ + 0.7936177850 * m_ - 0.0040720468 * s_,
+        1.9779984951 * l_ - 2.4285922050 * m_ + 0.4505937099 * s_,
+        0.0259040371 * l_ + 0.7827717662 * m_ - 0.8086757660 * s_,
     )
 
 
 def oklab_to_rgb(lab: typing.Sequence[float]) -> tuple[float, float, float]:
     l_ = (
         lab[0] +
-        lab[1]*(+0.3963377774) +
-        lab[2]*(+0.2158037573)
+        lab[1] * (+0.3963377774) +
+        lab[2] * (+0.2158037573)
     )
     m_ = (
         lab[0] +
-        lab[1]*(-0.1055613458) +
-        lab[2]*(-0.0638541728)
+        lab[1] * (-0.1055613458) +
+        lab[2] * (-0.0638541728)
     )
 
     s_ = (
         lab[0] +
-        lab[1]*(-0.0894841775) +
-        lab[2]*(-1.2914855480)
+        lab[1] * (-0.0894841775) +
+        lab[2] * (-1.2914855480)
     )
 
     l = l_**3
@@ -101,18 +104,18 @@ def oklab_to_rgb(lab: typing.Sequence[float]) -> tuple[float, float, float]:
 
 def generate_color_tuple(amount_colors: int, min_percieved_luminance: float) -> tuple[Color, ...]:
     result = []
-    coeff = 1/amount_colors
+    coeff = 1 / amount_colors
 
     for i in range(amount_colors):
         col_rgb = colorsys.hsv_to_rgb(coeff * i, 0.75, 1.0)
         col_lab = list(rgb_to_oklab(col_rgb))
 
-        col_lab[0] = clamp(min_percieved_luminance/100, 999, col_lab[0])
+        col_lab[0] = clamp(min_percieved_luminance * 0.01, 999, col_lab[0])
 
         col_rgb = oklab_to_rgb(col_lab)
 
         col_rgb_i: tuple[int, ...] = tuple(
-            (clamp(0, 255, round(j*255)) for j in col_rgb)
+            (clamp(0, 255, round(j * 255)) for j in col_rgb)
         )
 
         result.append(Color(*col_rgb_i))
@@ -194,7 +197,7 @@ def generate_color_cfg(
     result += s
 
     for i in range(len(colors)):
-        index = i+1
+        index = i + 1
 
         alias_name = "frag_c{0}={1}".format(
             color_name,
@@ -225,14 +228,14 @@ def generate_color_buttons(
     result = {}
 
     for i in range(len(colors)):
-        index = i+1
+        index = i + 1
         res_data = {
             str(index): {
                 "ControlName": "CExButton",
                 "fieldName": str(index),
-                "xpos": str(3*i),
+                "xpos": str(2 * i),
                 "ypos": "0",
-                "wide": "3",
+                "wide": "2",
                 "tall": "f0",
                 "proportionaltoparent": "1",
                 "defaultbgcolor_override": "Blank",
@@ -266,7 +269,36 @@ def generate_color_buttons(
     }
 
 
-def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alphas: dict[str, int]):
+def generate_color_bar(colors: tuple[Color, ...], bar_width: int, bar_height: int):
+    image = Image.new(
+        "RGB",
+        (
+            bar_width * len(colors),
+            bar_height
+        )
+    )
+    draw = ImageDraw.Draw(image, "RGB")
+
+    for i, color in enumerate(colors):
+        draw.rectangle(
+            (
+                bar_width * i,
+                0,
+                bar_width + (bar_width * i),
+                bar_height
+            ),
+            (
+                color.r,
+                color.g,
+                color.b,
+                255
+            )
+        )
+
+    return image
+
+
+def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alphas: dict[str, int], show_colors: bool):
     root = pathlib.Path(fragment.get_project_root())
     main_dir = root.joinpath("extd/_color")
 
@@ -284,7 +316,7 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
         )
 
         for index, data in scheme.items():
-            with open(work_dir.joinpath(f"{index+1}.res"), "w") as file:
+            with open(work_dir.joinpath(f"{index + 1}.res"), "w") as file:
                 vdf.dump(
                     {
                         "Scheme": {
@@ -309,10 +341,13 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
                 escaped=False
             )
 
+    if show_colors:
+        generate_color_bar(colors, 10, 10).show()
+
 
 if __name__ == "__main__":
     main(
-        generate_color_tuple(60, 87.1),
+        generate_color_tuple(90, 89.2),
         ("Primary", "Accent", "Negative", "Positive"),
         {
             "100": 255,
@@ -321,5 +356,6 @@ if __name__ == "__main__":
             "40": 102,
             "20": 51,
             "05": 13
-        }
+        },
+        bool(int(sys.argv[1]))
     )
