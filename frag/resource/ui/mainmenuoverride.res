@@ -75,8 +75,8 @@
         "ypos"                      "20"
         "wide"                      "f0"
         "tall"                      "f40"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentDark60"
+        "defaultbgcolor_override"   "0 0 0 0"
+        "armedbgcolor_override"     "0 0 0 0"
         "paintBorder"               "0"
     }
 
