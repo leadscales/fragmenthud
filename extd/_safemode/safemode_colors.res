@@ -145,9 +145,9 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "10"
+                                "xpos"                      "cs-0.5"
                                 "ypos"                      "20"
-                                "wide"                      "f20"
+                                "wide"                      "180"
                                 "tall"                      "f25"
                                 "proportionaltoparent"      "1"
 
@@ -230,9 +230,9 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "10"
+                                "xpos"                      "cs-0.5"
                                 "ypos"                      "20"
-                                "wide"                      "f20"
+                                "wide"                      "180"
                                 "tall"                      "f25"
                                 "proportionaltoparent"      "1"
 
@@ -315,9 +315,9 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "10"
+                                "xpos"                      "cs-0.5"
                                 "ypos"                      "20"
-                                "wide"                      "f20"
+                                "wide"                      "180"
                                 "tall"                      "f25"
                                 "proportionaltoparent"      "1"
 
@@ -400,9 +400,9 @@
                             {
                                 "ControlName"               "EditablePanel"
                                 "fieldName"                 "ButtonContainer"
-                                "xpos"                      "10"
+                                "xpos"                      "cs-0.5"
                                 "ypos"                      "20"
-                                "wide"                      "f20"
+                                "wide"                      "180"
                                 "tall"                      "f25"
                                 "proportionaltoparent"      "1"
 
