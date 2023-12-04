@@ -110,7 +110,7 @@
                                     "fieldName"                 "Off"
                                     "xpos"                      "90"
                                     "ypos"                      "0"
-                                    "wide"                      "89"
+                                    "wide"                      "90"
                                     "tall"                      "19"
                                     "proportionaltoparent"      "1"
                                     "labelText"                 "#TF_Off"

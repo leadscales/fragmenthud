@@ -134,7 +134,7 @@
                                     "fieldName"                 "Large"
                                     "xpos"                      "120"
                                     "ypos"                      "0"
-                                    "wide"                      "59"
+                                    "wide"                      "60"
                                     "tall"                      "19"
                                     "proportionaltoparent"      "1"
                                     "labelText"                 "#FRAG_Etc_Large"

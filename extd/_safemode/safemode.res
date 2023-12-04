@@ -148,7 +148,7 @@
             "fieldName"                 "ScrollingPanel"
             "xpos"                      "1"
             "ypos"                      "22"
-            "wide"                      "f0"
+            "wide"                      "f1"
             "tall"                      "f64"
             "proportionaltoparent"      "1"
             "restrict_width"            "0"

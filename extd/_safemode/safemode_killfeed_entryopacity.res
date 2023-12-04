@@ -206,7 +206,7 @@
                                     "fieldName"                 "0"
                                     "xpos"                      "150"
                                     "ypos"                      "0"
-                                    "wide"                      "29"
+                                    "wide"                      "30"
                                     "tall"                      "19"
                                     "proportionaltoparent"      "1"
                                     "labelText"                 "0"
