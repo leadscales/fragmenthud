@@ -30,6 +30,5 @@
         "Menu.TextColor"                    "FragNeutral100"
         "Menu.BgColor"                      "FragPanelOpaque0"
         "Menu.ArmedBgColor"                 "FragPanelOpaque20"
-
     }
 }

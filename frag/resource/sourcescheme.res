@@ -97,58 +97,363 @@
         "SectionedListPanel.SelectedBgColor"                "FragPrimary100"
         "SectionedListPanel.OutOfFocusSelectedBgColor"      "FragPrimary100"
     }
+
     "Borders"
     {
         "FrameBorder"
         {
-            "backgroundtype"                                "0"
+            "backgroundtype"        "0"
+
             "Top"
             {
                 "1"
                 {
                     "Color"         "FragPrimary100"
                 }
+
                 "2"
                 {
                     "Color"         "FragPrimary100"
-                    "Offset"        "1 1"
                 }
             }
-            "Bottom"
+        }
+    }
+
+    "Fonts"
+    {
+        "Default"
+        {
+            "1"
             {
-                "1"
-                {
-                    "Color"         "FragPrimary100"
-                }
-                "2"
-                {
-                    "Color"         "FragPrimary100"
-                    "Offset"        "1 1"
-                }
+                "name"          "Infortress-Medium"
+                "tall"          "14"
+                "weight"        "0"
+                "antialias"     "1"
             }
-            "Left"
+        }
+        "DefaultBold"
+        {
+            "1"
             {
-                "1"
-                {
-                    "Color"         "FragPrimary100"
-                }
-                "2"
-                {
-                    "Color"         "FragPrimary100"
-                    "Offset"        "1 1"
-                }
+                "name"          "Infortress-Medium"
+                "tall"          "14"
+                "weight"        "0"
+                "antialias"     "1"
             }
-            "Right"
+        }
+        "DefaultSmall"
+        {
+            "1"
             {
-                "1"
-                {
-                    "Color"         "FragPrimary100"
-                }
-                "2"
-                {
-                    "Color"         "FragPrimary100"
-                    "Offset"        "1 1"
-                }
+                "name"          "Infortress-Medium"
+                "tall"          "12"
+                "weight"        "0"
+                "antialias"     "1"
+            }
+        }
+        "DefaultVerySmall"
+        {
+            "1"
+            {
+                "name"          "Infortress-Medium"
+                "tall"          "14"
+                "weight"        "0"
+                "antialias"     "1"
+            }
+        }
+        "DefaultLarge"
+        {
+            "1"
+            {
+                "name"          "Infortress-Medium"
+                "tall"          "16"
+                "weight"        "0"
+                "antialias"     "1"
+            }
+        }
+    }
+
+    "CustomFontFiles"
+    {
+        "4"
+        {
+            "font"      "resource/fonts/Infortress-Medium.ttf"
+            "name"      "Infortress-Medium"
+
+            "korean"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "japanese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "koreana"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "english"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "czech"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "norwegian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "bulgarian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "spanish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "thai"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "portuguese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "dutch"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "hungarian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "french"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "tchinese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "brazilian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "german"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "greek"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "polish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "russian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "danish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "pirate"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "swedish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "italian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "turkish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "schinese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "finnish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "romanian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+        }
+
+        "21"
+        {
+            "font"      "resource/fonts/Infortress-Bold.ttf"
+            "name"      "Infortress-Bold"
+
+            "korean"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "japanese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "koreana"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "english"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "czech"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "norwegian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "bulgarian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "spanish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "thai"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "portuguese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "dutch"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "hungarian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "french"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "tchinese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "brazilian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "german"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "greek"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "polish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "russian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "danish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "pirate"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "swedish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "italian"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "turkish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "schinese"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "finnish"
+            {
+                "range"     "0x0020 0x2BFF"
+            }
+
+            "romanian"
+            {
+                "range"     "0x0020 0x2BFF"
             }
         }
     }
