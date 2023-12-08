@@ -154,15 +154,6 @@
         "LoadoutItemMouseOverBorder"
         {
             "image"                     "replay/thumbnails/panels/econ_item_border"
-            "color"                     "FragPanelOpaque30"
-            "src_corner_height"         "6"
-            "src_corner_width"          "6"
-            "draw_corner_width"         "2"
-            "draw_corner_height"        "2"
-        }
-        "LoadoutItemMouseOverBorder"
-        {
-            "image"                     "replay/thumbnails/panels/econ_item_border"
             "color"                     "FragPanelOpaque20"
             "src_corner_height"         "6"
             "src_corner_width"          "6"

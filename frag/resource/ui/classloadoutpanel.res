@@ -15,7 +15,7 @@
         "modelpanels_kv"
         {
             "wide"                          "160"
-            "tall"                          "80"
+            "tall"                          "79"
         }
     }
 

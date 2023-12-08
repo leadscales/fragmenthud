@@ -8,9 +8,9 @@
 
         "item_ypos"                         "65"
 
-        "item_backpack_offcenter_x"         "-300"
-        "item_backpack_xdelta"              "0"
-        "item_backpack_ydelta"              "0"
+        "item_backpack_offcenter_x"         "-299"
+        "item_backpack_xdelta"              "2"
+        "item_backpack_ydelta"              "2"
 
         "page_button_y"                     "345"
         "page_button_x_delta"               "0"
@@ -52,16 +52,16 @@
 
         "modelpanels_kv"
         {
-            "wide"                          "60"
-            "tall"                          "50"
+            "wide"                          "58"
+            "tall"                          "48"
 
             "model_xpos"                    "5"
             "model_ypos"                    "10"
             "model_wide"                    "50"
             "model_tall"                    "30"
 
-            "inset_eq_x"                    "2"
-            "inset_eq_y"                    "2"
+            "inset_eq_x"                    "0"
+            "inset_eq_y"                    "1"
 
             "itemmodelpanel"
             {
@@ -71,18 +71,18 @@
             "New"
             {
                 "textalignment"             "center"
-                "xpos"                      "1"
-                "ypos"                      "rs1-1"
-                "wide"                      "f2"
-                "tall"                      "9"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "10"
                 "textinsetx"                "0"
                 "paintBorder"               "0"
                 "paintBackground"           "1"
                 "paintbackgroundtype"       "0"
                 "roundedcorners"            "0"
-                "bgcolor_override"          "FragAccent20"
-                "fgcolor_override"          "FragAccent100"
-                "font"                      "FontMedium_10_Additive"
+                "bgcolor_override"          "FragAccent100"
+                "fgcolor_override"          "Black"
+                "font"                      "FontBold_10"
             }
         }
     }
