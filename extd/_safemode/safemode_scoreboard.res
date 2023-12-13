@@ -15,7 +15,7 @@
                     "xpos"                      "0"
                     "ypos"                      "0"
                     "wide"                      "f0"
-                    "tall"                      "120"
+                    "tall"                      "85"
                     "proportionaltoparent"      "1"
                     "bgcolor_override"          "0 255 0 0"
 
