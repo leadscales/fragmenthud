@@ -39,8 +39,8 @@
         "RadioButton.SelectedTextColor"                     "FragPanelOpaque100"
         "RadioButton.ArmedTextColor"                        "FragPanelOpaque100"
 
-        "Frame.BgColor"                                     "FragPanelOpaque10"
-        "Frame.OutOfFocusBgColor"                           "FragPanelOpaque20"
+        "Frame.BgColor"                                     "Blank"
+        "Frame.OutOfFocusBgColor"                           "Blank"
 
         "FrameGrip.Color1"                                  "Blank"
         "FrameGrip.Color2"                                  "Blank"
@@ -102,20 +102,15 @@
     {
         "FrameBorder"
         {
-            "backgroundtype"        "0"
-
-            "Top"
-            {
-                "1"
-                {
-                    "Color"         "FragPrimary100"
-                }
-
-                "2"
-                {
-                    "Color"         "FragPrimary100"
-                }
-            }
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "2"
+            "image"                     "replay/thumbnails/panels/source_border"
+            "color"                     "FragPrimary100"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
+            "paintfirst"                "1"
         }
     }
 
