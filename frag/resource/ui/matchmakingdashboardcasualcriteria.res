@@ -80,6 +80,7 @@
         "armedbgcolor_override"     "FragCasual20"
         "defaultfgcolor_override"   "FragCasual100"
         "armedfgcolor_override"     "FragCasual100"
+        "disabledfgcolor2_override" "FragCasual05"
 
         "pin_to_sibling"            "CriteriaBG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"

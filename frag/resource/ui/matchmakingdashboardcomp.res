@@ -92,6 +92,7 @@
         "armedbgcolor_override"     "FragCompetitive20"
         "defaultfgcolor_override"   "FragCompetitive100"
         "armedfgcolor_override"     "FragCompetitive100"
+        "disabledfgcolor2_override" "FragCompetitive05"
 
         "pin_to_sibling"            "CriteriaBG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"

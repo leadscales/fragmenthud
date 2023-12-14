@@ -64,11 +64,14 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "Icons_Small_Additive"
+        "font"                      "Icons_Medium_Additive"
         "labeltext"                 "<"
         "pincorner"                 "0"
-        "defaultbgcolor_override"   "FragPanelTransparentDark20"
-        "armedbgcolor_override"     "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "armedbgcolor_override"     "FragMvM20"
+        "defaultfgcolor_override"   "FragNeutral100"
+        "armedfgcolor_override"     "FragMvM100"
+        "disabledfgcolor2_override" "FragNeutral05"
     }
     "NextButton"
     {
@@ -76,11 +79,14 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "Icons_Small_Additive"
+        "font"                      "Icons_Medium_Additive"
         "labeltext"                 ">"
         "pincorner"                 "0"
-        "defaultbgcolor_override"   "FragPanelTransparentDark20"
-        "armedbgcolor_override"     "FragPanelTransparentDark40"
+        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "armedbgcolor_override"     "FragMvM20"
+        "defaultfgcolor_override"   "FragNeutral100"
+        "armedfgcolor_override"     "FragMvM100"
+        "disabledfgcolor2_override" "FragNeutral05"
     }
 
     "MannUpQueueButton"
@@ -89,27 +95,31 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "Icons_Small_Additive"
+        "font"                      "Icons_Medium_Additive"
         "labeltext"                 "p"
         "pincorner"                 "0"
-        "defaultbgcolor_override"   "FragPanelTransparentDark20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark40"
         "armedbgcolor_override"     "FragMvM20"
         "defaultfgcolor_override"   "FragMvM100"
         "armedfgcolor_override"     "FragMvM100"
+        "disabledfgcolor2_override" "FragMvM05"
     }
 
     "JoinLateCheckButton"
     {
-        "xpos"                      "40"
+        "xpos"                      "0"
         "ypos"                      "0"
         "wide"                      "f80"
         "tall"                      "20"
         "smallcheckimage"           "0"
+        "pin_to_sibling"            "BackButton"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
 
     "JoinLateLabel"
     {
-        "xpos"                      "65"
+        "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "f105"
         "tall"                      "20"
@@ -117,6 +127,9 @@
         "allcaps"                   "1"
         "fgcolor"                   "FragMvM20"
         "fgcolor_override"          "FragMvM20"
+        "pin_to_sibling"            "JoinLateCheckButton"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
     }
 
     "xxxx"
