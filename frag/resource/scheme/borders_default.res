@@ -145,7 +145,7 @@
         "EconItemBorder"
         {
             "image"                     "replay/thumbnails/panels/econ_item_border"
-            "color"                     "FragPanelOpaque40"
+            "color"                     "FragPanelOpaque20"
             "src_corner_height"         "6"
             "src_corner_width"          "6"
             "draw_corner_width"         "2"
@@ -154,7 +154,7 @@
         "LoadoutItemMouseOverBorder"
         {
             "image"                     "replay/thumbnails/panels/econ_item_border"
-            "color"                     "FragPanelOpaque20"
+            "color"                     "FragPanelOpaque10"
             "src_corner_height"         "6"
             "src_corner_width"          "6"
             "draw_corner_width"         "2"
@@ -173,7 +173,7 @@
         "OutlinedGreyBox"
         {
             "image"                     "replay/thumbnails/panels/fill_100"
-            "color"                     "FragPanelOpaque20"
+            "color"                     "FragPanelOpaque10"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
             "draw_corner_width"         "0"
@@ -182,7 +182,7 @@
         "OutlinedDullGreyBox"
         {
             "image"                     "replay/thumbnails/panels/fill_100"
-            "color"                     "FragPanelOpaque10"
+            "color"                     "FragPanelOpaque05"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
             "draw_corner_width"         "0"
@@ -200,7 +200,7 @@
         "TFFatLineBorderOpaque"
         {
             "image"                     "replay/thumbnails/panels/fill_100"
-            "color"                     "FragPanelOpaque20"
+            "color"                     "FragPanelOpaque10"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
             "draw_corner_width"         "0"
