@@ -161,4 +161,208 @@
             "textalignment"             "north-west"
         }
     }
+
+    "MvMEconItemsGroupBox"
+    {
+        "wide"                  "410"
+        "tall"                  "130"
+        "bgcolor_override"      "FragPanelTransparentDark40"
+        "border"                "NoBorder"
+        "paintbackgroundtype"   "0"
+
+        "InventoryTitleLabel"
+        {
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "font"                      "FontMedium_12_Additive"
+            "fgcolor_override"          "FragMvM100"
+            "textalignment"             "west"
+            "allcaps"                   "1"
+            "bgcolor_override"          "FragPanelTransparentDark20"
+            "textinsetx"                "5"
+            "use_proportional_insets"   "1"
+        }
+
+        "MannUpTicketIcon"
+        {
+            "ControlName"               "CExLabel"
+            "fieldName"                 "MannUpTicketIcon"
+            "xpos"                      "rs1"
+            "ypos"                      "0"
+            "zpos"                      "1"
+            "wide"                      "20"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "labelText"                 "k"
+            "textAlignment"             "center"
+            "font"                      "Icons_Medium_Additive"
+            "fgcolor_override"          "FragMvM100"
+        }
+        "MannUpTicketCountLabel"
+        {
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "40"
+            "tall"                      "20"
+            "textAlignment"             "east"
+            "fgcolor_override"          "FragNeutral100"
+            "font"                      "FontMedium_12"
+
+            "pin_to_sibling"            "MannUpTicketIcon"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+
+
+        "SquadSurplusCountLabel"
+        {
+            "xpos"                      "5"
+            "ypos"                      "25"
+            "wide"                      "20"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "font"                      "FontMedium_16"
+            "fgcolor_override"          "FragNeutral100"
+            "textalignment"             "center"
+        }
+        "SquadSurplusCheckButton"
+        {
+            "xpos"                      "25"
+            "ypos"                      "25"
+            "wide"                      "180"
+            "tall"                      "20"
+        }
+        "ActivateSquadSurplusLabel"
+        {
+            "xpos"                      "45"
+            "ypos"                      "25"
+            "wide"                      "160"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "labeltext"                 "#TF_MvM_SquadSurplusVoucher"
+            "font"                      "FontMedium_12"
+            "fgcolor_override"          "FragNeutral100"
+            "textalignment"             "west"
+            "allcaps"                   "1"
+            "textinsetx"                "5"
+            "use_proportional_insets"   "1"
+            "wrap"                      "1"
+        }
+
+        "Slot5"
+        {
+            "xpos"                      "rs1-5"
+            "ypos"                      "25"
+            "wide"                      "20"
+            "tall"                      "60"
+            "proportionaltoparent"      "1"
+        }
+        "Slot4"
+        {
+            "xpos"                      "1"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "60"
+            "proportionaltoparent"      "1"
+            
+            "pin_to_sibling"            "Slot5"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+        "Slot3"
+        {
+            "xpos"                      "1"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "60"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Slot4"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+        "Slot2"
+        {
+            "xpos"                      "1"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "60"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Slot3"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+        "Slot1"
+        {
+            "xpos"                      "1"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "60"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Slot2"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+        "Slot0"
+        {
+            "xpos"                      "1"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "60"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Slot1"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+
+        "MissingTicketsLabel"
+        {
+            "xpos"                      "0"
+            "ypos"                      "rs1"
+            "wide"                      "f0"
+            "tall"                      "40"
+            "textalignment"             "center"
+            "centerwrap"                "1"
+            "wrap"                      "0"
+            "fgcolor_override"          "Black"
+            "bgcolor_override"          "FragNegative100"
+            "font"                      "FontMedium_12"
+            "allcaps"                   "1"
+        }
+        
+
+        "MannUpTicketAd"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+        "SquadSurplusTicketAd"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+        "MissingTicketsAlertImage"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+    }
 }

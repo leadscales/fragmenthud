@@ -4,8 +4,8 @@
     {
         "wide"                  "0"
         "tall"                  "0"
-        "border"                "NoBorder"
-        "bgcolor_override"      "FragPanelTransparentDark80"
+        "border"                "FragTooltip"
+        "bgcolor_override"      "Blank"
         "TipLabel"
         {
             "if_small"

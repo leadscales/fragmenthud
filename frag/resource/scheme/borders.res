@@ -2,56 +2,16 @@
 {
     "Borders"
     {
-        "FragColorSelection"
+        "FragTooltip"
         {
-            "Top"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
-            "Bottom"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
-            "Left"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
-            "Right"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
+            bordertype scalable_image
+            backgroundtype 0
+            color FragPrimary100
+            image "replay/thumbnails/panels/tooltip_border"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
         }
     }
 }
