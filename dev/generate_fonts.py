@@ -16,7 +16,7 @@ class Font():
 
 
 def generate_font_dict(fonts: tuple[Font, ...], sizes: tuple[int, ...]) -> dict[str, typing.Any]:
-    result = {
+    result: dict[str, dict[str, dict]] = {
         "Scheme": {
             "Fonts": {},
             "CustomFontFiles": {}
@@ -78,13 +78,13 @@ def main():
     root = pathlib.Path(fragment.get_project_root())
     fonts = (
         Font(
-            path="resource/fonts/Infortress-Medium.ttf",
+            path="resource/fonts/infortress-medium.ttf",
             engine_name="Infortress-Medium",
             entry_name="FontMedium",
             weight=500
         ),
         Font(
-            path="resource/fonts/Infortress-Bold.ttf",
+            path="resource/fonts/infortress-bold.ttf",
             engine_name="Infortress-Bold",
             entry_name="FontBold",
             weight=700

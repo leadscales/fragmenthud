@@ -113,10 +113,10 @@
 
         "ItemRarityDefault"                         "128 128 128 255"
         "ItemRarityCommon"                          "96 192 192 255"
-        "ItemRarityUncommon"                        "64 160 255 255"
-        "ItemRarityRare"                            "64 96 255 255"
-        "ItemRarityMythical"                        "144 64 255 255"
-        "ItemRarityLegendary"                       "240 64 255 255"
+        "ItemRarityUncommon"                        "64 176 255 255"
+        "ItemRarityRare"                            "64 128 255 255"
+        "ItemRarityMythical"                        "128 64 255 255"
+        "ItemRarityLegendary"                       "224 64 255 255"
         "ItemRarityAncient"                         "255 64 96 255"
     }
 }

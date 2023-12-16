@@ -1,7 +1,7 @@
 import pathlib
 import os
 
-LANGUAGES = {
+LANGUAGES = (
     "brazilian",
     "bulgarian",
     "czech",
@@ -29,7 +29,7 @@ LANGUAGES = {
     "thai",
     "turkish",
     "pirate"
-}
+)
 
 
 def get_project_root(root_file: str = "info.vdf") -> os.PathLike:

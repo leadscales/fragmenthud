@@ -259,29 +259,9 @@
 {
 "20"
 {
-"font" "resource/fonts/Infortress-Medium.ttf"
+"font" "resource/fonts/infortress-medium.ttf"
 "name" "Infortress-Medium"
-"korean"
-{
-"range" "0x0020 0x2BFF"
-}
-"japanese"
-{
-"range" "0x0020 0x2BFF"
-}
-"koreana"
-{
-"range" "0x0020 0x2BFF"
-}
-"english"
-{
-"range" "0x0020 0x2BFF"
-}
-"czech"
-{
-"range" "0x0020 0x2BFF"
-}
-"norwegian"
+"brazilian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -289,15 +269,11 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"spanish"
+"czech"
 {
 "range" "0x0020 0x2BFF"
 }
-"thai"
-{
-"range" "0x0020 0x2BFF"
-}
-"portuguese"
+"danish"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -305,19 +281,15 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"hungarian"
+"english"
+{
+"range" "0x0020 0x2BFF"
+}
+"finnish"
 {
 "range" "0x0020 0x2BFF"
 }
 "french"
-{
-"range" "0x0020 0x2BFF"
-}
-"tchinese"
-{
-"range" "0x0020 0x2BFF"
-}
-"brazilian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -329,23 +301,7 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"polish"
-{
-"range" "0x0020 0x2BFF"
-}
-"russian"
-{
-"range" "0x0020 0x2BFF"
-}
-"danish"
-{
-"range" "0x0020 0x2BFF"
-}
-"pirate"
-{
-"range" "0x0020 0x2BFF"
-}
-"swedish"
+"hungarian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -353,7 +309,35 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"turkish"
+"japanese"
+{
+"range" "0x0020 0x2BFF"
+}
+"korean"
+{
+"range" "0x0020 0x2BFF"
+}
+"koreana"
+{
+"range" "0x0020 0x2BFF"
+}
+"norwegian"
+{
+"range" "0x0020 0x2BFF"
+}
+"polish"
+{
+"range" "0x0020 0x2BFF"
+}
+"portuguese"
+{
+"range" "0x0020 0x2BFF"
+}
+"romanian"
+{
+"range" "0x0020 0x2BFF"
+}
+"russian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -361,40 +345,36 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"finnish"
+"spanish"
 {
 "range" "0x0020 0x2BFF"
 }
-"romanian"
+"swedish"
+{
+"range" "0x0020 0x2BFF"
+}
+"tchinese"
+{
+"range" "0x0020 0x2BFF"
+}
+"thai"
+{
+"range" "0x0020 0x2BFF"
+}
+"turkish"
+{
+"range" "0x0020 0x2BFF"
+}
+"pirate"
 {
 "range" "0x0020 0x2BFF"
 }
 }
 "21"
 {
-"font" "resource/fonts/Infortress-Bold.ttf"
+"font" "resource/fonts/infortress-bold.ttf"
 "name" "Infortress-Bold"
-"korean"
-{
-"range" "0x0020 0x2BFF"
-}
-"japanese"
-{
-"range" "0x0020 0x2BFF"
-}
-"koreana"
-{
-"range" "0x0020 0x2BFF"
-}
-"english"
-{
-"range" "0x0020 0x2BFF"
-}
-"czech"
-{
-"range" "0x0020 0x2BFF"
-}
-"norwegian"
+"brazilian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -402,15 +382,11 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"spanish"
+"czech"
 {
 "range" "0x0020 0x2BFF"
 }
-"thai"
-{
-"range" "0x0020 0x2BFF"
-}
-"portuguese"
+"danish"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -418,19 +394,15 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"hungarian"
+"english"
+{
+"range" "0x0020 0x2BFF"
+}
+"finnish"
 {
 "range" "0x0020 0x2BFF"
 }
 "french"
-{
-"range" "0x0020 0x2BFF"
-}
-"tchinese"
-{
-"range" "0x0020 0x2BFF"
-}
-"brazilian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -442,23 +414,7 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"polish"
-{
-"range" "0x0020 0x2BFF"
-}
-"russian"
-{
-"range" "0x0020 0x2BFF"
-}
-"danish"
-{
-"range" "0x0020 0x2BFF"
-}
-"pirate"
-{
-"range" "0x0020 0x2BFF"
-}
-"swedish"
+"hungarian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -466,7 +422,35 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"turkish"
+"japanese"
+{
+"range" "0x0020 0x2BFF"
+}
+"korean"
+{
+"range" "0x0020 0x2BFF"
+}
+"koreana"
+{
+"range" "0x0020 0x2BFF"
+}
+"norwegian"
+{
+"range" "0x0020 0x2BFF"
+}
+"polish"
+{
+"range" "0x0020 0x2BFF"
+}
+"portuguese"
+{
+"range" "0x0020 0x2BFF"
+}
+"romanian"
+{
+"range" "0x0020 0x2BFF"
+}
+"russian"
 {
 "range" "0x0020 0x2BFF"
 }
@@ -474,11 +458,27 @@
 {
 "range" "0x0020 0x2BFF"
 }
-"finnish"
+"spanish"
 {
 "range" "0x0020 0x2BFF"
 }
-"romanian"
+"swedish"
+{
+"range" "0x0020 0x2BFF"
+}
+"tchinese"
+{
+"range" "0x0020 0x2BFF"
+}
+"thai"
+{
+"range" "0x0020 0x2BFF"
+}
+"turkish"
+{
+"range" "0x0020 0x2BFF"
+}
+"pirate"
 {
 "range" "0x0020 0x2BFF"
 }
