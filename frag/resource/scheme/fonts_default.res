@@ -2,6 +2,135 @@
 {
     "Fonts"
     {
+        // OCRA FIXES
+        "QuestFlavorText"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "10"
+                "weight"        "400"
+                "yres"          "480 599"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"          "OCRA"
+                "tall"          "14"
+                "weight"        "400"
+                "additive"      "0"
+                "yres"          "600 1023"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"          "OCRA"
+                "tall"          "18"
+                "weight"        "400"
+                "additive"      "0"
+                "yres"          "1024 6000"
+                "antialias"     "1"
+            }
+        }
+        "QuestObjectiveText"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "10"
+                "weight"        "800"
+                "yres"          "480 599"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"          "OCRA"
+                "tall"          "14"
+                "weight"        "800"
+                "additive"      "0"
+                "yres"          "600 1023"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"          "OCRA"
+                "tall"          "18"
+                "weight"        "800"
+                "additive"      "0"
+                "yres"          "1024 6000"
+                "antialias"     "1"
+            }
+        }
+        "QuestLargeText"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "16"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Small_Blur"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "7"
+                "weight"        "0"
+                "blur"          "3"
+                "additive"      "1"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Small"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "7"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Medium"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "10"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Large"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "14"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Huge"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "30"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        // ---
         "Default"
         {
             "1"
