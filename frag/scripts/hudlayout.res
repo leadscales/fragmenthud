@@ -213,6 +213,14 @@
         "alpha"                     "255"
     }
 
+    "WinPanel"
+    {
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "480"
+    }
+
     // DISABLED
 
     "HudBowCharge"

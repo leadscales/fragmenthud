@@ -54,6 +54,10 @@
         "FragBlu10"                         "96 192 255 26"
         "FragBlu05"                         "96 192 255 13"
         "FragNeutral20"                     "255 255 255 51"
+        // Etc
+        "FragGold100"                       "255 224 128 255"
+        "FragSilver100"                     "192 224 255 255"
+        "FragBronze100"                     "255 160 128 255"
 
         "FragCasual100"                     "96 192 255 255"
         "FragCompetitive100"                "255 72 80 255"
