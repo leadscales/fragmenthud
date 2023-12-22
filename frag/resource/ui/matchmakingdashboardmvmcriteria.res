@@ -104,6 +104,21 @@
         "armedfgcolor_override"     "FragMvM100"
         "disabledfgcolor2_override" "FragMvM05"
     }
+    "BootCampQueueButton"
+    {
+        "xpos"                      "rs1"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                      "Icons_Medium_Additive"
+        "labeltext"                 "p"
+        "pincorner"                 "0"
+        "defaultbgcolor_override"   "FragPanelTransparentDark40"
+        "armedbgcolor_override"     "FragMvM20"
+        "defaultfgcolor_override"   "FragMvM100"
+        "armedfgcolor_override"     "FragMvM100"
+        "disabledfgcolor2_override" "FragMvM05"
+    }
 
     "JoinLateCheckButton"
     {
