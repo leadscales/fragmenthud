@@ -20,7 +20,7 @@
     {
         "wide"                  "260"
         "paintBorder"           "0"
-        "bgcolor_override"      "FragPanelOpaque20"
+        "bgcolor_override"      "FragPanelOpaque15"
         "paintBackgroundType"   "0"
         "roundedcorners"        "0"
     }
@@ -33,8 +33,23 @@
         "font"                  "FontMedium_12_Additive"
         "textalignment"         "center"
         "allcaps"               "1"
-        "bgcolor_override"      "FragPanelOpaque15"
+        "bgcolor_override"      "Blank"
         "fgcolor_override"      "FragAccent100"
+    }
+
+    "TitleBar"
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "TitleBar"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "2"
+        "wide"                  "260"
+        "tall"                  "1"
+        "image"                 "replay/thumbnails/panels/fill_additive"
+        "drawcolor"             "FragAccent100"
+        "scaleImage"            "1"
+        "mouseinputenabled"     "0"
     }
 
     "ExplanationLabel"
@@ -51,21 +66,29 @@
 
     "CancelButton"
     {
-        "xpos"                  "185"
-        "wide"                  "60"
-        "tall"                  "20"
-        "font"                  "FontMedium_12_Additive"
-        "allcaps"               "1"
-        "roundedcorners"        "0"
+        "xpos"                      "185"
+        "wide"                      "60"
+        "tall"                      "20"
+        "font"                      "FontMedium_12_Additive"
+        "allcaps"                   "1"
+        "roundedcorners"            "0"
+        "defaultbgcolor_override"   "FragPanelOpaque20"
+        "defaultfgcolor_override"   "FragAccent100"
+        "armedbgcolor_override"     "FragAccent20"
+        "armedfgcolor_override"     "FragAccent100"
     }
 
     "ConfirmButton"
     {
-        "xpos"                  "15"
-        "wide"                  "155"
-        "tall"                  "20"
-        "font"                  "FontMedium_12_Additive"
-        "allcaps"               "1"
-        "roundedcorners"        "0"
+        "xpos"                      "15"
+        "wide"                      "155"
+        "tall"                      "20"
+        "font"                      "FontMedium_12_Additive"
+        "allcaps"                   "1"
+        "roundedcorners"            "0"
+        "defaultbgcolor_override"   "FragPanelOpaque20"
+        "defaultfgcolor_override"   "FragAccent100"
+        "armedbgcolor_override"     "FragAccent20"
+        "armedfgcolor_override"     "FragAccent100"
     }
 }

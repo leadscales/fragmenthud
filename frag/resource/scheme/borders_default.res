@@ -14,6 +14,14 @@
         {
             "backgroundtype"        "0"
         }
+        "Econ.Button.Border.Default"
+        {
+            "backgroundtype"        "0"
+        }
+        "Econ.Button.Border.Armed"
+        {
+            "backgroundtype"        "0"
+        }
         "ComboBoxBorder"
         {
             "inset"     "0 0 0 0"
