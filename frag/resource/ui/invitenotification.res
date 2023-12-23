@@ -69,6 +69,14 @@
         "textalignment"         "west"
         "wrap"                  "1"
 
+        "if_incoming"
+        {
+            "xpos"                  "22"
+            "ypos"                  "0"
+            "wide"                  "f64"
+            "tall"                  "20"
+        }
+
         "fonts"
         {
             "1"
@@ -103,7 +111,7 @@
         "wide"                  "20"
         "tall"                  "20"
         "proportionaltoparent"  "1"
-        "font"                  "Icons_Medium_Additive"
+        "font"                  "Icons_Small_Additive"
         "labeltext"             "X"
 
         "defaultbgcolor_override"   "FragPanelTransparentDark20"
@@ -123,7 +131,7 @@
         "wide"                  "20"
         "tall"                  "20"
         "proportionaltoparent"  "1"
-        "font"                  "Icons_Medium_Additive"
+        "font"                  "Icons_Small_Additive"
         "labeltext"             "D"
 
         "defaultbgcolor_override"   "FragPanelTransparentDark20"

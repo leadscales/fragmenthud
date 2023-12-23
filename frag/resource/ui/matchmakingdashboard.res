@@ -395,6 +395,65 @@
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
         }
 
+        "JoinPartyLobbyContainer"
+        {
+            "xpos"                      "160"
+            "wide"                      "40"
+
+            "JoinNowButton"
+            {
+                "xpos"                      "2"
+                "ypos"                      "2"
+                "wide"                      "36"
+                "tall"                      "16"
+
+                "if_queued"
+                {
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "40"
+                    "tall"                      "20"
+                }
+                
+                "font"                      "FontMedium_10_Additive"
+                "textalignment"             "center"
+                "allcaps"                   "1"
+                "fgcolor"                   "FragPositive100"
+                "defaultbgcolor_override"   "FragPositive20"
+                "armedbgcolor_override"     "FragPositive40"
+                "defaultfgcolor_override"   "FragPositive100"
+                "armedfgcolor_override"     "FragPositive100"
+            }
+            
+            "OuterShadow"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
+            "BGPanel"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
+            "PromptText"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
+        }
+
         "QueueContainer"
         {
             "ControlName"               "EditablePanel"
