@@ -6,15 +6,15 @@
         "infocus_bgcolor_override"          "0 0 0 255"
         "outoffocus_bgcolor_override"       "0 0 0 255"
 
-        "item_ypos"                         "65"
+        "item_ypos"                         "60"
 
-        "item_backpack_offcenter_x"         "-299"
-        "item_backpack_xdelta"              "2"
-        "item_backpack_ydelta"              "2"
+        "item_backpack_offcenter_x"         "-300"
+        "item_backpack_xdelta"              "1"
+        "item_backpack_ydelta"              "1"
 
-        "page_button_y"                     "345"
-        "page_button_x_delta"               "0"
-        "page_button_y_delta"               "0"
+        "page_button_y"                     "310"
+        "page_button_x_delta"               "1"
+        "page_button_y_delta"               "1"
         "page_button_height"                "20"
         "page_button_per_row"               "30"
 
@@ -25,10 +25,10 @@
 
             "Button"
             {
-                "xpos"                      "1"
-                "ypos"                      "1"
-                "wide"                      "18"
-                "tall"                      "18"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "20"
+                "tall"                      "20"
                 "font"                      "FontMedium_10"
                 "paintBackground"           "1"
                 "defaultbgcolor_override"   "Blank"
@@ -37,9 +37,9 @@
 
             "New"
             {
-                "xpos"                      "1"
+                "xpos"                      "0"
                 "ypos"                      "rs1"
-                "wide"                      "18"
+                "wide"                      "20"
                 "tall"                      "1"
                 "fgcolor"                   "Blank"
                 "bgcolor_override"          "FragAccent100"
@@ -52,8 +52,8 @@
 
         "modelpanels_kv"
         {
-            "wide"                          "58"
-            "tall"                          "48"
+            "wide"                          "59"
+            "tall"                          "49"
 
             "model_xpos"                    "5"
             "model_ypos"                    "10"
@@ -84,6 +84,78 @@
                 "fgcolor_override"          "Black"
                 "font"                      "FontBold_10"
             }
+        }
+    }
+
+    "MarginOverlay"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "MarginOverlay"
+        "xpos"                      "cs-0.5"
+        "ypos"                      "0"
+        "zpos"                      "-1"
+        "wide"                      "640"
+        "tall"                      "480"
+        "proportionaltoparent"      "0"
+        "visible"                   "0"
+        "enabled"                   "1"
+        "bgcolor_override"          "255 0 0 16"
+
+        "l"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "l"
+            "xpos"                      "c-320"
+            "ypos"                      "0"
+            "zpos"                      "-1"
+            "wide"                      "20"
+            "tall"                      "480"
+            "proportionaltoparent"      "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "bgcolor_override"          "255 0 0 16"
+        }
+        "r"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "r"
+            "xpos"                      "c300"
+            "ypos"                      "0"
+            "zpos"                      "-1"
+            "wide"                      "20"
+            "tall"                      "480"
+            "proportionaltoparent"      "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "bgcolor_override"          "255 0 0 16"
+        }
+        "t"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "t"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "zpos"                      "-1"
+            "wide"                      "640"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "bgcolor_override"          "255 0 0 16"
+        }
+        "b"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "b"
+            "xpos"                      "0"
+            "ypos"                      "rs1-80"
+            "zpos"                      "-1"
+            "wide"                      "640"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "bgcolor_override"          "255 0 0 16"
         }
     }
 
@@ -215,69 +287,56 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "wide"                          "600"
-        "tall"                          "f0"
-        "auto_tall_tocontents"          "1"
+        "tall"                          "20"
+        "auto_wide_tocontents"          "1"
         "fgcolor"                       "FragNeutral100"
         "font"                          "FontMedium_12_Additive"
         "textAlignment"                 "west"
         "allcaps"                       "1"
+        "mouseinputenabled"             "0"
 
         "pin_to_sibling"                "ClassIcon"
-        "pin_corner_to_sibling"         "PIN_CENTER_LEFT"
-        "pin_to_sibling_corner"         "PIN_CENTER_RIGHT"
+        "pin_corner_to_sibling"         "PIN_TOPLEFT"
+        "pin_to_sibling_corner"         "PIN_TOPRIGHT"
     }
 
     "CurrentPage"
     {
         "ControlName"                   "CExLabel"
         "fieldName"                     "CurrentPage"
-        "xpos"                          "15"
-        "ypos"                          "0"
+        "xpos"                          "c-300"
+        "ypos"                          "20"
         "zpos"                          "1"
         "wide"                          "600"
-        "tall"                          "f0"
-        "auto_tall_tocontents"          "1"
+        "tall"                          "20"
         "proportionaltoparent"          "1"
         "labelText"                     "%backpackpage%"
         "textAlignment"                 "east"
         "font"                          "FontMedium_12_Additive"
         "fgcolor"                       "FragPrimary40"
-
-        "pin_to_sibling"                "ClassLabel"
-        "pin_corner_to_sibling"         "PIN_TOPLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
-    }
-
-    "Divider"
-    {
-        "ControlName"                   "ImagePanel"
-        "fieldName"                     "Divider"
-        "xpos"                          "5"
-        "ypos"                          "9999"
-        "wide"                          "610"
-        "tall"                          "1"
-        "image"                         "replay/thumbnails/panels/fill_additive"
-        "scaleImage"                    "1"
-        "drawcolor"                     "FragPrimary100"
-
-        "pin_to_sibling"                "ClassIcon"
-        "pin_corner_to_sibling"         "PIN_TOPLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+        "mouseinputenabled"             "0"
     }
 
     "ShowBaseItemsCheckbox"
     {
-        "xpos"                          "c-300"
-        "ypos"                          "320"
+        "xpos"                          "20"
+        "ypos"                          "0"
+        "wide"                          "200"
+        "tall"                          "20"
+        "proportionaltoparent"          "1"
         "font"                          "FontMedium_12"
+        "pin_to_sibling"                "ClassLabel"
+        "pin_corner_to_sibling"         "PIN_TOPLEFT"
+        "pin_to_sibling_corner"         "PIN_TOPRIGHT"
     }
 
     "CancelApplyToolButton"
     {
-        "xpos"                          "c300-s1"
-        "ypos"                          "320"
-        "wide"                          "100"
+        "xpos"                          "cs-0.5"
+        "ypos"                          "rs1-20"
+        "wide"                          "600"
         "tall"                          "20"
+        "proportionaltoparent"          "1"
         "font"                          "FontMedium_12_Additive"
         "defaultbgcolor_override"       "FragNegative20"
         "armedbgcolor_override"         "FragNegative40"
@@ -289,8 +348,8 @@
     {
         "xpos"                              "c-300"
         "ypos"                              "40"
-        "wide"                              "172"
-        "tall"                              "20"
+        "wide"                              "179"
+        "tall"                              "19"
         "font"                              "FontMedium_12"
         "font_override"                     "FontMedium_12"
         "textinsetx"                        "5"
@@ -319,10 +378,10 @@
 
     "SortByComboBox"
     {
-        "xpos"                              "1"
-        "ypos"                              "0"
-        "wide"                              "172"
-        "tall"                              "20"
+        "xpos"                              "c-120"
+        "ypos"                              "40"
+        "wide"                              "179"
+        "tall"                              "19"
         "font"                              "FontMedium_12"
         "font_override"                     "FontMedium_12"
         "textinsetx"                        "5"
@@ -335,10 +394,6 @@
         "selectioncolor_override"           "Blank"
         "selectiontextcolor_override"       "FragNeutral100"
         "defaultselectionbg2color_override" "FragPanelTransparentDark40"
-        
-        "pin_to_sibling"                    "ShowRarityComboBox"
-        "pin_corner_to_sibling"             "PIN_TOPLEFT"
-        "pin_to_sibling_corner"             "PIN_TOPRIGHT"
 
         "Button"
         {
@@ -355,20 +410,16 @@
 
     "NameFilterTextEntry"
     {
-        "xpos"                              "1"
-        "ypos"                              "0"
-        "wide"                              "172"
-        "tall"                              "20"
+        "xpos"                              "c60"
+        "ypos"                              "40"
+        "wide"                              "179"
+        "tall"                              "19"
         "font"                              "FontMedium_12"
         "textinsetx"                        "5"
         "use_proportional_insets"           "1"
 
         "fgcolor_override"                  "FragNeutral100"
         "bgcolor_override"                  "FragPanelTransparentDark40"
-
-        "pin_to_sibling"                    "SortByComboBox"
-        "pin_corner_to_sibling"             "PIN_TOPLEFT"
-        "pin_to_sibling_corner"             "PIN_TOPRIGHT"
     }
 
     "NameFilterLabel"
@@ -381,7 +432,7 @@
         "zpos"                              "5"
         "mouseinputenabled"                 "0"
         "wide"                              "20"
-        "tall"                              "20"
+        "tall"                              "19"
         "fgcolor"                           "FragNeutral80"
         "bgcolor_override"                  "FragPanelTransparentDark40"
 
@@ -394,16 +445,12 @@
     {
         "ControlName"                       "EditablePanel"
         "fieldName"                         "PrevButton"
-        "xpos"                              "1"
-        "ypos"                              "0"
-        "wide"                              "40"
-        "tall"                              "20"
+        "xpos"                              "c240"
+        "ypos"                              "40"
+        "wide"                              "30"
+        "tall"                              "19"
         "proportionaltoparent"              "1"
         "bgcolor_override"                  "Blank"
-
-        "pin_to_sibling"                    "NameFilterTextEntry"
-        "pin_corner_to_sibling"             "PIN_TOPLEFT"
-        "pin_to_sibling_corner"             "PIN_TOPRIGHT"
 
         "Button"
         {
@@ -417,7 +464,7 @@
             "labelText"                     "<"
             "font"                          "Icons_Small"
             "textAlignment"                 "west"
-            "textinsetx"                    "5"
+            "textinsetx"                    "1"
             "use_proportional_insets"       "1"
             "command"                       "prevpage"
             "actionsignallevel"             "2"
@@ -436,7 +483,7 @@
             "xpos"                          "rs1-2"
             "ypos"                          "2"
             "wide"                          "16"
-            "tall"                          "16"
+            "tall"                          "f4"
             "proportionaltoparent"          "1"
             "mouseinputenabled"             "0"
             "labelText"                     "A"
@@ -451,16 +498,12 @@
     {
         "ControlName"                       "EditablePanel"
         "fieldName"                         "NextButton"
-        "xpos"                              "1"
-        "ypos"                              "0"
-        "wide"                              "40"
-        "tall"                              "20"
+        "xpos"                              "c270"
+        "ypos"                              "40"
+        "wide"                              "29"
+        "tall"                              "19"
         "proportionaltoparent"              "1"
         "bgcolor_override"                  "Blank"
-
-        "pin_to_sibling"                    "PrevButton"
-        "pin_corner_to_sibling"             "PIN_TOPLEFT"
-        "pin_to_sibling_corner"             "PIN_TOPRIGHT"
 
         "Button"
         {
@@ -474,7 +517,7 @@
             "labelText"                     ">"
             "font"                          "Icons_Small"
             "textAlignment"                 "east"
-            "textinsetx"                    "5"
+            "textinsetx"                    "1"
             "use_proportional_insets"       "1"
             "command"                       "nextpage"
             "actionsignallevel"             "2"
@@ -493,7 +536,7 @@
             "xpos"                          "2"
             "ypos"                          "2"
             "wide"                          "16"
-            "tall"                          "16"
+            "tall"                          "f4"
             "proportionaltoparent"          "1"
             "mouseinputenabled"             "0"
             "labelText"                     "D"
