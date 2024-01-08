@@ -18,23 +18,37 @@
 
     "ConfirmDialog"
     {
-        "wide"                  "260"
+        "wide"                  "240"
         "paintBorder"           "0"
-        "bgcolor_override"      "FragPanelOpaque15"
+        "bgcolor_override"      "FragPanelOpaque10"
         "paintBackgroundType"   "0"
         "roundedcorners"        "0"
+        setclosebuttonvisible 1
+        settitlebarvisible 1
     }
 
     "TitleLabel"
     {
         "ypos"                  "0"
-        "wide"                  "260"
+        "wide"                  "240"
         "tall"                  "20"
         "font"                  "FontMedium_12_Additive"
         "textalignment"         "center"
         "allcaps"               "1"
-        "bgcolor_override"      "Blank"
-        "fgcolor_override"      "FragAccent100"
+        "bgcolor_override"      "FragPanelOpaque15"
+        "fgcolor_override"      "FragPrimary100"
+    }
+
+    "ButtonAnchor"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "ButtonAnchor"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "wide"                  "240"
+        "tall"                  "10"
+        "bgcolor_override"      "red"
+        "proportionaltoparent"  "1"
     }
 
     "TitleBar"
@@ -44,51 +58,62 @@
         "xpos"                  "0"
         "ypos"                  "0"
         "zpos"                  "2"
-        "wide"                  "260"
+        "wide"                  "240"
         "tall"                  "1"
         "image"                 "replay/thumbnails/panels/fill_additive"
-        "drawcolor"             "FragAccent100"
+        "drawcolor"             "FragPrimary100"
         "scaleImage"            "1"
         "mouseinputenabled"     "0"
     }
 
     "ExplanationLabel"
     {
-        "xpos"                  "15"
-        "ypos"                  "30"
+        "xpos"                  "0"
+        "ypos"                  "25"
         "wide"                  "230"
-        "font"                  "FontMedium_12_Additive"
-        "textalignment"         "center"
+        "font"                  "FontMedium_12"
+        "textalignment"         "north"
         "centerwrap"            "1"
         "fgcolor"               "FragNeutral100"
         "fgcolor_override"      "FragNeutral100"
+        "pin_to_sibling"        "ButtonAnchor"
+        "pin_corner_to_sibling" "PIN_CENTER_TOP"
+        "pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
     }
 
     "CancelButton"
     {
-        "xpos"                      "185"
-        "wide"                      "60"
+        "xpos"                      "-5"
+        "ypos"                      "20"
+        "wide"                      "112"
         "tall"                      "20"
         "font"                      "FontMedium_12_Additive"
         "allcaps"                   "1"
         "roundedcorners"            "0"
-        "defaultbgcolor_override"   "FragPanelOpaque20"
-        "defaultfgcolor_override"   "FragAccent100"
-        "armedbgcolor_override"     "FragAccent20"
-        "armedfgcolor_override"     "FragAccent100"
+        "defaultbgcolor_override"   "FragNegative05"
+        "defaultfgcolor_override"   "FragNegative100"
+        "armedbgcolor_override"     "FragNegative20"
+        "armedfgcolor_override"     "FragNegative100"
+        "pin_to_sibling"            "ButtonAnchor"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMRIGHT"
     }
 
     "ConfirmButton"
     {
-        "xpos"                      "15"
-        "wide"                      "155"
+        "xpos"                      "-5"
+        "ypos"                      "20"
+        "wide"                      "113"
         "tall"                      "20"
         "font"                      "FontMedium_12_Additive"
         "allcaps"                   "1"
         "roundedcorners"            "0"
-        "defaultbgcolor_override"   "FragPanelOpaque20"
-        "defaultfgcolor_override"   "FragAccent100"
-        "armedbgcolor_override"     "FragAccent20"
-        "armedfgcolor_override"     "FragAccent100"
+        "defaultbgcolor_override"   "FragPositive05"
+        "defaultfgcolor_override"   "FragPositive100"
+        "armedbgcolor_override"     "FragPositive20"
+        "armedfgcolor_override"     "FragPositive100"
+        "pin_to_sibling"            "ButtonAnchor"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
     }
 }
