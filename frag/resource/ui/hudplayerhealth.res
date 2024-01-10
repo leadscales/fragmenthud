@@ -1,19 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-    "PlayerStatusHealthAnchor" // Everything is anchored to this
-    {
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "PlayerStatusHealthAnchor"
-        "xpos"                      "c0-s1-35"
-        "ypos"                      "c60"
-        "zpos"                      "4"
-        "wide"                      "60"
-        "tall"                      "30"
-        "proportionaltoparent"      "1"
-        "bgcolor_override"          "FragPanelTransparentDark60"
-        "paintBackgroundType"       "0"
-    }
-
     "AmmoBox" // Exists so that the ammo background is persistent even when using a melee weapon
     {
         "ControlName"               "EditablePanel"
