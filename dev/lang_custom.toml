@@ -2,6 +2,9 @@
 FRAG_Oobe_Description = "Thank you for downloading FRAGMENTHUD.\n\nThis HUD is work-in-progress, so things may break. Please make an issue on GitHub or ask for help on our Discord server if you encounter any issues.\n\nThis message will not show again.\n\nThank you <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 may hang momentarily when exiting this menu, this is normal and the game has not crashed."
 
+FRAG_ValveRC_WarnTitle = "WARNING"
+FRAG_ValveRC_WarnBody = "FRAGMENTHUD's valve.rc file has failed to execute. This means that customizations will NOT work, and that many important hud elements will be completely broken. This is usually caused by an incompatible mod being installed. Please either merge the offending mod's valve.rc file with FRAGMENTHUD's or simply remove the offending mod."
+
 FRAG_Safemode_Warn = "It is recommended to apply changes BEFORE joining a game as it reduces the chance of them breaking. Changing colors requires a game restart to take effect after applying. The game may hang momentarily when applying changes."
 FRAG_Safemode_RenameWarn = "HUD folder is not renamed. Customizations will not work."
 

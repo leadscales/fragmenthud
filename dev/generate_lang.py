@@ -65,6 +65,7 @@ def main():
             _w_text = ""
             _w_text = vdf.dumps(_w)
             _w_text = _w_text.replace("\n", "\r\n")
+            _w_text = _w_text.replace(r"\'", r"'")
             _w_text = b"\xff\xfe" + _w_text.encode("utf-16-le")
 
             with open(LANGUAGES_PATH.joinpath(f"chat_{lang}.txt"), "wb") as file:
