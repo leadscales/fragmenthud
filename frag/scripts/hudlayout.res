@@ -157,7 +157,7 @@
         "xpos"              "cs-0.5"
         "ypos"              "rs1-5"
         "wide"              "330"
-        "tall"              "70"
+        "tall"              "90"
     }
 
     HudWeaponSelection
