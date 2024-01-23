@@ -71,6 +71,38 @@
                             "sound_depressed"           "UI/buttonclick.wav"
                             "sound_released"            "UI/buttonclickrelease.wav"
                         }
+
+                        "ColorsTooltip"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "ColorsTooltip"
+                            "xpos"                      "rs1"
+                            "ypos"                      "0"
+                            "wide"                      "20"
+                            "tall"                      "f1"
+                            "visible"                   "1"
+                            "proportionaltoparent"      "1"
+
+                            "SubButton"
+                            {
+                                "ControlName"               "CExImageButton"
+                                "fieldName"                 "SubButton"
+                                "xpos"                      "0"
+                                "ypos"                      "0"
+                                "wide"                      "f0"
+                                "tall"                      "f0"
+                                "visible"                   "1"
+                                "enabled"                   "1"
+                                "proportionaltoparent"      "1"
+
+                                "defaultbgcolor_override"   "Blank"
+                                "armedbgcolor_override"     "Blank"
+                                "defaultfgcolor_override"   "FragPrimary40"
+                                "armedfgcolor_override"     "FragPrimary40"
+                                "font"                      "Icons_Small_Additive"
+                                "textAlignment"             "center"
+                            }
+                        }
                     }
 
                     "Sections"
