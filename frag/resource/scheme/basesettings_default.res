@@ -25,7 +25,7 @@
         "Label.SelectedTextColor"           "FragPrimary100"
         "Label.BgColor"                     "Blank"
         "Label.DisabledFgColor1"            "Blank"
-        "Label.DisabledFgColor2"            "Black"
+        "Label.DisabledFgColor2"            "FragNeutral20"
 
         "Menu.TextColor"                    "FragNeutral100"
         "Menu.BgColor"                      "FragPanelOpaque0"
