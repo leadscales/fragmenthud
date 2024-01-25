@@ -207,7 +207,7 @@
             "fieldName"             "SidePanelGradient"
             "xpos"                  "0"
             "ypos"                  "0"
-            "wide"                  "p1.2"
+            "wide"                  "f0"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_gradient_right"

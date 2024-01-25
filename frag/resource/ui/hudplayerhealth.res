@@ -25,7 +25,7 @@
         "wide"                      "20"
         "tall"                      "20"
         "proportionaltoparent"      "1"
-        "font"                      "Icons_Large_Additive"
+        "font"                      "Icons_AmmoHealth"
         "labelText"                 "7"
         "fgcolor"                   "FragNeutral100"
         "bgcolor_override"          "FragNeutral05"

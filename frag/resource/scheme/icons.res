@@ -128,6 +128,18 @@
                 "additive"      "1"
             }
         }
+        // ---
+        "Icons_AmmoHealth"
+        {
+            "1"
+            {
+                "name"          "Icons"
+                "tall"          "16"
+                "weight"        "400"
+                "antialias"     "1"
+                "additive"      "1"
+            }
+        }
     }
     "CustomFontFiles"
     {

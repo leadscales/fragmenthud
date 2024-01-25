@@ -150,7 +150,7 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "textalignment"             "center"
-        "font"                      "FontBold_16_Additive"
+        "font"                      "FontMedium_16_Additive"
         "allcaps"                   "1"
         "labeltext"                 "%rounds%"
 

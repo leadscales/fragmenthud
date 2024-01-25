@@ -26,7 +26,7 @@
         "fieldName"                 "ItemEffectMeterEndMarker"
         "xpos"                      "rs1"
         "ypos"                      "0"
-        "zpos"                      "4"
+        "zpos"                      "5"
         "wide"                      "1"
         "tall"                      "f0"
         "proportionaltoparent"      "1"
