@@ -22,82 +22,34 @@
 
     "ChargeMeter"
     {
-        "xpos"              "c35"
-        "ypos"              "c60"
-        "wide"              "60"
+        "xpos"              "cs-0.5"
+        "ypos"              "c12"
+        "wide"              "20"
         "tall"              "1"
         "alpha"             "255"
-        "bgcolor_override"  "FragPanelOpaque60"
-    }
-
-    "PipeElementBar"
-    {
-        "ControlName"           "EditablePanel"
-        "fieldName"             "PipeElementBar"
-        "xpos"                  "c35"
-        "ypos"                  "c60"
-        "wide"                  "60"
-        "tall"                  "1"
-        "alpha"                 "255"
-        "bgcolor_override"      "FragPanelOpaque60"
+        "bgcolor_override"  "FragNeutral20"
     }
 
     "PipesPresentPanel"
     {
-        "xpos"          "c35"
-        "ypos"          "c45"
-        "wide"          "60"
-        "tall"          "16"
+        "xpos"          "cs-0.5"
+        "ypos"          "c50"
+        "wide"          "20"
+        "tall"          "10"
 
         "bgcolor_override"  "255 0 0 0"
-
-        "PipeElementAnchor"
-        {
-            "ControlName"               "EditablePanel"
-            "fieldName"                 "PipeElementAnchor"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "zpos"                      "0"
-            "wide"                      "60"
-            "tall"                      "15"
-            "bgcolor_override"          "FragPanelTransparentDark60"
-        }
-
-        "PipesLabel"
-        {
-            "ControlName"               "CExLabel"
-            "fieldName"                 "PipesLabel"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "60"
-            "tall"                      "15"
-            "labelText"                 "STICKY"
-            "font"                      "FontMedium_10_Additive"
-            "textAlignment"             "west"
-            "textinsetx"                "5"
-            "use_proportional_insets"   "1"
-            "fgcolor"                   "FragNeutral100"
-
-            "pin_to_sibling"            "PipeElementAnchor"
-            "pin_corner_to_sibling"     "PIN_TOPLEFT"
-            "pin_to_sibling_corner"     "PIN_TOPLEFT"
-        }
 
         "NumPipesLabel"
         {
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "60"
-            "tall"                      "15"
-            "textAlignment"             "east"
-            "font"                      "FontMedium_10_Additive"
-            "textinsetx"                "5"
-            "use_proportional_insets"   "1"
+            "wide"                      "20"
+            "tall"                      "10"
+            "textAlignment"             "center"
+            "font"                      "FontMedium_9_Additive"
+            "textinsetx"                "0"
+            "use_proportional_insets"   "0"
             "fgcolor"                   "FragAccent100"
-
-            "pin_to_sibling"            "PipeElementAnchor"
-            "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-            "pin_to_sibling_corner"     "PIN_CENTER_TOP"
         }
 
         // DISABLED
@@ -125,60 +77,24 @@
 
     "NoPipesPresentPanel"
     {
-        "xpos"          "c35"
-        "ypos"          "c45"
-        "wide"          "60"
-        "tall"          "16"
+        "xpos"          "cs-0.5"
+        "ypos"          "c50"
+        "wide"          "20"
+        "tall"          "10"
 
         "bgcolor_override"  "255 0 0 0"
-
-        "PipeElementAnchor"
-        {
-            "ControlName"               "EditablePanel"
-            "fieldName"                 "PipeElementAnchor"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "zpos"                      "0"
-            "wide"                      "60"
-            "tall"                      "15"
-            "bgcolor_override"          "FragPanelTransparentDark60"
-        }
-
-        "PipesLabel"
-        {
-            "ControlName"               "CExLabel"
-            "fieldName"                 "PipesLabel"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "60"
-            "tall"                      "15"
-            "labelText"                 "STICKY"
-            "font"                      "FontMedium_10_Additive"
-            "textAlignment"             "west"
-            "textinsetx"                "5"
-            "use_proportional_insets"   "1"
-            "fgcolor"                   "FragNeutral100"
-
-            "pin_to_sibling"            "PipeElementAnchor"
-            "pin_corner_to_sibling"     "PIN_TOPLEFT"
-            "pin_to_sibling_corner"     "PIN_TOPLEFT"
-        }
 
         "NumPipesLabel"
         {
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "60"
-            "tall"                      "15"
-            "textAlignment"             "east"
-            "font"                      "FontMedium_10_Additive"
-            "textinsetx"                "5"
-            "use_proportional_insets"   "1"
+            "wide"                      "20"
+            "tall"                      "10"
+            "textAlignment"             "center"
+            "font"                      "FontMedium_9_Additive"
+            "textinsetx"                "0"
+            "use_proportional_insets"   "0"
             "fgcolor"                   "FragNegative100"
-
-            "pin_to_sibling"            "PipeElementAnchor"
-            "pin_corner_to_sibling"     "PIN_CENTER_TOP"
-            "pin_to_sibling_corner"     "PIN_CENTER_TOP"
         }
 
         // DISABLED

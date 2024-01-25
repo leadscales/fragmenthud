@@ -1,6 +1,5 @@
 #base "scheme/colors.res"
 #base "scheme/fonts.res"
-#base "scheme/fonts_health.res"
 #base "scheme/fonts_extra.res"
 #base "scheme/icons.res"
 #base "scheme/borders.res"

@@ -11,15 +11,26 @@
         "visible"       "0"
         "enabled"       "1"
 
+        "4:3"
+        {
+            "ControlName"       "EditablePanel"
+            "fieldName"         "4:3"
+            "xpos"              "cs-0.5"
+            "ypos"              "0"
+            "wide"              "640"
+            "tall"              "480"
+            "bgcolor_override"  "255 0 0 32"
+        }
+
         "EmptyArea"
         {
             "ControlName"       "EditablePanel"
             "fieldName"         "EmptyArea"
             "xpos"              "cs-0.5"
             "ypos"              "cs-0.5"
-            "wide"              "190"
-            "tall"              "90"
-            "bgcolor_override"  "255 0 0 32"
+            "wide"              "f0"
+            "tall"              "80"
+            "bgcolor_override"  "255 255 0 32"
         }
     }
 
@@ -41,10 +52,10 @@
 
     "CHealthAccountPanel"
     {
-        "xpos"      "c0-s1-35"
-        "ypos"      "c45"
-        "wide"      "60"
-        "tall"      "15"
+        "xpos"      "c0-s1-20"
+        "ypos"      "c30"
+        "wide"      "55"
+        "tall"      "10"
     }
 
     "CHudAccountPanel"
@@ -122,17 +133,17 @@
 
     "CMainTargetID"
     {
-        "ypos"              "c15"
+        "ypos"              "c20"
         "tall"              "20"
     }
     "CSecondaryTargetID"
     {
-        "ypos"              "c105"
+        "ypos"              "c80"
         "tall"              "20"
     }
     "CSpectatorTargetID"
     {
-        "ypos"              "c105"
+        "ypos"              "c80"
         "tall"              "20"
         "x_offset"          "0"
         "y_offset"          "0"
@@ -207,7 +218,7 @@
     "QueueHUDStatus" // Unused? Still keeping just in case.
     {
         "xpos"                      "5"
-        "ypos"                      "5"
+        "ypos"                      "rs1-5"
         "wide"                      "20"
         "tall"                      "20"
         "alpha"                     "255"

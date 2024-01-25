@@ -86,6 +86,27 @@
 "additive" "1"
 }
 }
+"FontMedium_14"
+{
+"1"
+{
+"name" "Infortress-Medium"
+"tall" "14"
+"weight" "500"
+"antialias" "1"
+}
+}
+"FontMedium_14_Additive"
+{
+"1"
+{
+"name" "Infortress-Medium"
+"tall" "14"
+"weight" "500"
+"antialias" "1"
+"additive" "1"
+}
+}
 "FontMedium_16"
 {
 "1"
@@ -102,6 +123,48 @@
 {
 "name" "Infortress-Medium"
 "tall" "16"
+"weight" "500"
+"antialias" "1"
+"additive" "1"
+}
+}
+"FontMedium_18"
+{
+"1"
+{
+"name" "Infortress-Medium"
+"tall" "18"
+"weight" "500"
+"antialias" "1"
+}
+}
+"FontMedium_18_Additive"
+{
+"1"
+{
+"name" "Infortress-Medium"
+"tall" "18"
+"weight" "500"
+"antialias" "1"
+"additive" "1"
+}
+}
+"FontMedium_20"
+{
+"1"
+{
+"name" "Infortress-Medium"
+"tall" "20"
+"weight" "500"
+"antialias" "1"
+}
+}
+"FontMedium_20_Additive"
+{
+"1"
+{
+"name" "Infortress-Medium"
+"tall" "20"
 "weight" "500"
 "antialias" "1"
 "additive" "1"
@@ -212,6 +275,27 @@
 "additive" "1"
 }
 }
+"FontBold_14"
+{
+"1"
+{
+"name" "Infortress-Bold"
+"tall" "14"
+"weight" "700"
+"antialias" "1"
+}
+}
+"FontBold_14_Additive"
+{
+"1"
+{
+"name" "Infortress-Bold"
+"tall" "14"
+"weight" "700"
+"antialias" "1"
+"additive" "1"
+}
+}
 "FontBold_16"
 {
 "1"
@@ -228,6 +312,48 @@
 {
 "name" "Infortress-Bold"
 "tall" "16"
+"weight" "700"
+"antialias" "1"
+"additive" "1"
+}
+}
+"FontBold_18"
+{
+"1"
+{
+"name" "Infortress-Bold"
+"tall" "18"
+"weight" "700"
+"antialias" "1"
+}
+}
+"FontBold_18_Additive"
+{
+"1"
+{
+"name" "Infortress-Bold"
+"tall" "18"
+"weight" "700"
+"antialias" "1"
+"additive" "1"
+}
+}
+"FontBold_20"
+{
+"1"
+{
+"name" "Infortress-Bold"
+"tall" "20"
+"weight" "700"
+"antialias" "1"
+}
+}
+"FontBold_20_Additive"
+{
+"1"
+{
+"name" "Infortress-Bold"
+"tall" "20"
 "weight" "700"
 "antialias" "1"
 "additive" "1"

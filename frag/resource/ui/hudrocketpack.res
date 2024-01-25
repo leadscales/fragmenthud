@@ -4,7 +4,7 @@
 {
     "HudItemEffectMeter"
     {
-        "ypos"                  "c70"
+        "ypos"                  "c47"
     }
 
     "ItemEffectMeterLabel"
@@ -14,16 +14,15 @@
 
     "ItemEffectMeter"
     {
-        "xpos"                  "0"
-        "wide"                  "p0.5"
+        "wide"                  "10"
     }
 
     "ItemEffectMeter2"
     {
-        "xpos"                  "p0.5"
-        "ypos"                  "rs1"
+        "xpos"                  "11"
+        "ypos"                  "0"
         "zpos"                  "6"
-        "wide"                  "p0.5"
+        "wide"                  "9"
         "tall"                  "f0"
         "proportionaltoparent"  "1"
         "fgcolor_override"      "FragNeutral100"

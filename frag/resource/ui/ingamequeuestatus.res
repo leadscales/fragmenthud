@@ -3,7 +3,7 @@
     "QueueHUDStatus"
     {
         "xpos"      "5"
-        "ypos"      "5"
+        "ypos"      "rs1-5"
         "wide"      "20"
         "tall"      "20"
         "alpha"     "255"

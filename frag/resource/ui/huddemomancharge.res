@@ -2,11 +2,12 @@
 {
     "ChargeMeter"
     {
-        "xpos"              "c35"
-        "ypos"              "c60"
-        "wide"              "60"
+        "xpos"              "cs-0.5"
+        "ypos"              "c10"
+        "zpos"              "20"
+        "wide"              "20"
         "tall"              "1"
         "fgcolor_override"  "FragNeutral100"
-        "bgcolor_override"  "FragPanelOpaque60"
+        "bgcolor_override"  "FragNeutral20"
     }
 }

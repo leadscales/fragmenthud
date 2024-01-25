@@ -7,15 +7,16 @@
 {
     "PlayerStatusHealthAnchor" // Everything is anchored to this
     {
-        "ControlName"               "EditablePanel"
+        "ControlName"               "ImagePanel"
         "fieldName"                 "PlayerStatusHealthAnchor"
-        "xpos"                      "c0-s1-35"
-        "ypos"                      "c60"
+        "xpos"                      "c0-s1-20"
+        "ypos"                      "c40"
         "zpos"                      "4"
         "wide"                      "60"
-        "tall"                      "30"
+        "tall"                      "20"
         "proportionaltoparent"      "1"
-        "bgcolor_override"          "FragPanelTransparentDark60"
-        "paintBackgroundType"       "0"
+        "image"                     "replay/thumbnails/menu/side_panel_shadow_left"
+        "scaleImage"                "1"
+        "alpha"                     "153"
     }
 }

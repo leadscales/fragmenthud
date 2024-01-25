@@ -2,49 +2,57 @@
 {
     "HudItemEffectMeter"
     {
-        "xpos"                      "cs-0.5"
-        "ypos"                      "c80"
-        "wide"                      "60"
-        "tall"                      "10"
+        "xpos"                      "c100"
+        "ypos"                      "c54"
+        "wide"                      "20"
+        "tall"                      "6"
     }
 
     "ItemEffectMeterBG"
     {
         "ControlName"               "EditablePanel"
-        "xpos"                      "0"
+        "xpos"                      "1"
         "ypos"                      "0"
         "zpos"                      "4"
-        "wide"                      "f0"
+        "wide"                      "f1"
         "tall"                      "f0"
         "proportionaltoparent"      "1"
-        "bgcolor_override"          "FragPanelTransparentDark60"
+        "bgcolor_override"          "FragPanelTransparentDark40"
     }
 
-    "ItemEffectMeterLabel"
+    "ItemEffectMeterEndMarker"
     {
-        "xpos"                      "cs-0.5"
-        "ypos"                      "cs-0.5"
-        "zpos"                      "6"
-        "wide"                      "f0"
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "ItemEffectMeterEndMarker"
+        "xpos"                      "rs1"
+        "ypos"                      "0"
+        "zpos"                      "4"
+        "wide"                      "1"
         "tall"                      "f0"
-        "visible"                   "1"
-        "enabled"                   "0"
         "proportionaltoparent"      "1"
-        "disabledfgcolor2_override" "FragNeutral100"
-        "font"                      "FontMedium_9"
-        "allcaps"                   "1"
+        "bgcolor_override"          "FragNeutral100"
     }
 
     "ItemEffectMeter"
     {
-        "xpos"                      "cs-0.5"
+        "xpos"                      "1"
         "ypos"                      "cs-0.5"
         "zpos"                      "5"
-        "wide"                      "f0"
+        "wide"                      "f1"
         "tall"                      "f0"
         "proportionaltoparent"      "1"
         "fgcolor_override"          "FragNeutral100"
         "bgcolor_override"          "Blank"
         "alpha"                     "51"
+    }
+
+    "ItemEffectMeterLabel"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
     }
 }

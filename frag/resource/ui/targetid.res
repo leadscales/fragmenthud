@@ -22,7 +22,7 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "zpos"                     "3"
+        "zpos"                      "3"
         "wide"                      "40"
         "tall"                      "10"
         "tffont"                    "FontMedium_10_Additive"

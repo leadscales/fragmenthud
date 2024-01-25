@@ -24,61 +24,27 @@
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "AccountElementAnchor"
-        "xpos"                      "c35"
-        "ypos"                      "c45"
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c50"
         "zpos"                      "0"
-        "wide"                      "60"
-        "tall"                      "16"
+        "wide"                      "20"
+        "tall"                      "10"
 
-        "bgcolor_override"          "FragPanelTransparentDark60"
-    }
-
-    "AccountStroke"
-    {
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "AccountStroke"
-        "xpos"                      "0"
-        "ypos"                      "0"
-        "wide"                      "60"
-        "tall"                      "1"
-        "bgcolor_override"          "FragNeutral100"
-
-        "pin_to_sibling"            "AccountElementAnchor"
-        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
-    }
-
-    "AccountLabel"
-    {
-        "ControlName"               "CExLabel"
-        "fieldName"                 "AccountLabel"
-        "xpos"                      "0"
-        "ypos"                      "0"
-        "wide"                      "60"
-        "tall"                      "15"
-        "labelText"                 "#TF_Metal"
-        "font"                      "FontMedium_10"
-        "textAlignment"             "west"
-        "textinsetx"                "5"
-        "use_proportional_insets"   "1"
-        "fgcolor"                   "FragNeutral100"
-
-        "pin_to_sibling"            "AccountElementAnchor"
-        "pin_corner_to_sibling"     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        "bgcolor_override"          "255 0 0 0"
     }
 
     "AccountValue"
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "60"
-        "tall"                      "15"
-        "textAlignment"             "east"
+        "wide"                      "20"
+        "tall"                      "10"
+        "textAlignment"             "center"
         "font"                      "FontMedium_10_Additive"
-        "textinsetx"                "5"
-        "use_proportional_insets"   "1"
+        "textinsetx"                "0"
+        "use_proportional_insets"   "0"
         "fgcolor"                   "FragAccent100"
+        "bgcolor_override"          "Blank"
 
         "pin_to_sibling"            "AccountElementAnchor"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
