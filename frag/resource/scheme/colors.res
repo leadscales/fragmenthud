@@ -4,12 +4,12 @@
     {
         // UI Colors
         // Primary
-        "FragPrimary100"                    "64 192 255 255"
-        "FragPrimary80"                     "64 192 255 204"
-        "FragPrimary60"                     "64 192 255 153"
-        "FragPrimary40"                     "64 192 255 102"
-        "FragPrimary20"                     "64 192 255 51"
-        "FragPrimary05"                     "64 192 255 13"
+        "FragPrimary100"                    "64 208 255 255"
+        "FragPrimary80"                     "64 208 255 204"
+        "FragPrimary60"                     "64 208 255 153"
+        "FragPrimary40"                     "64 208 255 102"
+        "FragPrimary20"                     "64 208 255 51"
+        "FragPrimary05"                     "64 208 255 13"
         // Accent
         "FragAccent100"                     "255 192 64 255"
         "FragAccent80"                      "255 192 64 204"
@@ -18,19 +18,19 @@
         "FragAccent20"                      "255 192 64 51"
         "FragAccent05"                      "255 192 64 13"
         // Negative
-        "FragNegative100"                   "255 96 64 255"
-        "FragNegative80"                    "255 96 64 204"
-        "FragNegative60"                    "255 96 64 153"
-        "FragNegative40"                    "255 96 64 102"
-        "FragNegative20"                    "255 96 64 51"
-        "FragNegative05"                    "255 96 64 13"
+        "FragNegative100"                   "255 80 64 255"
+        "FragNegative80"                    "255 80 64 204"
+        "FragNegative60"                    "255 80 64 153"
+        "FragNegative40"                    "255 80 64 102"
+        "FragNegative20"                    "255 80 64 51"
+        "FragNegative05"                    "255 80 64 13"
         // Positive
-        "FragPositive100"                   "64 255 160 255"
-        "FragPositive80"                    "64 255 160 204"
-        "FragPositive60"                    "64 255 160 153"
-        "FragPositive40"                    "64 255 160 102"
-        "FragPositive20"                    "64 255 160 51"
-        "FragPositive05"                    "64 255 160 13"
+        "FragPositive100"                   "64 255 176 255"
+        "FragPositive80"                    "64 255 176 204"
+        "FragPositive60"                    "64 255 176 153"
+        "FragPositive40"                    "64 255 176 102"
+        "FragPositive20"                    "64 255 176 51"
+        "FragPositive05"                    "64 255 176 13"
         // Neutral
         "FragNeutral100"                    "255 255 255 255"
         "FragNeutral80"                     "255 255 255 204"
@@ -61,32 +61,32 @@
 
         "FragCasual100"                     "96 192 255 255"
         "FragCompetitive100"                "255 72 80 255"
-        "FragMvM100"                        "64 255 160 255"
+        "FragMvM100"                        "64 255 176 255"
         "FragCommunity100"                  "255 192 64 255"
 
         "FragCasual80"                      "96 192 255 204"
         "FragCompetitive80"                 "255 72 80 204"
-        "FragMvM80"                         "64 255 160 204"
+        "FragMvM80"                         "64 255 176 204"
         "FragCommunity80"                   "255 192 64 204"
 
         "FragCasual60"                      "96 192 255 153"
         "FragCompetitive60"                 "255 72 80 153"
-        "FragMvM60"                         "64 255 160 153"
+        "FragMvM60"                         "64 255 176 153"
         "FragCommunity60"                   "255 192 64 153"
 
         "FragCasual40"                      "96 192 255 102"
         "FragCompetitive40"                 "255 72 80 102"
-        "FragMvM40"                         "64 255 160 102"
+        "FragMvM40"                         "64 255 176 102"
         "FragCommunity40"                   "255 192 64 102"
 
         "FragCasual20"                      "96 192 255 51"
         "FragCompetitive20"                 "255 72 80 51"
-        "FragMvM20"                         "64 255 160 51"
+        "FragMvM20"                         "64 255 176 51"
         "FragCommunity20"                   "255 192 64 51"
 
         "FragCasual05"                      "96 192 255 13"
         "FragCompetitive05"                 "255 72 80 13"
-        "FragMvM05"                         "64 255 160 13"
+        "FragMvM05"                         "64 255 176 13"
         "FragCommunity05"                   "255 192 64 13"
         // Panel Colors
         // Opaque

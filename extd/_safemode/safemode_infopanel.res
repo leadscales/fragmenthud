@@ -25,7 +25,7 @@
                 "wide"                      "f1"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
-                "bgcolor_override"          "FragNegative20"
+                "bgcolor_override"          "FragNegative05"
             }
 
             "InfoText"

@@ -28,8 +28,25 @@
         "font"                      "Icons_AmmoHealth"
         "labelText"                 "7"
         "fgcolor"                   "FragNeutral100"
-        "bgcolor_override"          "FragNeutral05"
+        "bgcolor_override"          "Blank"
         "textalignment"             "center"
+
+        "pin_to_sibling"            "PlayerStatusHealthAnchor"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+
+    "PlayerStatusHealthIconBG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "PlayerStatusHealthIconBG"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "6"
+        "wide"                      "20"
+        "tall"                      "20"
+        "proportionaltoparent"      "1"
+        "bgcolor_override"          "FragPanelTransparentDark40"
 
         "pin_to_sibling"            "PlayerStatusHealthAnchor"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"

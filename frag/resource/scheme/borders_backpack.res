@@ -2,6 +2,30 @@
 {
     "Borders"
     {
+        "BackpackItemGrayedOut"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "2"
+            "color"                     "FragPanelOpaque20"
+            "image"                     "replay/thumbnails/panels/backpack_slot"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
+        }
+
+        "BackpackItemGrayedOut_Selected"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "2"
+            "color"                     "FragPanelOpaque20"
+            "image"                     "replay/thumbnails/panels/backpack_slot"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
+        }
+
         "BackpackItemBorder"
         {
             "bordertype"                "scalable_image"

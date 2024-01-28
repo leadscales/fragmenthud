@@ -11,6 +11,7 @@ Your `<TF2 ROOT>/tf/` folder should look something similar to this:
 
 ```
 .
+├── ...
 ├── bin/
 ├── cfg/
 ├── custom/
@@ -28,7 +29,8 @@ Your `<TF2 ROOT>/tf/` folder should look something similar to this:
 ├── maps/
 ├── resource/
 ├── scripts/
-└── sound/
+├── sound/
+└── ...
 ```
 
 # Supported Gamemodes
@@ -46,4 +48,4 @@ Your `<TF2 ROOT>/tf/` folder should look something similar to this:
 |Mann Vs. Machine|🔴|Uncustomized, and scoreboard is completely broken.|
 
 # Supported Resolutions
-Anything **720p** or above works, *but **1080p** or higher is reccomended.*
+Anything **720p** or above works, *but **1080p** or higher is recommended.*

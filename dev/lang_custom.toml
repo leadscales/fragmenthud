@@ -6,8 +6,8 @@ FRAG_ValveRC_WarnTitle = "WARNING"
 FRAG_ValveRC_WarnBody = "FRAGMENTHUD's frag_autoexec.cfg has failed to run.\n\nThis is usually because the HUD's valve.rc file was not run on startup, usually due to another mod overriding it.\n\nCustomizations will not work and are disabled, and many HUD elements will be completely broken because of this.\n\nClick the button below to learn how to fix this."
 FRAG_ValveRC_WarnFix = "FIX ISSUES"
 
-FRAG_Safemode_Warn = "It is recommended to apply changes BEFORE joining a game as it reduces the chance of them breaking. Changing colors requires a game restart to take effect after applying. The game may hang momentarily when applying changes."
-FRAG_Safemode_RenameWarn = "HUD folder is not renamed. Customizations will not work."
+FRAG_Safemode_Warn = "Only customize when not in-game."
+FRAG_Safemode_RenameWarn = "HUD folder is not renamed."
 
 FRAG_Safemode_Colors_Title = "COLORS"
 FRAG_Safemode_Colors_Primary = "PRIMARY"
@@ -45,8 +45,8 @@ FRAG_Etc_Large = "Large"
 FRAG_Oobe_Description = "Спасибо, что скачали FRAGMENTHUD.\n\nЭтот ХАД пока в разработке, поэтому некоторые вещи могут ломаться. Сообщайте о проблемах на ГитХабе или попросите помощи на нашем дискорд сервере.\n\nЭто уведомление больше не появится.\n\nСпасибо <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 может ненадолго зависнуть при выходе из этого меню, это нормально, игра не вылетела."
 
-FRAG_Safemode_Warn = "Рекомендуется применить изменения ПЕРЕД тем как заходить на сервер, это снижает шанс того, что они сломаются. После того как вы применили изменения, нужно будет перезапустить игру, чтобы цвета поменялись."
-FRAG_Safemode_RenameWarn = "Папка с ХАДом не переименована. Кастомизация не будет работать."
+#FRAG_Safemode_Warn = "Рекомендуется применить изменения ПЕРЕД тем как заходить на сервер, это снижает шанс того, что они сломаются. После того как вы применили изменения, нужно будет перезапустить игру, чтобы цвета поменялись."
+#FRAG_Safemode_RenameWarn = "Папка с ХАДом не переименована. Кастомизация не будет работать."
 
 FRAG_Safemode_Colors_Title = "ЦВЕТА"
 FRAG_Safemode_Colors_Primary = "ГЛАВНЫЙ"

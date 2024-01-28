@@ -70,7 +70,7 @@
         "labelText"                 "Ü"
         "fgcolor"                   "FragNeutral100"
         "bgcolor_override"          "FragNeutral05"
-        "textinsety"                "3"
+        "textinsety"                "4"
         "use_proportional_insets"   "1"
         "textalignment"             "center"
 

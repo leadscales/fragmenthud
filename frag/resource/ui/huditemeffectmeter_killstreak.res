@@ -22,4 +22,9 @@
     {
         "xpos"              "0"
     }
+
+    "ItemEffectMeterCountBG"
+    {
+        "xpos"              "0"
+    }
 }

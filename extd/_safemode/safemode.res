@@ -137,7 +137,7 @@
             "xpos"                      "0"
             "ypos"                      "rs1"
             "wide"                      "f20"
-            "tall"                      "40"
+            "tall"                      "20"
             "proportionaltoparent"      "1"
             "bgcolor_override"          "Blank"
         }
@@ -147,12 +147,12 @@
             "ControlName"               "CScrollableList"
             "fieldName"                 "ScrollingPanel"
             "xpos"                      "1"
-            "ypos"                      "22"
+            "ypos"                      "25"
             "wide"                      "f1"
-            "tall"                      "f64"
+            "tall"                      "f50"
             "proportionaltoparent"      "1"
             "restrict_width"            "0"
-            "scroll_step"               "15"
+            "scroll_step"               "20"
 
             "ContentPanel"
             {

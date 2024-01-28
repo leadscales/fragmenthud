@@ -50,6 +50,19 @@
         "bgcolor_override"              "FragAccent05"
     }
 
+    "ItemEffectMeterCountBG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "ItemEffectMeterCountBG"
+        "xpos"                      "rs1"
+        "ypos"                      "0"
+        "zpos"                      "1"
+        "wide"                      "20"
+        "tall"                      "10"
+        "proportionaltoparent"      "1"
+        "bgcolor_override"          "FragPanelTransparentDark40"
+    }
+
     "ItemEffectMeter"
     {
         "xpos"          "9999"

@@ -67,9 +67,9 @@
             "ControlName"           "EditablePanel"
             "fieldName"             "BGPanel"
             "xpos"                  "0"
-            "ypos"                  "1"
+            "ypos"                  "0"
             "wide"                  "f0"
-            "tall"                  "f1"
+            "tall"                  "f0"
             "proportionaltoparent"  "1"
             "bgcolor_override"      "FragPanelTransparentDark60"
         }
