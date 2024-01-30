@@ -9,6 +9,7 @@
         "zpos"          "1000"
         "wide"          "221"
         "tall"          "f80"
+        "resize_time"   "1.0"
     }
 
     "Strokes"

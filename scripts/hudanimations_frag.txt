@@ -133,3 +133,34 @@ event DamagedPlayer
     Animate    Hitmarker    Alpha    255    Linear    0.01    0.05
     Animate    Hitmarker    Alpha    0      Linear    0.05    0.1
 }
+
+event MenuOpen
+{
+    StopEvent    MenuClose    0.0
+    Animate      HudMenu      PaintBackgroundType    0                             Linear    0.0    0.0
+    Animate      HudMenu      RoundedCorners         0                             Linear    0.0    0.0
+    Animate      HudMenu      XPos                   5                             Spline    0.0    0.05
+    Animate      HudMenu      Alpha                  255                           Spline    0.0    0.05
+    Animate      HudMenu      SelectionAlpha         255                           Spline    0.0    0.05
+    //
+    Animate      HudMenu      MenuBoxColor           Blank    Spline    0.0    0.0
+    Animate      HudMenu      BgColor                Blank    Spline    0.0    0.0
+    //
+    Animate      HudMenu      FgColor                FragNeutral100                Spline    0.0    0.05
+    Animate      HudMenu      MenuColor              FragNeutral100                Spline    0.0    0.05
+    Animate      HudMenu      ItemColor              FragNeutral100                Spline    0.0    0.05
+    //
+    SetFont      HudMenu      TextFont               FontMedium_10_Additive        0.0
+    Animate      HudMenu      TextScan               0                             Spline    0.0    0.05
+    Animate      HudMenu      Blur                   0                             Spline    0.0    0.0
+}
+
+event MenuClose
+{
+    Animate    HudMenu    XPos              S-1          Spline    0.0    0.05
+    Animate    HudMenu    Alpha             0            Spline    0.0    0.05
+    Animate    HudMenu    SelectionAlpha    0            Spline    0.0    0.05
+    Animate    HudMenu    FgColor           "0 0 0 0"    Spline    0.0    0.05
+    Animate    HudMenu    MenuColor         "0 0 0 0"    Spline    0.0    0.05
+    Animate    HudMenu    ItemColor         "0 0 0 0"    Spline    0.0    0.05
+}
