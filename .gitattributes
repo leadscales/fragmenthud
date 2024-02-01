@@ -1,3 +1,4 @@
 * text=auto
 *.res linguist-language=vdf
+*.vmt linguist-language=vdf
 **/*.res linguist-detectable=true
