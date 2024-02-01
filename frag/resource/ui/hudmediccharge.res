@@ -66,13 +66,30 @@
         "wide"                      "20"
         "tall"                      "20"
         "proportionaltoparent"      "1"
-        "font"                      "FontBold_18_Additive"
+        "font"                      "FontBold_16_Additive"
         "labelText"                 "Ü"
         "fgcolor"                   "FragNeutral100"
-        "bgcolor_override"          "FragNeutral05"
-        "textinsety"                "4"
+        "bgcolor_override"          "Blank"
+        "textinsety"                "5"
         "use_proportional_insets"   "1"
         "textalignment"             "center"
+
+        "pin_to_sibling"            "MedicChargeAnchor"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+    }
+
+    "ChargeIconBG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "ChargeIconBG"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "6"
+        "wide"                      "20"
+        "tall"                      "20"
+        "proportionaltoparent"      "1"
+        "bgcolor_override"          "FragPanelTransparentDark40"
 
         "pin_to_sibling"            "MedicChargeAnchor"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
