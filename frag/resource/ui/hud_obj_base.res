@@ -2,13 +2,13 @@
 {
     "BuildingStatusItem"
     {
-        "wide"                  "160"
+        "wide"                  "120"
         "tall"                  "40"
     }
 
     "NotBuiltPanel"
     {
-        "wide"                  "160"
+        "wide"                  "120"
         "tall"                  "f1"
         "proportionaltoparent"  "1"
 
@@ -22,7 +22,7 @@
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/panels/fill_additive"
-            "drawcolor"             "FragNegative100"
+            "drawcolor"             "FragNeutral100"
             "scaleImage"            "1"
         }
 
@@ -39,34 +39,37 @@
 
     "BuiltPanel"
     {
-        "wide"                  "160"
+        "wide"                  "120"
         "tall"                  "39"
         "proportionaltoparent"  "1"
         "bgcolor_override"      "0 0 0 0"
 
         "Icon_Upgrade_1"
         {
-            "xpos"              "125"
-            "ypos"              "0"
-            "wide"              "10"
-            "tall"              "10"
-            "iconcolor"         "FragAccent100"
+            "xpos"                  "85"
+            "ypos"                  "cs-0.5"
+            "wide"                  "10"
+            "tall"                  "10"
+            "proportionaltoparent"  "1"
+            "iconcolor"             "FragAccent100"
         }
         "Icon_Upgrade_2"
         {
-            "xpos"              "125"
-            "ypos"              "0"
-            "wide"              "10"
-            "tall"              "10"
-            "iconcolor"         "FragAccent100"
+            "xpos"                  "85"
+            "ypos"                  "cs-0.5"
+            "wide"                  "10"
+            "tall"                  "10"
+            "proportionaltoparent"  "1"
+            "iconcolor"             "FragAccent100"
         }
         "Icon_Upgrade_3"
         {
-            "xpos"              "125"
-            "ypos"              "0"
-            "wide"              "10"
-            "tall"              "10"
-            "iconcolor"         "FragAccent100"
+            "xpos"                  "85"
+            "ypos"                  "cs-0.5"
+            "wide"                  "10"
+            "tall"                  "10"
+            "proportionaltoparent"  "1"
+            "iconcolor"             "FragAccent100"
         }
 
         "BuildingPanel"
@@ -156,20 +159,23 @@
 
         "WrenchIcon"
         {
-            "xpos"              "125"
-            "ypos"              "10"
-            "wide"              "20"
-            "tall"              "20"
-            "icon"              "wrench_a"
-            "iconcolor"         "FragNegative100"
+            "xpos"                  "100"
+            "ypos"                  "cs-0.5"
+            "wide"                  "15"
+            "tall"                  "15"
+            "proportionaltoparent"  "1"
+            "icon"                  "wrench_a"
+            "iconcolor"             "FragNegative100"
         }
         "SapperIcon"
         {
-            "xpos"              "125"
-            "ypos"              "10"
-            "wide"              "20"
-            "tall"              "20"
-            "iconcolor"         "FragNegative100"
+            "xpos"                  "100"
+            "ypos"                  "cs-0.5"
+            "wide"                  "15"
+            "tall"                  "15"
+            "proportionaltoparent"  "1"
+            "icon"                  "wrench_a"
+            "iconcolor"             "FragNegative100"
         }
 
         "AlertTray"

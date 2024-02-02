@@ -4,10 +4,10 @@
 {
     "Icon_Dispenser"
     {
-        "xpos"                  "3"
-        "ypos"                  "rs1-4"
+        "xpos"                  "4"
+        "ypos"                  "cs-0.5"
         "wide"                  "o1"
-        "tall"                  "f8"
+        "tall"                  "f9"
         "proportionaltoparent"  "1"
     }
 

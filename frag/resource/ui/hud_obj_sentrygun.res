@@ -4,8 +4,8 @@
 {
     "Icon_Sentry_1"
     {
-        "xpos"                  "3"
-        "ypos"                  "rs1-4"
+        "xpos"                  "2"
+        "ypos"                  "cs-0.5"
         "wide"                  "o1"
         "tall"                  "f6"
         "proportionaltoparent"  "1"
@@ -13,15 +13,15 @@
     "Icon_Sentry_2"
     {
         "xpos"                  "6"
-        "ypos"                  "rs1-4"
+        "ypos"                  "cs-0.5"
         "wide"                  "o1"
         "tall"                  "f6"
         "proportionaltoparent"  "1"
     }
     "Icon_Sentry_3"
     {
-        "xpos"                  "5"
-        "ypos"                  "rs1-4"
+        "xpos"                  "6"
+        "ypos"                  "cs-0.5"
         "wide"                  "o1"
         "tall"                  "f8"
         "proportionaltoparent"  "1"

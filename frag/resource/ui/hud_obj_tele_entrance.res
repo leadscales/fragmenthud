@@ -5,9 +5,9 @@
     "Icon_Teleport_Entrance"
     {
         "xpos"                  "7"
-        "ypos"                  "rs1-4"
+        "ypos"                  "cs-0.5"
         "wide"                  "o1"
-        "tall"                  "f12"
+        "tall"                  "f16"
         "proportionaltoparent"  "1"
     }
 
