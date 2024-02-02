@@ -7,7 +7,7 @@
             "1"
             {
                 "name"          "Icons"
-                "tall"          "7"
+                "tall"          "8"
                 "weight"        "400"
                 "antialias"     "1"
             }
@@ -17,7 +17,7 @@
             "1"
             {
                 "name"          "Icons"
-                "tall"          "7"
+                "tall"          "8"
                 "weight"        "400"
                 "antialias"     "1"
                 "additive"      "1"

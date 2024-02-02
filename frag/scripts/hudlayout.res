@@ -19,7 +19,7 @@
             "ypos"              "0"
             "wide"              "640"
             "tall"              "480"
-            "bgcolor_override"  "255 0 0 32"
+            "bgcolor_override"  "255 0 0 0"
         }
 
         "EmptyArea"
@@ -29,7 +29,7 @@
             "xpos"              "cs-0.5"
             "ypos"              "cs-0.5"
             "wide"              "f0"
-            "tall"              "80"
+            "tall"              "160"
             "bgcolor_override"  "255 255 0 32"
         }
     }
@@ -230,6 +230,14 @@
         "ypos"                      "0"
         "wide"                      "f0"
         "tall"                      "480"
+    }
+
+    "BuildingStatus_Engineer"
+    {
+        "xpos"                      "rs1-p0.01444444+5"
+        "ypos"                      "cs-0.5+p0.02444444"
+        "wide"                      "f0"
+        "tall"                      "200"
     }
 
     // DISABLED

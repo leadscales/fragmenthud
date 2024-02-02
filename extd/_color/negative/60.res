@@ -9,6 +9,7 @@
 "FragNegative20" "90 107 255 51"
 "FragNegative05" "90 107 255 13"
 "HUDDeathWarning" "90 107 255 255"
+"LowHealthRed" "90 107 255 255"
 "ItemAttribNegative" "90 107 255 255"
 "ItemLimitedQuantity" "90 107 255 255"
 "LightRed" "90 107 255 255"

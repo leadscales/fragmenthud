@@ -158,6 +158,7 @@ def generate_scheme_override_dict(
             case "Negative":
                 current_scheme.update({
                     "HUDDeathWarning": color.as_vdf(255),
+                    "LowHealthRed": color.as_vdf(255),
                     "ItemAttribNegative": color.as_vdf(255),
                     "ItemLimitedQuantity": color.as_vdf(255),
                     "LightRed": color.as_vdf(255),
