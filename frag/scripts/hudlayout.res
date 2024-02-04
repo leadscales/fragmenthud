@@ -300,6 +300,14 @@
         "tall"                      "70"
     }
 
+    "HudMenuEngyDestroy"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "170"
+        "tall"                      "70"
+    }
+
     // DISABLED
 
     "HudBowCharge"
