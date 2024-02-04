@@ -79,9 +79,9 @@
             "ControlName"       "EditablePanel"
             "fieldName"         "EmptyArea"
             "xpos"              "cs-0.5"
-            "ypos"              "cs-0.5"
+            "ypos"              "c0"
             "wide"              "f0"
-            "tall"              "80"
+            "tall"              "100"
             "bgcolor_override"  "255 255 0 8"
         }
     }
@@ -218,7 +218,7 @@
     "HudMenuTauntSelection"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "rs1-5"
+        "ypos"              "c100"
         "wide"              "330"
         "tall"              "90"
     }
@@ -290,6 +290,14 @@
         "ypos"                      "cs-0.5+p0.023"
         "wide"                      "f0"
         "tall"                      "200"
+    }
+
+    "HudMenuEngyBuild"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "170"
+        "tall"                      "70"
     }
 
     // DISABLED

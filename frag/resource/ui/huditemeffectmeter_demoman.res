@@ -32,7 +32,7 @@
         "textalignment"                 "east"
         "textinsetx"                    "5"
         "use_proportional_insets"       "1"
-        "font"                          "FontMedium_9"
+        "font"                          "FontMedium_10"
     }
 
     "ItemEffectMeterCount"
