@@ -11,6 +11,58 @@
         "visible"       "0"
         "enabled"       "1"
 
+        "Inset"
+        {
+            "ControlName"       "EditablePanel"
+            "fieldName"         "Inset"
+            "xpos"              "0"
+            "ypos"              "0"
+            "wide"              "f0"
+            "tall"              "480"
+            "bgcolor_override"  "0 0 0 0"
+
+            "T"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "T"
+                "xpos"              "0"
+                "ypos"              "0"
+                "wide"              "f0"
+                "tall"              "5"
+                "bgcolor_override"  "0 255 255 8"
+            }
+            "B"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "B"
+                "xpos"              "0"
+                "ypos"              "rs1"
+                "wide"              "f0"
+                "tall"              "5"
+                "bgcolor_override"  "0 255 255 8"
+            }
+            "L"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "L"
+                "xpos"              "0"
+                "ypos"              "0"
+                "wide"              "5"
+                "tall"              "f0"
+                "bgcolor_override"  "0 255 255 8"
+            }
+            "R"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "R"
+                "xpos"              "rs1"
+                "ypos"              "0"
+                "wide"              "5"
+                "tall"              "f0"
+                "bgcolor_override"  "0 255 255 8"
+            }
+        }
+
         "4:3"
         {
             "ControlName"       "EditablePanel"
@@ -19,7 +71,7 @@
             "ypos"              "0"
             "wide"              "640"
             "tall"              "480"
-            "bgcolor_override"  "255 0 0 0"
+            "bgcolor_override"  "255 0 0 8"
         }
 
         "EmptyArea"
@@ -29,8 +81,8 @@
             "xpos"              "cs-0.5"
             "ypos"              "cs-0.5"
             "wide"              "f0"
-            "tall"              "160"
-            "bgcolor_override"  "255 255 0 32"
+            "tall"              "80"
+            "bgcolor_override"  "255 255 0 8"
         }
     }
 
@@ -234,8 +286,8 @@
 
     "BuildingStatus_Engineer"
     {
-        "xpos"                      "rs1-p0.01444444+5"
-        "ypos"                      "cs-0.5+p0.02444444"
+        "xpos"                      "rs1-p0.0140625+5"
+        "ypos"                      "cs-0.5+p0.023"
         "wide"                      "f0"
         "tall"                      "200"
     }
