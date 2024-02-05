@@ -29,7 +29,7 @@
         "proportionaltoparent"      "1"
         "pinCorner"                 "2"
         "autoResize"                "1"
-        "bgcolor_override"          "FragPrimary05"
+        "bgcolor_override"          "Blank"
 
         "Gradient"
         {

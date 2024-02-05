@@ -17,7 +17,7 @@
         "wide"                      "221"
         "tall"                      "400"
         "proportionaltoparent"      "0"
-        "bgcolor_override"          "FragPrimary05"
+        "bgcolor_override"          "Blank"
 
         "SafeModeGradient"
         {

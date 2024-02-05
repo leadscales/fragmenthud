@@ -1,0 +1,6 @@
+"Modulate"
+{
+    "$baseTexture"      "vgui/replay/thumbnails/menu/background_overlay_0"
+    "$mod2x"            "1"
+    "$nocull"           "1"
+}
