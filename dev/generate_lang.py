@@ -9,7 +9,7 @@ languages = fragment.LANGUAGES
 def main():
     root = pathlib.Path(fragment.get_project_root())
 
-    VERSION_PATH = root.joinpath("version.txt")
+    VERSION_PATH = root.joinpath("info.vdf")
     LANG_CUSTOM = root.joinpath("dev/lang_custom.toml")
     LANG_OVERRIDE = root.joinpath("dev/lang_override.toml")
     LANG_CHAT = root.joinpath("dev/lang_chat.toml")
@@ -23,7 +23,7 @@ def main():
     with open(LANG_CHAT, "rb") as file:
         LANG_CHAT_DATA = tomllib.load(file)
     with open(VERSION_PATH, "r") as file:
-        hud_version = file.read()
+        hud_version = vdf.load(file)["FRAGMENT"]["HUD_VERSION"]
     with open(root.joinpath("cfg/frag_startmsg.txt"), "r") as file:
         startmsg = file.readlines()
 

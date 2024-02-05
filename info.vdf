@@ -1,1 +1,5 @@
-fragment { ui_version 3 }
+"FRAGMENT"
+{
+    "UI_VERSION"        "3"
+    "HUD_VERSION"       "0.9.65"
+}
