@@ -62,7 +62,7 @@
         "auto_wide_tocontents"  "1"
         "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
-        "fgcolor"               "FragPrimary20"
+        "fgcolor"               "FragPrimary100"
 
         "labelText"             "WIN32" [$WINDOWS]
         "labelText"             "OSX"   [$OSX]
@@ -219,9 +219,9 @@
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "SidePanelGradient"
-            "xpos"                  "rs1"
+            "xpos"                  "rs1-1"
             "ypos"                  "0"
-            "wide"                  "f0"
+            "wide"                  "f1"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
@@ -231,16 +231,17 @@
 
         "SidePanelStroke"
         {
-            "ControlName"           "EditablePanel"
+            "ControlName"           "ImagePanel"
             "fieldName"             "SidePanelStroke"
             "xpos"                  "rs1"
             "ypos"                  "0"
             "wide"                  "1"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
-            "paintbackgroundtype"   "0"
-            "bgcolor_override"      "FragPrimary40"
             "mouseinputenabled"     "0"
+            "image"                 "replay/thumbnails/panels/fill_additive"
+            "scaleImage"            "1"
+            "drawcolor"             "FragPrimary100"
         }
 
         "BGPanel"
@@ -428,29 +429,30 @@
             "xpos"                  "0"
             "ypos"                  "cs-0.5"
             "wide"                  "f0"
-            "tall"                  "f4"
+            "tall"                  "f10"
 
             "columns_count"         "1"
-            "inset_x"               "0"
+            "inset_x"               "5"
             "inset_y"               "0"
-            "row_gap"               "0"
+            "row_gap"               "1"
             "column_gap"            "0"
             "restrict_width"        "0"
-            "scroll_step"           "20"
+            "scroll_step"           "15"
 
             "friendpanel_kv"
             {
-                "wide"              "200"
-                "tall"              "20"
+                "wide"              "190"
+                "tall"              "19"
             }
 
             "ScrollBar"
             {
-                "xpos"                  "rs1"
+                "xpos"                  "190"
                 "wide"                  "0"
                 "Slider"
                 {
-                    "fgcolor_override"  "Blank"
+                    "fgcolor_override"  "FragPrimary20"
+                    "bgcolor_override"  "Blank"
                 }
             }
         }
@@ -706,7 +708,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -718,28 +720,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "#MMenu_CharacterSetup"
-                "font"                      "FontMedium_12"
+                "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -761,7 +750,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -773,28 +762,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "#MMenu_Tooltip_Options"
-                "font"                      "FontMedium_12"
+                "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -816,7 +792,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -828,28 +804,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "#TF_MvM_Advanced"
-                "font"                      "FontMedium_12"
+                "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -871,7 +834,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -883,28 +846,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "#MMenu_Shop"
-                "font"                      "FontMedium_12"
+                "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -926,7 +876,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -938,28 +888,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "#MMenu_Customize"
-                "font"                      "FontMedium_12"
+                "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
                 "allcaps"                   "1"
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
     }

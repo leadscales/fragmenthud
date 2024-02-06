@@ -23,9 +23,9 @@
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "SafeModeGradient"
-            "xpos"                  "0"
+            "xpos"                  "1"
             "ypos"                  "0"
-            "wide"                  "f0"
+            "wide"                  "f1"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
@@ -35,16 +35,17 @@
 
         "SafeModeStroke"
         {
-            "ControlName"           "EditablePanel"
+            "ControlName"           "ImagePanel"
             "fieldName"             "SafeModeStroke"
             "xpos"                  "0"
             "ypos"                  "0"
             "wide"                  "1"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
-            "paintbackgroundtype"   "0"
-            "bgcolor_override"      "FragPrimary40"
             "mouseinputenabled"     "0"
+            "image"                 "replay/thumbnails/panels/fill_additive"
+            "scaleImage"            "1"
+            "drawcolor"             "FragPrimary100"
         }
 
         "BGPanel"

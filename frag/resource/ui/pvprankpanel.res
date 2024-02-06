@@ -49,9 +49,9 @@
 
             "fonts"
             {
-                "0"                             "FontMedium_12"
-                "1"                             "FontMedium_12"
-                "2"                             "FontMedium_12"
+                "0"                             "FontMedium_12_Additive"
+                "1"                             "FontMedium_12_Additive"
+                "2"                             "FontMedium_12_Additive"
             }
         }
 
@@ -82,9 +82,9 @@
 
             "fonts"
             {
-                "0"                             "FontMedium_12"
-                "1"                             "FontMedium_12"
-                "2"                             "FontMedium_12"
+                "0"                             "FontMedium_12_Additive"
+                "1"                             "FontMedium_12_Additive"
+                "2"                             "FontMedium_12_Additive"
             }
 
             "colors"
