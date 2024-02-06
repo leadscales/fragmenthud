@@ -308,6 +308,22 @@
         "tall"                      "70"
     }
 
+    "DisguiseStatus"
+    {
+        "xpos"                      "5"
+        "ypos"                      "rs1-5"
+        "wide"                      "160"
+        "tall"                      "20"
+    }
+
+    "HudMenuSpyDisguise"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "370"
+        "tall"                      "90"
+    }
+
     // DISABLED
 
     "HudBowCharge"
