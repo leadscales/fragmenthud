@@ -39,7 +39,7 @@
                 "proportionaltoparent"      "1"
                 "text"                      "#FRAG_Safemode_RenameWarn"
                 "textAlignment"             "north-west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor"                   "FragNegative100"
                 "bgcolor_override"          "Blank"
                 "wrap"                      "1"

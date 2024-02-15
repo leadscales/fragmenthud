@@ -209,7 +209,7 @@
             "wide"                  "20"
             "tall"                  "10"
             "proportionaltoparent"  "1"
-            "font"                  "FontMedium_9"
+            "font"                  "FontMedium_10"
             "textalignment"         "east"
 
             "if_multiple_trains"
@@ -219,7 +219,7 @@
                 "wide"                  "20"
                 "tall"                  "10"
                 "proportionaltoparent"  "1"
-                "font"                  "FontMedium_9"
+                "font"                  "FontMedium_10"
                 "textalignment"         "east"
             }
 
@@ -240,7 +240,7 @@
             "wide"                  "20"
             "tall"                  "10"
             "proportionaltoparent"  "1"
-            "font"                  "FontMedium_9"
+            "font"                  "FontMedium_10"
             "textalignment"         "east"
 
             "if_multiple_trains"
@@ -250,7 +250,7 @@
                 "wide"                  "20"
                 "tall"                  "10"
                 "proportionaltoparent"  "1"
-                "font"                  "FontMedium_9"
+                "font"                  "FontMedium_10"
                 "textalignment"         "east"
             }
 

@@ -8,7 +8,7 @@
         "ypos"          "0"
         "wide"          "f0"
         "tall"          "480"
-        "visible"       "0"
+        "visible"       "1"
         "enabled"       "1"
 
         "Inset"
@@ -231,21 +231,21 @@
         "ypos"                      "0"
         "tall"                      "480"
 
-        "RightMargin"               "5"
-        "RightMargin_hidef"         "5"
+        "RightMargin"               "3"
+        "RightMargin_hidef"         "3"
 
-        "SmallBoxWide"              "120"
-        "SmallBoxTall"              "60"
+        "SmallBoxWide"              "80"
+        "SmallBoxTall"              "39"
 
-        "LargeBoxWide"              "120"
-        "LargeBoxTall"              "60"
+        "LargeBoxWide"              "80"
+        "LargeBoxTall"              "39"
 
         "BoxGap"                    "1"
 
         "SelectionNumberXPos"       "2"
-        "SelectionNumberYPos"       "2"
+        "SelectionNumberYPos"       "1"
 
-        "IconXPos"                  "8"
+        "IconXPos"                  "0"
         "IconYPos"                  "0"
 
         "TextYPos"                  "70"
@@ -284,12 +284,26 @@
         "tall"                      "480"
     }
 
+    "BuildingStatus_Anchor"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "BuildingStatus_Anchor"
+        "xpos"                      "rs1-p0.0140625+5"
+        "ypos"                      "cs-0.5-p0.01875"
+        "wide"                      "f0"
+        "tall"                      "0"
+    }
+
     "BuildingStatus_Engineer"
     {
-        "xpos"                      "rs1-p0.0140625+5"
-        "ypos"                      "cs-0.5+p0.023"
+        "xpos"                      "0"
+        "ypos"                      "0"
         "wide"                      "f0"
-        "tall"                      "200"
+        "tall"                      "f0"
+        
+        "pin_to_sibling"            "BuildingStatus_Anchor"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
     }
 
     "HudMenuEngyBuild"

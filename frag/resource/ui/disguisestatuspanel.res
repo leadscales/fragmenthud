@@ -57,7 +57,7 @@
         "wide"                      "40"
         "tall"                      "10"
         "healthbonusposadj"         "0"
-        "tffont"                    "FontMedium_9_Additive"
+        "tffont"                    "FontMedium_10_Additive"
         "healthdeathwarningcolor"   "FragNegative100"
         "textcolor"                 "FragNeutral100"
     }
@@ -69,7 +69,7 @@
         "wide"                  "f50"
         "tall"                  "f0"
         "proportionaltoparent"  "1"
-        "font"                  "FontMedium_9_Additive"
+        "font"                  "FontMedium_10_Additive"
         "textalignment"         "north-west"
 
         "pin_to_sibling"        "HealthBG"
@@ -84,7 +84,7 @@
         "wide"                  "f50"
         "tall"                  "f0"
         "proportionaltoparent"  "1"
-        "font"                  "FontMedium_9_Additive"
+        "font"                  "FontMedium_10_Additive"
         "textalignment"         "south-west"
 
         "pin_to_sibling"        "HealthBG"

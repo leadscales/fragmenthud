@@ -8,6 +8,6 @@
         "PositiveColor"             "FragPositive100"
         "NegativeColor"             "FragNegative100"
         "delta_lifetime"            "2.0"
-        "delta_item_font"           "FontMedium_9_Additive"
+        "delta_item_font"           "FontMedium_10_Additive"
     }
 }

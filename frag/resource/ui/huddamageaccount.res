@@ -21,7 +21,7 @@
         "enabled"                   "1"
         "labelText"                 "%metal%"
         "textAlignment"             "center"
-        "font"                      "FontMedium_9_Additive"
+        "font"                      "FontMedium_10_Additive"
         "fgcolor"                   "FragNegative100"
     }
 }

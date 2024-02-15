@@ -139,7 +139,7 @@ event MenuOpen
     StopEvent    MenuClose    0.0
     Animate      HudMenu      PaintBackgroundType    0                             Linear    0.0    0.0
     Animate      HudMenu      RoundedCorners         0                             Linear    0.0    0.0
-    Animate      HudMenu      XPos                   5                             Spline    0.0    0.05
+    Animate      HudMenu      XPos                   0                             Spline    0.0    0.05
     Animate      HudMenu      Alpha                  255                           Spline    0.0    0.05
     Animate      HudMenu      SelectionAlpha         255                           Spline    0.0    0.05
     //
@@ -150,14 +150,14 @@ event MenuOpen
     Animate      HudMenu      MenuColor              FragNeutral100                Spline    0.0    0.05
     Animate      HudMenu      ItemColor              FragNeutral100                Spline    0.0    0.05
     //
-    SetFont      HudMenu      TextFont               FontMedium_9_Additive         0.0
+    SetFont      HudMenu      TextFont               FontMedium_10_Additive        0.0
     Animate      HudMenu      TextScan               0                             Spline    0.0    0.05
     Animate      HudMenu      Blur                   0                             Spline    0.0    0.0
 }
 
 event MenuClose
 {
-    Animate    HudMenu    XPos              S-1          Spline    0.0    0.05
+    Animate    HudMenu    XPos              -20          Spline    0.0    0.05
     Animate    HudMenu    Alpha             0            Spline    0.0    0.05
     Animate    HudMenu    SelectionAlpha    0            Spline    0.0    0.05
     Animate    HudMenu    FgColor           "0 0 0 0"    Spline    0.0    0.05

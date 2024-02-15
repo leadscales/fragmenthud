@@ -33,7 +33,7 @@
         "wide"              "15"
         "tall"              "20"
         "bgcolor_override"  "Blank"
-        "font"              "FontMedium_9"
+        "font"              "FontMedium_10"
     }
 
     // DISABLED

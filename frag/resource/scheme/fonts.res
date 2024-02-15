@@ -23,27 +23,6 @@
 "additive" "1"
 }
 }
-"FontMedium_9"
-{
-"1"
-{
-"name" "Infortress-Medium"
-"tall" "9"
-"weight" "500"
-"antialias" "1"
-}
-}
-"FontMedium_9_Additive"
-{
-"1"
-{
-"name" "Infortress-Medium"
-"tall" "9"
-"weight" "500"
-"antialias" "1"
-"additive" "1"
-}
-}
 "FontMedium_10"
 {
 "1"
@@ -207,27 +186,6 @@
 {
 "name" "Infortress-Bold"
 "tall" "8"
-"weight" "700"
-"antialias" "1"
-"additive" "1"
-}
-}
-"FontBold_9"
-{
-"1"
-{
-"name" "Infortress-Bold"
-"tall" "9"
-"weight" "700"
-"antialias" "1"
-}
-}
-"FontBold_9_Additive"
-{
-"1"
-{
-"name" "Infortress-Bold"
-"tall" "9"
 "weight" "700"
 "antialias" "1"
 "additive" "1"

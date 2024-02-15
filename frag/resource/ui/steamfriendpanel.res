@@ -36,7 +36,7 @@
         "wide"                      "f25"
         "tall"                      "f0"
         "textalignment"             "north-west"
-        "font"                      "FontMedium_9_Additive"
+        "font"                      "FontMedium_10_Additive"
         "fgcolor_override"          "FragNeutral100"
     }
 
@@ -47,7 +47,7 @@
         "wide"                      "f25"
         "tall"                      "f0"
         "textalignment"             "south-west"
-        "font"                      "FontMedium_9_Additive"
+        "font"                      "FontMedium_10_Additive"
         "alpha"                     "204"
     }
 }

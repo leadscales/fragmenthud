@@ -167,7 +167,7 @@
                 "textinsetx"                "1"
                 "use_proportional_insets"   "1"
                 "textAlignment"             "west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor_override"          "FragNeutral100"
             }
 
@@ -181,7 +181,7 @@
                 "textinsetx"                "1"
                 "use_proportional_insets"   "1"
                 "textAlignment"             "west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor_override"          "FragNeutral100"
             }
 
@@ -205,7 +205,7 @@
                 "textinsetx"                "1"
                 "use_proportional_insets"   "1"
                 "textAlignment"             "west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor_override"          "FragNeutral100"
             }
             // Second column
@@ -230,7 +230,7 @@
                 "textinsetx"                "1"
                 "use_proportional_insets"   "1"
                 "textAlignment"             "west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor_override"          "FragNeutral100"
             }
 
@@ -254,7 +254,7 @@
                 "textinsetx"                "1"
                 "use_proportional_insets"   "1"
                 "textAlignment"             "west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor_override"          "FragNeutral100"
             }
 
@@ -278,7 +278,7 @@
                 "textinsetx"                "1"
                 "use_proportional_insets"   "1"
                 "textAlignment"             "west"
-                "font"                      "FontMedium_9_Additive"
+                "font"                      "FontMedium_10_Additive"
                 "fgcolor_override"          "FragNeutral100"
             }
 
