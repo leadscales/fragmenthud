@@ -1355,7 +1355,7 @@
         "wide"                          "200"
         "tall"                          "20"
         "border"                        "FragTooltip"
-        "bgcolor_override"              "Blank"
+        "bgcolor_override"              "FragPanelTransparentDark80"
 
         "TipSubLabel"
         {

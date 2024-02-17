@@ -5,7 +5,7 @@
         "wide"                  "0"
         "tall"                  "0"
         "border"                "FragTooltip"
-        "bgcolor_override"      "Blank"
+        "bgcolor_override"      "0 0 0 255"
         "TipLabel"
         {
             "if_small"

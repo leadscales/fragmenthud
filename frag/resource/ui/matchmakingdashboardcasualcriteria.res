@@ -5,20 +5,74 @@
     "CasualCriteria"
     {
         "xpos"                      "r0"
-        "ypos"                      "40"
+        "ypos"                      "39"
         "zpos"                      "1002"
-        "wide"                      "220"
-        "tall"                      "f80"
+        "wide"                      "221"
+        "tall"                      "402"
         "visible"                   "1"
         "proportionaltoparent"      "1"
     }
 
+    "SideStrokes"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "SideStrokes"
+        "xpos"                  "rs1"
+        "ypos"                  "0"
+        "zpos"                  "1003"
+        "wide"                  "221"
+        "tall"                  "f0"
+        "proportionaltoparent"  "1"
+        "mouseinputenabled"     "0"
+
+        "alpha"                 "255"
+
+        "SideStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "SideStroke"
+            "xpos"                  "0"
+            "ypos"                  "1"
+            "wide"                  "1"
+            "tall"                  "f2"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragCasual100"
+        }
+
+        "TopStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "TopStroke"
+            "xpos"                  "rs1"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragCasual100"
+        }
+
+        "BottomStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BottomStroke"
+            "xpos"                  "rs1"
+            "ypos"                  "rs1"
+            "wide"                  "f0"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragCasual100"
+        }
+    }
+
     "BGPanel"
     {
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "wide"                  "f0"
-        "tall"                  "f0"
+        "xpos"                  "rs1"
+        "ypos"                  "1"
+        "wide"                  "f1"
+        "tall"                  "f2"
         "visible"               "1"
         "enabled"               "1"
         "proportionaltoparent"  "1"
@@ -26,14 +80,14 @@
 
         "Darkener"
         {
-            "ControlName"       "EditablePanel"
-            "fieldName"         "Darkener"
-            "xpos"              "0"
-            "ypos"              "0"
-            "wide"              "f0"
-            "tall"              "f0"
+            "ControlName"           "EditablePanel"
+            "fieldName"             "Darkener"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "f0"
             "proportionaltoparent"  "1"
-            "bgcolor_override"  "FragPanelTransparentDark80"
+            "bgcolor_override"      "FragPanelTransparentDark80"
         }
     }
 
@@ -41,11 +95,11 @@
     {
         "ControlName"           "EditablePanel"
         "fieldName"             "CriteriaBG"
-        "xpos"                  "0"
-        "ypos"                  "0"
+        "xpos"                  "rs1"
+        "ypos"                  "1"
         "zpos"                  "1001"
-        "wide"                  "f0"
-        "tall"                  "f0"
+        "wide"                  "f1"
+        "tall"                  "f2"
         "visible"               "1"
         "enabled"               "1"
         "proportionaltoparent"  "1"
@@ -92,8 +146,8 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "1005"
-        "wide"                      "f0"
-        "tall"                      "f0"
+        "wide"                      "f1"
+        "tall"                      "f2"
 
         "bgcolor_override"          "255 0 0 0"
 

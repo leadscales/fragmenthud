@@ -23,8 +23,6 @@
         "bgcolor_override"      "FragPanelOpaque10"
         "paintBackgroundType"   "0"
         "roundedcorners"        "0"
-        setclosebuttonvisible 1
-        settitlebarvisible 1
     }
 
     "TitleLabel"

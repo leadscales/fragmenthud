@@ -10,11 +10,11 @@
         "Border.Selection"                                  "Blank"
 
         "Button.TextColor"                                  "FragPanelOpaque80"
-        "Button.BgColor"                                    "FragPanelOpaque05"
+        "Button.BgColor"                                    "FragPanelOpaque10"
         "Button.ArmedTextColor"                             "FragPanelOpaque90"
-        "Button.ArmedBgColor"                               "FragPanelOpaque10"
+        "Button.ArmedBgColor"                               "FragPanelOpaque20"
         "Button.DepressedTextColor"                         "FragPanelOpaque100"
-        "Button.DepressedBgColor"                           "FragPanelOpaque20"
+        "Button.DepressedBgColor"                           "FragPanelOpaque30"
         "Button.FocusBorderColor"                           "Blank"
 
         "CheckButton.TextColor"                             "FragPanelOpaque80"
@@ -59,9 +59,9 @@
         "Label.DisabledFgColor2"                            "Blank"
 
         "ListPanel.TextColor"                               "FragPanelOpaque100"
-        "ListPanel.BgColor"                                 "FragPanelOpaque10"
+        "ListPanel.BgColor"                                 "FragPanelOpaque20"
         "ListPanel.SelectedBgColor"                         "FragPrimary100"
-        "ListPanel.SelectedOutOfFocusBgColor"               "FragPanelOpaque05"
+        "ListPanel.SelectedOutOfFocusBgColor"               "FragPanelOpaque10"
 
         "MainMenu.TextColor"                                "FragPanelOpaque80"
         "MainMenu.ArmedTextColor"                           "FragPanelOpaque100"
@@ -69,9 +69,9 @@
 
         "Menu.TextInset"                                    "6"
         "Menu.FgColor"                                      "FragPanelOpaque100"
-        "Menu.BgColor"                                      "FragPanelOpaque05"
+        "Menu.BgColor"                                      "FragPanelOpaque30"
         "Menu.ArmedFgColor"                                 "FragPanelOpaque100"
-        "Menu.ArmedBgColor"                                 "FragPanelOpaque10"
+        "Menu.ArmedBgColor"                                 "FragPanelOpaque40"
         "Menu.DividerColor"                                 "Blank"
 
         "ScrollBarButton.FgColor"                           "FragPanelOpaque100"
@@ -103,8 +103,8 @@
         "FrameBorder"
         {
             "bordertype"                "scalable_image"
-            "backgroundtype"            "2"
-            "image"                     "replay/thumbnails/panels/source_border"
+            "backgroundtype"            "0"
+            "image"                     "replay/thumbnails/panels/border_strokefade"
             "color"                     "FragPrimary100"
             "src_corner_height"         "6"
             "src_corner_width"          "6"

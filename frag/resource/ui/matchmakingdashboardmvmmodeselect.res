@@ -5,22 +5,76 @@
     "MVMModeSelect"
     {
         "xpos"                      "r0"
-        "ypos"                      "40"
+        "ypos"                      "39"
         "zpos"                      "1002"
-        "wide"                      "220"
-        "tall"                      "f80"
+        "wide"                      "221"
+        "tall"                      "402"
         "visible"                   "1"
         "proportionaltoparent"      "1"
+    }
+
+    "SideStrokes"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "SideStrokes"
+        "xpos"                  "rs1"
+        "ypos"                  "0"
+        "zpos"                  "1003"
+        "wide"                  "221"
+        "tall"                  "f0"
+        "proportionaltoparent"  "1"
+        "mouseinputenabled"     "0"
+
+        "alpha"                 "255"
+
+        "SideStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "SideStroke"
+            "xpos"                  "0"
+            "ypos"                  "1"
+            "wide"                  "1"
+            "tall"                  "f2"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragMvM100"
+        }
+
+        "TopStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "TopStroke"
+            "xpos"                  "rs1"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragMvM100"
+        }
+
+        "BottomStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BottomStroke"
+            "xpos"                  "rs1"
+            "ypos"                  "rs1"
+            "wide"                  "f0"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragMvM100"
+        }
     }
 
     "Title"
     {
         "ControlName"                       "CExLabel"
         "fieldName"                         "Title"
-        "xpos"                              "0"
-        "ypos"                              "0"
+        "xpos"                              "rs1"
+        "ypos"                              "1"
         "zpos"                              "100"
-        "wide"                              "f0"
+        "wide"                              "f1"
         "tall"                              "20"
         "proportionaltoparent"              "1"
         "labelText"                         "#MMenu_PlayList_MvM_Button"
@@ -33,10 +87,10 @@
 
     "BGPanel"
     {
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "wide"                  "f0"
-        "tall"                  "f0"
+        "xpos"                  "rs1"
+        "ypos"                  "1"
+        "wide"                  "f1"
+        "tall"                  "f2"
         "visible"               "1"
         "enabled"               "1"
         "proportionaltoparent"  "1"
@@ -59,11 +113,11 @@
     {
         "ControlName"                       "CExButton"
         "fieldName"                         "MannUpButton"
-        "xpos"                              "5"
-        "ypos"                              "25"
+        "xpos"                              "5+1"
+        "ypos"                              "25+1"
         "zpos"                              "101"
         "wide"                              "f10"
-        "tall"                              "f115"
+        "tall"                              "285"
         "proportionaltoparent"              "1"
         "labelText"                         "#TF_MvM_MannUp"
         "allcaps"                           "1"
@@ -82,8 +136,8 @@
     {
         "ControlName"                       "CExButton"
         "fieldName"                         "NotMannUpButton"
-        "xpos"                              "5"
-        "ypos"                              "rs1-5"
+        "xpos"                              "5+1"
+        "ypos"                              "rs1-5-1"
         "zpos"                              "101"
         "wide"                              "f10"
         "tall"                              "80"

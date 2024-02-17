@@ -5,20 +5,74 @@
     "MVMCriteria"
     {
         "xpos"                      "r0"
-        "ypos"                      "40"
+        "ypos"                      "39"
         "zpos"                      "1003"
-        "wide"                      "420"
-        "tall"                      "f80"
+        "wide"                      "421"
+        "tall"                      "402"
         "visible"                   "1"
         "proportionaltoparent"      "1"
     }
 
+    "SideStrokes"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "SideStrokes"
+        "xpos"                  "rs1"
+        "ypos"                  "0"
+        "zpos"                  "1003"
+        "wide"                  "421"
+        "tall"                  "f0"
+        "proportionaltoparent"  "1"
+        "mouseinputenabled"     "0"
+
+        "alpha"                 "255"
+
+        "SideStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "SideStroke"
+            "xpos"                  "0"
+            "ypos"                  "1"
+            "wide"                  "1"
+            "tall"                  "f2"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragMvM100"
+        }
+
+        "TopStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "TopStroke"
+            "xpos"                  "rs1"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragMvM100"
+        }
+
+        "BottomStroke"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BottomStroke"
+            "xpos"                  "rs1"
+            "ypos"                  "rs1"
+            "wide"                  "f0"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "bgcolor_override"      "FragMvM100"
+        }
+    }
+
     "BGPanel"
     {
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "wide"                  "f0"
-        "tall"                  "f0"
+        "xpos"                  "rs1"
+        "ypos"                  "1"
+        "wide"                  "f1"
+        "tall"                  "f2"
         "visible"               "1"
         "enabled"               "1"
         "proportionaltoparent"  "1"
@@ -51,17 +105,17 @@
 
     "criteria"
     {
-        "xpos"              "5"
-        "ypos"              "25"
-        "wide"              "f10"
-        "tall"              "f30"
+        "xpos"              "5+1"
+        "ypos"              "25+1"
+        "wide"              "f11"
+        "tall"              "f32"
         "pincorner"         "0"
     }
 
     "BackButton"
     {
-        "xpos"                      "0"
-        "ypos"                      "0"
+        "xpos"                      "1"
+        "ypos"                      "1"
         "wide"                      "40"
         "tall"                      "20"
         "font"                      "Icons_Medium_Additive"
@@ -75,8 +129,8 @@
     }
     "NextButton"
     {
-        "xpos"                      "0"
-        "ypos"                      "0"
+        "xpos"                      "1"
+        "ypos"                      "1"
         "wide"                      "40"
         "tall"                      "20"
         "font"                      "Icons_Medium_Additive"
@@ -92,7 +146,7 @@
     "MannUpQueueButton"
     {
         "xpos"                      "rs1"
-        "ypos"                      "0"
+        "ypos"                      "1"
         "wide"                      "40"
         "tall"                      "20"
         "font"                      "Icons_Medium_Additive"
@@ -107,7 +161,7 @@
     "BootCampQueueButton"
     {
         "xpos"                      "rs1"
-        "ypos"                      "0"
+        "ypos"                      "1"
         "wide"                      "40"
         "tall"                      "20"
         "font"                      "Icons_Medium_Additive"
