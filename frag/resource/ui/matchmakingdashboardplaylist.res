@@ -149,9 +149,9 @@
     "BGPanel"
     {
         "xpos"              "rs1"
-        "ypos"              "0"
+        "ypos"              "1"
         "wide"              "220"
-        "tall"              "f0"
+        "tall"              "f2"
         "visible"           "1"
         "enabled"           "1"
         "bgcolor_override"  "FragPanelTransparentDark60"

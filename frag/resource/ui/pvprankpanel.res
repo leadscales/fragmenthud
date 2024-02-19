@@ -14,9 +14,9 @@
             "xpos"                          "0"
             "ypos"                          "0"
             "wide"                          "f20"
-            "font"                          "FontMedium_12"
+            "font"                          "FontMedium_12_Additive"
             "textAlignment"                 "west"
-            "fgcolor_override"              "FragNeutral100"
+            "fgcolor_override"              "FragPrimary100"
             "textinsetx"                    "5"
             "use_proportional_insets"       "1"
             "allcaps"                       "1"
@@ -34,7 +34,7 @@
             "visible"                           "1"
             "enabled"                           "1"
             "font"                              "FontMedium_12_Additive"
-            "fgcolor_override"                  "FragPrimary100"
+            "fgcolor_override"                  "FragAccent100"
             "textAlignment"                     "west"
             "labelText"                         "%desc1%"
             "textinsetx"                        "5"
@@ -67,7 +67,7 @@
             "visible"                           "1"
             "enabled"                           "1"
             "font"                              "FontMedium_12_Additive"
-            "fgcolor_override"                  "FragPrimary100"
+            "fgcolor_override"                  "FragAccent100"
             "textAlignment"                     "east"
             "labelText"                         "%desc2%"
             "textinsetx"                        "5"
@@ -154,9 +154,9 @@
 
                 "ProgressBarsContainer"
                 {
-                    "ypos"  "20"
+                    "ypos"  "rs1"
                     "wide"  "f0"
-                    "tall"  "20"
+                    "tall"  "40"
 
                     "if_mini"
                     {
@@ -175,7 +175,7 @@
                         "xpos"                  "cs-0.5"
                         "wide"                  "f0"
                         "tall"                  "f0"
-                        "fgcolor_override"      "FragPrimary20"
+                        "fgcolor_override"      "FragPrimary05"
                         "bgcolor_override"      "Blank"
 
                         "if_mini"

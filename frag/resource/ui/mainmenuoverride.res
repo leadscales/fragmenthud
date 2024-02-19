@@ -362,9 +362,6 @@
         "zpos"                  "13"
         "wide"                  "40"
         "tall"                  "40"
-        "wrap"                  "0"
-        "textinsetx"            "0"
-        "textinsety"            "0"
 
         "font"                  "Icons_Medium_Additive"
         "fgcolor_override"      "FragNegative100"
@@ -374,7 +371,7 @@
 
         "mouseinputenabled"     "0"
 
-        "pin_to_sibling"        "RankPanel"
+        "pin_to_sibling"        "NoGCMessage"
     }
 
     "NoGCMessage"
@@ -395,7 +392,7 @@
         "wrap"                  "1"
         "bgcolor_override"      "FragNegative20"
 
-        "pin_to_sibling"        "NoGCImage"
+        "pin_to_sibling"        "RankPanel"
         "pin_corner_to_sibling" "PIN_TOPLEFT"
         "pin_to_sibling_corner" "PIN_TOPLEFT"
     }
@@ -405,7 +402,7 @@
         "xpos"                      "0"
         "ypos"                      "0"
         "zpos"                      "14"
-        "wide"                      "20"
+        "wide"                      "200"
         "tall"                      "20"
         "labelText"                 "s"
         "font"                      "Icons_Small_Additive"
@@ -414,7 +411,7 @@
         "pinCorner"                 "0"
         "paintBackground"           "0"
 
-        "defaultfgcolor_override"   "FragNeutral100"
+        "defaultfgcolor_override"   "FragPrimary20"
         "armedfgcolor_override"     "FragPrimary100"
 
         "pin_to_sibling"            "RankPanel"
@@ -1352,8 +1349,8 @@
 
     "TooltipPanel"
     {
-        "wide"                          "200"
-        "tall"                          "20"
+        "wide"                          "0"
+        "tall"                          "0"
         "border"                        "FragTooltip"
         "bgcolor_override"              "FragPanelTransparentDark80"
 
@@ -1365,8 +1362,8 @@
             "tall"                      "20"
             "proportionaltoparent"      "0"
             "font"                      "FontMedium_10_Additive"
-            "fgcolor"                   "FragNeutral100"
-            "fgcolor_override"          "FragNeutral100"
+            "fgcolor"                   "FragPrimary100"
+            "fgcolor_override"          "FragPrimary100"
         }
         "TipLabel"
         {
@@ -1376,8 +1373,8 @@
             "tall"                      "20"
             "proportionaltoparent"      "0"
             "font"                      "FontMedium_10_Additive"
-            "fgcolor"                   "FragNeutral100"
-            "fgcolor_override"          "FragNeutral100"
+            "fgcolor"                   "FragPrimary100"
+            "fgcolor_override"          "FragPrimary100"
         }
     }
 
