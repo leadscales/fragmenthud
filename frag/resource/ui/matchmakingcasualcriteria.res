@@ -178,11 +178,12 @@
 
         "GameModesList"
         {
-            "ypos"                      "30"
-            "wide"                      "f20"
-            "tall"                      "f40"
+            "ypos"                      "25"
+            "wide"                      "f10"
+            "tall"                      "f30"
             "border"                    "NoBorder"
             "bgcolor_override"          "FragPanelTransparentDark40"
+            "scroll_step"               "20"
 
             "ScrollBar"
             {

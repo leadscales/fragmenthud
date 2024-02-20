@@ -67,6 +67,48 @@
         }
     }
 
+    "BGPanel"
+    {
+        "xpos"                  "rs1"
+        "ypos"                  "1"
+        "wide"                  "f1"
+        "tall"                  "f2"
+        "visible"               "1"
+        "enabled"               "1"
+        "proportionaltoparent"  "1"
+        "bgcolor_override"      "FragPanelOpaque0"
+
+        "SideGlow"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "SideGlow"
+            "xpos"                      "0"
+            "ypos"                      "cs-0.5"
+            "wide"                      "p12"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/side_panel_light_left"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragMvM40"
+        }
+
+        "NoiseImage"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "NoiseImage"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/noise"
+            "tileImage"                 "1"
+            "drawcolor"                 "FragNeutral100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+    }
+
     "Title"
     {
         "ControlName"                       "CExLabel"
@@ -79,35 +121,14 @@
         "proportionaltoparent"              "1"
         "labelText"                         "#MMenu_PlayList_MvM_Button"
         "allcaps"                           "1"
-        "textAlignment"                     "center"
+        "textAlignment"                     "west"
+        "textinsetx"                        "5"
+        "use_proportional_insets"           "1"
         "font"                              "FontMedium_12_Additive"
-        "fgcolor"                           "FragMvM100"
+        "fgcolor"                           "FragNeutral100"
         "bgcolor_override"                  "FragPanelTransparentDark40"
     }
 
-    "BGPanel"
-    {
-        "xpos"                  "rs1"
-        "ypos"                  "1"
-        "wide"                  "f1"
-        "tall"                  "f2"
-        "visible"               "1"
-        "enabled"               "1"
-        "proportionaltoparent"  "1"
-        "bgcolor_override"      "FragMvM100"
-
-        "Darkener"
-        {
-            "ControlName"       "EditablePanel"
-            "fieldName"         "Darkener"
-            "xpos"              "0"
-            "ypos"              "0"
-            "wide"              "f0"
-            "tall"              "f0"
-            "proportionaltoparent"  "1"
-            "bgcolor_override"  "FragPanelTransparentDark80"
-        }
-    }
 
     "MannUpButton"
     {
@@ -125,7 +146,7 @@
         "font"                              "FontMedium_12_Additive"
         "command"                           "mannup"
         "defaultbgcolor_override"           "FragPanelTransparentDark40"
-        "armedbgcolor_override"             "FragMvM20"
+        "armedbgcolor_override"             "FragPanelTransparentDark60"
         "defaultfgcolor_override"           "FragMvM100"
         "armedfgcolor_override"             "FragMvM100"
         "sound_depressed"                   "UI/buttonclick.wav"
@@ -148,7 +169,7 @@
         "font"                              "FontMedium_12_Additive"
         "command"                           "bootcamp"
         "defaultbgcolor_override"           "FragPanelTransparentDark40"
-        "armedbgcolor_override"             "FragMvM20"
+        "armedbgcolor_override"             "FragPanelTransparentDark60"
         "defaultfgcolor_override"           "FragMvM100"
         "armedfgcolor_override"             "FragMvM100"
         "sound_depressed"                   "UI/buttonclick.wav"

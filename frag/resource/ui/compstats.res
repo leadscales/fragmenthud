@@ -9,9 +9,17 @@
         "tall"                      "400"
         "bgcolor_override"          "FragPanelTransparentDark40"
 
+        "RankImage"
+        {
+            "xpos"                      "-2"
+            "ypos"                      "-4"
+            "wide"                      "30"
+            "tall"                      "30"
+        }
+
         "ShowMatchHistoryButton"
         {
-            "xpos"                      "0"
+            "xpos"                      "rs2"
             "ypos"                      "0"
             "zpos"                      "0"
             "wide"                      "40"
@@ -19,15 +27,15 @@
             "font"                      "Icons_Medium_Additive"
             "fgcolor_override"          "FragNeutral100"
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragCompetitive100"
-            "defaultbgcolor_override"   "FragPanelTransparentDark20"
+            "armedfgcolor_override"     "FragNeutral100"
+            "defaultbgcolor_override"   "Blank"
             "armedbgcolor_override"     "FragCompetitive20"
             "labeltext"                 "R"
         }
 
         "ShowLeaderboardsButton"
         {
-            "xpos"                      "40"
+            "xpos"                      "rs3"
             "ypos"                      "0"
             "zpos"                      "0"
             "wide"                      "40"
@@ -35,19 +43,19 @@
             "font"                      "Icons_Medium_Additive"
             "fgcolor_override"          "FragNeutral100"
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragCompetitive100"
-            "defaultbgcolor_override"   "FragPanelTransparentDark20"
+            "armedfgcolor_override"     "FragNeutral100"
+            "defaultbgcolor_override"   "Blank"
             "armedbgcolor_override"     "FragCompetitive20"
             "labeltext"                 "l"
         }
 
         "PlaylistBGPanel"
         {
-            "xpos"                      "10"
-            "ypos"                      "30"
+            "xpos"                      "5"
+            "ypos"                      "25"
             "zpos"                      "-1"
-            "wide"                      "f20"
-            "tall"                      "f40"
+            "wide"                      "f10"
+            "tall"                      "f30"
             "bgcolor_override"          "FragPanelTransparentDark40"
             "paintBackgroundType"       "0"
 
@@ -224,16 +232,6 @@
                 "entry_step"                "23"
                 "proportionaltoparent"      "1"
             }
-        }
-
-        "RankImage"
-        {
-            "xpos"          "9999"
-            "ypos"          "9999"
-            "wide"          "0"
-            "tall"          "0"
-            "visible"       "0"
-            "enabled"       "0"
         }
 
         "RankPanel"

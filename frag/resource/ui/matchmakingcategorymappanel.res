@@ -2,14 +2,14 @@
 {
     "MatchmakingCategoryMapPanel"
     {
-        "tall"      "15"
+        "tall"      "20"
     }
 
     "MapCheckbutton"
     {
         "xpos"      "5"
         "ypos"      "0"
-        "tall"      "15"
+        "tall"      "20"
     }
 
     "MapNameLabel"
@@ -26,6 +26,6 @@
     "HealthProgressBar"
     {
         "wide"      "f25"
-        "tall"      "f4"
+        "tall"      "10"
     }
 }
