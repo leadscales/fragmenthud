@@ -205,13 +205,13 @@
     {
         "xpos"              "cs-0.5"
         "ypos"              "5"
-        "wide"              "60"
+        "wide"              "80"
         "tall"              "20"
     }
 
     "NotificationPanel"
     {
-        "ypos"              "60"
+        "ypos"              "65"
         "tall"              "120"
     }
 

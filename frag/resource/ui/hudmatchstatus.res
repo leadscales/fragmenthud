@@ -10,8 +10,8 @@
     {
         "xpos"                      "cs-0.5"
         "ypos"                      "5"
-        "wide"                      "60"
-        "tall"                      "40"
+        "wide"                      "630"
+        "tall"                      "160"
         "delta_item_x"              "9999"
         "delta_item_y"              "9999"
         "delta_item_start_x"        "9999"
@@ -24,8 +24,8 @@
         {
             "xpos"                      "cs-0.5"
             "ypos"                      "5"
-            "wide"                      "60"
-            "tall"                      "40"
+            "wide"                      "630"
+            "tall"                      "160"
             "delta_item_x"              "9999"
             "delta_item_y"              "9999"
             "delta_item_start_x"        "9999"
@@ -37,19 +37,23 @@
 
         "TimePanelValue"
         {
-            "xpos"                      "0"
+            "xpos"                      "cs-0.5"
             "ypos"                      "0"
-            "wide"                      "60"
+            "wide"                      "80"
             "tall"                      "20"
+            "proportionaltoparent"      "1"
             "font"                      "FontMedium_12_Additive"
+            "bgcolor_override"          "FragPanelTransparentDark60"
 
             "if_match"
             {
-                "xpos"                      "0"
+                "xpos"                      "cs-0.5"
                 "ypos"                      "0"
-                "wide"                      "60"
+                "wide"                      "80"
                 "tall"                      "20"
+                "proportionaltoparent"      "1"
                 "font"                      "FontMedium_12_Additive"
+                "bgcolor_override"          "Blank"
             }
         }
     }
@@ -80,7 +84,7 @@
             "fieldName"             "BGPanel"
             "xpos"                  "cs-0.5"
             "ypos"                  "0"
-            "wide"                  "60"
+            "wide"                  "80"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "bgcolor_override"      "FragPanelTransparentDark20"
@@ -91,7 +95,7 @@
                 "fieldName"             "BluGrad"
                 "xpos"                  "0"
                 "ypos"                  "0"
-                "wide"                  "60"
+                "wide"                  "80"
                 "tall"                  "1"
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
@@ -104,7 +108,7 @@
                 "fieldName"             "RedGrad"
                 "xpos"                  "rs1"
                 "ypos"                  "0"
-                "wide"                  "60"
+                "wide"                  "80"
                 "tall"                  "1"
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
@@ -119,7 +123,7 @@
             "fieldName"             "BluStroke"
             "xpos"                  "0"
             "ypos"                  "0"
-            "wide"                  "285"
+            "wide"                  "275"
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/panels/fill_additive"
@@ -133,7 +137,7 @@
             "fieldName"             "RedStroke"
             "xpos"                  "rs1"
             "ypos"                  "0"
-            "wide"                  "285"
+            "wide"                  "275"
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/panels/fill_additive"
@@ -145,7 +149,7 @@
     "roundcounter"
     {
         "ypos"                      "5"
-        "wide"                      "60"
+        "wide"                      "80"
         "tall"                      "20"
     }
 
@@ -160,10 +164,10 @@
         "6v6_gap"                   "1"
         "12v12_gap"                 "1"
 
-        "team1_base_x"              "c-35"
-        "team1_max_expand"          "280"
-        "team2_base_x"              "c35"
-        "team2_max_expand"          "280"
+        "team1_base_x"              "c-45"
+        "team1_max_expand"          "270"
+        "team2_base_x"              "c45"
+        "team2_max_expand"          "270"
 
         "playerpanels_kv"
         {
@@ -187,8 +191,8 @@
             "percentage_health_med"                 "0.5"
             "percentage_health_low"                 "0.49"
 
-            "color_portrait_blend_dead_red"         "FragNeutral100"
-            "color_portrait_blend_dead_blue"        "FragNeutral100"
+            "color_portrait_blend_dead_red"         "255 255 255 255"
+            "color_portrait_blend_dead_blue"        "255 255 255 255"
 
             "classimage"
             {
@@ -216,16 +220,16 @@
             "healthbar"
             {
                 "xpos"                  "cs-0.5"
-                "ypos"                  "19"
-                "wide"                  "f0"
+                "ypos"                  "17"
+                "wide"                  "f4"
                 "tall"                  "1"
-                "bgcolor_override"      "FragPanelTransparentDark60"
+                "bgcolor_override"      "0 0 0 255"
             }
             "overhealbar"
             {
                 "xpos"                  "cs-0.5"
-                "ypos"                  "19"
-                "wide"                  "f0"
+                "ypos"                  "17"
+                "wide"                  "f4"
                 "tall"                  "1"
                 "fgcolor_override"      "FragPositive100"
                 "bgcolor_override"      "Blank"
@@ -233,10 +237,11 @@
 
             "respawntime"
             {
-                "ypos"                  "20"
-                "tall"                  "10"
-                "font"                  "FontMedium_8_Additive"
-                "fgcolor"               "FragAccent100"
+                "ypos"                  "0"
+                "tall"                  "20"
+                "font"                  "FontBold_12_Additive"
+                "fgcolor"               "FragNeutral100"
+                "bgcolor"               "Blank"
             }
 
             // DISABLED

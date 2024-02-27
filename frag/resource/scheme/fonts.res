@@ -2,22 +2,22 @@
 {
 "Fonts"
 {
-"FontMedium_8"
+"FontMedium_9"
 {
 "1"
 {
 "name" "Infortress-Medium"
-"tall" "8"
+"tall" "9"
 "weight" "500"
 "antialias" "1"
 }
 }
-"FontMedium_8_Additive"
+"FontMedium_9_Additive"
 {
 "1"
 {
 "name" "Infortress-Medium"
-"tall" "8"
+"tall" "9"
 "weight" "500"
 "antialias" "1"
 "additive" "1"
@@ -170,22 +170,22 @@
 "additive" "1"
 }
 }
-"FontBold_8"
+"FontBold_9"
 {
 "1"
 {
 "name" "Infortress-Bold"
-"tall" "8"
+"tall" "9"
 "weight" "700"
 "antialias" "1"
 }
 }
-"FontBold_8_Additive"
+"FontBold_9_Additive"
 {
 "1"
 {
 "name" "Infortress-Bold"
-"tall" "8"
+"tall" "9"
 "weight" "700"
 "antialias" "1"
 "additive" "1"

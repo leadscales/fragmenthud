@@ -81,19 +81,19 @@
         {
             "1"
             {
-                "font"          "FontMedium_8_Additive"
+                "font"          "FontMedium_9_Additive"
             }
             "2"
             {
-                "font"          "FontMedium_8_Additive"
+                "font"          "FontMedium_9_Additive"
             }
             "3"
             {
-                "font"          "FontMedium_8_Additive"
+                "font"          "FontMedium_9_Additive"
             }
             "4"
             {
-                "font"          "FontMedium_8_Additive"
+                "font"          "FontMedium_9_Additive"
             }
         }
 

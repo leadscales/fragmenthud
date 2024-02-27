@@ -16,6 +16,11 @@
         {
             "wide"                          "160"
             "tall"                          "79"
+
+            "itemmodelpanel"
+            {
+                "inventory_image_type"      "1"
+            }
         }
     }
 

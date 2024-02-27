@@ -22,7 +22,7 @@
         "command"                   "open_menu"
         "labeltext"                 ""
         "stay_armed_on_click"       "1"
-        "paintbackground"           "1"
+        "paintbackground"           "0"
 
         "defaultbgcolor_override"   "Blank"
         "armedbgcolor_override"     "Blank"
@@ -52,23 +52,24 @@
     "NameLabel"
     {
         "xpos"                      "rs1-5"
+        "ypos"                      "1"
         "zpos"                      "2"
         "wide"                      "f25"
         "tall"                      "f0"
         "textalignment"             "north-west"
-        "font"                      "FontMedium_10_Additive"
-        "fgcolor_override"          "FragPrimary100"
+        "font"                      "FontMedium_9_Additive"
+        "fgcolor_override"          "FragNeutral100"
     }
 
     "StatusLabel"
     {
         "xpos"                      "rs1-5"
-        "ypos"                      "0"
+        "ypos"                      "rs1-1"
         "zpos"                      "3"
         "wide"                      "f25"
         "tall"                      "f0"
         "textalignment"             "south-west"
-        "font"                      "FontMedium_10_Additive"
+        "font"                      "FontMedium_9_Additive"
         "alpha"                     "102"
     }
 

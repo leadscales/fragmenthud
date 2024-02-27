@@ -4,7 +4,7 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "30"
+        "wide"                      "40"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "delta_item_x"              "9999"
@@ -17,7 +17,7 @@
         {
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "30"
+            "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "delta_item_x"              "9999"
@@ -31,19 +31,21 @@
         {
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "30"
+            "wide"                      "40"
             "tall"                      "20"
             "font"                      "FontMedium_12_Additive"
             "fgcolor"                   "FragBlu100"
+            "bgcolor_override"          "FragPanelTransparentDark60"
 
             "if_match"
             {
                 "xpos"                      "0"
                 "ypos"                      "0"
-                "wide"                      "30"
+                "wide"                      "40"
                 "tall"                      "20"
                 "font"                      "FontMedium_12_Additive"
                 "fgcolor"                   "FragNeutral100"
+                "bgcolor_override"          "Blank"
             }
         }
     }
@@ -51,7 +53,7 @@
     {
         "xpos"                      "rs1"
         "ypos"                      "0"
-        "wide"                      "30"
+        "wide"                      "40"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "delta_item_x"              "9999"
@@ -64,7 +66,7 @@
         {
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "wide"                      "30"
+            "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "delta_item_x"              "9999"
@@ -78,19 +80,21 @@
         {
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "30"
+            "wide"                      "40"
             "tall"                      "20"
             "font"                      "FontMedium_12_Additive"
             "fgcolor"                   "FragRed100"
+            "bgcolor_override"          "FragPanelTransparentDark60"
 
             "if_match"
             {
                 "xpos"                      "0"
                 "ypos"                      "0"
-                "wide"                      "30"
+                "wide"                      "40"
                 "tall"                      "20"
                 "font"                      "FontMedium_12_Additive"
                 "fgcolor"                   "FragNeutral100"
+                "bgcolor_override"          "Blank"
             }
         }
     }
