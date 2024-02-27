@@ -88,33 +88,6 @@
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "bgcolor_override"      "FragPanelTransparentDark20"
-
-            "BluGrad"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "BluGrad"
-                "xpos"                  "0"
-                "ypos"                  "0"
-                "wide"                  "80"
-                "tall"                  "1"
-                "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
-                "drawcolor"             "FragBlu100"
-                "scaleImage"            "1"
-            }
-            "RedGrad"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "RedGrad"
-                "xpos"                  "rs1"
-                "ypos"                  "0"
-                "wide"                  "80"
-                "tall"                  "1"
-                "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
-                "drawcolor"             "FragRed100"
-                "scaleImage"            "1"
-            }
         }
 
         "BluStroke"
@@ -143,6 +116,41 @@
             "image"                 "replay/thumbnails/panels/fill_additive"
             "drawcolor"             "FragRed100"
             "scaleImage"            "1"
+        }
+
+        "BluGrad"
+        {
+            "ControlName"           "ImagePanel"
+            "fieldName"             "BluGrad"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "80"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "drawcolor"             "FragBlu100"
+            "scaleImage"            "1"
+
+            "pin_to_sibling"        "BluStroke"
+            "pin_corner_to_sibling" "PIN_TOPLEFT"
+            "pin_to_sibling_corner" "PIN_TOPRIGHT"
+        }
+        "RedGrad"
+        {
+            "ControlName"           "ImagePanel"
+            "fieldName"             "RedGrad"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "80"
+            "tall"                  "1"
+            "proportionaltoparent"  "1"
+            "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
+            "drawcolor"             "FragRed100"
+            "scaleImage"            "1"
+
+            "pin_to_sibling"        "RedStroke"
+            "pin_corner_to_sibling" "PIN_TOPRIGHT"
+            "pin_to_sibling_corner" "PIN_TOPLEFT"
         }
     }
 
