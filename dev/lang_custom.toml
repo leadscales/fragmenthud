@@ -41,6 +41,8 @@ FRAG_Etc_Small = "Small"
 FRAG_Etc_Medium = "Medium"
 FRAG_Etc_Large = "Large"
 
+FRAG_CharInfo_Armory = "Catalog"
+
 [russian]
 FRAG_Oobe_Description = "Спасибо, что скачали FRAGMENTHUD.\n\nЭтот ХАД пока в разработке, поэтому некоторые вещи могут ломаться. Сообщайте о проблемах на ГитХабе или попросите помощи на нашем дискорд сервере.\n\nЭто уведомление больше не появится.\n\nСпасибо <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 может ненадолго зависнуть при выходе из этого меню, это нормально, игра не вылетела."

@@ -1106,9 +1106,9 @@
             "default"                   "1"
             "actionsignallevel"         "2"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary20"
-            "defaultfgcolor_override"   "FragPrimary60"
-            "armedfgcolor_override"     "FragPrimary100"
+            "armedbgcolor_override"     "FragAccent20"
+            "defaultfgcolor_override"   "FragAccent100"
+            "armedfgcolor_override"     "FragAccent100"
             "paintBackground"           "1"
 
             "SubImage"

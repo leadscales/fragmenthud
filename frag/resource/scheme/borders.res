@@ -14,5 +14,22 @@
             "draw_corner_height"        "1"
             "paintfirst"                "0"
         }
+
+        "FragCharInfoButtonTop"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragPrimary05"
+            "image"                     "replay/thumbnails/menu/side_panel_gradient_bottom"
+            "paintfirst"                "0"
+        }
+        "FragCharInfoButtonBottom"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragPrimary05"
+            "image"                     "replay/thumbnails/menu/side_panel_gradient_top"
+            "paintfirst"                "0"
+        }
     }
 }
