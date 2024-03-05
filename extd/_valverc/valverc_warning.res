@@ -170,17 +170,4 @@
             "sound_released"            "UI/buttonclickrelease.wav"
         }
     }
-
-    // ---
-
-    "GeneralButtons"
-    {
-        "Customize"
-        {
-            "Button"
-            {
-                "enabled"               "0"
-            }
-        }
-    }
 }
