@@ -69,14 +69,15 @@
         "labelText"             "LINUX" [$LINUX]
     }
 
+    // 0.6 = ~170, 0.4 = ~115, 0.2 = ~60
     "DashboardDimmer"
     {
         "ControlName"               "CExButton"
         "ypos"                      "20"
         "wide"                      "f0"
         "tall"                      "f40"
-        "defaultbgcolor_override"   "0 0 0 0"
-        "armedbgcolor_override"     "0 0 0 0"
+        "defaultbgcolor_override"   "0 0 0 115" // This alpha seems arbitrary but trust me its important
+        "armedbgcolor_override"     "0 0 0 115" // 0.4 alpha, compensating for the hardcoded 230/255 alpha
         "paintBorder"               "0"
     }
 

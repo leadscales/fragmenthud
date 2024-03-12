@@ -28,6 +28,11 @@ FRAG_Safemode_Killfeed_Title = "KILLFEED"
 FRAG_Safemode_Killfeed_MaxEntries = "MAXIMUM ENTRIES"
 FRAG_Safemode_Killfeed_EntryOpacity = "ENTRY OPACITY"
 
+FRAG_Safemode_Playerclass_Title = "PLAYER CLASS"
+FRAG_Safemode_3DPlayer_Toggle = "3D PLAYER MODEL"
+FRAG_Safemode_2DPlayer_Toggle = "2D PLAYER IMAGE"
+FRAG_Safemode_3DPlayer_Tooltip = "Use cl_hud_playerclass_use_playermodel 0/1 to swap between the 3D model and 2D image."
+
 FRAG_Buttons_Info = "HUD Info"
 FRAG_Buttons_Console = "Console"
 FRAG_Buttons_DemoUI = "DemoUI"
