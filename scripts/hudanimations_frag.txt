@@ -149,22 +149,22 @@ event DamagedPlayer
 event MenuOpen
 {
     StopEvent    MenuClose    0.0
-    Animate      HudMenu      PaintBackgroundType    0                         Linear    0.0    0.0
-    Animate      HudMenu      RoundedCorners         0                         Linear    0.0    0.0
-    Animate      HudMenu      XPos                   0                         Spline    0.0    0.05
-    Animate      HudMenu      Alpha                  255                       Spline    0.0    0.05
-    Animate      HudMenu      SelectionAlpha         255                       Spline    0.0    0.05
+    Animate      HudMenu      PaintBackgroundType    0                 Linear    0.0    0.0
+    Animate      HudMenu      RoundedCorners         0                 Linear    0.0    0.0
+    Animate      HudMenu      XPos                   0                 Spline    0.0    0.05
+    Animate      HudMenu      Alpha                  255               Spline    0.0    0.05
+    Animate      HudMenu      SelectionAlpha         255               Spline    0.0    0.05
     //
-    Animate      HudMenu      MenuBoxColor           Blank                     Spline    0.0    0.0
-    Animate      HudMenu      BgColor                Blank                     Spline    0.0    0.0
+    Animate      HudMenu      MenuBoxColor           Blank             Spline    0.0    0.0
+    Animate      HudMenu      BgColor                Blank             Spline    0.0    0.0
     //
-    Animate      HudMenu      FgColor                FragNeutral100            Spline    0.0    0.05
-    Animate      HudMenu      MenuColor              FragNeutral100            Spline    0.0    0.05
-    Animate      HudMenu      ItemColor              FragNeutral100            Spline    0.0    0.05
+    Animate      HudMenu      FgColor                FragNeutral100    Spline    0.0    0.05
+    Animate      HudMenu      MenuColor              FragNeutral100    Spline    0.0    0.05
+    Animate      HudMenu      ItemColor              FragNeutral100    Spline    0.0    0.05
     //
-    SetFont      HudMenu      TextFont               FontMedium_10_Additive    0.0
-    Animate      HudMenu      TextScan               0                         Spline    0.0    0.05
-    Animate      HudMenu      Blur                   0                         Spline    0.0    0.0
+    SetFont      HudMenu      TextFont               FontMedium_10_Additive             0.0
+    Animate      HudMenu      TextScan               0                 Spline    0.0    0.05
+    Animate      HudMenu      Blur                   0                 Spline    0.0    0.0
 }
 
 event MenuClose
@@ -175,4 +175,44 @@ event MenuClose
     Animate    HudMenu    FgColor           "0 0 0 0"    Spline    0.0    0.05
     Animate    HudMenu    MenuColor         "0 0 0 0"    Spline    0.0    0.05
     Animate    HudMenu    ItemColor         "0 0 0 0"    Spline    0.0    0.05
+}
+
+event LevelInit
+{
+    SetFont    HudMenu   TextFont           FontMedium_10_Additive        0.0
+}
+
+event PvPRankLevelUpXPBar
+{
+    Animate    ContinuousProgressBar    BgColor    FragPositive100    Linear    0.0    0.1
+    Animate    ContinuousProgressBar    BgColor    Blank              Linear    0.1    0.3
+    Animate    LevelLabel               FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    LevelLabel               FgColor    TanLight           Linear    4.0    0.3
+}
+
+event XPSourceShow_Positive
+{
+    Animate    SourceLabel        Alpha      0                  Linear    0      0
+    Animate    SourceLabelGlow    Alpha      0                  Linear    0      0
+    Animate    SourceLabel        Alpha      255                Linear    0.1    0.3
+    Animate    SourceLabel        FgColor    FragPositive100    Linear    0.1    0
+    Animate    SourceLabel        FgColor    FragPositive100    Linear    0.5    1
+    Animate    SourceLabel        Alpha      0                  Linear    2.9    0.3
+    Animate    SourceLabelGlow    Alpha      255                Linear    0.0    0.1
+    Animate    SourceLabelGlow    FgColor    FragPositive100    Linear    0.1    0
+    Animate    SourceLabelGlow    FgColor    FragPositive100    Linear    0.5    1
+    Animate    SourceLabelGlow    Alpha      204                Linear    0.5    1
+    Animate    SourceLabelGlow    Alpha      0                  Linear    2.9    0.3
+}
+
+event XPSourceShow_Negative
+{
+    Animate    SourceLabel        Alpha      0                  Linear    0      0
+    Animate    SourceLabelGlow    Alpha      0                  Linear    0      0
+    Animate    SourceLabel        Alpha      255                Linear    0.1    0.3
+    Animate    SourceLabel        FgColor    FragNegative100    Linear    0.1    0
+    Animate    SourceLabel        FgColor    FragNegative100    Linear    0.5    1
+    Animate    SourceLabel        Alpha      0                  Linear    2.9    0.1
+    Animate    SourceLabel        ypos       -15                Linear    0      0.4
+    Animate    SourceLabelGlow    Alpha      0                  Linear    0      0
 }

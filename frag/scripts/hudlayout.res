@@ -151,7 +151,7 @@
 
         "maxdeathnotices"   "6"
         "iconscale"         "0"
-        "lineheight"        "15"
+        "lineheight"        "10"
         "linespacing"       "0.1"
         "cornerradius"      "0"
 
@@ -159,6 +159,8 @@
 
         "teamblue"          "FragBlu100"
         "teamred"           "FragRed100"
+        "purpletext"        "192 128 255 255"
+        "greentext"         "64 255 176 255"
         "iconcolor"         "FragNeutral100"
         "localplayercolor"  "FragPanelOpaque0"
 
