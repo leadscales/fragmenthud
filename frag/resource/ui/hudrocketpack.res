@@ -7,22 +7,17 @@
         "ypos"                  "c47"
     }
 
-    "ItemEffectMeterLabel"
-    {
-        "textalignment"         "center"
-    }
-
     "ItemEffectMeter"
     {
-        "wide"                  "10"
+        "wide"                  "20"
     }
 
     "ItemEffectMeter2"
     {
-        "xpos"                  "11"
+        "xpos"                  "21"
         "ypos"                  "0"
         "zpos"                  "6"
-        "wide"                  "9"
+        "wide"                  "19"
         "tall"                  "f0"
         "proportionaltoparent"  "1"
         "fgcolor_override"      "FragNeutral100"
