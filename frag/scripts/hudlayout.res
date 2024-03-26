@@ -8,7 +8,7 @@
         "ypos"          "0"
         "wide"          "f0"
         "tall"          "480"
-        "visible"       "0"
+        "visible"       "1"
         "enabled"       "1"
 
         "Inset"
@@ -338,6 +338,14 @@
         "ypos"                      "c100"
         "wide"                      "370"
         "tall"                      "90"
+    }
+
+    "CurrencyStatusPanel"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c60"
+        "wide"                      "80"
+        "tall"                      "10"
     }
 
     // DISABLED
