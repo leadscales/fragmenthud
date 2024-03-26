@@ -29,6 +29,7 @@
         "proportionaltoparent"      "1"
         "pinCorner"                 "2"
         "autoResize"                "1"
+        "bgcolor_override"          "Blank"
 
         "Gradient"
         {
@@ -85,8 +86,8 @@
 
             "defaultbgcolor_override"   "FragPanelTransparentDark40"
             "armedbgcolor_override"     "FragPrimary20"
-            "fgcolor"                   "FragNeutral100"
-            "defaultfgcolor_override"   "FragNeutral100"
+            "fgcolor"                   "FragPrimary100"
+            "defaultfgcolor_override"   "FragPrimary100"
             "armedfgcolor_override"     "FragPrimary100"
 
             "SubImage"
@@ -104,14 +105,14 @@
         {
             "ControlName"               "EditablePanel"
             "fieldName"                 "SlotsBG"
-            "xpos"                      "40"
+            "xpos"                      "0"
             "ypos"                      "0"
             "zpos"                      "99"
-            "wide"                      "120"
+            "wide"                      "160"
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "bgcolor_override"          "FragPanelTransparentDark20"
+            "bgcolor_override"          "FragPanelTransparentDark40"
         }
 
         "PartySlot0"
@@ -394,6 +395,65 @@
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
         }
 
+        "JoinPartyLobbyContainer"
+        {
+            "xpos"                      "160"
+            "wide"                      "40"
+
+            "JoinNowButton"
+            {
+                "xpos"                      "2"
+                "ypos"                      "2"
+                "wide"                      "36"
+                "tall"                      "16"
+
+                "if_queued"
+                {
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "40"
+                    "tall"                      "20"
+                }
+                
+                "font"                      "FontMedium_10_Additive"
+                "textalignment"             "center"
+                "allcaps"                   "1"
+                "fgcolor"                   "FragPositive100"
+                "defaultbgcolor_override"   "FragPositive20"
+                "armedbgcolor_override"     "FragPositive40"
+                "defaultfgcolor_override"   "FragPositive100"
+                "armedfgcolor_override"     "FragPositive100"
+            }
+            
+            "OuterShadow"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
+            "BGPanel"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
+            "PromptText"
+            {
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
+            }
+        }
+
         "QueueContainer"
         {
             "ControlName"               "EditablePanel"
@@ -434,7 +494,7 @@
                 "image"                     "replay/thumbnails/menu/queue_stripes"
                 "tileImage"                 "1"
                 "drawcolor"                 "FragPositive100"
-                "alpha"                     "13"
+                "alpha"                     "26"
             }
             "QueueTextAnchor"
             {
@@ -450,7 +510,7 @@
             {
                 "ControlName"               "CExLabel"
                 "fieldName"                 "QueueText2"
-                "xpos"                      "-5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -639,7 +699,7 @@
             "fieldName"                 "GameButtonsBG"
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "zpos"                      "98"
+            "zpos"                      "100"
             "wide"                      "80"
             "tall"                      "20"
             "proportionaltoparent"      "1"
@@ -653,7 +713,7 @@
             "fieldName"                 "QuitButton2"
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "zpos"                      "100"
+            "zpos"                      "101"
             "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"
@@ -683,7 +743,7 @@
             "fieldName"                 "FindAGameButton2"
             "xpos"                      "rs1-40"
             "ypos"                      "0"
-            "zpos"                      "100"
+            "zpos"                      "101"
             "wide"                      "40"
             "tall"                      "20"
             "proportionaltoparent"      "1"

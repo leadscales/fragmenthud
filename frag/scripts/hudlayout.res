@@ -11,15 +11,78 @@
         "visible"       "0"
         "enabled"       "1"
 
+        "Inset"
+        {
+            "ControlName"       "EditablePanel"
+            "fieldName"         "Inset"
+            "xpos"              "0"
+            "ypos"              "0"
+            "wide"              "f0"
+            "tall"              "480"
+            "bgcolor_override"  "0 0 0 0"
+
+            "T"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "T"
+                "xpos"              "0"
+                "ypos"              "0"
+                "wide"              "f0"
+                "tall"              "5"
+                "bgcolor_override"  "0 255 255 8"
+            }
+            "B"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "B"
+                "xpos"              "0"
+                "ypos"              "rs1"
+                "wide"              "f0"
+                "tall"              "5"
+                "bgcolor_override"  "0 255 255 8"
+            }
+            "L"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "L"
+                "xpos"              "0"
+                "ypos"              "0"
+                "wide"              "5"
+                "tall"              "f0"
+                "bgcolor_override"  "0 255 255 8"
+            }
+            "R"
+            {
+                "ControlName"       "EditablePanel"
+                "fieldName"         "R"
+                "xpos"              "rs1"
+                "ypos"              "0"
+                "wide"              "5"
+                "tall"              "f0"
+                "bgcolor_override"  "0 255 255 8"
+            }
+        }
+
+        "4:3"
+        {
+            "ControlName"       "EditablePanel"
+            "fieldName"         "4:3"
+            "xpos"              "cs-0.5"
+            "ypos"              "0"
+            "wide"              "640"
+            "tall"              "480"
+            "bgcolor_override"  "255 0 0 8"
+        }
+
         "EmptyArea"
         {
             "ControlName"       "EditablePanel"
             "fieldName"         "EmptyArea"
             "xpos"              "cs-0.5"
-            "ypos"              "cs-0.5"
-            "wide"              "190"
-            "tall"              "90"
-            "bgcolor_override"  "255 0 0 32"
+            "ypos"              "c0"
+            "wide"              "f0"
+            "tall"              "100"
+            "bgcolor_override"  "255 255 0 8"
         }
     }
 
@@ -41,10 +104,10 @@
 
     "CHealthAccountPanel"
     {
-        "xpos"      "c0-s1-35"
-        "ypos"      "c45"
-        "wide"      "60"
-        "tall"      "15"
+        "xpos"      "c0-s1-20"
+        "ypos"      "c30"
+        "wide"      "55"
+        "tall"      "10"
     }
 
     "CHudAccountPanel"
@@ -88,7 +151,7 @@
 
         "maxdeathnotices"   "24"
         "iconscale"         "0"
-        "lineheight"        "15"
+        "lineheight"        "10"
         "linespacing"       "0.1"
         "cornerradius"      "0"
 
@@ -96,6 +159,8 @@
 
         "teamblue"          "FragBlu100"
         "teamred"           "FragRed100"
+        "purpletext"        "192 128 255 255"
+        "greentext"         "64 255 176 255"
         "iconcolor"         "FragNeutral100"
         "localplayercolor"  "FragPanelOpaque0"
 
@@ -103,19 +168,36 @@
         "localbackgroundcolor"  "FragPanelTransparentLight20"
     }
 
+    "HudDamageIndicator"
+    {
+        "minimumwidth"          "10.0"
+        "maximumwidth"          "10.0"
+
+        "minimumheight"         "40.0"
+        "maximumheight"         "40.0"
+
+        "minimumtime"           "1.5"
+        "maximumtime"           "2.0"
+
+        "startradius"           "40.0"
+        "endradius"             "30.0"
+
+        "noise"                 "0.05"
+    }
+
     "CMainTargetID"
     {
-        "ypos"              "c15"
+        "ypos"              "c20"
         "tall"              "20"
     }
     "CSecondaryTargetID"
     {
-        "ypos"              "c105"
+        "ypos"              "c80"
         "tall"              "20"
     }
     "CSpectatorTargetID"
     {
-        "ypos"              "c105"
+        "ypos"              "c80"
         "tall"              "20"
         "x_offset"          "0"
         "y_offset"          "0"
@@ -125,22 +207,22 @@
     {
         "xpos"              "cs-0.5"
         "ypos"              "5"
-        "wide"              "60"
+        "wide"              "80"
         "tall"              "20"
     }
 
     "NotificationPanel"
     {
-        "ypos"              "60"
+        "ypos"              "65"
         "tall"              "120"
     }
 
     "HudMenuTauntSelection"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "rs1-5"
+        "ypos"              "c100"
         "wide"              "330"
-        "tall"              "70"
+        "tall"              "90"
     }
 
     HudWeaponSelection
@@ -151,21 +233,21 @@
         "ypos"                      "0"
         "tall"                      "480"
 
-        "RightMargin"               "5"
-        "RightMargin_hidef"         "5"
+        "RightMargin"               "3"
+        "RightMargin_hidef"         "3"
 
-        "SmallBoxWide"              "120"
-        "SmallBoxTall"              "60"
+        "SmallBoxWide"              "80"
+        "SmallBoxTall"              "39"
 
-        "LargeBoxWide"              "120"
-        "LargeBoxTall"              "60"
+        "LargeBoxWide"              "80"
+        "LargeBoxTall"              "39"
 
         "BoxGap"                    "1"
 
         "SelectionNumberXPos"       "2"
-        "SelectionNumberYPos"       "2"
+        "SelectionNumberYPos"       "1"
 
-        "IconXPos"                  "8"
+        "IconXPos"                  "0"
         "IconYPos"                  "0"
 
         "TextYPos"                  "70"
@@ -190,10 +272,72 @@
     "QueueHUDStatus" // Unused? Still keeping just in case.
     {
         "xpos"                      "5"
-        "ypos"                      "5"
+        "ypos"                      "rs1-5"
         "wide"                      "20"
         "tall"                      "20"
         "alpha"                     "255"
+    }
+
+    "WinPanel"
+    {
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "480"
+    }
+
+    "BuildingStatus_Anchor"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "BuildingStatus_Anchor"
+        "xpos"                      "rs1-p0.0140625+5"
+        "ypos"                      "cs-0.5-p0.01875"
+        "wide"                      "f0"
+        "tall"                      "0"
+    }
+
+    "BuildingStatus_Engineer"
+    {
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "f0"
+        
+        "pin_to_sibling"            "BuildingStatus_Anchor"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+
+    "HudMenuEngyBuild"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "170"
+        "tall"                      "70"
+    }
+
+    "HudMenuEngyDestroy"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "170"
+        "tall"                      "70"
+    }
+
+    "DisguiseStatus"
+    {
+        "xpos"                      "5"
+        "ypos"                      "rs1-5"
+        "wide"                      "160"
+        "tall"                      "20"
+    }
+
+    "HudMenuSpyDisguise"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "370"
+        "tall"                      "90"
     }
 
     // DISABLED

@@ -3,7 +3,7 @@
     "BGPanel"
     {
         "tall"                  "f0"
-        "bgcolor_override"      "FragPanelOpaque10"
+        "bgcolor_override"      "FragPanelOpaque0"
         "border"                "NoBorder"
     }
     // DISABLED

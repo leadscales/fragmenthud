@@ -15,6 +15,7 @@
     }
     "Checkbutton"
     {
+        "xpos"      "5"
         "ypos"      "0"
         "wide"      "f0"
         "tall"      "20"

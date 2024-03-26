@@ -3,7 +3,7 @@
     "QueueHUDStatus"
     {
         "xpos"      "5"
-        "ypos"      "5"
+        "ypos"      "rs1-5"
         "wide"      "20"
         "tall"      "20"
         "alpha"     "255"
@@ -23,7 +23,7 @@
         "enabled"                   "1"
         "image"                     "replay/thumbnails/menu/loading_icon"
         "scaleImage"                "1"
-        "drawcolor"                 "FragAccent40"
+        "drawcolor"                 "FragAccent100"
     }
 
     // DISABLED

@@ -4,26 +4,14 @@
     {
         "InfoPanel"
         {
-            "InfoStroke"
-            {
-                "bgcolor_override"      "Blank"
-            }
-
             "InfoBackground"
             {
-                "bgcolor_override"      "Blank"
-            }
-
-            "InfoIcon"
-            {
-                "labeltext"             "i"
-                "fgcolor"               "FragAccent100"
-                "bgcolor_override"      "Blank"
+                "bgcolor_override"      "FragPanelTransparentDark40"
             }
 
             "InfoText"
             {
-                "text"                  "#FRAG_Safemode_Warn"
+                "labeltext"             "#FRAG_Safemode_Warn"
                 "fgcolor"               "FragAccent100"
             }
         }

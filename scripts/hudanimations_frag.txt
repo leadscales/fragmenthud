@@ -1,6 +1,8 @@
 event HudHealthBonusPulse
 {
     Animate    PlayerStatusHealthValue    FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     BgColor    FragPositive20     Linear    0.0    0.1
     Animate    NeutralStroke              Alpha      0                  Linear    0.0    0.1
     Animate    OverhealStroke             Alpha      255                Linear    0.0    0.1
     Animate    HurtStroke                 Alpha      0                  Linear    0.0    0.1
@@ -9,6 +11,8 @@ event HudHealthBonusPulse
 event HudHealthBonusPulseStop
 {
     Animate    PlayerStatusHealthValue    FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     BgColor    Blank             Linear    0.0    0.1
     Animate    NeutralStroke              Alpha      255               Linear    0.0    0.1
     Animate    OverhealStroke             Alpha      0                 Linear    0.0    0.1
     Animate    HurtStroke                 Alpha      0                 Linear    0.0    0.1
@@ -17,6 +21,8 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
     Animate    PlayerStatusHealthValue    FgColor    FragNegative100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     FgColor    FragNegative100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     BgColor    FragNegative20     Linear    0.0    0.1
     Animate    NeutralStroke              Alpha      0                  Linear    0.0    0.1
     Animate    OverhealStroke             Alpha      0                  Linear    0.0    0.1
     Animate    HurtStroke                 Alpha      255                Linear    0.0    0.1
@@ -25,6 +31,8 @@ event HudHealthDyingPulse
 event HudHealthDyingPulseStop
 {
     Animate    PlayerStatusHealthValue    FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    PlayerStatusHealthIcon     BgColor    Blank             Linear    0.0    0.1
     Animate    NeutralStroke              Alpha      255               Linear    0.0    0.1
     Animate    OverhealStroke             Alpha      0                 Linear    0.0    0.1
     Animate    HurtStroke                 Alpha      0                 Linear    0.0    0.1
@@ -35,6 +43,8 @@ event HudLowAmmoPulse
     Animate    AmmoInClip       FgColor    FragNegative100    Linear    0.0    0.1
     Animate    AmmoNoClip       FgColor    FragNegative100    Linear    0.0    0.1
     Animate    AmmoInReserve    FgColor    FragNegative100    Linear    0.0    0.1
+    Animate    AmmoIcon         FgColor    FragNegative100    Linear    0.0    0.1
+    Animate    AmmoIcon         BgColor    FragNegative20     Linear    0.0    0.1
     Animate    NeutralStroke    Alpha      0                  Linear    0.0    0.1
     Animate    LowStroke        Alpha      255                Linear    0.0    0.1
 }
@@ -44,35 +54,31 @@ event HudLowAmmoPulseStop
     Animate    AmmoInClip       FgColor    FragNeutral100    Linear    0.0    0.1
     Animate    AmmoNoClip       FgColor    FragNeutral100    Linear    0.0    0.1
     Animate    AmmoInReserve    FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    AmmoIcon         FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate    AmmoIcon         BgColor    Blank             Linear    0.0    0.1
     Animate    NeutralStroke    Alpha      255               Linear    0.0    0.1
     Animate    LowStroke        Alpha      0                 Linear    0.0    0.1
 }
 
 event HudMedicCharged
 {
-    Animate     ChargeLabel            FgColor    FragAccent100    Linear    0.0    0.1
-    Animate     FullChargeEffect       Alpha      255              Linear    0.0    0.0
-    Animate     FullChargeEffect       XPos       0                Linear    0.0    0.0
-    Animate     FullChargeEffect       Wide       60               Spline    0.0    0.5
-    Animate     FullChargeEffect       XPos       -60              Spline    0.5    1.0
-    Animate     FullChargeEffect       Wide       0                Spline    0.5    1.0
-    RunEvent    HudMedicChargedLoop    1.5
-}
-
-event HudMedicChargedLoop
-{
-    Animate     FullChargeEffect    XPos    0    Linear    0.0    0.0
-    RunEvent    HudMedicCharged     0.0
+    Animate    ChargeLabel               FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    IndividualChargesLabel    FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    ChargeIcon                FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    ChargeIcon                BgColor    FragPositive20     Linear    0.0    0.1
+    Animate    ChargeStroke              Alpha      0                  Linear    0.0    0.1
+    Animate    UberStroke                Alpha      255                Linear    0.0    0.1
 }
 
 event HudMedicChargedStop
 {
-    StopEvent    HudMedicCharged        1.0
-    StopEvent    HudMedicChargedLoop    1.0
-    Animate      FullChargeEffect       XPos       0                 Linear    1.0    1.01
-    Animate      FullChargeEffect       Wide       0                 Linear    1.0    1.01
-    Animate      FullChargeEffect       Alpha      0                 Linear    0.0    1.0
-    Animate      ChargeLabel            FgColor    FragNeutral100    Linear    1.5    1.6
+    StopEvent    HudMedicCharged           0.0
+    Animate      ChargeLabel               FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate      IndividualChargesLabel    FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate      ChargeIcon                FgColor    FragNeutral100    Linear    0.0    0.1
+    Animate      ChargeIcon                BgColor    Blank             Linear    0.0    0.1
+    Animate      ChargeStroke              Alpha      255               Linear    0.0    0.1
+    Animate      UberStroke                Alpha      0                 Linear    0.0    0.1
 }
 
 event SpyWarningFlash
@@ -137,4 +143,94 @@ event ActiveTimerHighlight
 event ActiveTimerDim
 {
     Animate    TimePanelValue    FgColor    FragNeutral100    Linear    0.0    0.1
+}
+
+event OvertimeShow
+{
+    Animate    OvertimeLabel    Alpha    255    Linear    0.0    0.0
+    Animate    OvertimeBG       Alpha    255    Linear    0.0    0.0
+}
+
+event OvertimeLabelPulseRed
+{
+    Animate     OvertimeLabel            FgColor    FragNegative100    Linear    0.0    0.0
+    RunEvent    OvertimeLabelPulseRed    0.0
+}
+
+event DamagedPlayer
+{
+    Animate    Hitmarker    Alpha    0      Linear    0.0     0.0
+    Animate    Hitmarker    Alpha    255    Linear    0.01    0.05
+    Animate    Hitmarker    Alpha    0      Linear    0.05    0.1
+}
+
+event MenuOpen
+{
+    StopEvent    MenuClose    0.0
+    Animate      HudMenu      PaintBackgroundType    0                 Linear    0.0    0.0
+    Animate      HudMenu      RoundedCorners         0                 Linear    0.0    0.0
+    Animate      HudMenu      XPos                   0                 Spline    0.0    0.05
+    Animate      HudMenu      Alpha                  255               Spline    0.0    0.05
+    Animate      HudMenu      SelectionAlpha         255               Spline    0.0    0.05
+    //
+    Animate      HudMenu      MenuBoxColor           Blank             Spline    0.0    0.0
+    Animate      HudMenu      BgColor                Blank             Spline    0.0    0.0
+    //
+    Animate      HudMenu      FgColor                FragNeutral100    Spline    0.0    0.05
+    Animate      HudMenu      MenuColor              FragNeutral100    Spline    0.0    0.05
+    Animate      HudMenu      ItemColor              FragNeutral100    Spline    0.0    0.05
+    //
+    SetFont      HudMenu      TextFont               FontMedium_10_Additive             0.0
+    Animate      HudMenu      TextScan               0                 Spline    0.0    0.05
+    Animate      HudMenu      Blur                   0                 Spline    0.0    0.0
+}
+
+event MenuClose
+{
+    Animate    HudMenu    XPos              -20          Spline    0.0    0.05
+    Animate    HudMenu    Alpha             0            Spline    0.0    0.05
+    Animate    HudMenu    SelectionAlpha    0            Spline    0.0    0.05
+    Animate    HudMenu    FgColor           "0 0 0 0"    Spline    0.0    0.05
+    Animate    HudMenu    MenuColor         "0 0 0 0"    Spline    0.0    0.05
+    Animate    HudMenu    ItemColor         "0 0 0 0"    Spline    0.0    0.05
+}
+
+event LevelInit
+{
+    SetFont    HudMenu   TextFont           FontMedium_10_Additive        0.0
+}
+
+event PvPRankLevelUpXPBar
+{
+    Animate    ContinuousProgressBar    BgColor    FragPositive100    Linear    0.0    0.1
+    Animate    ContinuousProgressBar    BgColor    Blank              Linear    0.1    0.3
+    Animate    LevelLabel               FgColor    FragPositive100    Linear    0.0    0.1
+    Animate    LevelLabel               FgColor    TanLight           Linear    4.0    0.3
+}
+
+event XPSourceShow_Positive
+{
+    Animate    SourceLabel        Alpha      0                  Linear    0      0
+    Animate    SourceLabelGlow    Alpha      0                  Linear    0      0
+    Animate    SourceLabel        Alpha      255                Linear    0.1    0.3
+    Animate    SourceLabel        FgColor    FragPositive100    Linear    0.1    0
+    Animate    SourceLabel        FgColor    FragPositive100    Linear    0.5    1
+    Animate    SourceLabel        Alpha      0                  Linear    2.9    0.3
+    Animate    SourceLabelGlow    Alpha      255                Linear    0.0    0.1
+    Animate    SourceLabelGlow    FgColor    FragPositive100    Linear    0.1    0
+    Animate    SourceLabelGlow    FgColor    FragPositive100    Linear    0.5    1
+    Animate    SourceLabelGlow    Alpha      204                Linear    0.5    1
+    Animate    SourceLabelGlow    Alpha      0                  Linear    2.9    0.3
+}
+
+event XPSourceShow_Negative
+{
+    Animate    SourceLabel        Alpha      0                  Linear    0      0
+    Animate    SourceLabelGlow    Alpha      0                  Linear    0      0
+    Animate    SourceLabel        Alpha      255                Linear    0.1    0.3
+    Animate    SourceLabel        FgColor    FragNegative100    Linear    0.1    0
+    Animate    SourceLabel        FgColor    FragNegative100    Linear    0.5    1
+    Animate    SourceLabel        Alpha      0                  Linear    2.9    0.1
+    Animate    SourceLabel        ypos       -15                Linear    0      0.4
+    Animate    SourceLabelGlow    Alpha      0                  Linear    0      0
 }

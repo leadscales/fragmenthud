@@ -2,15 +2,15 @@
 {
 "Colors"
 {
-"FragPositive100" "255 64 224 255"
-"FragPositive80" "255 64 224 204"
-"FragPositive60" "255 64 224 153"
-"FragPositive40" "255 64 224 102"
-"FragPositive20" "255 64 224 51"
-"FragPositive05" "255 64 224 13"
-"GreenSolid" "255 64 224 255"
-"StoreGreen" "255 64 224 255"
-"ItemAttribPositive" "255 64 224 255"
-"SaleGreen" "255 64 224 255"
+"FragPositive100" "64 255 76 255"
+"FragPositive80" "64 255 76 204"
+"FragPositive60" "64 255 76 153"
+"FragPositive40" "64 255 76 102"
+"FragPositive20" "64 255 76 51"
+"FragPositive05" "64 255 76 13"
+"GreenSolid" "64 255 76 255"
+"StoreGreen" "64 255 76 255"
+"ItemAttribPositive" "64 255 76 255"
+"SaleGreen" "64 255 76 255"
 }
 }

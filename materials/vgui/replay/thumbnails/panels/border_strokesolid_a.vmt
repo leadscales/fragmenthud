@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture"      "vgui/replay/thumbnails/panels/border_strokesolid"
+    "$translucent"      "1"
+    "$vertexalpha"      "1"
+    "$vertexcolor"      "1"
+    "$additive"         "1"
+}

@@ -15,7 +15,12 @@
         "modelpanels_kv"
         {
             "wide"                          "160"
-            "tall"                          "80"
+            "tall"                          "79"
+
+            "itemmodelpanel"
+            {
+                "inventory_image_type"      "1"
+            }
         }
     }
 
@@ -31,7 +36,7 @@
         "proportionaltoparent"      "0"
         "visible"                   "1"
         "enabled"                   "1"
-        "bgcolor_override"          "FragPanelTransparentDark20"
+        "bgcolor_override"          "FragPanelTransparentDark40"
     }
 
     "BackgroundEffect"
@@ -57,7 +62,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_0"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -72,8 +77,22 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_1"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGOverlay1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGOverlay1"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_overlay_0"
+            "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -87,7 +106,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_effect_0"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -102,7 +121,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_effect_1"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"

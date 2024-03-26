@@ -36,7 +36,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_0"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -51,8 +51,22 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_1"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGOverlay1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGOverlay1"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_overlay_0"
+            "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -66,7 +80,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_effect_0"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -81,7 +95,7 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/background_effect_1"
-            "tileImage"                 "1"
+            "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
@@ -144,7 +158,19 @@
         "tall"                          "20"
         "proportionaltoparent"          "1"
 
-        "bgcolor_override"              "FragPanelTransparentDark40"
+        "bgcolor_override"              "Blank"
+
+        "Darkener"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Darkener"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "bgcolor_override"          "FragPanelTransparentDark60"
+        }
 
         "Back"
         {
@@ -160,7 +186,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -172,28 +198,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "<"
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "paintBackground"           "1"
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
 
@@ -211,7 +224,7 @@
             {
                 "ControlName"               "CExButton"
                 "fieldName"                 "Button"
-                "xpos"                      "cs-0.5"
+                "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
                 "tall"                      "f0"
@@ -223,28 +236,15 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "labelText"                 "X"
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "textAlignment"             "center"
                 "paintBackground"           "1"
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
-                "defaultfgcolor_override"   "FragNeutral100"
+                "armedbgcolor_override"     "FragPrimary20"
+                "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
-            }
-
-            "Stroke"
-            {
-                "ControlName"               "EditablePanel"
-                "fieldName"                 "Stroke"
-                "xpos"                      "cs-0.5"
-                "ypos"                      "rs1"
-                "wide"                      "f2"
-                "tall"                      "1"
-                "proportionaltoparent"      "1"
-                "mouseinputenabled"         "0"
-                "bgcolor_override"          "FragPrimary80"
             }
         }
     }

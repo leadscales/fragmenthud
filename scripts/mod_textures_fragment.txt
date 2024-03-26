@@ -1,0 +1,96 @@
+"sprites/640_hud"
+{
+    "TextureData"
+    {
+        // OVERWRITE
+        "obj_status_sentrygun_1"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/sentry1_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        "obj_status_sentrygun_2"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/sentry2_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        "obj_status_sentrygun_3"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/sentry3_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        "obj_status_dispenser"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/disp_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        "obj_status_tele_entrance"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/tele_enter_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        "obj_status_tele_exit"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/tele_exit_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "128"
+            "height"        "128"
+        }
+        "obj_status_upgrade_1"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/1_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "64"
+            "height"        "64"
+        }
+        "obj_status_upgrade_2"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/2_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "64"
+            "height"        "64"
+        }
+        "obj_status_upgrade_3"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/3_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "64"
+            "height"        "64"
+        }
+        "obj_status_icon_sapper"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/sentry3_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "64"
+            "height"        "64"
+        }
+        // CUSTOM
+        "wrench_a"
+        {
+            "file"          "vgui/replay/thumbnails/iconpanel/engineer_a"
+            "x"             "0"
+            "y"             "0"
+            "width"         "64"
+            "height"        "64"
+        }
+    }
+}

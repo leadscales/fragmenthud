@@ -2,6 +2,135 @@
 {
     "Fonts"
     {
+        // OCRA FIXES
+        "QuestFlavorText"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "10"
+                "weight"        "400"
+                "yres"          "480 599"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"          "OCRA"
+                "tall"          "14"
+                "weight"        "400"
+                "additive"      "0"
+                "yres"          "600 1023"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"          "OCRA"
+                "tall"          "18"
+                "weight"        "400"
+                "additive"      "0"
+                "yres"          "1024 6000"
+                "antialias"     "1"
+            }
+        }
+        "QuestObjectiveText"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "10"
+                "weight"        "800"
+                "yres"          "480 599"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"          "OCRA"
+                "tall"          "14"
+                "weight"        "800"
+                "additive"      "0"
+                "yres"          "600 1023"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"          "OCRA"
+                "tall"          "18"
+                "weight"        "800"
+                "additive"      "0"
+                "yres"          "1024 6000"
+                "antialias"     "1"
+            }
+        }
+        "QuestLargeText"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "16"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Small_Blur"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "7"
+                "weight"        "0"
+                "blur"          "3"
+                "additive"      "1"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Small"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "7"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Medium"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "10"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Large"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "14"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "QuestMap_Huge"
+        {
+            "1"
+            {
+                "name"          "OCRA"
+                "tall"          "30"
+                "weight"        "400"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        // ---
         "Default"
         {
             "1"
@@ -267,7 +396,7 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "32"
-                "tall_hidef"        "120"
+                "tall_hidef"        "32"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -331,7 +460,7 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "36"
-                "tall_hidef"        "48"
+                "tall_hidef"        "36"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -364,7 +493,7 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "24"
+                "tall"              "22"
                 "tall_lodef"        "28"
                 "weight"            "500"
                 "additive"          "0"
@@ -376,7 +505,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "24"
+                "tall"          "22"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -387,7 +516,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "24"
+                "tall"          "22"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -398,7 +527,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "18"
+                "tall"          "20"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -409,9 +538,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "18"
-                "tall_hidef"        "24"
-                "tall_lodef"        "18"
+                "tall"              "20"
+                "tall_hidef"        "20"
+                "tall_lodef"        "20"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -423,8 +552,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "18"
-                "tall_hidef"        "24"
-                "tall_lodef"        "20"
+                "tall_hidef"        "18"
+                "tall_lodef"        "18"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -435,8 +564,8 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "14"
-                "tall_lodef"        "16"
+                "tall"              "12"
+                "tall_lodef"        "12"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -447,7 +576,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "16"
+                "tall"          "12"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -458,7 +587,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "14"
+                "tall"          "12"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -469,7 +598,7 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "14"
+                "tall"              "12"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -481,7 +610,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "11"
+                "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -492,7 +621,7 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "11"
+                "tall"              "10"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -504,7 +633,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "11"
+                "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -582,8 +711,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "12"
-                "tall_hidef"        "14"
-                "tall_lodef"        "16"
+                "tall_hidef"        "12"
+                "tall_lodef"        "12"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -606,7 +735,7 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "18"
-                "tall_hidef"        "24"
+                "tall_hidef"        "18"
                 "tall_lodef"        "18"
                 "weight"            "500"
                 "additive"          "0"
@@ -619,8 +748,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "16"
-                "tall_hidef"        "22"
-                "tall_lodef"        "22"
+                "tall_hidef"        "16"
+                "tall_lodef"        "16"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -631,7 +760,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -653,9 +782,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "8"
+                "tall"              "9"
                 "tall_hidef"        "9"
-                "tall_lodef"        "10"
+                "tall_lodef"        "9"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -666,8 +795,8 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "8"
-                "tall_hidef"        "7"
+                "tall"              "9"
+                "tall_hidef"        "9"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -771,9 +900,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "13"
-                "tall_hidef"        "14"
-                "tall_lodef"        "17"
+                "tall"              "12"
+                "tall_hidef"        "12"
+                "tall_lodef"        "12"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -784,14 +913,14 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "28"
-                "tall_lodef"        "48"
-                "tall_hidef"        "48"
+                "tall"              "22"
+                "tall_lodef"        "22"
+                "tall_hidef"        "22"
                 "antialias"         "1"
                 "custom"            "1" [$OSX]
                 "weight"            "500"
-                "weight_lodef"      "800"
-                "weight_hidef"      "1000"
+                "weight_lodef"      "500"
+                "weight_hidef"      "500"
             }
         }
         "ChalkboardTitleBig"
@@ -800,13 +929,13 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "40"
-                "tall_lodef"        "48"
-                "tall_hidef"        "48"
+                "tall_lodef"        "40"
+                "tall_hidef"        "40"
                 "antialias"         "1"
                 "custom"            "1" [$OSX]
                 "weight"            "500"
-                "weight_lodef"      "800"
-                "weight_hidef"      "1000"
+                "weight_lodef"      "500"
+                "weight_hidef"      "500"
             }
         }
         "ChalkboardTitleMedium"
@@ -814,9 +943,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "24"
-                "tall_lodef"        "36"
-                "tall_hidef"        "36"
+                "tall"              "22"
+                "tall_lodef"        "22"
+                "tall_hidef"        "22"
                 "antialias"         "1"
                 "custom"            "1" [$OSX]
                 "weight"            "500"
@@ -828,9 +957,9 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "14" [!$OSX]
-                "tall"              "15" [$OSX]
-                "tall_lodef"        "32"
-                "tall_hidef"        "32"
+                "tall"              "14" [$OSX]
+                "tall_lodef"        "14"
+                "tall_hidef"        "14"
                 "antialias"         "1"
                 "custom"            "1" [$OSX]
                 "weight"            "500"
@@ -852,9 +981,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "8"
+                "tall"              "10"
                 "tall_hidef"        "10"
-                "tall_lodef"        "14"
+                "tall_lodef"        "10"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -866,8 +995,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "10"
-                "tall_hidef"        "12"
-                "tall_lodef"        "14"
+                "tall_hidef"        "10"
+                "tall_lodef"        "10"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -903,8 +1032,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "20"
-                "tall_hidef"        "24"
-                "tall_lodef"        "24"
+                "tall_hidef"        "20"
+                "tall_lodef"        "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -940,9 +1069,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "34"
-                "tall_hidef"        "38"
-                "tall_lodef"        "38"
+                "tall"              "22"
+                "tall_hidef"        "22"
+                "tall_lodef"        "22"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -954,8 +1083,8 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "36"
-                "tall_hidef"        "48"
+                "tall"              "22"
+                "tall_hidef"        "22"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -977,7 +1106,7 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "72"
-                "tall_hidef"        "120"
+                "tall_hidef"        "72"
                 "range"             "0x0000 0x00FF"
                 "weight"            "500"
                 "yres"              "600 767"
@@ -1084,8 +1213,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "10"
-                "tall_hidef"        "12"
-                "tall_lodef"        "14"
+                "tall_hidef"        "10"
+                "tall_lodef"        "10"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -1250,7 +1379,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "9"
                 "weight"        "500"
                 "range"         "0x0000 0x017F"
                 "TextColor"     "Black"
@@ -1262,9 +1391,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "8"
-                "tall_hidef"        "10"
-                "tall_lodef"        "12"
+                "tall"              "9"
+                "tall_hidef"        "9"
+                "tall_lodef"        "9"
                 "weight"            "500"
                 "additive"          "1"
                 "antialias"         "1"
@@ -1275,9 +1404,9 @@
             "1"
             {
                 "name"              "Infortress-Medium"
-                "tall"              "9"
+                "tall"              "10"
                 "tall_hidef"        "10"
-                "tall_lodef"        "16"
+                "tall_lodef"        "10"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -1473,7 +1602,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1484,7 +1613,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "9"
+                "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1506,7 +1635,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "18"
+                "tall"          "12"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1517,7 +1646,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "7"
+                "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1528,7 +1657,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "10"
                 "antialias"     "1"
                 "weight"        "500"
             }
@@ -1538,7 +1667,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "10"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1549,7 +1678,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "11"
+                "tall"          "12"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1560,7 +1689,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "14"
+                "tall"          "12"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1785,7 +1914,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "9"
                 "weight"        "500"
                 "additive"      "0"
                 "antialias"     "1"
@@ -1796,7 +1925,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "9"
                 "weight"        "500"
                 "antialias"     "1"
             }
@@ -1806,7 +1935,7 @@
             "1"
             {
                 "name"          "Infortress-Medium"
-                "tall"          "8"
+                "tall"          "9"
                 "weight"        "500"
                 "antialias"     "1"
                 "additive"      "0"
@@ -1943,7 +2072,7 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "18"
-                "tall_hidef"        "24"
+                "tall_hidef"        "18"
                 "tall_lodef"        "18"
                 "weight"            "500"
                 "additive"          "0"
@@ -1967,8 +2096,8 @@
             {
                 "name"              "Infortress-Medium"
                 "tall"              "18"
-                "tall_hidef"        "24"
-                "tall_lodef"        "20"
+                "tall_hidef"        "18"
+                "tall_lodef"        "18"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"

@@ -14,16 +14,16 @@
 
         "BGColor"
         {
-            "bgcolor_override"  "FragPanelOpaque10"
+            "bgcolor_override"  "FragPanelOpaque0"
         }
 
         "EntryToggleButton"
         {
             "wide"              "f0"
             "tall"              "f0"
-            "labeltext"         " "
+            "labeltext"         ""
 
-            "defaultbgcolor_override"       "Blank"
+            "defaultbgcolor_override"       "FragCasual05"
             "armedbgcolor_override"         "FragCasual20"
 
             "SubImage"
@@ -123,6 +123,6 @@
     {
         "border"            "NoBorder"
         "paintBorder"       "0"
-        "bgcolor_override"  "FragPanelTransparentDark20"
+        "bgcolor_override"  "FragPanelTransparentDark40"
     }
 }

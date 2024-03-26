@@ -2,17 +2,36 @@
 FRAG_Oobe_Description = "Thank you for downloading FRAGMENTHUD.\n\nThis HUD is work-in-progress, so things may break. Please make an issue on GitHub or ask for help on our Discord server if you encounter any issues.\n\nThis message will not show again.\n\nThank you <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 may hang momentarily when exiting this menu, this is normal and the game has not crashed."
 
-FRAG_Safemode_Warn = "It is recommended to apply changes BEFORE joining a game as it reduces the chance of them breaking. Changing colors requires a game restart to take effect after applying. The game may hang momentarily when applying changes."
-FRAG_Safemode_RenameWarn = "HUD folder is not renamed. Customizations will not work."
+FRAG_ValveRC_WarnTitle = "WARNING"
+FRAG_ValveRC_WarnBody = "FRAGMENTHUD's frag_autoexec.cfg has failed to run.\n\nThis is usually because the HUD's valve.rc file was not run on startup, usually due to another mod overriding it.\n\nCustomizations will not work and are disabled, and many HUD elements will be completely broken because of this.\n\nClick the button below to learn how to fix this."
+FRAG_ValveRC_WarnFix = "FIX ISSUES"
+
+FRAG_Safemode_Warn = "Only customize when not in-game."
+FRAG_Safemode_RenameWarn = "HUD folder is not renamed."
 
 FRAG_Safemode_Colors_Title = "COLORS"
 FRAG_Safemode_Colors_Primary = "PRIMARY"
 FRAG_Safemode_Colors_Accent = "ACCENT"
 FRAG_Safemode_Colors_Negative = "NEGATIVE"
 FRAG_Safemode_Colors_Positive = "POSITIVE"
+FRAG_Safemode_Colors_Tooltip = "Restart TF2 after choosing your colors to see your changes."
+
+FRAG_Safemode_Hitmarker_Title = "HITMARKER"
+FRAG_Safemode_Hitmarker_Toggle = "HITMARKER TOGGLE"
+FRAG_Safemode_Hitmarker_Shape = "HITMARKER SHAPE"
+FRAG_Safemode_Hitmarker_Size = "HITMARKER SIZE"
 
 FRAG_Safemode_Scoreboard_Title = "SCOREBOARD"
-FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (UNRESTRICTED)"
+FRAG_Safemode_Scoreboard_Format = "FORMAT"
+
+FRAG_Safemode_Killfeed_Title = "KILLFEED"
+FRAG_Safemode_Killfeed_MaxEntries = "MAXIMUM ENTRIES"
+FRAG_Safemode_Killfeed_EntryOpacity = "ENTRY OPACITY"
+
+FRAG_Safemode_Playerclass_Title = "PLAYER CLASS"
+FRAG_Safemode_3DPlayer_Toggle = "3D PLAYER MODEL"
+FRAG_Safemode_2DPlayer_Toggle = "2D PLAYER IMAGE"
+FRAG_Safemode_3DPlayer_Tooltip = "Use cl_hud_playerclass_use_playermodel 0/1 to swap between the 3D model and 2D image."
 
 FRAG_Buttons_Info = "HUD Info"
 FRAG_Buttons_Console = "Console"
@@ -23,12 +42,18 @@ FRAG_Buttons_Translate = "Help translate FRAGMENTHUD"
 FRAG_Buttons_Discord = "Join our Discord server for help"
 FRAG_Buttons_LeadProfile = "View developer profile"
 
+FRAG_Etc_Small = "Small"
+FRAG_Etc_Medium = "Medium"
+FRAG_Etc_Large = "Large"
+
+FRAG_CharInfo_Armory = "Catalog"
+
 [russian]
 FRAG_Oobe_Description = "Спасибо, что скачали FRAGMENTHUD.\n\nЭтот ХАД пока в разработке, поэтому некоторые вещи могут ломаться. Сообщайте о проблемах на ГитХабе или попросите помощи на нашем дискорд сервере.\n\nЭто уведомление больше не появится.\n\nСпасибо <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 может ненадолго зависнуть при выходе из этого меню, это нормально, игра не вылетела."
 
-FRAG_Safemode_Warn = "Рекомендуется применить изменения ПЕРЕД тем как заходить на сервер, это снижает шанс того, что они сломаются. После того как вы применили изменения, нужно будет перезапустить игру, чтобы цвета поменялись."
-FRAG_Safemode_RenameWarn = "Папка с ХАДом не переименована. Кастомизация не будет работать."
+#FRAG_Safemode_Warn = "Рекомендуется применить изменения ПЕРЕД тем как заходить на сервер, это снижает шанс того, что они сломаются. После того как вы применили изменения, нужно будет перезапустить игру, чтобы цвета поменялись."
+#FRAG_Safemode_RenameWarn = "Папка с ХАДом не переименована. Кастомизация не будет работать."
 
 FRAG_Safemode_Colors_Title = "ЦВЕТА"
 FRAG_Safemode_Colors_Primary = "ГЛАВНЫЙ"
@@ -36,8 +61,17 @@ FRAG_Safemode_Colors_Accent = "ВТОРОСТЕПЕННЫЙ"
 FRAG_Safemode_Colors_Negative = "ОТРИЦАТЕЛЬНЫЙ"
 FRAG_Safemode_Colors_Positive = "ПОЛОЖИТЕЛЬНЫЙ"
 
+FRAG_Safemode_Hitmarker_Title = "Хитмаркер"
+FRAG_Safemode_Hitmarker_Toggle = "Включить/Выключить хитмаркер"
+FRAG_Safemode_Hitmarker_Shape = "Форма"
+FRAG_Safemode_Hitmarker_Size = "Размер"
+
 FRAG_Safemode_Scoreboard_Title = "Таблица счёта"
-FRAG_Safemode_Scoreboard_Unrestricted = "50v50 (НЕОГРАНИЧЕННЫЙ)"
+FRAG_Safemode_Scoreboard_Format = "Формат"
+
+FRAG_Safemode_Killfeed_Title = "КИЛЛФИД"
+FRAG_Safemode_Killfeed_MaxEntries = "МАКСИМУМ ОТОБРАЖАЕМЫХ СТРОК"
+FRAG_Safemode_Killfeed_EntryOpacity = "ПРОЗРАЧНОСТЬ СТРОК"
 
 FRAG_Buttons_Info = "о ХАДе"
 FRAG_Buttons_Console = "Консоль"
@@ -47,6 +81,10 @@ FRAG_Buttons_BugReport = "Сообщить об ошибке"
 FRAG_Buttons_Translate = "Помочь с переводом FRAGMENTHUD"
 FRAG_Buttons_Discord = "Обратиться в наш дискорд сервер за помощью"
 FRAG_Buttons_LeadProfile = "Профиль создателя"
+
+FRAG_Etc_Small = "Маленький"
+FRAG_Etc_Medium = "Средний"
+FRAG_Etc_Large = "Большой"
 
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"

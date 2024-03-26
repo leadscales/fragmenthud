@@ -6,7 +6,7 @@
         "fieldName"                 "FlagPanelBG"
         "xpos"                      "cs-0.5"
         "ypos"                      "rs1-5"
-        "wide"                      "190"
+        "wide"                      "120"
         "tall"                      "20"
         "bgcolor_override"          "Blank"
 
@@ -16,10 +16,37 @@
             "fieldName"                 "CenterBG"
             "xpos"                      "cs-0.5"
             "ypos"                      "0"
-            "wide"                      "f42"
+            "wide"                      "38"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "bgcolor_override"          "FragPanelTransparentDark60"
+
+            "BluGrad"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "BluGrad"
+                "xpos"                  "0"
+                "ypos"                  "rs1"
+                "wide"                  "38"
+                "tall"                  "1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+                "drawcolor"             "FragBlu100"
+                "scaleImage"            "1"
+            }
+            "RedGrad"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "RedGrad"
+                "xpos"                  "rs1"
+                "ypos"                  "rs1"
+                "wide"                  "38"
+                "tall"                  "1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
+                "drawcolor"             "FragRed100"
+                "scaleImage"            "1"
+            }
         }
         "BluBG"
         {
@@ -27,7 +54,7 @@
             "fieldName"                 "BluBG"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "20"
+            "wide"                      "40"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "bgcolor_override"          "FragPanelTransparentDark60"
@@ -38,60 +65,10 @@
             "fieldName"                 "RedBG"
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "wide"                      "20"
+            "wide"                      "40"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "bgcolor_override"          "FragPanelTransparentDark60"
-        }
-
-        "BluScoreBGLight"
-        {
-            "ControlName"           "EditablePanel"
-            "fieldName"             "BluScoreBGLight"
-            "xpos"                  "21"
-            "ypos"                  "0"
-            "wide"                  "70"
-            "tall"                  "f0"
-            "proportionaltoparent"  "1"
-
-            "SubImage"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "SubImage"
-                "xpos"                  "0"
-                "ypos"                  "cs-0.5"
-                "wide"                  "p3"
-                "tall"                  "p10"
-                "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_light_left"
-                "scaleImage"            "1"
-                "drawcolor"             "FragBlu10"
-            }
-        }
-
-        "RedScoreBGLight"
-        {
-            "ControlName"           "EditablePanel"
-            "fieldName"             "RedScoreBGLight"
-            "xpos"                  "rs1-21"
-            "ypos"                  "0"
-            "wide"                  "70"
-            "tall"                  "f0"
-            "proportionaltoparent"  "1"
-
-            "SubImage"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "SubImage"
-                "xpos"                  "rs1"
-                "ypos"                  "cs-0.5"
-                "wide"                  "p3"
-                "tall"                  "p10"
-                "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_light_right"
-                "scaleImage"            "1"
-                "drawcolor"             "FragRed10"
-            }
         }
 
         "BluLine"
@@ -100,11 +77,12 @@
             "fieldName"                 "BluLine"
             "xpos"                      "0"
             "ypos"                      "rs1"
-            "wide"                      "20"
+            "wide"                      "40"
             "tall"                      "1"
-            "scaleimage"                "1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive_blu"
+            "image"                     "replay/thumbnails/panels/fill_additive"
+            "drawcolor"                 "FragBlu100"
+            "scaleImage"                "1"
         }
         "RedLine"
         {
@@ -112,41 +90,20 @@
             "fieldName"                 "RedLine"
             "xpos"                      "rs1"
             "ypos"                      "rs1"
-            "wide"                      "20"
+            "wide"                      "40"
             "tall"                      "1"
-            "scaleimage"                "1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive_red"
-        }
-
-        "BluLine2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BluLine2"
-            "xpos"                      "21"
-            "ypos"                      "rs1"
-            "wide"                      "220"
-            "tall"                      "1"
-            "scaleimage"                "1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/side_panel_gradient_left"
-            "drawcolor"                 "FragBlu100"
-        }
-        "RedLine2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "RedLine2"
-            "xpos"                      "rs1-21"
-            "ypos"                      "rs1"
-            "wide"                      "220"
-            "tall"                      "1"
-            "scaleimage"                "1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/side_panel_gradient_right"
+            "image"                     "replay/thumbnails/panels/fill_additive"
             "drawcolor"                 "FragRed100"
+            "scaleImage"                "1"
         }
 
         "if_specialdelivery"
+        {
+            "visible"               "0"
+        }
+
+        "if_mvm"
         {
             "visible"               "0"
         }
@@ -156,7 +113,7 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "20"
+        "wide"                      "40"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "textalignment"             "center"
@@ -172,7 +129,7 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "20"
+        "wide"                      "40"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "textalignment"             "center"
@@ -189,12 +146,13 @@
     {
         "xpos"                      "0"
         "ypos"                      "0"
-        "wide"                      "90"
+        "wide"                      "40"
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "textalignment"             "center"
-        "font"                      "FontMedium_12"
+        "font"                      "FontMedium_16_Additive"
         "allcaps"                   "1"
+        "labeltext"                 "%rounds%"
 
         "pin_to_sibling"            "FlagPanelBG"
         "pin_corner_to_sibling"     "PIN_CENTER_TOP"
@@ -203,7 +161,7 @@
 
     "BlueFlag"
     {
-        "xpos"                      "c0-s1-100"
+        "xpos"                      "c0-s1-60"
         "ypos"                      "rs1"
         "wide"                      "40"
         "tall"                      "40"
@@ -217,7 +175,7 @@
     }
     "RedFlag"
     {
-        "xpos"                      "c100"
+        "xpos"                      "c60"
         "ypos"                      "rs1"
         "wide"                      "40"
         "tall"                      "40"

@@ -4,26 +4,20 @@
 {
     "HudItemEffectMeter"
     {
-        "ypos"                  "c70"
-    }
-
-    "ItemEffectMeterLabel"
-    {
-        "textalignment"         "center"
+        "ypos"                  "c47"
     }
 
     "ItemEffectMeter"
     {
-        "xpos"                  "0"
-        "wide"                  "p0.5"
+        "wide"                  "20"
     }
 
     "ItemEffectMeter2"
     {
-        "xpos"                  "p0.5"
-        "ypos"                  "rs1"
+        "xpos"                  "21"
+        "ypos"                  "0"
         "zpos"                  "6"
-        "wide"                  "p0.5"
+        "wide"                  "19"
         "tall"                  "f0"
         "proportionaltoparent"  "1"
         "fgcolor_override"      "FragNeutral100"

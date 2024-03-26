@@ -4,6 +4,27 @@
 {
     "HudItemEffectMeter"
     {
-        "xpos"  "c0-s1-35"
+        "xpos"              "c0-s1-20"
+    }
+
+    "ItemEffectMeterStroke"
+    {
+        "xpos"              "20"
+    }
+
+    "ItemEffectMeterLabel"
+    {
+        "xpos"              "20"
+        "textalignment"    "west"
+    }
+
+    "ItemEffectMeterCount"
+    {
+        "xpos"              "0"
+    }
+
+    "ItemEffectMeterCountBG"
+    {
+        "xpos"              "0"
     }
 }

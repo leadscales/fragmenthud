@@ -1,0 +1,1 @@
+#base "../_safemode/tooltips.res"

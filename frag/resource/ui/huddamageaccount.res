@@ -14,14 +14,14 @@
         "ControlName"               "CExLabel"
         "fieldName"                 "DamageAccountValue"
         "xpos"                      "cs-0.5"
-        "ypos"                      "c30"
-        "wide"                      "60"
-        "tall"                      "15"
+        "ypos"                      "c40"
+        "wide"                      "40"
+        "tall"                      "10"
         "visible"                   "1"
         "enabled"                   "1"
         "labelText"                 "%metal%"
         "textAlignment"             "center"
-        "font"                      "FontMedium_12_Additive"
+        "font"                      "FontMedium_10_Additive"
         "fgcolor"                   "FragNegative100"
     }
 }

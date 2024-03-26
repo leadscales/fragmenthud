@@ -17,7 +17,7 @@
         "TextureScroll"
         {
             "texturescrollvar"          "$baseTextureTransform"
-            "texturescrollrate"         "0.15"
+            "texturescrollrate"         "0.12"
             "texturescrollangle"        "225"
         }
     }

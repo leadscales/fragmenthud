@@ -2,56 +2,34 @@
 {
     "Borders"
     {
-        "FragColorSelection"
+        "FragTooltip"
         {
-            "Top"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
-            "Bottom"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
-            "Left"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
-            "Right"
-            {
-                "1"
-                {
-                    "Color"         "FragNeutral100"
-                }
-                "2"
-                {
-                    "Color"         "FragNeutral100"
-                    "Offset"        "1 1"
-                }
-            }
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragPrimary100"
+            "image"                     "replay/thumbnails/panels/border_strokesolid_a"
+            "src_corner_height"         "3"
+            "src_corner_width"          "3"
+            "draw_corner_width"         "1"
+            "draw_corner_height"        "1"
+            "paintfirst"                "0"
+        }
+
+        "FragCharInfoButtonTop"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragPrimary05"
+            "image"                     "replay/thumbnails/menu/side_panel_gradient_bottom"
+            "paintfirst"                "0"
+        }
+        "FragCharInfoButtonBottom"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragPrimary05"
+            "image"                     "replay/thumbnails/menu/side_panel_gradient_top"
+            "paintfirst"                "0"
         }
     }
 }

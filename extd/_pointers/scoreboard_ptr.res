@@ -1,1 +1,1 @@
-#base "../../../../cfg/frag_scoreboard.txt"
+#base "../../../../cfg/frag_scoreboard_format.txt"
