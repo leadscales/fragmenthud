@@ -114,11 +114,19 @@
                 "image"                 "replay/thumbnails/menu/side_panel_light_top"
                 "scaleImage"            "1"
                 "drawcolor"             "FragRed05"
+
+                "if_mvm"
+                {
+                    "xpos"              "cs-0.5"
+                    "drawcolor"         "FragRed05"
+                }
             }
 
             "if_mvm"
             {
-                "visible"       "0"
+                "xpos"          "0"
+                "wide"          "600"
+                "visible"       "1"
             }
         }
 
@@ -389,7 +397,8 @@
 
         "if_mvm"
         {
-            "visible"       "0"
+            "wide"              "600"
+            "visible"           "1"
         }
     }
 
@@ -412,7 +421,8 @@
 
         "if_mvm"
         {
-            "visible"       "0"
+            "wide"              "600"
+            "visible"           "1"
         }
     }
 
@@ -468,7 +478,13 @@
 
         "if_mvm"
         {
-            "visible"       "0"
+            "visible"                   "1"
+            "wide"                      "600"
+            "textalignment"             "center"
+            "textinsetx"                "0"
+            "pin_to_sibling"            "RedScoreBG"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
         }
     }
 
