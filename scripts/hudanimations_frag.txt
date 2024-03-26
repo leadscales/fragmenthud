@@ -81,6 +81,24 @@ event HudMedicChargedStop
     Animate      UberStroke                Alpha      0                 Linear    0.0    0.1
 }
 
+event SpyWarningFlash
+{
+    Animate     EnemyCountImageBG      BgColor    FragAccent20                  Linear    0.0     0.01
+    Animate     EnemyCountImageBG      BgColor    FragPanelTransparentDark60    Linear    0.21    0.01
+    RunEvent    SpyWarningFlashLoop    0.4
+}
+
+event SpyWarningFlashLoop
+{
+    RunEvent    SpyWarningFlash    0.0
+}
+
+event SpyWarningFlashEnd
+{
+    StopEvent    SpyWarningFlash        0.0
+    StopEvent    SpyWarningFlashLoop    0.0
+}
+
 event TeamStatus_PlayerDead
 {
 }

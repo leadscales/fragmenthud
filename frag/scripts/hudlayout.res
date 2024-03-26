@@ -149,7 +149,7 @@
         "wide"              "640"
         "tall"              "480"
 
-        "maxdeathnotices"   "6"
+        "maxdeathnotices"   "24"
         "iconscale"         "0"
         "lineheight"        "10"
         "linespacing"       "0.1"
@@ -338,6 +338,14 @@
         "ypos"                      "c100"
         "wide"                      "370"
         "tall"                      "90"
+    }
+
+    "CurrencyStatusPanel"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c60"
+        "wide"                      "80"
+        "tall"                      "10"
     }
 
     // DISABLED
