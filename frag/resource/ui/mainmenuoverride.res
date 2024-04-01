@@ -1,5 +1,22 @@
 "Resource/UI/MainMenuOverride.res"
 {
+    "ChatPin"
+    {
+        "ControlName"               "Panel"
+        "ypos"                      "30"
+        "wide"                      "0"
+        "tall"                      "0"
+        "zpos"                      "200"
+        "bgcolor_override"          "255 0 0 128"
+    }
+
+    "PartyChat"
+    {
+        "pin_to_sibling"            "ChatPin"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+
     "VersionAnchor"
     {
         "ControlName"               "EditablePanel"
@@ -483,6 +500,7 @@
         "labelText"                 "s"
         "font"                      "Icons_Small_Additive"
         "textinsetx"                "5"
+        "use_proportional_insets"   "1"
         "textAlignment"             "east"
         "pinCorner"                 "0"
         "paintBackground"           "0"
@@ -612,7 +630,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "3"
@@ -652,7 +670,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "3"
@@ -692,7 +710,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "3"
@@ -732,7 +750,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "3"
@@ -772,7 +790,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "3"
@@ -824,7 +842,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary60"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
@@ -864,7 +882,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary60"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
@@ -904,7 +922,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary60"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
@@ -944,7 +962,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary60"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
@@ -996,7 +1014,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent20"
+                "armedbgcolor_override"     "FragAccent10"
                 "defaultfgcolor_override"   "FragAccent100"
                 "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
@@ -1036,7 +1054,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent20"
+                "armedbgcolor_override"     "FragAccent10"
                 "defaultfgcolor_override"   "FragAccent100"
                 "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
@@ -1076,7 +1094,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent20"
+                "armedbgcolor_override"     "FragAccent10"
                 "defaultfgcolor_override"   "FragAccent100"
                 "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
@@ -1116,7 +1134,7 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent20"
+                "armedbgcolor_override"     "FragAccent10"
                 "defaultfgcolor_override"   "FragAccent100"
                 "armedfgcolor_override"     "FragAccent100"
                 "actionsignallevel"         "2"
@@ -1182,7 +1200,7 @@
             "default"                   "1"
             "actionsignallevel"         "2"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragAccent20"
+            "armedbgcolor_override"     "FragAccent10"
             "defaultfgcolor_override"   "FragAccent100"
             "armedfgcolor_override"     "FragAccent100"
             "paintBackground"           "1"
@@ -1242,7 +1260,7 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
@@ -1284,7 +1302,7 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
@@ -1326,7 +1344,7 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
@@ -1368,7 +1386,7 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
@@ -1410,7 +1428,7 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }

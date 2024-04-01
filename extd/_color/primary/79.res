@@ -7,6 +7,7 @@
 "FragPrimary60" "255 68 229 153"
 "FragPrimary40" "255 68 229 102"
 "FragPrimary20" "255 68 229 51"
+"FragPrimary10" "255 68 229 26"
 "FragPrimary05" "255 68 229 13"
 "Orange" "255 68 229 255"
 "OrangeDim" "255 68 229 102"

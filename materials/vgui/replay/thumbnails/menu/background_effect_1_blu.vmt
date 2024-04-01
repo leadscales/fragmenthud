@@ -5,7 +5,7 @@
     "$vertexalpha"      "1"
     "$vertexcolor"      "1"
     "$additive"         "1"
-    "$color"            "{96 192 255}"
+    "$color"            "{80 176 255}"
     "Proxies"
     {
         "Sine"

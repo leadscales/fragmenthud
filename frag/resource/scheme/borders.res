@@ -31,5 +31,14 @@
             "image"                     "replay/thumbnails/menu/side_panel_gradient_top"
             "paintfirst"                "0"
         }
+
+        "FragPartyChat"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "0 0 0 255"
+            "image"                     "replay/thumbnails/panels/fill_80"
+            "paintfirst"                "1"
+        }
     }
 }

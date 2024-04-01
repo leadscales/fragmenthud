@@ -7,6 +7,7 @@
 "FragPrimary60" "75 118 255 153"
 "FragPrimary40" "75 118 255 102"
 "FragPrimary20" "75 118 255 51"
+"FragPrimary10" "75 118 255 26"
 "FragPrimary05" "75 118 255 13"
 "Orange" "75 118 255 255"
 "OrangeDim" "75 118 255 102"

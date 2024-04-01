@@ -7,6 +7,7 @@
 "FragNegative60" "90 107 255 153"
 "FragNegative40" "90 107 255 102"
 "FragNegative20" "90 107 255 51"
+"FragNegative10" "90 107 255 26"
 "FragNegative05" "90 107 255 13"
 "HUDDeathWarning" "90 107 255 255"
 "LowHealthRed" "90 107 255 255"

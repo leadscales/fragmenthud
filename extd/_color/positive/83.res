@@ -7,6 +7,7 @@
 "FragPositive60" "255 70 181 153"
 "FragPositive40" "255 70 181 102"
 "FragPositive20" "255 70 181 51"
+"FragPositive10" "255 70 181 26"
 "FragPositive05" "255 70 181 13"
 "GreenSolid" "255 70 181 255"
 "StoreGreen" "255 70 181 255"

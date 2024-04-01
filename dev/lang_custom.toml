@@ -16,6 +16,9 @@ FRAG_Safemode_Colors_Negative = "NEGATIVE"
 FRAG_Safemode_Colors_Positive = "POSITIVE"
 FRAG_Safemode_Colors_Tooltip = "Restart TF2 after choosing your colors to see your changes."
 
+FRAG_Safemode_MMenu_Title = "MAIN MENU"
+FRAG_Safemode_MMenu_FList = "FRIEND LIST"
+
 FRAG_Safemode_Hitmarker_Title = "HITMARKER"
 FRAG_Safemode_Hitmarker_Toggle = "HITMARKER TOGGLE"
 FRAG_Safemode_Hitmarker_Shape = "HITMARKER SHAPE"

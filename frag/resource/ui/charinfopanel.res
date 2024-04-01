@@ -204,7 +204,7 @@
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
@@ -242,7 +242,7 @@
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary20"
+                "armedbgcolor_override"     "FragPrimary10"
                 "defaultfgcolor_override"   "FragPrimary100"
                 "armedfgcolor_override"     "FragPrimary100"
             }

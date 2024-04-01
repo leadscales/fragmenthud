@@ -7,6 +7,7 @@
 "FragAccent60" "64 166 255 153"
 "FragAccent40" "64 166 255 102"
 "FragAccent20" "64 166 255 51"
+"FragAccent10" "64 166 255 26"
 "FragAccent05" "64 166 255 13"
 "ItemIsotope" "64 166 255 255"
 "ItemBundleItem" "64 166 255 255"

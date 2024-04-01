@@ -2,10 +2,10 @@
 {
     "avatar"
     {
-        "xpos"          "1"
+        "xpos"          "0"
         "ypos"          "cs-0.5"
         "zpos"          "5"
-        "tall"          "f2"
+        "tall"          "f0"
     }
 
     "InteractButton2"
@@ -22,16 +22,16 @@
         "command"                   "open_menu"
         "labeltext"                 ""
         "stay_armed_on_click"       "1"
-        "paintbackground"           "0"
+        "paintbackground"           "1"
 
-        "defaultbgcolor_override"   "Blank"
-        "armedbgcolor_override"     "Blank"
+        "defaultbgcolor_override"   "FragPrimary05"
+        "armedbgcolor_override"     "FragPrimary05"
 
         "alpha"                     "102"
 
         "scaleImage"                "1"
-        "image_default"             "replay/thumbnails/menu/side_panel_shadow_right"
-        "image_armed"               "replay/thumbnails/menu/side_panel_gradient_left"
+        "image_default"             "replay/thumbnails/blank"
+        "image_armed"               "replay/thumbnails/menu/side_panel_gradient_right"
 
         "SubImage"
         {
@@ -43,8 +43,8 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "scaleImage"                "1"
-            "drawcolor"                 "FragPrimary100"
-            "drawcolor_override"        "FragPrimary100"
+            "drawcolor"                 "FragPrimary05"
+            "drawcolor_override"        "FragPrimary05"
         }
 
     }
@@ -54,11 +54,12 @@
         "xpos"                      "rs1-5"
         "ypos"                      "1"
         "zpos"                      "2"
-        "wide"                      "f25"
+        "wide"                      "f27"
         "tall"                      "f0"
         "textalignment"             "north-west"
         "font"                      "FontMedium_9_Additive"
-        "fgcolor_override"          "FragNeutral100"
+        "allcaps"                   "1"
+        "fgcolor_override"          "FragPrimary100"
     }
 
     "StatusLabel"
@@ -66,7 +67,7 @@
         "xpos"                      "rs1-5"
         "ypos"                      "rs1-1"
         "zpos"                      "3"
-        "wide"                      "f25"
+        "wide"                      "f27"
         "tall"                      "f0"
         "textalignment"             "south-west"
         "font"                      "FontMedium_9_Additive"

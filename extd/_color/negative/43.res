@@ -7,6 +7,7 @@
 "FragNegative60" "64 255 217 153"
 "FragNegative40" "64 255 217 102"
 "FragNegative20" "64 255 217 51"
+"FragNegative10" "64 255 217 26"
 "FragNegative05" "64 255 217 13"
 "HUDDeathWarning" "64 255 217 255"
 "LowHealthRed" "64 255 217 255"
