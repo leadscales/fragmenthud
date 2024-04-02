@@ -7,7 +7,7 @@ TF2 HUD creation and editing is tedious work and everything is provided for free
 By donating an amount greater than or equal to **Two (2) Mann Co. Supply Crate Keys**, you get your own section on the HUD, which includes:
 - Your name/username
 - A text field which you can put whatever you wish (within reason)
-- The ability to choose whatever color you want for the section
+- The ability to choose whatever color you want for the section, excluding black<sup>([why?](https://en.wikipedia.org/wiki/Blend_modes#Addition))</sup>
 - (Optional) A link to your Steam profile
 - (Optional) The amount you donated
 

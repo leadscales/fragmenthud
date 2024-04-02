@@ -26,6 +26,14 @@ class Color(typing.NamedTuple):
             a
         )
 
+    @classmethod
+    def from_int(cls, value: int):
+        return cls(
+            r=(value >> 16) & 255,
+            g=(value >> 8) & 255,
+            b=value & 255
+        )
+
 
 def clamp(minimum: int | float, maximum: int | float, value: int | float):
     return max(minimum, min(value, maximum))

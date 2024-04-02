@@ -15,12 +15,10 @@
                     "xpos"                      "0"
                     "ypos"                      "0"
                     "wide"                      "f0"
-                    "tall"                      "40"
                     "proportionaltoparent"      "1"
                     "bgcolor_override"          "0 255 0 0"
 
                     "collapsed_height"          "20"
-                    "expanded_height"           "40"
                     "ignorescheme"              "1"
                     "resize_time"               "0.1"
 
