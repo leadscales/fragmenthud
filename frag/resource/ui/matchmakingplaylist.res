@@ -25,7 +25,7 @@
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
             "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "FragCasual05"
+            "armedbgcolor_override"         "Blank"
             "defaultfgcolor_override"       "FragCasual100"
             "armedfgcolor_override"         "FragCasual100"
         }
@@ -98,7 +98,7 @@
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
             "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "FragCompetitive05"
+            "armedbgcolor_override"         "Blank"
             "defaultfgcolor_override"       "FragCompetitive100"
             "armedfgcolor_override"         "FragCompetitive100"
         }
@@ -171,7 +171,7 @@
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
             "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "FragMvM05"
+            "armedbgcolor_override"         "Blank"
             "defaultfgcolor_override"       "FragMvM100"
             "armedfgcolor_override"         "FragMvM100"
         }
@@ -244,7 +244,7 @@
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
             "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "FragCommunity05"
+            "armedbgcolor_override"         "Blank"
             "defaultfgcolor_override"       "FragCommunity100"
             "armedfgcolor_override"         "FragCommunity100"
         }
