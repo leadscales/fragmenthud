@@ -2,7 +2,6 @@ import fragment
 import pathlib
 
 from PIL import Image, ImageDraw
-from typing import Optional
 
 
 def generate_bars(width: int, height: int, fgcolor: tuple[int, int, int, int], bgcolor: tuple[int, int, int, int]) -> list[Image.Image]:
