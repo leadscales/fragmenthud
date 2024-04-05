@@ -2,7 +2,7 @@
 
 #base "safemode_infopanel.res"
 
-#base "safemode_donators.res"
+#base "safemode_supporters.res"
 #base "safemode_colors.res"
 #base "safemode_mmenu.res"
 #base "safemode_hitmarker.res"
@@ -199,12 +199,12 @@
                 "proportionaltoparent"  "1"
                 "bgcolor_override"      "255 0 0 0"
 
-                "Donators"
+                "Supporters"
                 {  
                 }
                 "Colors"
                 {
-                    "pin_to_sibling"            "Donators"
+                    "pin_to_sibling"            "Supporters"
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
                     "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
                 }

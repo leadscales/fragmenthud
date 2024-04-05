@@ -9,8 +9,9 @@ FRAG_ValveRC_WarnFix = "FIX ISSUES"
 FRAG_Safemode_Warn = "Only customize when not in-game."
 FRAG_Safemode_RenameWarn = "HUD folder is not renamed."
 
-FRAG_Safemode_Donators_Title = "SUPPORTERS"
-FRAG_Safemode_Donators_Donate = "DONATE"
+FRAG_Safemode_Supporters_Title = "SUPPORTERS"
+FRAG_Safemode_Supporters_Tester = "∞ (Tester)"
+FRAG_Safemode_Supporters_Donate = "DONATE"
 
 FRAG_Safemode_Colors_Title = "COLORS"
 FRAG_Safemode_Colors_Primary = "PRIMARY"

@@ -1,4 +1,4 @@
-#base "safemode_donators_list.res"
+#base "safemode_supporters_list.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -8,10 +8,10 @@
         {
             "ContentPanel"
             {
-                "Donators"
+                "Supporters"
                 {
                     "ControlName"               "CMatchHistoryEntryPanel"
-                    "fieldName"                 "Donators"
+                    "fieldName"                 "Supporters"
                     "xpos"                      "0"
                     "ypos"                      "0"
                     "wide"                      "f0"
@@ -81,7 +81,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "mouseinputenabled"         "0"
-                        "labelText"                 "#FRAG_Safemode_Donators_Title"
+                        "labelText"                 "#FRAG_Safemode_Supporters_Title"
                         "textAlignment"             "west"
                         "font"                      "FontMedium_12_Additive"
                         "textinsetx"                "5"
@@ -120,7 +120,7 @@
                                 "wide"                      "f10"
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
-                                "labelText"                 "#FRAG_Safemode_Donators_Donate"
+                                "labelText"                 "#FRAG_Safemode_Supporters_Donate"
                                 "font"                      "FontMedium_10_Additive"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
@@ -129,9 +129,9 @@
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
-                                "defaultfgcolor_override"   "FragPositive100"
+                                "defaultfgcolor_override"   "FragNeutral100"
                                 "armedfgcolor_override"     "FragPositive100"
-                                "defaultbgcolor_override"   "FragPositive05"
+                                "defaultbgcolor_override"   "FragPanelTransparentDark40"
                                 "armedbgcolor_override"     "FragPositive10"
                             }
                         }
