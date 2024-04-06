@@ -29,6 +29,17 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "bgcolor_override": "fragpaneltransparentdark60",
     },
 
+    "bgpanel2": {
+        "controlname": "editablepanel",
+        "fieldname": "bgpanel2",
+        "xpos": "10",
+        "ypos": "20",
+        "wide": "f20",
+        "tall": "40",
+        "proportionaltoparent": "1",
+        "bgcolor_override": "fragpaneltransparentdark60",
+    },
+
     "sideglow": {
         "controlname": "imagepanel",
         "fieldname": "sideglow",
@@ -78,20 +89,17 @@ SUPPORTER_ENTRY_TEMPLATE = {
     "message": {
         "controlname": "cexlabel",
         "fieldname": "message",
-        "xpos": "10",
+        "xpos": "15",
         "ypos": "20",
-        "wide": "f20",
+        "wide": "f30",
         "tall": "40",
         "mouseinputenabled": "0",
         "proportionaltoparent": "1",
         "labeltext": "error",
-        "font": "fontmedium_9_additive",
+        "font": "fontmedium_10_additive",
         "textalignment": "west",
-        "textinsetx": "5",
-        "use_proportional_insets": "1",
         "wrap": "1",
         "fgcolor": "255 0 0 255",
-        "bgcolor_override": "255 0 0 255",
     },
 
     "profilebutton":
@@ -147,11 +155,12 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
             _amount = "#FRAG_Safemode_Supporters_Tester"
         else:
             _amount = "${:.2f}".format(supporter.amount)
-
-        _message_tall = (len(supporter.message) // 20) * 5 + 20
+        _message_tall = ((len(supporter.message) + 1) // 20) * 5 + 20
         _d = copy.deepcopy(SUPPORTER_ENTRY_TEMPLATE)
         _d["fieldname"] = str(index)
         _d["ypos"] = str(y_offset)
+        _d["bgpanel2"]["tall"] = str(_message_tall)
+        _d["bgpanel2"]["bgcolor_override"] = supporter.color.as_vdf(13)
         _d["sideglow"]["drawcolor"] = supporter.color.as_vdf(13)
         _d["name"]["labeltext"] = supporter.name
         _d["name"]["fgcolor"] = supporter.color.as_vdf(255)
@@ -160,7 +169,6 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["message"]["tall"] = str(_message_tall)
         _d["message"]["labeltext"] = supporter.message if supporter.message else ""
         _d["message"]["fgcolor"] = supporter.color.as_vdf(153)
-        _d["message"]["bgcolor_override"] = supporter.color.as_vdf(13)
         _d["profilebutton"]["command"] = f"url https://steamcommunity.com/profiles/{supporter.accountid | STEAMID_MAGIC_NUMBER}" if not supporter.hide_accountid else ""
         _d["profilebutton"]["defaultbgcolor_override"] = supporter.color.as_vdf(3)
         _d["profilebutton"]["armedbgcolor_override"] = supporter.color.as_vdf(13)

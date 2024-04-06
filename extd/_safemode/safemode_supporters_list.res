@@ -32,6 +32,17 @@
 "proportionaltoparent" "1"
 "bgcolor_override" "fragpaneltransparentdark60"
 }
+"bgpanel2"
+{
+"controlname" "editablepanel"
+"fieldname" "bgpanel2"
+"xpos" "10"
+"ypos" "20"
+"wide" "f20"
+"tall" "25"
+"proportionaltoparent" "1"
+"bgcolor_override" "255 165 0 13"
+}
 "sideglow"
 {
 "controlname" "imagepanel"
@@ -82,20 +93,17 @@
 {
 "controlname" "cexlabel"
 "fieldname" "message"
-"xpos" "10"
+"xpos" "15"
 "ypos" "20"
-"wide" "f20"
+"wide" "f30"
 "tall" "25"
 "mouseinputenabled" "0"
 "proportionaltoparent" "1"
 "labeltext" "Hi, Frax at your cervix"
-"font" "fontmedium_9_additive"
+"font" "fontmedium_10_additive"
 "textalignment" "west"
-"textinsetx" "5"
-"use_proportional_insets" "1"
 "wrap" "1"
 "fgcolor" "255 165 0 153"
-"bgcolor_override" "255 165 0 13"
 }
 "profilebutton"
 {
@@ -133,6 +141,17 @@
 "tall" "f1"
 "proportionaltoparent" "1"
 "bgcolor_override" "fragpaneltransparentdark60"
+}
+"bgpanel2"
+{
+"controlname" "editablepanel"
+"fieldname" "bgpanel2"
+"xpos" "10"
+"ypos" "20"
+"wide" "f20"
+"tall" "25"
+"proportionaltoparent" "1"
+"bgcolor_override" "153 50 204 13"
 }
 "sideglow"
 {
@@ -184,20 +203,17 @@
 {
 "controlname" "cexlabel"
 "fieldname" "message"
-"xpos" "10"
+"xpos" "15"
 "ypos" "20"
-"wide" "f20"
+"wide" "f30"
 "tall" "25"
 "mouseinputenabled" "0"
 "proportionaltoparent" "1"
 "labeltext" "Dying's a boring side effect"
-"font" "fontmedium_9_additive"
+"font" "fontmedium_10_additive"
 "textalignment" "west"
-"textinsetx" "5"
-"use_proportional_insets" "1"
 "wrap" "1"
 "fgcolor" "153 50 204 153"
-"bgcolor_override" "153 50 204 13"
 }
 "profilebutton"
 {
@@ -235,6 +251,17 @@
 "tall" "f1"
 "proportionaltoparent" "1"
 "bgcolor_override" "fragpaneltransparentdark60"
+}
+"bgpanel2"
+{
+"controlname" "editablepanel"
+"fieldname" "bgpanel2"
+"xpos" "10"
+"ypos" "20"
+"wide" "f20"
+"tall" "20"
+"proportionaltoparent" "1"
+"bgcolor_override" "255 29 142 13"
 }
 "sideglow"
 {
@@ -286,20 +313,17 @@
 {
 "controlname" "cexlabel"
 "fieldname" "message"
-"xpos" "10"
+"xpos" "15"
 "ypos" "20"
-"wide" "f20"
+"wide" "f30"
 "tall" "20"
 "mouseinputenabled" "0"
 "proportionaltoparent" "1"
 "labeltext" ""
-"font" "fontmedium_9_additive"
+"font" "fontmedium_10_additive"
 "textalignment" "west"
-"textinsetx" "5"
-"use_proportional_insets" "1"
 "wrap" "1"
 "fgcolor" "255 29 142 153"
-"bgcolor_override" "255 29 142 13"
 }
 "profilebutton"
 {
