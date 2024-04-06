@@ -134,7 +134,7 @@ class Supporter(typing.NamedTuple):
             hide_accountid=data["hide_accountid"],
             date=data["date"],
             message=data["message"],
-            amount=data["amount"],
+            amount=float(data["amount"]),
             hide_amount=data["hide_amount"]
         )
 
