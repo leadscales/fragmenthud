@@ -103,7 +103,7 @@
 "font" "fontmedium_10_additive"
 "textalignment" "west"
 "wrap" "1"
-"fgcolor" "255 165 0 153"
+"fgcolor" "255 165 0 255"
 }
 "profilebutton"
 {
@@ -213,7 +213,7 @@
 "font" "fontmedium_10_additive"
 "textalignment" "west"
 "wrap" "1"
-"fgcolor" "153 50 204 153"
+"fgcolor" "153 50 204 255"
 }
 "profilebutton"
 {
@@ -323,7 +323,7 @@
 "font" "fontmedium_10_additive"
 "textalignment" "west"
 "wrap" "1"
-"fgcolor" "255 29 142 153"
+"fgcolor" "255 29 142 255"
 }
 "profilebutton"
 {

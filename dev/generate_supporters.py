@@ -168,7 +168,7 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["amount"]["fgcolor"] = supporter.color.as_vdf(255)
         _d["message"]["tall"] = str(_message_tall)
         _d["message"]["labeltext"] = supporter.message if supporter.message else ""
-        _d["message"]["fgcolor"] = supporter.color.as_vdf(153)
+        _d["message"]["fgcolor"] = supporter.color.as_vdf(255)
         _d["profilebutton"]["command"] = f"url https://steamcommunity.com/profiles/{supporter.accountid | STEAMID_MAGIC_NUMBER}" if not supporter.hide_accountid else ""
         _d["profilebutton"]["defaultbgcolor_override"] = supporter.color.as_vdf(3)
         _d["profilebutton"]["armedbgcolor_override"] = supporter.color.as_vdf(13)
