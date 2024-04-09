@@ -26,7 +26,44 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "wide": "f10",
         "tall": "f1",
         "proportionaltoparent": "1",
-        "bgcolor_override": "fragpaneltransparentdark60",
+        "bgcolor_override": "FragPanelTransparentDark80",
+
+        "subimage1": {
+            "controlname": "imagepanel",
+            "fieldname": "subimage1",
+            "xpos": "0",
+            "ypos": "cs-0.5",
+            "wide": "f0",
+            "tall": "o1",
+            "proportionaltoparent": "1",
+            "image": "replay/thumbnails/supporters/supporter_bg",
+            "scaleimage": "1",
+            "drawcolor": "255 0 0 255"
+        },
+        "subimage2": {
+            "controlname": "imagepanel",
+            "fieldname": "subimage2",
+            "xpos": "0",
+            "ypos": "cs-0.5",
+            "wide": "f0",
+            "tall": "o1",
+            "proportionaltoparent": "1",
+            "image": "replay/thumbnails/supporters/supporter_overlay_0",
+            "scaleimage": "1",
+            "drawcolor": "255 0 0 255"
+        },
+        "subimage3": {
+            "controlname": "imagepanel",
+            "fieldname": "subimage3",
+            "xpos": "0",
+            "ypos": "cs-0.5",
+            "wide": "f0",
+            "tall": "o1",
+            "proportionaltoparent": "1",
+            "image": "replay/thumbnails/supporters/supporter_overlay_1",
+            "scaleimage": "1",
+            "drawcolor": "255 0 0 255"
+        },
     },
 
     "bgpanel2": {
@@ -56,33 +93,29 @@ SUPPORTER_ENTRY_TEMPLATE = {
     "name": {
         "controlname": "cexlabel",
         "fieldname": "name",
-        "xpos": "5",
+        "xpos": "10",
         "ypos": "0",
-        "wide": "f70",
+        "wide": "f20",
         "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
         "labeltext": "error",
         "font": "fontmedium_10_additive",
-        "textinsetx": "5",
-        "use_proportional_insets": "1",
         "fgcolor": "255 0 0 255"
     },
 
     "amount": {
         "controlname": "cexlabel",
         "fieldname": "amount",
-        "xpos": "rs1-5",
+        "xpos": "rs1-10",
         "ypos": "0",
-        "wide": "60",
+        "wide": "f20",
         "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
         "labeltext": "error",
         "font": "fontmedium_10_additive",
         "textalignment": "east",
-        "textinsetx": "5",
-        "use_proportional_insets": "1",
         "fgcolor": "255 0 0 255"
     },
 
@@ -151,17 +184,24 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
     result = {}
     for index, supporter in enumerate(supporters):
         _amount = ""
-        if supporter.amount == -1.0:
+        if int(supporter.amount) == -1:
             _amount = "#FRAG_Safemode_Supporters_Tester"
+        elif int(supporter.amount) == -2:
+            _amount = "#FRAG_Safemode_Supporters_Contributor"
+        elif int(supporter.amount) == -3:
+            _amount = "#FRAG_Safemode_Supporters_Translator"
         else:
             _amount = "${:.2f}".format(supporter.amount)
-        _message_tall = ((len(supporter.message) + 1) // 20) * 5 + 20
+        _message_tall = ((len(supporter.message) + 1) // 32) * 5 + 20
         _d = copy.deepcopy(SUPPORTER_ENTRY_TEMPLATE)
         _d["fieldname"] = str(index)
         _d["ypos"] = str(y_offset)
+        _d["bgpanel"]["subimage1"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.6))
+        _d["bgpanel"]["subimage2"]["drawcolor"] = supporter.color.as_vdf(255)
+        _d["bgpanel"]["subimage3"]["drawcolor"] = supporter.color.as_vdf(255)
         _d["bgpanel2"]["tall"] = str(_message_tall)
-        _d["bgpanel2"]["bgcolor_override"] = supporter.color.as_vdf(13)
-        _d["sideglow"]["drawcolor"] = supporter.color.as_vdf(13)
+        _d["bgpanel2"]["bgcolor_override"] = supporter.color.as_vdf(round(255 * 0.05))
+        _d["sideglow"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.05))
         _d["name"]["labeltext"] = supporter.name
         _d["name"]["fgcolor"] = supporter.color.as_vdf(255)
         _d["amount"]["labeltext"] = _amount if not supporter.hide_amount else ""
@@ -170,8 +210,8 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["message"]["labeltext"] = supporter.message if supporter.message else ""
         _d["message"]["fgcolor"] = supporter.color.as_vdf(255)
         _d["profilebutton"]["command"] = f"url https://steamcommunity.com/profiles/{supporter.accountid | STEAMID_MAGIC_NUMBER}" if not supporter.hide_accountid else ""
-        _d["profilebutton"]["defaultbgcolor_override"] = supporter.color.as_vdf(3)
-        _d["profilebutton"]["armedbgcolor_override"] = supporter.color.as_vdf(13)
+        _d["profilebutton"]["defaultbgcolor_override"] = supporter.color.as_vdf(0)
+        _d["profilebutton"]["armedbgcolor_override"] = supporter.color.as_vdf(round(255 * 0.02))
 
         if not supporter.message:
             _d["tall"] = "20"
@@ -212,7 +252,7 @@ def main():
 
     supporter_dict = generate_supporter_vdf(supporter_list, 20)
 
-    with open(main_dir.joinpath("safemode_supporters_list.res"), "w") as file:
+    with open(main_dir.joinpath("safemode_supporters_list.res"), "w", encoding="utf-8") as file:
         vdf.dump(supporter_dict, file, False, False)
 
 
