@@ -1,17 +1,2 @@
-"Scheme"
-{
-"Colors"
-{
-"FragPositive100" "255 67 241 255"
-"FragPositive80" "255 67 241 204"
-"FragPositive60" "255 67 241 153"
-"FragPositive40" "255 67 241 102"
-"FragPositive20" "255 67 241 51"
-"FragPositive10" "255 67 241 26"
-"FragPositive05" "255 67 241 13"
-"GreenSolid" "255 67 241 255"
-"StoreGreen" "255 67 241 255"
-"ItemAttribPositive" "255 67 241 255"
-"SaleGreen" "255 67 241 255"
-}
-}
+// GENERATED AT 2024-04-11 03:07:56.364714+00:00
+"Scheme" { "Colors" { "FragPositive100" "255 67 241 255" "FragPositive80" "255 67 241 204" "FragPositive60" "255 67 241 153" "FragPositive40" "255 67 241 102" "FragPositive20" "255 67 241 51" "FragPositive10" "255 67 241 26" "FragPositive05" "255 67 241 13" "GreenSolid" "255 67 241 255" "StoreGreen" "255 67 241 255" "ItemAttribPositive" "255 67 241 255" "SaleGreen" "255 67 241 255" } } 

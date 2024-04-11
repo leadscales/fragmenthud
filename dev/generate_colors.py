@@ -1,4 +1,5 @@
 import colorsys
+import datetime
 import pathlib
 import shutil
 import sys
@@ -325,30 +326,40 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
         )
 
         for index, data in scheme.items():
-            with open(work_dir.joinpath(f"{index + 1}.res"), "w") as file:
-                vdf.dump(
+            with open(work_dir.joinpath(f"{index + 1}.res"), "w", encoding="utf-8") as file:
+                _s = ""
+                _s = vdf.dumps(
                     {
                         "Scheme": {
                             "Colors": data
                         }
                     },
-                    file,
-                    escaped=False
+                    False,
+                    False
                 )
+                _s = _s.replace("\n", " ")
+                _s = f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n{_s}"
+                file.write(_s)
 
         # Configuration
         work_dir = root.joinpath("cfg/")
-        with open(work_dir.joinpath(f"frag_c{color_name.lower()}.cfg"), "w") as file:
-            file.write(generate_color_cfg(colors, color_name))
+        with open(work_dir.joinpath(f"frag_c{color_name.lower()}.cfg"), "w", encoding="utf-8") as file:
+            _s = generate_color_cfg(colors, color_name)
+            _s = f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n{_s}"
+            file.write(_s)
 
         # Buttons
         work_dir = root.joinpath(f"extd/_safemode/")
-        with open(work_dir.joinpath(f"safemode_colors_{color_name.lower()}.res"), "w") as file:
-            vdf.dump(
+        with open(work_dir.joinpath(f"safemode_colors_{color_name.lower()}.res"), "w", encoding="utf-8") as file:
+            _s = ""
+            _s = vdf.dumps(
                 generate_color_buttons(colors, color_name),
-                file,
-                escaped=False
+                False,
+                False
             )
+            _s = _s.replace("\n", " ")
+            _s = f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n{_s}"
+            file.write(_s)
 
     if show_colors:
         generate_color_bar(colors, 10, 10).show()

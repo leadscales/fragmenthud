@@ -1,17 +1,2 @@
-"Scheme"
-{
-"Colors"
-{
-"FragAccent100" "64 153 255 255"
-"FragAccent80" "64 153 255 204"
-"FragAccent60" "64 153 255 153"
-"FragAccent40" "64 153 255 102"
-"FragAccent20" "64 153 255 51"
-"FragAccent10" "64 153 255 26"
-"FragAccent05" "64 153 255 13"
-"ItemIsotope" "64 153 255 255"
-"ItemBundleItem" "64 153 255 255"
-"ItemLimitedUse" "64 153 255 255"
-"ItemSetName" "64 153 255 255"
-}
-}
+// GENERATED AT 2024-04-11 03:07:56.286643+00:00
+"Scheme" { "Colors" { "FragAccent100" "64 153 255 255" "FragAccent80" "64 153 255 204" "FragAccent60" "64 153 255 153" "FragAccent40" "64 153 255 102" "FragAccent20" "64 153 255 51" "FragAccent10" "64 153 255 26" "FragAccent05" "64 153 255 13" "ItemIsotope" "64 153 255 255" "ItemBundleItem" "64 153 255 255" "ItemLimitedUse" "64 153 255 255" "ItemSetName" "64 153 255 255" } } 

@@ -1,19 +1,2 @@
-"Scheme"
-{
-"Colors"
-{
-"FragNegative100" "81 113 255 255"
-"FragNegative80" "81 113 255 204"
-"FragNegative60" "81 113 255 153"
-"FragNegative40" "81 113 255 102"
-"FragNegative20" "81 113 255 51"
-"FragNegative10" "81 113 255 26"
-"FragNegative05" "81 113 255 13"
-"HUDDeathWarning" "81 113 255 255"
-"LowHealthRed" "81 113 255 255"
-"ItemAttribNegative" "81 113 255 255"
-"ItemLimitedQuantity" "81 113 255 255"
-"LightRed" "81 113 255 255"
-"LighterRed" "81 113 255 255"
-}
-}
+// GENERATED AT 2024-04-11 03:07:56.323677+00:00
+"Scheme" { "Colors" { "FragNegative100" "81 113 255 255" "FragNegative80" "81 113 255 204" "FragNegative60" "81 113 255 153" "FragNegative40" "81 113 255 102" "FragNegative20" "81 113 255 51" "FragNegative10" "81 113 255 26" "FragNegative05" "81 113 255 13" "HUDDeathWarning" "81 113 255 255" "LowHealthRed" "81 113 255 255" "ItemAttribNegative" "81 113 255 255" "ItemLimitedQuantity" "81 113 255 255" "LightRed" "81 113 255 255" "LighterRed" "81 113 255 255" } } 

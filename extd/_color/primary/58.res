@@ -1,20 +1,2 @@
-"Scheme"
-{
-"Colors"
-{
-"FragPrimary100" "75 118 255 255"
-"FragPrimary80" "75 118 255 204"
-"FragPrimary60" "75 118 255 153"
-"FragPrimary40" "75 118 255 102"
-"FragPrimary20" "75 118 255 51"
-"FragPrimary10" "75 118 255 26"
-"FragPrimary05" "75 118 255 13"
-"Orange" "75 118 255 255"
-"OrangeDim" "75 118 255 102"
-"LightOrange" "75 118 255 102"
-"TFOrange" "75 118 255 255"
-"Purple" "75 118 255 255"
-"CreditsGreen" "75 118 255 255"
-"ItemSetItemEquipped" "75 118 255 255"
-}
-}
+// GENERATED AT 2024-04-11 03:07:56.250611+00:00
+"Scheme" { "Colors" { "FragPrimary100" "75 118 255 255" "FragPrimary80" "75 118 255 204" "FragPrimary60" "75 118 255 153" "FragPrimary40" "75 118 255 102" "FragPrimary20" "75 118 255 51" "FragPrimary10" "75 118 255 26" "FragPrimary05" "75 118 255 13" "Orange" "75 118 255 255" "OrangeDim" "75 118 255 102" "LightOrange" "75 118 255 102" "TFOrange" "75 118 255 255" "Purple" "75 118 255 255" "CreditsGreen" "75 118 255 255" "ItemSetItemEquipped" "75 118 255 255" } } 

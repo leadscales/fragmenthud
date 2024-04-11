@@ -1,3 +1,4 @@
+import datetime
 import fragment
 import vdf
 import pathlib
@@ -66,7 +67,7 @@ def main():
             _w_text = vdf.dumps(_w)
             _w_text = _w_text.replace("\n", "\r\n")
             _w_text = _w_text.replace(r"\'", r"'")
-            _w_text = b"\xff\xfe" + _w_text.encode("utf-16-le")
+            _w_text = b"\xff\xfe" + f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n".encode("utf-16-le") + _w_text.encode("utf-16-le")
 
             with open(LANGUAGES_PATH.joinpath(f"chat_{lang}.txt"), "wb") as file:
                 file.write(_w_text)
@@ -86,7 +87,7 @@ def main():
         s = f"alias \"frag_info\" \"{d}\"\n"
         s += f"alias \"frag_version\" \"echo {hud_version}\"\n"
 
-        file.write(s)
+        file.write(f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n" + s)
 
     with open(root.joinpath("cfg/frag_startmsg.cfg"), "w") as file:
         lines = startmsg
@@ -96,7 +97,7 @@ def main():
             _line = _line.format(**{"version": hud_version.center(48)})
             lines[line] = "echo \"" + _line + "\""
 
-        file.write("\n".join(lines))
+        file.write(f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n" + "\n".join(lines))
 
 
 if __name__ == "__main__":

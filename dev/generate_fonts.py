@@ -3,6 +3,7 @@ import vdf
 import typing
 import pathlib
 import dataclasses
+import datetime
 
 languages = fragment.LANGUAGES
 
@@ -103,8 +104,12 @@ def main():
 
     font_dict = generate_font_dict(fonts, sizes)
 
-    with open(root.joinpath("frag/resource/scheme/fonts.res"), "w") as file:
-        vdf.dump(font_dict, file)
+    with open(root.joinpath("frag/resource/scheme/fonts.res"), "w", encoding="utf-8") as file:
+        _s = ""
+        _s = vdf.dumps(font_dict, False, False)
+        _s = _s.replace("\n", " ")
+        _s = f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n{_s}"
+        file.write(_s)
 
 
 if __name__ == "__main__":

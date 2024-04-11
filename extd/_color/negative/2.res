@@ -1,19 +1,2 @@
-"Scheme"
-{
-"Colors"
-{
-"FragNegative100" "255 83 69 255"
-"FragNegative80" "255 83 69 204"
-"FragNegative60" "255 83 69 153"
-"FragNegative40" "255 83 69 102"
-"FragNegative20" "255 83 69 51"
-"FragNegative10" "255 83 69 26"
-"FragNegative05" "255 83 69 13"
-"HUDDeathWarning" "255 83 69 255"
-"LowHealthRed" "255 83 69 255"
-"ItemAttribNegative" "255 83 69 255"
-"ItemLimitedQuantity" "255 83 69 255"
-"LightRed" "255 83 69 255"
-"LighterRed" "255 83 69 255"
-}
-}
+// GENERATED AT 2024-04-11 03:07:56.303659+00:00
+"Scheme" { "Colors" { "FragNegative100" "255 83 69 255" "FragNegative80" "255 83 69 204" "FragNegative60" "255 83 69 153" "FragNegative40" "255 83 69 102" "FragNegative20" "255 83 69 51" "FragNegative10" "255 83 69 26" "FragNegative05" "255 83 69 13" "HUDDeathWarning" "255 83 69 255" "LowHealthRed" "255 83 69 255" "ItemAttribNegative" "255 83 69 255" "ItemLimitedQuantity" "255 83 69 255" "LightRed" "255 83 69 255" "LighterRed" "255 83 69 255" } } 
