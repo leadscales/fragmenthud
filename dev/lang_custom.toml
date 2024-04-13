@@ -156,5 +156,66 @@ FRAG_Etc_Large = "Duże"
 
 FRAG_CharInfo_Armory = "Katalog"
 
+[ukrainian]
+#Переклад від S1LVE12R47
+#Якщо в моєму перекладі щось не так, не бійтеся це виправити (й додати своє ім'я до строки вище) <3
+FRAG_Oobe_Description = "Дякуємо за завантаження FRAGMENTHUD.\n\nЦей HUD в розробці тому іноді можуть траплятися помилки. Будь ласка, повідомляйте про них на GitHub або Discord.\n\nЦе повідомлення не з'явиться знову.\n\nДякую <3\n\n-Лід (-Lead)"
+FRAG_Oobe_HangWarn = "TF2 може ненадовго зависнути після виходу з цього меню."
+
+FRAG_ValveRC_WarnTitle = "УВАГА"
+FRAG_ValveRC_WarnBody = "Не вдалося запустити frag_autoexec.cfg.\n\nЗазвичай, це трапляється тому що valve.rc HUD'у не запустився під час старту гри, в більшості випадків, через те що інший мод його перевизначив.\n\n Через це, налаштування не будуть працювати, а більшість елементів інтерфейсу будуть зламані.\n\nНатисніть на кнопку нижче щоб дізнатися як це виправити."
+FRAG_ValveRC_WarnFix = "СПРОБУВАТИ ВИПРАВИТИ"
+
+FRAG_Safemode_Warn = "Налаштовуйте тільки коли ви не на сервері/локальній грі."
+FRAG_Safemode_RenameWarn = "Тека HUD не була перейменована."
+
+FRAG_Safemode_Supporters_Title = "ПОДЯКИ"
+FRAG_Safemode_Supporters_Tester = "Тестер ★"
+FRAG_Safemode_Supporters_Contributor = "Контрибутор ★"
+FRAG_Safemode_Supporters_Translator = "Перекладач ★"
+FRAG_Safemode_Supporters_Donate = "ЗАДОНАТИТИ"
+
+FRAG_Safemode_Colors_Title = "КОЛЬОРИ"
+FRAG_Safemode_Colors_Primary = "ОСНОВНИЙ"
+FRAG_Safemode_Colors_Accent = "ДРУГОРЯДНИЙ"
+FRAG_Safemode_Colors_Negative = "НЕГАТИВНИЙ"
+FRAG_Safemode_Colors_Positive = "ПОЗИТИВНИЙ"
+FRAG_Safemode_Colors_Tooltip = "Перезапустіть TF2 після вибору кольорів щоб побачити ваші зміни."
+
+FRAG_Safemode_MMenu_Title = "ГОЛОВНЕ МЕНЮ"
+FRAG_Safemode_MMenu_FList = "СПИСОК ДРУЗІВ"
+
+FRAG_Safemode_Hitmarker_Title = "ХІТМАРКЕР"
+FRAG_Safemode_Hitmarker_Toggle = "ВВІМКНУТИ/ВИМКНУТИ ХІТМАРКЕР"
+FRAG_Safemode_Hitmarker_Shape = "ФОРМА ХІТМАРКЕРУ"
+FRAG_Safemode_Hitmarker_Size = "РОЗМІР ХІТМАРКЕРУ"
+
+FRAG_Safemode_Scoreboard_Title = "ТАБЛО"
+FRAG_Safemode_Scoreboard_Format = "ФОРМАТ"
+
+FRAG_Safemode_Killfeed_Title = "КІЛЛФІД"
+FRAG_Safemode_Killfeed_MaxEntries = "МАКСИМУМ РЯДКІВ"
+FRAG_Safemode_Killfeed_EntryOpacity = "ПРОЗОРІСТЬ РЯДКІВ"
+
+FRAG_Safemode_Playerclass_Title = "КЛАС ГРАВЦЯ"
+FRAG_Safemode_3DPlayer_Toggle = "3D МОДЕЛЬ ГРАВЦЯ"
+FRAG_Safemode_2DPlayer_Toggle = "2D ЗОБРАЖЕННЯ ГРАВЦЯ"
+FRAG_Safemode_3DPlayer_Tooltip = "Використовуйте cl_hud_playerclass_use_playermodel 0/1 щоб перемикатися між 3D моделлю та 2D зображенням."
+
+FRAG_Buttons_Info = "Про FRAGMENTHUD"
+FRAG_Buttons_Console = "Консоль"
+FRAG_Buttons_DemoUI = "DemoUI"
+FRAG_Buttons_FixIssues = "Спробувати виправити проблеми з HUD/інтерфейсом/звуком"
+FRAG_Buttons_BugReport = "Повідомити про помилку"
+FRAG_Buttons_Translate = "Допомогти у перекладі"
+FRAG_Buttons_Discord = "Зайти на сервер Discord"
+FRAG_Buttons_LeadProfile = "Переглянути профіль автора"
+
+FRAG_Etc_Small = "Малий"
+FRAG_Etc_Medium = "Середній"
+FRAG_Etc_Large = "Великий"
+
+FRAG_CharInfo_Armory = "Каталог"
+
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"

@@ -18,6 +18,7 @@ LANGUAGES = (
     "korean",
     "koreana",
     "norwegian",
+    "pirate",
     "polish",
     "portuguese",
     "romanian",
@@ -28,7 +29,7 @@ LANGUAGES = (
     "tchinese",
     "thai",
     "turkish",
-    "pirate"
+    "ukrainian"
 )
 
 
