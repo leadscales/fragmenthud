@@ -98,8 +98,8 @@ FRAG_Etc_Large = "Большой"
 [polish]
 #TRANSLATIONS BY @qareday, @nuxtjs / melody
 #JEŻELI TO CZYTASZ I TEŻ JESTEŚ Z POLSKI, I COŚ WYGLĄDA NIE TAK, TO PRZETŁUMACZ TO ZA NAS, TYLKO UPEWNIJ SIĘ ZE MA SENS <3
-FRAG_Oobe_Description = "Dziękuje za pobranie FRAGMENTHUD.\n\nPracuje nad tym HUDem, więc rzeczy mogą się psuć. Jeżeli znajdziesz jakieś problemy, utwórz wątek na githubie lub dołącz do naszego serwera Discord po pomoc.\n\nTa wiadomość już nie więcej nie pojawi.\n\nDziękuje <3\n\n-Lead"
-FRAG_Oobe_HangWarn = "TF2 może chwilowo się zaciąć wychodząc z tego menu, jest to normalne i gra się nie przestała działać."
+FRAG_Oobe_Description = "Dziękuje za pobranie FRAGMENTHUD.\n\nPracuje nad tym HUDem, więc rzeczy mogą się psuć. Jeżeli znajdziesz jakieś problemy, utwórz wątek na githubie lub dołącz do naszego serwera Discord po pomoc.\n\nTa wiadomość już sie więcej nie pojawi.\n\nDziękuje <3\n\n-Lead"
+FRAG_Oobe_HangWarn = "TF2 może chwilowo się zaciąć wychodząc z tego menu, jest to normalne i gra nie przestała działać."
 
 FRAG_ValveRC_WarnTitle = "UWAGA"
 FRAG_ValveRC_WarnBody = "Uruchomienie frag_autoexec.cfg FRAGMENTHUDa nie powiodło się.\n\nZazwyczaj jest to ponieważ plik valve.rc HUDa nie był uruchamiany przy włączeniu gry, zwyczajnie przez innego moda nadpisującego go.\n\nDostosowywanie nie będzie działać i jest wyłączone, i przez to wiele elementów HUDa będą kompletnie zepsute.\n\nKliknij na przycisk poniżej aby dowiedzieć się jak to naprawić."
