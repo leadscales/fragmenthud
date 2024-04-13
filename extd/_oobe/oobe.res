@@ -158,7 +158,7 @@
                 "sound_released"            "UI/buttonclickrelease.wav"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragNegative20"
+                "armedbgcolor_override"     "FragNegative10"
                 "fgcolor"                   "FragNegative100"
                 "defaultfgcolor_override"   "FragNegative100"
                 "armedfgcolor_override"     "FragNegative100"
@@ -309,7 +309,7 @@
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                        "armedbgcolor_override"     "FragPrimary20"
+                        "armedbgcolor_override"     "FragPrimary10"
                         "defaultfgcolor_override"   "FragNeutral100"
                         "armedfgcolor_override"     "FragPrimary100"
                     }
@@ -334,7 +334,7 @@
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                        "armedbgcolor_override"     "FragPrimary20"
+                        "armedbgcolor_override"     "FragPrimary10"
                         "defaultfgcolor_override"   "FragNeutral100"
                         "armedfgcolor_override"     "FragPrimary100"
                     }
@@ -359,7 +359,7 @@
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                        "armedbgcolor_override"     "FragPrimary20"
+                        "armedbgcolor_override"     "FragPrimary10"
                         "defaultfgcolor_override"   "FragNeutral100"
                         "armedfgcolor_override"     "FragPrimary100"
                     }
@@ -394,17 +394,17 @@
 
             "Icon"
             {
-                "ControlName"               "ImagePanel"
+                "ControlName"               "CExLabel"
                 "fieldName"                 "Icon"
                 "xpos"                      "rs1-4"
                 "ypos"                      "4"
                 "wide"                      "12"
                 "tall"                      "12"
                 "proportionaltoparent"      "1"
-                "image"                     "replay/thumbnails/menu/leadicon"
-                "scaleImage"                "1"
-                "alpha"                     "255"
-                "drawcolor"                 "FragAccent100"
+                "labeltext"                 "§"
+                "textalignment"             "east"
+                "font"                      "Icons_Small_Additive"
+                "fgcolor"                   "0 255 240 255"
             }
 
             "HangWarning"

@@ -195,18 +195,20 @@ class Supporter(typing.NamedTuple):
     message: str
     amount: float
     hide_amount: bool
+    translator_lang: str | None
 
     @classmethod
     def from_dict(cls, data: dict):
         return cls(
-            name=data["name"],
-            color=Color.from_int(data["color"]),
-            accountid=data["accountid"],
-            hide_accountid=data["hide_accountid"],
-            date=data["date"],
-            message=data["message"],
-            amount=float(data["amount"]),
-            hide_amount=data["hide_amount"]
+            name=data.get("name"),
+            color=Color.from_int(data.get("color")),
+            accountid=data.get("accountid"),
+            hide_accountid=data.get("hide_accountid"),
+            date=data.get("date"),
+            message=data.get("message"),
+            amount=float(data.get("amount")),
+            hide_amount=data.get("hide_amount"),
+            translator_lang=data.get("translator_lang")
         )
 
 
@@ -214,12 +216,14 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
     result = {}
     for index, supporter in enumerate(supporters):
         _amount = ""
+        _name = supporter.name
         if int(supporter.amount) == -1:
             _amount = "#FRAG_Safemode_Supporters_Tester"
         elif int(supporter.amount) == -2:
             _amount = "#FRAG_Safemode_Supporters_Contributor"
         elif int(supporter.amount) == -3:
             _amount = "#FRAG_Safemode_Supporters_Translator"
+            _name = f"{_name} · {supporter.translator_lang}"
         else:
             _amount = "${:.2f}".format(supporter.amount)
         _message_tall = ((len(supporter.message) + 1) // 32) * 5 + 20
@@ -242,7 +246,7 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
 
         _d["sideglow"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.05))
 
-        _d["name"]["labeltext"] = supporter.name
+        _d["name"]["labeltext"] = _name
         _d["name"]["fgcolor"] = supporter.color.as_vdf(255)
 
         _d["amount"]["labeltext"] = _amount if not supporter.hide_amount else ""
@@ -251,6 +255,12 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["message"]["tall"] = str(_message_tall)
         _d["message"]["labeltext"] = supporter.message if supporter.message else ""
         _d["message"]["fgcolor"] = supporter.color.as_vdf(255)
+
+        if not supporter.message:
+            _d.pop("bgpanel2")
+            _d.pop("message")
+        if supporter.hide_accountid:
+            _d.pop("profilebutton")
 
         if not supporter.message:
             _d["tall"] = "20"

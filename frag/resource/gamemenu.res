@@ -39,7 +39,7 @@
     "Translate"
     {
         "label"             "L"
-        "command"           "engine echo replaceme"
+        "command"           "url https://github.com/leadscales/fragmenthud/blob/master/translations.md"
         "tooltip"           "#FRAG_Buttons_Translate"
     }
     "Discord"

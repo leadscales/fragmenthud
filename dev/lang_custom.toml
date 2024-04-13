@@ -9,7 +9,7 @@ FRAG_ValveRC_WarnFix = "FIX ISSUES"
 FRAG_Safemode_Warn = "Only customize when not in-game."
 FRAG_Safemode_RenameWarn = "HUD folder is not renamed."
 
-FRAG_Safemode_Supporters_Title = "SUPPORTERS"
+FRAG_Safemode_Supporters_Title = "CREDITS AND SUPPORTERS"
 FRAG_Safemode_Supporters_Tester = "Tester ★"
 FRAG_Safemode_Supporters_Contributor = "Contributor ★"
 FRAG_Safemode_Supporters_Translator = "Translator ★"
@@ -23,7 +23,7 @@ FRAG_Safemode_Colors_Positive = "POSITIVE"
 FRAG_Safemode_Colors_Tooltip = "Restart TF2 after choosing your colors to see your changes."
 
 FRAG_Safemode_MMenu_Title = "MAIN MENU"
-FRAG_Safemode_MMenu_FList = "FRIEND LIST"
+FRAG_Safemode_MMenu_FList = "FRIENDS LIST"
 
 FRAG_Safemode_Hitmarker_Title = "HITMARKER"
 FRAG_Safemode_Hitmarker_Toggle = "HITMARKER TOGGLE"
