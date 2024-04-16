@@ -276,5 +276,64 @@ FRAG_Etc_Large = "Grande"
 
 FRAG_CharInfo_Armory = "Catalogo"
 
+[italian]
+FRAG_Oobe_Description = "Grazie per aver scaricato FRAGMENTHUD.\n\nQuesto HUD è un lavoro in corso, le cose potrebbero rompersi. Se hai trovato qualche problemi, segnala un problema su GitHub oppure chiedi aiuto nel nostro server Discord.\n\nQuesto messaggio non mostrerà più.\n\nGrazie <3\n\n-Lead"
+FRAG_Oobe_HangWarn = "TF2 potrebbe bloccarsi momentaneamente quando esci da questo menu, questo è normale e il gioco non si è chiudato."
+
+FRAG_ValveRC_WarnTitle = "ATTENZIONE"
+FRAG_ValveRC_WarnBody = "Il filo frag_autoexec.cfg di FRAGMENTHUD non è riuscita a funzionare.\n\nQuesto è generalmente perché il file valve.rc del HUD non è stato eseguito all'avvio, solitamente a causa di un'altra modificazione che lo sovrascrive.\n\nLe personalizzazioni non funzioneranno e si sono disabilitate, e molti elementi HUD saranno completamente rotti a questa causa.\n\nClicca sul pulsante in basso per sapere come riparare il problema."
+FRAG_ValveRC_WarnFix = "RIPARA PROBLEMI"
+
+FRAG_Safemode_Warn = "Personalizza solo quando non sei in partito."
+FRAG_Safemode_RenameWarn = "Il cartello HUD non si é rinominato."
+
+FRAG_Safemode_Supporters_Title = "CREDITI E SOSTENITORI"
+FRAG_Safemode_Supporters_Tester = "Provatore ★"
+FRAG_Safemode_Supporters_Contributor = "Contributore ★"
+FRAG_Safemode_Supporters_Translator = "Traduttore ★"
+FRAG_Safemode_Supporters_Donate = "DONA"
+
+FRAG_Safemode_Colors_Title = "COLORI"
+FRAG_Safemode_Colors_Primary = "PRIMARIO"
+FRAG_Safemode_Colors_Accent = "ACCENTO"
+FRAG_Safemode_Colors_Negative = "NEGATIVO"
+FRAG_Safemode_Colors_Positive = "POSITIVO"
+FRAG_Safemode_Colors_Tooltip = "Dopo aver scelto i colori, riavviare TF2 per vedere le personalizzazioni."
+
+FRAG_Safemode_MMenu_Title = "MENU PRINCIPALE"
+FRAG_Safemode_MMenu_FList = "LISTA AMICI"
+
+FRAG_Safemode_Hitmarker_Title = "HITMARKER"
+FRAG_Safemode_Hitmarker_Toggle = "IMPOSTAZIONE HITMARKER"
+FRAG_Safemode_Hitmarker_Shape = "ASPETTO HITMARKER"
+FRAG_Safemode_Hitmarker_Size = "GRANDEZZA HITMARKER"
+
+FRAG_Safemode_Scoreboard_Title = "TABELLA DEI PUNTEGGI"
+FRAG_Safemode_Scoreboard_Format = "FORMATO"
+
+FRAG_Safemode_Killfeed_Title = "PANNELLO DI MORTE"
+FRAG_Safemode_Killfeed_MaxEntries = "MASSIME VOCI"
+FRAG_Safemode_Killfeed_EntryOpacity = "OPACITÀ VOCI"
+
+FRAG_Safemode_Playerclass_Title = "CLASSE GIOCATORE"
+FRAG_Safemode_3DPlayer_Toggle = "MODELLO GIOCATORE 3D"
+FRAG_Safemode_2DPlayer_Toggle = "IMMAGINE GIOCATORE 2D"
+FRAG_Safemode_3DPlayer_Tooltip = "Usa cl_hud_playerclass_use_playermodel 0/1 per passare tra il modello 3D e l'immagine 2D."
+
+FRAG_Buttons_Info = "Info HUD"
+FRAG_Buttons_Console = "Console"
+FRAG_Buttons_DemoUI = "DemoUI"
+FRAG_Buttons_FixIssues = "Prova a riparare qualche problemi HUD/visuali/uditivi"
+FRAG_Buttons_BugReport = "Segnala un problema con il HUD"
+FRAG_Buttons_Translate = "Aiuta a traddure FRAGMENTHUD"
+FRAG_Buttons_Discord = "Entra il nostro server Discord per aiuto"
+FRAG_Buttons_LeadProfile = "Vedi profilo sviluppatore"
+
+FRAG_Etc_Small = "Piccolo"
+FRAG_Etc_Medium = "Medio"
+FRAG_Etc_Large = "Grande"
+
+FRAG_CharInfo_Armory = "Catalogo"
+
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"
