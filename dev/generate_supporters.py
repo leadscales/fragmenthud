@@ -15,7 +15,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
     "xpos": "0",
     "ypos": "0",
     "wide": "f0",
-    "tall": "65",
+    "tall": "45",
     "proportionaltoparent": "1",
 
     "profilebutton":
@@ -114,7 +114,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "xpos": "10",
         "ypos": "20",
         "wide": "f20",
-        "tall": "40",
+        "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
         "image": "replay/thumbnails/panels/fill_additive",
@@ -136,51 +136,66 @@ SUPPORTER_ENTRY_TEMPLATE = {
     },
 
     "name": {
-        "controlname": "cexlabel",
+        "controlname": "cautofittinglabel",
         "fieldname": "name",
         "xpos": "10",
         "ypos": "0",
-        "wide": "f20",
+        "wide": "f80",
         "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
         "labeltext": "error",
         "font": "fontmedium_10_additive",
-        "fgcolor": "255 0 0 255"
+        "fgcolor": "255 0 0 255",
+        "fgcolor_override": "255 0 0 255",
+        "fonts": {
+            "0": "fontmedium_10_additive",
+            "1": "fontmedium_9_additive",
+            "2": "fontmedium_8_additive"
+        }
     },
 
     "amount": {
-        "controlname": "cexlabel",
+        "controlname": "cautofittinglabel",
         "fieldname": "amount",
         "xpos": "rs1-10",
         "ypos": "0",
-        "wide": "f20",
+        "wide": "60",
         "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
         "labeltext": "error",
         "font": "fontmedium_10_additive",
         "textalignment": "east",
-        "fgcolor": "255 0 0 255"
+        "fgcolor": "255 0 0 255",
+        "fgcolor_override": "255 0 0 255",
+        "fonts": {
+            "0": "fontmedium_10_additive",
+            "1": "fontmedium_9_additive",
+            "2": "fontmedium_8_additive"
+        }
     },
 
     "message": {
-        "controlname": "cexlabel",
+        "controlname": "cautofittinglabel",
         "fieldname": "message",
         "xpos": "15",
         "ypos": "20",
         "wide": "f30",
-        "tall": "40",
+        "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
         "labeltext": "error",
         "font": "fontmedium_10_additive",
         "textalignment": "west",
-        "wrap": "1",
         "fgcolor": "255 0 0 255",
-    },
-
-
+        "fgcolor_override": "255 0 0 255",
+        "fonts": {
+            "0": "fontmedium_10_additive",
+            "1": "fontmedium_9_additive",
+            "2": "fontmedium_8_additive"
+        }
+    }
 }
 
 STEAMID_MAGIC_NUMBER = 0x0110000100000000
@@ -226,7 +241,7 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
             _name = f"{_name} · {supporter.translator_lang}"
         else:
             _amount = "${:.2f}".format(supporter.amount)
-        _message_tall = ((len(supporter.message) + 1) // 32) * 5 + 20
+
         _d = copy.deepcopy(SUPPORTER_ENTRY_TEMPLATE)
 
         _d["fieldname"] = str(index)
@@ -241,20 +256,21 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["bgpanel"]["subimage3"]["drawcolor"] = supporter.color.as_vdf(255)
         _d["bgpanel"]["subimage4"]["drawcolor"] = supporter.color.as_vdf(255)
 
-        _d["bgpanel2"]["tall"] = str(_message_tall)
         _d["bgpanel2"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.05))
 
         _d["sideglow"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.05))
 
         _d["name"]["labeltext"] = _name
         _d["name"]["fgcolor"] = supporter.color.as_vdf(255)
+        _d["name"]["fgcolor_override"] = supporter.color.as_vdf(255)
 
         _d["amount"]["labeltext"] = _amount if not supporter.hide_amount else ""
         _d["amount"]["fgcolor"] = supporter.color.as_vdf(255)
+        _d["amount"]["fgcolor_override"] = supporter.color.as_vdf(255)
 
-        _d["message"]["tall"] = str(_message_tall)
         _d["message"]["labeltext"] = supporter.message if supporter.message else ""
         _d["message"]["fgcolor"] = supporter.color.as_vdf(255)
+        _d["message"]["fgcolor_override"] = supporter.color.as_vdf(255)
 
         if not supporter.message:
             _d.pop("bgpanel2")
@@ -265,7 +281,7 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         if not supporter.message:
             _d["tall"] = "20"
         else:
-            _d["tall"] = str(_message_tall + 25)
+            pass
         result.update({str(index): _d})
         y_offset += int(_d["tall"])
     return {

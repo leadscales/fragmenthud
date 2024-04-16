@@ -39,6 +39,18 @@
                         "tall"                  "0"
                         "xpos"                  "r0"
                     }
+                    
+                    "BGPanel"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "BGPanel"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "19"
+                        "proportionaltoparent"      "1"
+                        "bgcolor_override"          "FragPrimary05"
+                    }
 
                     "Toggle"
                     {
@@ -99,11 +111,11 @@
 
                     "TitleText"
                     {
-                        "ControlName"               "CExLabel"
+                        "ControlName"               "CAutoFittingLabel"
                         "fieldName"                 "TitleText"
                         "xpos"                      "5"
                         "ypos"                      "0"
-                        "wide"                      "f10"
+                        "wide"                      "f35"
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "mouseinputenabled"         "0"
@@ -112,9 +124,15 @@
                         "font"                      "FontMedium_12_Additive"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
-                        "allcaps"                   "1"
                         "fgcolor"                   "FragPrimary100"
-                        "bgcolor_override"          "FragPrimary05"
+                        "fgcolor_override"          "FragPrimary100"
+
+                        "fonts"
+                        {
+                            "0"                     "FontMedium_12_Additive"
+                            "1"                     "FontMedium_10_Additive"
+                            "2"                     "FontMedium_9_Additive"
+                        }
                     }
 
                     "Sections"
@@ -151,17 +169,25 @@
 
                             "Title"
                             {
-                                "ControlName"               "CExLabel"
+                                "ControlName"               "CAutoFittingLabel"
                                 "fieldName"                 "Title"
                                 "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f20"
+                                "wide"                      "f35"
                                 "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Primary"
                                 "allcaps"                   "1"
                                 "font"                      "FontMedium_10_Additive"
                                 "fgcolor"                   "FragPrimary100"
+                                "fgcolor_override"          "FragPrimary100"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
                             }
 
                             "ResetButton"
@@ -236,17 +262,25 @@
 
                             "Title"
                             {
-                                "ControlName"               "CExLabel"
+                                "ControlName"               "CAutoFittingLabel"
                                 "fieldName"                 "Title"
                                 "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f20"
+                                "wide"                      "f35"
                                 "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Accent"
                                 "allcaps"                   "1"
                                 "font"                      "FontMedium_10_Additive"
                                 "fgcolor"                   "FragAccent100"
+                                "fgcolor_override"          "FragAccent100"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
                             }
 
                             "ResetButton"
@@ -321,17 +355,25 @@
 
                             "Title"
                             {
-                                "ControlName"               "CExLabel"
+                                "ControlName"               "CAutoFittingLabel"
                                 "fieldName"                 "Title"
                                 "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f20"
+                                "wide"                      "f35"
                                 "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Negative"
                                 "allcaps"                   "1"
                                 "font"                      "FontMedium_10_Additive"
                                 "fgcolor"                   "FragNegative100"
+                                "fgcolor_override"          "FragNegative100"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
                             }
 
                             "ResetButton"
@@ -406,17 +448,25 @@
 
                             "Title"
                             {
-                                "ControlName"               "CExLabel"
+                                "ControlName"               "CAutoFittingLabel"
                                 "fieldName"                 "Title"
                                 "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f20"
+                                "wide"                      "f35"
                                 "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_Colors_Positive"
                                 "allcaps"                   "1"
                                 "font"                      "FontMedium_10_Additive"
                                 "fgcolor"                   "FragPositive100"
+                                "fgcolor_override"          "FragPositive100"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
                             }
 
                             "ResetButton"

@@ -36,8 +36,8 @@
                 "fonts"
                 {
                     "0"                     "FontMedium_10_Additive"
-                    "0"                     "FontMedium_9_Additive"
-                    "0"                     "FontMedium_8_Additive"
+                    "1"                     "FontMedium_9_Additive"
+                    "2"                     "FontMedium_8_Additive"
                 }
             }
         }

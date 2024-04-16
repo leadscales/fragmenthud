@@ -38,6 +38,18 @@
                         "xpos"                  "r0"
                     }
 
+                    "BGPanel"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "BGPanel"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "19"
+                        "proportionaltoparent"      "1"
+                        "bgcolor_override"          "FragPrimary05"
+                    }
+
                     "Toggle"
                     {
                         "ControlName"               "CExImageButton"
@@ -97,11 +109,11 @@
 
                     "TitleText"
                     {
-                        "ControlName"               "CExLabel"
+                        "ControlName"               "CAutoFittingLabel"
                         "fieldName"                 "TitleText"
                         "xpos"                      "5"
                         "ypos"                      "0"
-                        "wide"                      "f10"
+                        "wide"                      "f35"
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "mouseinputenabled"         "0"
@@ -110,9 +122,15 @@
                         "font"                      "FontMedium_12_Additive"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
-                        "allcaps"                   "1"
                         "fgcolor"                   "FragPrimary100"
-                        "bgcolor_override"          "FragPrimary05"
+                        "fgcolor_override"          "FragPrimary100"
+
+                        "fonts"
+                        {
+                            "0"                     "FontMedium_12_Additive"
+                            "1"                     "FontMedium_10_Additive"
+                            "2"                     "FontMedium_9_Additive"
+                        }
                     }
 
                     "Sections"

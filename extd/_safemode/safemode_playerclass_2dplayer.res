@@ -34,17 +34,25 @@
 
                             "Title"
                             {
-                                "ControlName"               "CExLabel"
+                                "ControlName"               "CAutoFittingLabel"
                                 "fieldName"                 "Title"
                                 "xpos"                      "10"
                                 "ypos"                      "0"
-                                "wide"                      "f20"
+                                "wide"                      "f35"
                                 "tall"                      "20"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "#FRAG_Safemode_2DPlayer_Toggle"
                                 "allcaps"                   "1"
                                 "font"                      "FontMedium_10_Additive"
                                 "fgcolor"                   "FragAccent40"
+                                "fgcolor_override"          "FragAccent40"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
                             }
 
                             "ResetButton"
