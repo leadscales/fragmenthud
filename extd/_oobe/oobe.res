@@ -165,11 +165,26 @@
                 "roundedcorners"            "0"
             }
 
+            "TitleIcon"
+            {
+                "ControlName"               "CExLabel"
+                "fieldName"                 "TitleIcon"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "20"
+                "tall"                      "20"
+                
+                "labelText"                 "¨"
+                "textAlignment"             "center"
+                "font"                      "Icons_Medium_Additive"
+                "fgcolor"                   "FragAccent100"
+            }
+
             "Title"
             {
                 "ControlName"               "CExLabel"
                 "fieldName"                 "Title"
-                "xpos"                      "5"
+                "xpos"                      "20"
                 "ypos"                      "0"
                 "wide"                      "f45"
                 "tall"                      "20"

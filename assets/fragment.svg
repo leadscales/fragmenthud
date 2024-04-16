@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #000;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        display: none;
+      }
+    </style>
+  </defs>
+  <g id="TF">
+    <g>
+      <path class="cls-2" d="M9.2,11c.3-.9,1-1.5,1.8-1.8v-5.1c-3.6.4-6.5,3.3-6.9,6.9h5.1Z"/>
+      <path class="cls-1" d="M13,9.2c.9.3,1.5,1,1.8,1.8h5.1c-.5-3.6-3.3-6.5-6.9-6.9v5.1Z"/>
+      <path class="cls-1" d="M14.8,13c-.3.9-1,1.5-1.8,1.8v5.1c3.6-.5,6.5-3.3,6.9-6.9,0,0-5.1,0-5.1,0Z"/>
+      <path class="cls-1" d="M11,14.8c-.9-.3-1.5-1-1.8-1.8h-5.1c.4,3.6,3.3,6.5,6.9,6.9,0,0,0-5.1,0-5.1Z"/>
+    </g>
+  </g>
+  <g id="Blocks">
+    <rect class="cls-1" x="4" y="8" width="3" height="3"/>
+    <rect class="cls-1" x="8" y="4" width="3" height="3"/>
+    <rect class="cls-1" x="8" y="8" width="3" height="3"/>
+    <rect class="cls-1" x="5" y="5" width="2" height="2"/>
+    <rect class="cls-1" x="2" y="5" width="2" height="2"/>
+    <rect class="cls-1" x="5" y="2" width="2" height="2"/>
+    <rect class="cls-1" x="3" y="3" width="1" height="1"/>
+    <rect class="cls-1" x="1" y="3" width="1" height="1"/>
+    <rect class="cls-1" x="3" y="1" width="1" height="1"/>
+    <rect class="cls-1" x="1" y="1" width="1" height="1"/>
+  </g>
+</svg>

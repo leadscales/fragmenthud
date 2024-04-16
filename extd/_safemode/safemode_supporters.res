@@ -20,7 +20,6 @@
 
                     "collapsed_height"          "20"
                     "ignorescheme"              "1"
-                    "resize_time"               "0.1"
 
                     "container"
                     {

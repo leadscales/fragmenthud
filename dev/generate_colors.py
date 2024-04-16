@@ -5,6 +5,7 @@ import shutil
 import sys
 import typing
 
+from fragment import Color
 import fragment
 import vdf
 
@@ -12,28 +13,6 @@ from PIL import Image, ImageDraw
 
 SWB = "sixense_write_bindings"
 SCB = "frag_cb"
-
-
-class Color(typing.NamedTuple):
-    r: int
-    g: int
-    b: int
-
-    def as_vdf(self, a: int) -> str:
-        return "{0} {1} {2} {3}".format(
-            self.r,
-            self.g,
-            self.b,
-            a
-        )
-
-    @classmethod
-    def from_int(cls, value: int):
-        return cls(
-            r=(value >> 16) & 255,
-            g=(value >> 8) & 255,
-            b=value & 255
-        )
 
 
 def clamp(minimum: int | float, maximum: int | float, value: int | float):

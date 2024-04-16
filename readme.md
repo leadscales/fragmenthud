@@ -48,4 +48,4 @@ Your `<TF2 ROOT>/tf/` folder should look something similar to this:
 |Mann Vs. Machine|🔴|Uncustomized, and scoreboard is completely broken.|
 
 # Supported Resolutions
-Anything **720p** or above works, *but **1080p** or higher is recommended.*
+Anything **720p** or above works, but **1080p** or higher is recommended.

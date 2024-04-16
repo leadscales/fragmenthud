@@ -1,5 +1,6 @@
 import pathlib
 import os
+import typing
 
 LANGUAGES = (
     "brazilian",
@@ -36,9 +37,30 @@ LANGUAGES = (
 def get_project_root(root_file: str = "info.vdf") -> os.PathLike:
     file = pathlib.Path(__file__)
 
-    for i in range(len(file.parents)):
-        j = file.parents[i]
-        if root_file in os.listdir(j):
-            return j
+    for item in file.parents:
+        if root_file in os.listdir(item):
+            return item
 
     raise FileNotFoundError()
+
+
+class Color(typing.NamedTuple):
+    r: int
+    g: int
+    b: int
+
+    def as_vdf(self, a: int) -> str:
+        return "{0} {1} {2} {3}".format(
+            self.r,
+            self.g,
+            self.b,
+            a
+        )
+
+    @classmethod
+    def from_int(cls, value: int):
+        return cls(
+            r=(value >> 16) & 255,
+            g=(value >> 8) & 255,
+            b=value & 255
+        )

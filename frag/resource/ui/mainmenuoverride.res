@@ -1220,7 +1220,7 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "20"
-        "wide"                          "400"
+        "wide"                          "500"
         "tall"                          "20"
         "proportionaltoparent"          "1"
 

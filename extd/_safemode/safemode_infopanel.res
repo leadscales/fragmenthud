@@ -18,7 +18,7 @@
 
             "InfoText"
             {
-                "ControlName"               "CExLabel"
+                "ControlName"               "CAutoFittingLabel"
                 "fieldName"                 "InfoText"
                 "xpos"                      "5"
                 "ypos"                      "0"
@@ -29,8 +29,16 @@
                 "textAlignment"             "west"
                 "font"                      "FontMedium_10_Additive"
                 "fgcolor"                   "FragNegative100"
+                "fgcolor_override"          "FragNegative100"
                 "bgcolor_override"          "Blank"
-                "wrap"                      "1"
+                "wrap"                      "0"
+
+                "fonts"
+                {
+                    "0"                     "FontMedium_10_Additive"
+                    "0"                     "FontMedium_9_Additive"
+                    "0"                     "FontMedium_8_Additive"
+                }
             }
         }
     }

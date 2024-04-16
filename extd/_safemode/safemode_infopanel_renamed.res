@@ -13,6 +13,7 @@
             {
                 "labeltext"             "#FRAG_Safemode_Warn"
                 "fgcolor"               "FragAccent100"
+                "fgcolor_override"      "FragAccent100"
             }
         }
     }
