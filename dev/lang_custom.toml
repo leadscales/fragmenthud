@@ -281,7 +281,7 @@ FRAG_Oobe_Description = "Grazie per aver scaricato FRAGMENTHUD.\n\nQuesto HUD è
 FRAG_Oobe_HangWarn = "TF2 potrebbe bloccarsi momentaneamente quando esci da questo menu, questo è normale e il gioco non si è chiuso."
 
 FRAG_ValveRC_WarnTitle = "ATTENZIONE"
-FRAG_ValveRC_WarnBody = "Il file frag_autoexec.cfg di FRAGMENTHUD non è riuscita a funzionare.\n\nGeneralmente, questo è perché il file valve.rc del HUD non è stato eseguito all'avvio, solitamente a causa di un'altra modificazione che lo sovrascrive.\n\nLe personalizzazioni non funzioneranno e si sono disabilitate, e molti elementi HUD saranno completamente rotti a questa causa.\n\nClicca sul pulsante in basso per sapere come riparare il problema."
+FRAG_ValveRC_WarnBody = "Il file frag_autoexec.cfg di FRAGMENTHUD non è riuscita a funzionare.\n\nGeneralmente, questo è perché il file valve.rc del HUD non è stato eseguito all'avvio, solitamente a causa di un'altra modificazione che lo sovrascrive.\n\nLe personalizzazioni non funzioneranno e sono disabilitate, e molti elementi HUD saranno completamente rotti a questa causa.\n\nClicca sul pulsante in basso per sapere come riparare il problema."
 FRAG_ValveRC_WarnFix = "RIPARA PROBLEMI"
 
 FRAG_Safemode_Warn = "Personalizza solo quando non sei in partita."
