@@ -56,19 +56,35 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
-        "BGOverlay1"
+        "BGParticle1"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "BGOverlay1"
+            "fieldName"                 "BGParticle1"
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/background_overlay_0"
+            "image"                     "replay/thumbnails/menu/particle_overlay_0"
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
+            "drawcolor"                 "FragPrimary40"
+        }
+        "BGParticle2"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGParticle2"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/particle_overlay_1"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "drawcolor"                 "FragPrimary40"
         }
         "BGEffect1"
         {
@@ -85,6 +101,20 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
+        "BGOverlay1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGOverlay1"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/background_overlay_0"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
         "BGEffect2"
         {
             "ControlName"               "ImagePanel"
@@ -97,21 +127,6 @@
             "image"                     "replay/thumbnails/menu/background_effect_1"
             "scaleimage"                "1"
             "drawcolor"                 "FragPrimary100"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "NoiseImage1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "NoiseImage1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/noise"
-            "tileImage"                 "1"
-            "drawcolor"                 "FragNeutral100"
             "visible"                   "1"
             "enabled"                   "1"
         }

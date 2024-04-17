@@ -102,7 +102,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/menu/noise"
             "tileImage"                 "1"
-            "drawcolor"                 "FragNeutral100"
+            "drawcolor"                 "FragNeutral05"
             "visible"                   "1"
             "enabled"                   "1"
         }

@@ -101,14 +101,4 @@
         "command"           "engine"
         "OnlyAtMenu"        "1"
     }
-    "BackgroundEffectAtMenu"
-    {
-        "command"           "engine"
-        "OnlyAtMenu"        "1"
-    }
-    "BackgroundEffectInGame"
-    {
-        "command"           "engine"
-        "OnlyInGame"        "1"
-    }
 }

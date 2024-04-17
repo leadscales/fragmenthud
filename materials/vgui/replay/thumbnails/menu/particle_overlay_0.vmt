@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"      "vgui/replay/thumbnails/supporters/supporter_overlay_0"
+    "$baseTexture"      "vgui/replay/thumbnails/menu/particle_overlay_0"
     "$translucent"      "1"
     "$vertexalpha"      "1"
     "$vertexcolor"      "1"

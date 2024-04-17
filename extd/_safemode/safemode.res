@@ -33,7 +33,8 @@
             "proportionaltoparent"  "1"
             "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
             "scaleImage"            "1"
-            "drawcolor"             "FragPrimary40"
+            "drawcolor"             "FragPrimary100"
+            "alpha"                 "64"
         }
 
         "SafeModeStroke"

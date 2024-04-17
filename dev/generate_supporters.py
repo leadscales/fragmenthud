@@ -61,7 +61,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "o1",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/supporters/supporter_overlay_0",
+            "image": "replay/thumbnails/menu/particle_overlay_0",
             "scaleimage": "1",
             "drawcolor": "255 0 0 255"
         },
@@ -73,7 +73,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "o1",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/supporters/supporter_overlay_1",
+            "image": "replay/thumbnails/menu/particle_overlay_1",
             "scaleimage": "1",
             "drawcolor": "255 0 0 255"
         },
