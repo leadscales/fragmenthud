@@ -31,7 +31,7 @@
                 "fgcolor"                   "FragNegative100"
                 "fgcolor_override"          "FragNegative100"
                 "bgcolor_override"          "Blank"
-                "wrap"                      "0"
+                "wrap"                      "1"
 
                 "fonts"
                 {

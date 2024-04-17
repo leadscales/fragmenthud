@@ -18,35 +18,6 @@ SUPPORTER_ENTRY_TEMPLATE = {
     "tall": "45",
     "proportionaltoparent": "1",
 
-    "profilebutton":
-    {
-        "controlname": "ceximagebutton",
-        "fieldname": "profilebutton",
-        "xpos": "5",
-        "ypos": "0",
-        "wide": "f10",
-        "tall": "f1",
-        "proportionaltoparent": "1",
-        "labeltext": "",
-        "command": "engine echo error",
-        "sound_depressed": "ui/buttonclick.wav",
-        "sound_released": "ui/buttonclickrelease.wav",
-        "paintbackground": "0",
-        "image_drawcolor": "255 0 0 255",
-        "image_armedcolor": "255 0 0 255",
-        "subimage": {
-            "controlname": "imagepanel",
-            "fieldname": "subimage",
-            "xpos": "0",
-            "ypos": "0",
-            "wide": "f0",
-            "tall": "f0",
-            "proportionaltoparent": "1",
-            "image": "replay/thumbnails/panels/fill_additive",
-            "scaleimage": "1",
-        }
-    },
-
     "bgpanel": {
         "controlname": "editablepanel",
         "fieldname": "bgpanel",
@@ -56,7 +27,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "tall": "f1",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
-        "bgcolor_override": "FragPanelTransparentDark80",
+        "bgcolor_override": "0 0 0 255",
 
         "subimage1": {
             "controlname": "imagepanel",
@@ -190,10 +161,40 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "textalignment": "west",
         "fgcolor": "255 0 0 255",
         "fgcolor_override": "255 0 0 255",
+        "wrap": "1",
         "fonts": {
             "0": "fontmedium_10_additive",
             "1": "fontmedium_9_additive",
             "2": "fontmedium_8_additive"
+        }
+    },
+
+    "profilebutton":
+    {
+        "controlname": "ceximagebutton",
+        "fieldname": "profilebutton",
+        "xpos": "5",
+        "ypos": "0",
+        "wide": "f10",
+        "tall": "f1",
+        "proportionaltoparent": "1",
+        "labeltext": "",
+        "command": "engine echo error",
+        "sound_depressed": "ui/buttonclick.wav",
+        "sound_released": "ui/buttonclickrelease.wav",
+        "paintbackground": "0",
+        "image_drawcolor": "255 0 0 255",
+        "image_armedcolor": "255 0 0 255",
+        "subimage": {
+            "controlname": "imagepanel",
+            "fieldname": "subimage",
+            "xpos": "0",
+            "ypos": "0",
+            "wide": "f0",
+            "tall": "f0",
+            "proportionaltoparent": "1",
+            "image": "replay/thumbnails/panels/fill_additive",
+            "scaleimage": "1",
         }
     }
 }
@@ -247,10 +248,6 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["fieldname"] = str(index)
         _d["ypos"] = str(y_offset)
 
-        _d["profilebutton"]["command"] = f"url https://steamcommunity.com/profiles/{supporter.accountid | STEAMID_MAGIC_NUMBER}" if not supporter.hide_accountid else ""
-        _d["profilebutton"]["image_drawcolor"] = supporter.color.as_vdf(0)
-        _d["profilebutton"]["image_armedcolor"] = supporter.color.as_vdf(round(255 * 0.1))
-
         _d["bgpanel"]["subimage1"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.6))
         _d["bgpanel"]["subimage2"]["drawcolor"] = supporter.color.as_vdf(255)
         _d["bgpanel"]["subimage3"]["drawcolor"] = supporter.color.as_vdf(255)
@@ -271,6 +268,10 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["message"]["labeltext"] = supporter.message if supporter.message else ""
         _d["message"]["fgcolor"] = supporter.color.as_vdf(255)
         _d["message"]["fgcolor_override"] = supporter.color.as_vdf(255)
+
+        _d["profilebutton"]["command"] = f"url https://steamcommunity.com/profiles/{supporter.accountid | STEAMID_MAGIC_NUMBER}" if not supporter.hide_accountid else ""
+        _d["profilebutton"]["image_drawcolor"] = supporter.color.as_vdf(0)
+        _d["profilebutton"]["image_armedcolor"] = supporter.color.as_vdf(round(255 * 0.02))
 
         if not supporter.message:
             _d.pop("bgpanel2")
