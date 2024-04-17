@@ -135,32 +135,76 @@
                 "fgcolor"                   "FragPrimary100"
             }
 
-            "ApplyButton"
+            "ApplyButtonAtMenu"
             {
-                "ControlName"               "CExButton"
-                "fieldName"                 "ApplyButton"
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "ApplyButtonAtMenu"
                 "xpos"                      "rs1"
                 "ypos"                      "0"
                 "wide"                      "200"
                 "tall"                      "20"
                 "proportionaltoparent"      "1"
 
-                "labelText"                 "D"
-                "font"                      "Icons_Small_Additive"
-                "textAlignment"             "east"
-                "textinsetx"                "5"
-                "use_proportional_insets"   "1"
-                "allcaps"                   "1"
+                "SubButton"
+                {
+                    "ControlName"               "CExImageButton"
+                    "fieldName"                 "SubButton"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "tall"                      "f0"
+                    "proportionaltoparent"      "1"
 
-                "defaultfgcolor_override"   "FragPrimary20"
-                "armedfgcolor_override"     "FragPrimary100"
-                "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "Blank"
+                    "font"                      "Icons_Small_Additive"
+                    "textAlignment"             "east"
+                    "textinsetx"                "5"
+                    "use_proportional_insets"   "1"
+                    "allcaps"                   "1"
 
-                "sound_depressed"           "UI/buttonclick.wav"
-                "sound_released"            "UI/buttonclickrelease.wav"
-                "command"                   "engine frag_as; cl_mainmenu_safemode 0"
-                "actionsignallevel"         "3"
+                    "defaultfgcolor_override"   "FragPrimary20"
+                    "armedfgcolor_override"     "FragPrimary100"
+                    "defaultbgcolor_override"   "Blank"
+                    "armedbgcolor_override"     "Blank"
+
+                    "sound_depressed"           "UI/buttonclick.wav"
+                    "sound_released"            "UI/buttonclickrelease.wav"
+                }
+            }
+
+            "ApplyButtonInGame"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "ApplyButtonInGame"
+                "xpos"                      "rs1"
+                "ypos"                      "0"
+                "wide"                      "200"
+                "tall"                      "20"
+                "proportionaltoparent"      "1"
+
+                "SubButton"
+                {
+                    "ControlName"               "CExImageButton"
+                    "fieldName"                 "SubButton"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "tall"                      "f0"
+                    "proportionaltoparent"      "1"
+
+                    "font"                      "Icons_Small_Additive"
+                    "textAlignment"             "east"
+                    "textinsetx"                "5"
+                    "use_proportional_insets"   "1"
+                    "allcaps"                   "1"
+
+                    "defaultfgcolor_override"   "FragPrimary20"
+                    "armedfgcolor_override"     "FragPrimary100"
+                    "defaultbgcolor_override"   "Blank"
+                    "armedbgcolor_override"     "Blank"
+
+                    "sound_depressed"           "UI/buttonclick.wav"
+                    "sound_released"            "UI/buttonclickrelease.wav"
+                }
             }
         }
 

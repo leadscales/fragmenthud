@@ -6,7 +6,6 @@ FRAG_ValveRC_WarnTitle = "WARNING"
 FRAG_ValveRC_WarnBody = "FRAGMENTHUD's frag_autoexec.cfg has failed to run.\n\nThis is usually because the HUD's valve.rc file was not run on startup, usually due to another mod overriding it.\n\nCustomizations will not work and are disabled, and many HUD elements will be completely broken because of this.\n\nClick the button below to learn how to fix this."
 FRAG_ValveRC_WarnFix = "FIX ISSUES"
 
-FRAG_Safemode_Warn = "Only customize when not in-game."
 FRAG_Safemode_RenameWarn = "HUD folder is not renamed."
 
 FRAG_Safemode_Supporters_Title = "CREDITS AND SUPPORTERS"
@@ -61,9 +60,6 @@ FRAG_CharInfo_Armory = "Catalog"
 FRAG_Oobe_Description = "Спасибо, что скачали FRAGMENTHUD.\n\nЭтот ХАД пока в разработке, поэтому некоторые вещи могут ломаться. Сообщайте о проблемах на ГитХабе или попросите помощи на нашем дискорд сервере.\n\nЭто уведомление больше не появится.\n\nСпасибо <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 может ненадолго зависнуть при выходе из этого меню, это нормально, игра не вылетела."
 
-#FRAG_Safemode_Warn = "Рекомендуется применить изменения ПЕРЕД тем как заходить на сервер, это снижает шанс того, что они сломаются. После того как вы применили изменения, нужно будет перезапустить игру, чтобы цвета поменялись."
-#FRAG_Safemode_RenameWarn = "Папка с ХАДом не переименована. Кастомизация не будет работать."
-
 FRAG_Safemode_Colors_Title = "ЦВЕТА"
 FRAG_Safemode_Colors_Primary = "ГЛАВНЫЙ"
 FRAG_Safemode_Colors_Accent = "ВТОРОСТЕПЕННЫЙ"
@@ -105,7 +101,6 @@ FRAG_ValveRC_WarnTitle = "UWAGA"
 FRAG_ValveRC_WarnBody = "Uruchomienie frag_autoexec.cfg FRAGMENTHUDa nie powiodło się.\n\nZazwyczaj jest to ponieważ plik valve.rc HUDa nie był uruchamiany przy włączeniu gry, zwyczajnie przez innego moda nadpisującego go.\n\nDostosowywanie nie będzie działać i jest wyłączone, i przez to wiele elementów HUDa będą kompletnie zepsute.\n\nKliknij na przycisk poniżej aby dowiedzieć się jak to naprawić."
 FRAG_ValveRC_WarnFix = "NAPRAW BŁĘDY"
 
-FRAG_Safemode_Warn = "Dostosowywuj tylko kiedy nie jesteś w grze."
 FRAG_Safemode_RenameWarn = "Folder HUDa nie ma zmienionej nazwy."
 
 FRAG_Safemode_Supporters_Title = "PODZIĘKOWANIA I SUPPORTERZY"
@@ -166,7 +161,6 @@ FRAG_ValveRC_WarnTitle = "УВАГА"
 FRAG_ValveRC_WarnBody = "Не вдалося запустити frag_autoexec.cfg.\n\nЗазвичай, це трапляється тому що valve.rc HUD'у не запустився під час старту гри, в більшості випадків, через те що інший мод його перевизначив.\n\n Через це, налаштування не будуть працювати, а більшість елементів інтерфейсу будуть зламані.\n\nНатисніть на кнопку нижче щоб дізнатися як це виправити."
 FRAG_ValveRC_WarnFix = "СПРОБУВАТИ ВИПРАВИТИ"
 
-FRAG_Safemode_Warn = "Налаштовуйте тільки коли ви не на сервері/локальній грі."
 FRAG_Safemode_RenameWarn = "Тека HUD не була перейменована."
 
 FRAG_Safemode_Supporters_Title = "ПОДЯКИ"
@@ -225,7 +219,6 @@ FRAG_ValveRC_WarnTitle = "AVISO"
 FRAG_ValveRC_WarnBody = "FRAGMENTHUD's frag_autoexec.cfg no se ha ejecutado correctamente.\n\nEsto puede pasar por que el archivo valve.rc de la HUD no pudo ejecutarse desde el inicio, usualmente por que hay otro mod sobreescribiendolo.\n\nLas personalizaciones no funcionan y estan desactivadas, y bastantes elementos de la HUD estaran corruptos por culpa de esto.\n\nHaga click en el boton de abajo para saber como arreglar esto."
 FRAG_ValveRC_WarnFix = "ARREGLAR PROBLEMAS"
 
-FRAG_Safemode_Warn = "Solo personalizar cuando no esta en una partida."
 FRAG_Safemode_RenameWarn = "El folder del HUD no ha sido renombrado."
 
 FRAG_Safemode_Supporters_Title = "CREDITOS Y PARTIDARIOS"
@@ -284,7 +277,6 @@ FRAG_ValveRC_WarnTitle = "ATTENZIONE"
 FRAG_ValveRC_WarnBody = "Il file frag_autoexec.cfg di FRAGMENTHUD non è riuscita a funzionare.\n\nGeneralmente, questo è perché il file valve.rc del HUD non è stato eseguito all'avvio, solitamente a causa di un'altra modificazione che lo sovrascrive.\n\nLe personalizzazioni non funzioneranno e sono disabilitate, e molti elementi HUD saranno completamente rotti a questa causa.\n\nClicca sul pulsante in basso per sapere come riparare il problema."
 FRAG_ValveRC_WarnFix = "RIPARA PROBLEMI"
 
-FRAG_Safemode_Warn = "Personalizza solo quando non sei in partita."
 FRAG_Safemode_RenameWarn = "Il cartello HUD non è stato rinominato."
 
 FRAG_Safemode_Supporters_Title = "CREDITI E SOSTENITORI"
@@ -342,7 +334,6 @@ FRAG_Oobe_HangWarn = "TF2 peut se bloquer momentanément en quittant ce menu, ce
 FRAG_ValveRC_WarnTitle = "ATTENTION"
 FRAG_ValveRC_WarnBody = "Le fichier frag_autoexec.cfg de FRAGMENTHUD n'a pas été exécuté. Cela est généralement dû au fait que le fichier valve.rc du HUD n'a pas été exécuté au démarrage, généralement à cause d'un autre mod qui le remplace.\n\nLes personnalisations ne fonctionneront pas et seront désactivées, et de nombreux éléments du HUD seront complètement cassés à cause de cela. Cliquez sur le bouton ci-dessous pour savoir comment résoudre ce problème."
 
-FRAG_Safemode_Warn = "Personnalisez uniquement lorsque vous n'êtes pas dans un match"
 FRAG_Safemode_RenameWarn = "Le fichier HUD n'est pas renommé."
 
 FRAG_Safemode_Supporters_Title = "CRÉDITS ET SUPPORTEURS"

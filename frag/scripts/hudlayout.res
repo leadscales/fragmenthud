@@ -164,7 +164,7 @@
         "iconcolor"         "FragNeutral100"
         "localplayercolor"  "FragPanelOpaque0"
 
-        "basebackgroundcolor"   "FragPanelTransparentDark60"
+        "basebackgroundcolor"   "Blank"
         "localbackgroundcolor"  "FragPanelTransparentLight20"
     }
 

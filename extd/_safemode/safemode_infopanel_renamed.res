@@ -11,7 +11,7 @@
 
             "InfoText"
             {
-                "labeltext"             "#FRAG_Safemode_Warn"
+                "labeltext"             ""
                 "fgcolor"               "FragAccent100"
                 "fgcolor_override"      "FragAccent100"
             }

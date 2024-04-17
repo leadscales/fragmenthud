@@ -82,6 +82,20 @@
         "OnlyInGame"        "1"
         "tooltip"           "#FRAG_Buttons_FixIssues"
     }
+    "ApplyButtonAtMenu"
+    {
+        "label"             "D"
+        "command"           "engine frag_as_am; cl_mainmenu_safemode 0"
+        "OnlyAtMenu"        "1"
+        "tooltip"           "#IT_Apply"
+    }
+    "ApplyButtonInGame"
+    {
+        "label"             "D"
+        "command"           "engine frag_as_ig; cl_mainmenu_safemode 0"
+        "OnlyInGame"        "1"
+        "tooltip"           "#IT_Apply"
+    }
     "AtMenuBackground"
     {
         "command"           "engine"
