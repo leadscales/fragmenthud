@@ -116,10 +116,10 @@
         "enabled"                   "1"
     }
 
-    "BackgroundEffectAtMenu"
+    "BackgroundEffect"
     {
         "ControlName"               "EditablePanel"
-        "fieldName"                 "BackgroundEffectAtMenu"
+        "fieldName"                 "BackgroundEffect"
         "xpos"                      "cs-0.5"
         "ypos"                      "cs-0.5"
         "zpos"                      "0"
