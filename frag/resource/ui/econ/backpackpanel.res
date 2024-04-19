@@ -230,7 +230,7 @@
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
-            "drawcolor"                 "FragPrimary40"
+            "drawcolor"                 "FragPrimary60"
         }
         "BGParticle2"
         {
@@ -245,7 +245,7 @@
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
-            "drawcolor"                 "FragPrimary40"
+            "drawcolor"                 "FragPrimary60"
         }
         "BGEffect1"
         {

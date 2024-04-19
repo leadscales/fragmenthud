@@ -59,6 +59,7 @@
         "tall"                      "6"
         "proportionaltoparent"      "1"
         "font"                      "FontMedium_9_Additive"
+        "allcaps"                   "1"
         "textalignment"             "west"
         "fgcolor"                   "FragNeutral20"
         "disabledfgcolor2_override" "FragNeutral20"
