@@ -34,5 +34,7 @@
         "ItemColor"                         "FragNeutral100"
         "ItemColor"                         "FragNeutral100"
         "ItemColor"                         "FragPanelOpaque60"
+
+        "Frame.ClientInsetY"                "0"
     }
 }

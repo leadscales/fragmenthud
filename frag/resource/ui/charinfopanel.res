@@ -9,8 +9,8 @@
         "titlebardisabledfgcolor_override"      "Blank"
         "titlebarbgcolor_override"              "Blank"
         "settitlebarvisible"                    "1"
-
-        "sheetinset_bottom"                     "-20"
+        "titletextinsetY"                       "-30"
+        "sheetinset_bottom"                     "0"
     }
 
     "BackgroundEffect"
@@ -135,7 +135,7 @@
     "Sheet"
     {
         "tabxindent"                    "5"
-        "tabyindent"                    "5"
+        "tabheight"                     "20"
         "tabxdelta"                     "0"
         "tabfittotext"                  "1"
         "yoffset"                       "20"
