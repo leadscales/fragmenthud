@@ -5,37 +5,91 @@
         "paintbackground"   "0"
     }
 
+    "Refract"
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"         "Refract"
+        "xpos"              "0"
+        "ypos"              "0"
+        "zpos"              "0"
+        "wide"              "f0"
+        "tall"              "480"
+        "image"             "replay/thumbnails/panels/fill_refract"
+        "scaleImage"        "1"
+    }
+
+    "Noise"
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"         "Noise"
+        "xpos"              "0"
+        "ypos"              "0"
+        "zpos"              "1"
+        "wide"              "f0"
+        "tall"              "f0"
+        "image"             "replay/thumbnails/menu/noise"
+        "tileImage"         "1"
+        "drawcolor"         "FragNeutral100"
+        "visible"           "1"
+        "enabled"           "1"
+    }
+
     "Background"
     {
         "ControlName"       "Panel"
         "fieldName"         "Background"
         "xpos"              "0"
         "ypos"              "0"
-        "zpos"              "0"
+        "zpos"              "2"
         "wide"              "f0"
         "tall"              "480"
         "bgcolor_override"  "FragPanelTransparentDark60"
     }
 
-    "TFMessageTitle"
+    "TopBackground"
     {
+        "ControlName"       "Panel"
+        "fieldName"         "TopBackground"
         "xpos"              "cs-0.5"
         "ypos"              "0"
-        "zpos"              "1"
+        "zpos"              "3"
         "wide"              "f0"
+        "tall"              "40"
+        "bgcolor_override"  "FragPanelTransparentDark80"
+    }
+    "BottomBackground"
+    {
+        "ControlName"       "Panel"
+        "fieldName"         "BottomBackground"
+        "xpos"              "cs-0.5"
+        "ypos"              "rs1"
+        "zpos"              "4"
+        "wide"              "f0"
+        "tall"              "40"
+        "bgcolor_override"  "FragPanelTransparentDark80"
+    }
+
+    "TFMessageTitle"
+    {
+        "xpos"              "0"
+        "ypos"              "0"
+        "zpos"              "5"
+        "wide"              "f10"
         "tall"              "40"
         "font"              "FontMedium_16"
         "textalignment"     "center"
         "allcaps"           "1"
         "fgcolor"           "FragNeutral100"
-        "bgcolor_override"  "FragPanelOpaque10"
+
+        "pin_to_sibling"    "TopBackground"
     }
+
     "TFTextMessage"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "80"
-        "zpos"              "3"
-        "wide"              "400"
+        "ypos"              "cs-0.5"
+        "zpos"              "6"
+        "wide"              "560"
         "tall"              "320"
         "font"              "FontMedium_12"
         "textalignment"     "center"
@@ -47,97 +101,37 @@
         "image_up_arrow"    "replay/thumbnails/blank"
         "image_down_arrow"  "replay/thumbnails/blank"
     }
+
     "HTMLMessage"
     {
         "xpos"              "cs-0.5"
-        "ypos"              "80"
-        "zpos"              "2"
-        "wide"              "400"
+        "ypos"              "cs-0.5"
+        "zpos"              "7"
+        "wide"              "560"
         "tall"              "320"
         "paintBackground"   "0"
     }
 
-    "BottomBar"
-    {
-        "ControlName"       "Panel"
-        "fieldName"         "BottomBar"
-        "xpos"              "0"
-        "ypos"              "rs1"
-        "zpos"              "4"
-        "zpos"              "0"
-        "wide"              "f0"
-        "tall"              "40"
-        "bgcolor_override"  "FragPanelOpaque10"
-    }
-
     "ok"
     {
-        "xpos"                          "c0"
-        "ypos"                          "rs1"
+        "xpos"                          "0"
+        "ypos"                          "0"
         "zpos"                          "5"
-        "wide"                          "60"
+        "wide"                          "160"
         "tall"                          "40"
         "labeltext"                     ">"
         "font"                          "Icons_Medium"
         "textalignment"                 "center"
-        "defaultbgcolor_override"       "FragPanelTransparentDark60"
-        "armedbgcolor_override"         "FragPanelTransparentLight20"
+        "defaultbgcolor_override"       "FragPanelTransparentDark80"
+        "armedbgcolor_override"         "FragNeutral10"
         "defaultfgcolor_override"       "FragNeutral100"
         "armedfgcolor_override"         "FragNeutral100"
         "sound_depressed"               "UI/buttonclick.wav"
         "sound_released"                "UI/buttonclickrelease.wav"
-    }
 
-    "okStroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "okStroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "6"
-        "wide"                          "60"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "ok"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
-
-    "FakeBack"
-    {
-        "ControlName"                   "CExButton"
-        "fieldName"                     "FakeBack"
-        "xpos"                          "c0-s1"
-        "ypos"                          "rs1"
-        "zpos"                          "5"
-        "wide"                          "60"
-        "tall"                          "40"
-        "labeltext"                     "<"
-        "font"                          "Icons_Medium"
-        "textalignment"                 "center"
-        "defaultbgcolor_override"       "FragPanelTransparentDark60"
-        "armedbgcolor_override"         "FragPanelTransparentDark60"
-        "defaultfgcolor_override"       "FragNeutral20"
-        "armedfgcolor_override"         "FragNeutral20"
-    }
-
-    "FakeBackStroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "FakeBackStroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "6"
-        "wide"                          "60"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral20"
-        
-        "pin_to_sibling"                "FakeBack"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+        "pin_to_sibling"                "BottomBackground"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_BOTTOM"
     }
 
     "okShortcut"

@@ -5,25 +5,77 @@
         "paintbackground"   "0"
     }
 
+    "Refract"
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"         "Refract"
+        "xpos"              "0"
+        "ypos"              "0"
+        "zpos"              "0"
+        "wide"              "f0"
+        "tall"              "480"
+        "image"             "replay/thumbnails/panels/fill_refract"
+        "scaleImage"        "1"
+    }
+
+    "Noise"
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"         "Noise"
+        "xpos"              "0"
+        "ypos"              "0"
+        "zpos"              "1"
+        "wide"              "f0"
+        "tall"              "f0"
+        "image"             "replay/thumbnails/menu/noise"
+        "tileImage"         "1"
+        "drawcolor"         "FragNeutral100"
+        "visible"           "1"
+        "enabled"           "1"
+    }
+
     "Background"
     {
         "ControlName"       "Panel"
         "fieldName"         "Background"
         "xpos"              "0"
         "ypos"              "0"
-        "zpos"              "0"
+        "zpos"              "2"
         "wide"              "f0"
         "tall"              "480"
         "bgcolor_override"  "FragPanelTransparentDark60"
+    }
+
+    "TopBackground"
+    {
+        "ControlName"       "Panel"
+        "fieldName"         "TopBackground"
+        "xpos"              "cs-0.5"
+        "ypos"              "0"
+        "zpos"              "3"
+        "wide"              "f0"
+        "tall"              "40"
+        "bgcolor_override"  "FragPanelTransparentDark80"
+    }
+    "BottomBackground"
+    {
+        "ControlName"       "Panel"
+        "fieldName"         "BottomBackground"
+        "xpos"              "cs-0.5"
+        "ypos"              "rs1"
+        "zpos"              "4"
+        "wide"              "f0"
+        "tall"              "40"
+        "bgcolor_override"  "FragPanelTransparentDark80"
     }
 
     "Title"
     {
         "ControlName"       "CExLabel"
         "fieldName"         "Title"
-        "xpos"              "cs-0.5"
+        "xpos"              "0"
         "ypos"              "0"
-        "zpos"              "1"
+        "zpos"              "5"
         "wide"              "f0"
         "tall"              "40"
         "font"              "FontMedium_16"
@@ -31,33 +83,16 @@
         "textalignment"     "center"
         "allcaps"           "1"
         "fgcolor"           "FragNeutral100"
-        "bgcolor_override"  "FragPanelOpaque10"
-    }
 
-    "BottomBar"
-    {
-        "ControlName"       "Panel"
-        "fieldName"         "BottomBar"
-        "xpos"              "0"
-        "ypos"              "rs1"
-        "zpos"              "4"
-        "zpos"              "0"
-        "wide"              "f0"
-        "tall"              "40"
-        "bgcolor_override"  "FragPanelOpaque10"
+        "pin_to_sibling"    "TopBackground"
     }
 
     "ButtonAnchor"
     {
-        "ControlName"       "Panel"
-        "fieldName"         "ButtonAnchor"
-        "xpos"              "cs-0.5"
-        "ypos"              "rs1"
-        "zpos"              "5"
-        "zpos"              "0"
-        "wide"              "360"
-        "tall"              "40"
-        "bgcolor_override"  "255 0 0 0"
+        "ControlName"               "Panel"
+        "fieldName"                 "ButtonAnchor"
+        "xpos"                      "cs-0.5-180"
+        "ypos"                      "rs1"
     }
 
     "scout"
@@ -75,14 +110,16 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
 
         "pin_to_sibling"            "ButtonAnchor"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 
         "SubImage"
         {
@@ -94,22 +131,7 @@
             "enabled"               "0"
         }
     }
-    "scoutstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "scoutstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "scout"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numScout"
     {
         "xpos"                          "0"
@@ -117,11 +139,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "scout"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "soldier"
@@ -139,9 +161,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -160,22 +182,7 @@
             "enabled"               "0"
         }
     }
-    "soldierstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "soldierstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "soldier"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numSoldier"
     {
         "xpos"                          "0"
@@ -183,11 +190,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "soldier"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "pyro"
@@ -205,9 +212,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -226,22 +233,7 @@
             "enabled"               "0"
         }
     }
-    "pyrostroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "pyrostroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "pyro"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numPyro"
     {
         "xpos"                          "0"
@@ -249,11 +241,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "pyro"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "demoman"
@@ -271,9 +263,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -292,22 +284,7 @@
             "enabled"               "0"
         }
     }
-    "demomanstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "demomanstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "demoman"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numDemoman"
     {
         "xpos"                          "0"
@@ -315,11 +292,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "demoman"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "heavyweapons"
@@ -337,9 +314,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -358,22 +335,7 @@
             "enabled"               "0"
         }
     }
-    "heavyweaponsstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "heavyweaponsstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "heavyweapons"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numHeavy"
     {
         "xpos"                          "0"
@@ -381,11 +343,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "heavyweapons"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "engineer"
@@ -403,9 +365,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -424,22 +386,7 @@
             "enabled"               "0"
         }
     }
-    "engineerstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "engineerstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "engineer"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numEngineer"
     {
         "xpos"                          "0"
@@ -447,11 +394,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "engineer"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "medic"
@@ -469,9 +416,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -490,22 +437,7 @@
             "enabled"               "0"
         }
     }
-    "medicstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "medicstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "medic"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numMedic"
     {
         "xpos"                          "0"
@@ -513,11 +445,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "medic"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "sniper"
@@ -535,9 +467,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -556,22 +488,7 @@
             "enabled"               "0"
         }
     }
-    "sniperstroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "sniperstroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "sniper"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numSniper"
     {
         "xpos"                          "0"
@@ -579,11 +496,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "sniper"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "spy"
@@ -601,9 +518,9 @@
         "textAlignment"             "center"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
@@ -622,22 +539,7 @@
             "enabled"               "0"
         }
     }
-    "spystroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "spystroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "spy"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
-    }
+
     "numSpy"
     {
         "xpos"                          "0"
@@ -645,11 +547,11 @@
         "wide"                          "40"
         "tall"                          "20"
         "fgcolor"                       "FragNeutral100"
-        "font"                          "FontMedium_12"
+        "font"                          "FontBold_14_Additive"
 
         "pin_to_sibling"                "spy"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+        "pin_corner_to_sibling"         "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"         "PIN_CENTER_TOP"
     }
 
     "RandomButton"
@@ -657,9 +559,9 @@
         "ControlName"               "CExButton"
         "fieldName"                 "RandomButton"
         "xpos"                      "0"
-        "ypos"                      "rs1"
+        "ypos"                      "0"
         "zpos"                      "6"
-        "wide"                      "40"
+        "wide"                      "80"
         "tall"                      "40"
         "pinCorner"                 "0"
         "labelText"                 "r"
@@ -670,38 +572,26 @@
         "sound_released"            "UI/buttonclickrelease.wav"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
-    }
-    "RandomButtonStroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "RandomButtonStroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "RandomButton"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+
+        "pin_to_sibling"            "BottomBackground"
+        "pin_corner_to_sibling"     "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner"     "PIN_BOTTOMRIGHT"
     }
 
     "EditLoadoutButton"
     {
         "ControlName"               "CExButton"
         "fieldName"                 "EditLoadoutButton"
-        "xpos"                      "rs1"
-        "ypos"                      "rs1"
+        "xpos"                      "0"
+        "ypos"                      "0"
         "zpos"                      "6"
-        "wide"                      "40"
+        "wide"                      "80"
         "tall"                      "40"
         "pinCorner"                 "0"
         "labelText"                 "I"
@@ -712,51 +602,83 @@
         "sound_released"            "UI/buttonclickrelease.wav"
 
         "fgcolor"                   "FragNeutral100"
-        "defaultbgcolor_override"   "FragPanelTransparentDark60"
-        "armedbgcolor_override"     "FragPanelTransparentLight20"
-        "selectedbgcolor_override"  "FragPanelTransparentLight20"
+        "defaultbgcolor_override"   "FragPanelTransparentDark80"
+        "armedbgcolor_override"     "FragNeutral10"
+        "selectedbgcolor_override"  "FragNeutral10"
         "defaultfgcolor_override"   "FragNeutral100"
         "armedfgcolor_override"     "FragNeutral100"
         "paintBackground"           "1"
-    }
-    "EditLoadoutButtonStroke"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "EditLoadoutButtonStroke"
-        "xpos"                          "0"
-        "ypos"                          "0"
-        "zpos"                          "7"
-        "wide"                          "40"
-        "tall"                          "1"
-        "mouseinputenabled"             "0"
-        "bgcolor_override"              "FragNeutral100"
-        
-        "pin_to_sibling"                "EditLoadoutButton"
+
+        "pin_to_sibling"                "BottomBackground"
         "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
         "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
     }
 
-    "RandomButtonShortcut"
+    "RandomButtonShortcut1"
     {
         "ControlName"                       "CExButton"
-        "fieldName"                         "RandomButtonShortcut"
+        "fieldName"                         "RandomButtonShortcut1"
         "xpos"                              "9999"
         "ypos"                              "9999"
         "wide"                              "0"
         "tall"                              "0"
-        "command"                           "jointeam random"
+        "command"                           "joinclass random"
         "labeltext"                         "&r"
     }
-    "EditLoadoutButtonShortcut"
+    "RandomButtonShortcut2"
     {
         "ControlName"                       "CExButton"
-        "fieldName"                         "EditLoadoutButtonShortcut"
+        "fieldName"                         "RandomButtonShortcut2"
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "command"                           "joinclass random"
+        "labeltext"                         "&d"
+    }
+    "RandomButtonShortcut3"
+    {
+        "ControlName"                       "CExButton"
+        "fieldName"                         "RandomButtonShortcut3"
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "command"                           "joinclass random"
+        "labeltext"                         "&w"
+    }
+    "EditLoadoutButtonShortcut1"
+    {
+        "ControlName"                       "CExButton"
+        "fieldName"                         "EditLoadoutButtonShortcut1"
         "xpos"                              "9999"
         "ypos"                              "9999"
         "wide"                              "0"
         "tall"                              "0"
         "command"                           "openloadout"
         "labeltext"                         "&e"
+    }
+    "EditLoadoutButtonShortcut2"
+    {
+        "ControlName"                       "CExButton"
+        "fieldName"                         "EditLoadoutButtonShortcut2"
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "command"                           "openloadout"
+        "labeltext"                         "&a"
+    }
+    "EditLoadoutButtonShortcut3"
+    {
+        "ControlName"                       "CExButton"
+        "fieldName"                         "EditLoadoutButtonShortcut3"
+        "xpos"                              "9999"
+        "ypos"                              "9999"
+        "wide"                              "0"
+        "tall"                              "0"
+        "command"                           "openloadout"
+        "labeltext"                         "&s"
     }
     "CancelShortcut"
     {
