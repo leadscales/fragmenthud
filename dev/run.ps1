@@ -1,4 +1,5 @@
-Stop-Process -Name hl2 -ErrorAction SilentlyContinue;
+Stop-Process -Name tf -ErrorAction SilentlyContinue;
+Stop-Process -Name tf_win64 -ErrorAction SilentlyContinue;
 $h = 1080;
 if ($args[0] -eq "4:3") {
     $w = 1440;

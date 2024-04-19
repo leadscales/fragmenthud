@@ -8,7 +8,7 @@
         "titlebarfgcolor_override"              "Blank"
         "titlebardisabledfgcolor_override"      "Blank"
         "titlebarbgcolor_override"              "Blank"
-        "settitlebarvisible"                    "0"
+        "settitlebarvisible"                    "1"
 
         "sheetinset_bottom"                     "-20"
     }
