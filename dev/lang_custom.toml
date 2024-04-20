@@ -384,5 +384,123 @@ FRAG_Etc_Large = "Grand"
 
 FRAG_CharInfo_Armory = "Catalogue"
 
+[portuguese]
+FRAG_Oobe_Description = "Obrigado por instalar o FRAGMENTHUD.\n\nEste HUD ainda é um projeto em progresso, então alguns elementos podem vir a avariar. Por favor emita no Github ou pergunte por ajuda no nosso servidor do Discord caso encontre quaisquer problemas.\n\nEsta mensagem não aparecerá outravez.\n\nObrigado <3\n\n-Lead"
+FRAG_Oobe_HangWarn = "TF2 pode congelar momentariamente ao sair deste menu, isto é normal, o jogo não crashou."
+
+FRAG_ValveRC_WarnTitle = "AVISO"
+FRAG_ValveRC_WarnBody = "O ficheiro frag_autoexec.cfg de FRAGMENTHUD falhou em decorrer.\n\nGeralmente a razão é que o ficheiro valve.rc do HUD não decorreu durante o arranque, por norma isto é devido a outro mod que o sobreponha.\n\nCustomizações não vão funcionar e estão desabilitadas, muitos elementos do HUD também se erão encontrar completamente quebrados como consequência disto.\n\nClica no butão em baixo para saber como resolver isto."
+FRAG_ValveRC_WarnFix = "RESOLVER PROBLEMAS"
+
+FRAG_Safemode_Warn = "Só customizar quando não em jogo."
+FRAG_Safemode_RenameWarn = "Pasta do HUD não se encontra renomeada."
+
+FRAG_Safemode_Supporters_Title = "CRÉDITOS E SUPORTADORES"
+FRAG_Safemode_Supporters_Tester = "Testador ★"
+FRAG_Safemode_Supporters_Contributor = "Contribuidor ★"
+FRAG_Safemode_Supporters_Translator = "Tradutor ★"
+FRAG_Safemode_Supporters_Donate = "DOAR"
+
+FRAG_Safemode_Colors_Title = "CORES"
+FRAG_Safemode_Colors_Primary = "PRIMÁRIO"
+FRAG_Safemode_Colors_Accent = "ACENTO"
+FRAG_Safemode_Colors_Negative = "NEGATIVO"
+FRAG_Safemode_Colors_Positive = "POSITIVO"
+FRAG_Safemode_Colors_Tooltip = "Recomeça o TF2 depois de escolheres as tuas cores, de maneira a conseguires ver as tuas mudanças."
+
+FRAG_Safemode_MMenu_Title = "MENU PRINCIPAL"
+FRAG_Safemode_MMenu_FList = "LISTA DE AMIGOS"
+
+FRAG_Safemode_Hitmarker_Title = "INDICADOR DE ATINJO"
+FRAG_Safemode_Hitmarker_Toggle = "LIGAR/DESLIGAR INDICADOR DE ATINJO"
+FRAG_Safemode_Hitmarker_Shape = "FORMA DO INDICADOR DE ATINJO"
+FRAG_Safemode_Hitmarker_Size = "TAMANHO DO INDICADOR DE ATINJO"
+
+FRAG_Safemode_Scoreboard_Title = "TABELA DE PONTUAÇÃO"
+FRAG_Safemode_Scoreboard_Format = "FORMATAR"
+
+FRAG_Safemode_Killfeed_Title = "FEED DE MORTES"
+FRAG_Safemode_Killfeed_MaxEntries = "MÁXIMAS ENTRADAS"
+FRAG_Safemode_Killfeed_EntryOpacity = "OPACIDADE DE ENTRADA"
+
+FRAG_Safemode_Playerclass_Title = "CLASSE DO JOGADOR"
+FRAG_Safemode_3DPlayer_Toggle = "MODELO 3D DO JOGADOR"
+FRAG_Safemode_2DPlayer_Toggle = "IMAGEM 2D DO JOGADOR"
+FRAG_Safemode_3DPlayer_Tooltip = "Use cl_hud_playerclass_use_playermodel 0/1 para mudar entre o modelo 3D e a imagem 2D."
+
+FRAG_Buttons_Info = "HUD Informações"
+FRAG_Buttons_Console = "Consola"
+FRAG_Buttons_DemoUI = "IUDemo"
+FRAG_Buttons_FixIssues = "Tentativa de reparo a qualquer problema com o HUD, visual ou audio"
+FRAG_Buttons_BugReport = "Denuncia de qualquer problema com o HUD."
+FRAG_Buttons_Translate = "Ajude traduzir FRAGMENTHUD"
+FRAG_Buttons_Discord = "Junte-se ao nosso servidor de Discord para obter ajuda."
+FRAG_Buttons_LeadProfile = "Ver perfil do desenvolvedor"
+
+FRAG_Etc_Small = "Pequeno"
+FRAG_Etc_Medium = "Médio"
+FRAG_Etc_Large = "Grande"
+
+FRAG_CharInfo_Armory = "Catálogo"
+
+[brazilian]
+FRAG_Oobe_Description = "Obrigado por instalar o FRAGMENTHUD.\n\nEste HUD ainda é um projeto em progresso, então alguns elementos podem vir a avariar. Por favor emita no Github ou pergunte por ajuda no nosso servidor do Discord caso encontre quaisquer problemas.\n\nEsta mensagem não aparecerá outravez.\n\nObrigado <3\n\n-Lead"
+FRAG_Oobe_HangWarn = "TF2 pode congelar momentariamente ao sair deste menu, isto é normal, o jogo não crashou."
+
+FRAG_ValveRC_WarnTitle = "AVISO"
+FRAG_ValveRC_WarnBody = "O ficheiro frag_autoexec.cfg de FRAGMENTHUD falhou em decorrer.\n\nGeralmente a razão é que o ficheiro valve.rc do HUD não decorreu durante o arranque, por norma isto é devido a outro mod que o sobreponha.\n\nCustomizações não vão funcionar e estão desabilitadas, muitos elementos do HUD também se erão encontrar completamente quebrados como consequência disto.\n\nClica no butão em baixo para saber como resolver isto."
+FRAG_ValveRC_WarnFix = "RESOLVER PROBLEMAS"
+
+FRAG_Safemode_Warn = "Só customizar quando não em jogo."
+FRAG_Safemode_RenameWarn = "Pasta do HUD não se encontra renomeada."
+
+FRAG_Safemode_Supporters_Title = "CRÉDITOS E SUPORTADORES"
+FRAG_Safemode_Supporters_Tester = "Testador ★"
+FRAG_Safemode_Supporters_Contributor = "Contribuidor ★"
+FRAG_Safemode_Supporters_Translator = "Tradutor ★"
+FRAG_Safemode_Supporters_Donate = "DOAR"
+
+FRAG_Safemode_Colors_Title = "CORES"
+FRAG_Safemode_Colors_Primary = "PRIMÁRIO"
+FRAG_Safemode_Colors_Accent = "ACENTO"
+FRAG_Safemode_Colors_Negative = "NEGATIVO"
+FRAG_Safemode_Colors_Positive = "POSITIVO"
+FRAG_Safemode_Colors_Tooltip = "Recomeça o TF2 depois de escolheres as tuas cores, de maneira a conseguires ver as tuas mudanças."
+
+FRAG_Safemode_MMenu_Title = "MENU PRINCIPAL"
+FRAG_Safemode_MMenu_FList = "LISTA DE AMIGOS"
+
+FRAG_Safemode_Hitmarker_Title = "INDICADOR DE ATINJO"
+FRAG_Safemode_Hitmarker_Toggle = "LIGAR/DESLIGAR INDICADOR DE ATINJO"
+FRAG_Safemode_Hitmarker_Shape = "FORMA DO INDICADOR DE ATINJO"
+FRAG_Safemode_Hitmarker_Size = "TAMANHO DO INDICADOR DE ATINJO"
+
+FRAG_Safemode_Scoreboard_Title = "TABELA DE PONTUAÇÃO"
+FRAG_Safemode_Scoreboard_Format = "FORMATAR"
+
+FRAG_Safemode_Killfeed_Title = "FEED DE MORTES"
+FRAG_Safemode_Killfeed_MaxEntries = "MÁXIMAS ENTRADAS"
+FRAG_Safemode_Killfeed_EntryOpacity = "OPACIDADE DE ENTRADA"
+
+FRAG_Safemode_Playerclass_Title = "CLASSE DO JOGADOR"
+FRAG_Safemode_3DPlayer_Toggle = "MODELO 3D DO JOGADOR"
+FRAG_Safemode_2DPlayer_Toggle = "IMAGEM 2D DO JOGADOR"
+FRAG_Safemode_3DPlayer_Tooltip = "Use cl_hud_playerclass_use_playermodel 0/1 para mudar entre o modelo 3D e a imagem 2D."
+
+FRAG_Buttons_Info = "HUD Informações"
+FRAG_Buttons_Console = "Consola"
+FRAG_Buttons_DemoUI = "IUDemo"
+FRAG_Buttons_FixIssues = "Tentativa de reparo a qualquer problema com o HUD, visual ou audio"
+FRAG_Buttons_BugReport = "Denuncia de qualquer problema com o HUD."
+FRAG_Buttons_Translate = "Ajude traduzir FRAGMENTHUD"
+FRAG_Buttons_Discord = "Junte-se ao nosso servidor de Discord para obter ajuda."
+FRAG_Buttons_LeadProfile = "Ver perfil do desenvolvedor"
+
+FRAG_Etc_Small = "Pequeno"
+FRAG_Etc_Medium = "Médio"
+FRAG_Etc_Large = "Grande"
+
+FRAG_CharInfo_Armory = "Catálogo"
+
 [other]
 FRAG_InfoCMD = "FRAGMENTHUD {0} by leadscales\nIf you have any suggestions or questions about the hud, please join our Discord server: {1}\nThank you <3"
