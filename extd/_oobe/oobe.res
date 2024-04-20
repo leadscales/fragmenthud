@@ -188,6 +188,7 @@
                 "ypos"                      "0"
                 "wide"                      "20"
                 "tall"                      "20"
+                "mouseinputenabled"         "0"
                 
                 "labelText"                 "¨"
                 "textAlignment"             "center"
@@ -203,6 +204,7 @@
                 "ypos"                      "0"
                 "wide"                      "f45"
                 "tall"                      "20"
+                "mouseinputenabled"         "0"
                 
                 "labelText"                 "FRAGMENTHUD"
                 "font"                      "FontMedium_12_Additive"

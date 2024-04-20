@@ -65,19 +65,19 @@
             "xpos"                  "0"
             "ypos"                  "0"
             "zpos"                  "4"
-            "wide"                  "p0.5"
-            "tall"                  "300"
+            "wide"                  "p2"
+            "tall"                  "o1"
             "proportionaltoparent"  "1"
 
             "SubImage"
             {
                 "ControlName"           "ImagePanel"
                 "fieldName"             "SubImage"
-                "xpos"                  "cs-0.5-150"
+                "xpos"                  "c0-s1"
                 "ypos"                  "0"
                 "zpos"                  "4"
-                "wide"                  "p3"
-                "tall"                  "p3.5"
+                "wide"                  "f0"
+                "tall"                  "f0"
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/menu/side_panel_light_top"
                 "scaleImage"            "1"
@@ -97,19 +97,19 @@
             "xpos"                  "rs1"
             "ypos"                  "0"
             "zpos"                  "4"
-            "wide"                  "p0.5"
-            "tall"                  "300"
+            "wide"                  "p2"
+            "tall"                  "o1"
             "proportionaltoparent"  "1"
 
             "SubImage"
             {
                 "ControlName"           "ImagePanel"
                 "fieldName"             "SubImage"
-                "xpos"                  "cs-0.5+150"
+                "xpos"                  "c0"
                 "ypos"                  "0"
                 "zpos"                  "4"
-                "wide"                  "p3"
-                "tall"                  "p3.5"
+                "wide"                  "f0"
+                "tall"                  "f0"
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/menu/side_panel_light_top"
                 "scaleImage"            "1"
@@ -137,6 +137,101 @@
             "zpos"              "5"
             "wide"              "600"
             "tall"              "340"
+        }
+    }
+
+    "TopStrokeContainer"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "TopStrokeContainer"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "8"
+        "wide"                      "600"
+        "tall"                      "1"
+
+        "pin_to_sibling"            "CentralScoreBG"
+        "pin_corner_to_sibling"     "PIN_CENTER_BOTTOM"
+        "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+
+        "Center"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "TopStrokeContainer"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "0"
+            "wide"                      "200"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+
+            "Left"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "Left"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/menu/side_panel_gradient_left"
+                "scaleImage"                "1"
+                "drawcolor"                 "FragBlu100"
+            }
+            "Right"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "Right"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/menu/side_panel_gradient_right"
+                "scaleImage"                "1"
+                "drawcolor"                 "FragRed100"
+            }
+
+            "if_mvm"
+            {
+                "visible"       "0"
+            }
+        }
+
+        "Left"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "Left"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "200"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/panels/fill_additive"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragBlu100"
+
+            "if_mvm"
+            {
+                "visible"       "0"
+            }
+        }
+        "Right"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "Right"
+            "xpos"                      "rs1"
+            "ypos"                      "0"
+            "wide"                      "200"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/panels/fill_additive"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragRed100"
+
+            "if_mvm"
+            {
+                "wide"                  "f0"
+            }
         }
     }
 
@@ -170,7 +265,7 @@
         "zpos"              "5"
         "wide"              "600"
         "tall"              "20"
-        "bgcolor_override"  "Blank"
+        "bgcolor_override"  "FragPanelTransparentDark20"
 
         "pin_to_sibling"    "CentralScoreBG"
     }
@@ -204,65 +299,25 @@
         "xpos"              "0"
         "ypos"              "0"
         "zpos"              "5"
-        "wide"              "300"
+        "wide"              "600"
         "tall"              "20"
-        "bgcolor_override"  "FragBlu20"
-
-        "BGEffect1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect1"
-            "xpos"                      "0"
-            "ypos"                      "cs-0.5"
-            "wide"                      "f0"
-            "tall"                      "o1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/scoreboard_effect_0"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragBlu100"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect2"
-            "xpos"                      "0"
-            "ypos"                      "cs-0.5"
-            "wide"                      "f0"
-            "tall"                      "o1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/scoreboard_effect_1"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragBlu100"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
+        "bgcolor_override"  "Blank"
 
         "pin_to_sibling"    "CentralScoreBG"
 
-        "if_mvm"
+        "SubImage"
         {
-            "visible"       "0"
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "SubImage"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/side_panel_gradient_left"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragBlu20"
         }
-    }
-
-    "BlueScoreBGStroke"
-    {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "BlueScoreBGStroke"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "zpos"                  "7"
-        "wide"                  "300"
-        "tall"                  "1"
-        "image"                 "replay/thumbnails/panels/fill_additive"
-        "scaleImage"            "1"
-        "drawcolor"             "FragBlu100"
-
-        "pin_to_sibling"        "BlueScoreBG"
-        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner" "PIN_TOPLEFT"
 
         "if_mvm"
         {
@@ -284,7 +339,7 @@
 
         "fgcolor"                   "FragBlu100"
         "fgcolor_override"          "FragBlu100"
-        "bgcolor_override"          "FragBlu20"
+        "bgcolor_override"          "FragBlu10"
 
         "pin_to_sibling"            "BlueScoreBG"
 
@@ -356,68 +411,27 @@
         "xpos"                  "0"
         "ypos"                  "0"
         "zpos"                  "5"
-        "wide"                  "300"
+        "wide"                  "600"
         "tall"                  "20"
-        "bgcolor_override"      "FragRed20"
-
-        "BGEffect1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect1"
-            "xpos"                      "0"
-            "ypos"                      "cs-0.5"
-            "wide"                      "f0"
-            "tall"                      "o1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/scoreboard_effect_0"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragRed100"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect2"
-            "xpos"                      "0"
-            "ypos"                      "cs-0.5"
-            "wide"                      "f0"
-            "tall"                      "o1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/scoreboard_effect_1"
-            "scaleImage"                "1"
-            "drawcolor"                 "FragRed100"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
+        "bgcolor_override"      "Blank"
 
         "pin_to_sibling"        "CentralScoreBG"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"
         "pin_to_sibling_corner" "PIN_TOPRIGHT"
 
-        "if_mvm"
+        "SubImage"
         {
-            "wide"              "600"
-            "visible"           "1"
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "SubImage"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/menu/side_panel_gradient_right"
+            "scaleImage"                "1"
+            "drawcolor"                 "FragRed20"
         }
-    }
-
-    "RedScoreBGStroke"
-    {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "RedScoreBGStroke"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "zpos"                  "7"
-        "wide"                  "300"
-        "tall"                  "1"
-        "image"                 "replay/thumbnails/panels/fill_additive"
-        "scaleImage"            "1"
-        "drawcolor"             "FragRed100"
-
-        "pin_to_sibling"        "RedScoreBG"
-        "pin_corner_to_sibling" "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner" "PIN_TOPLEFT"
 
         "if_mvm"
         {
@@ -440,7 +454,7 @@
 
         "fgcolor"                   "FragRed100"
         "fgcolor_override"          "FragRed100"
-        "bgcolor_override"          "FragRed20"
+        "bgcolor_override"          "FragRed10"
 
         "pin_to_sibling"            "RedScoreBG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
