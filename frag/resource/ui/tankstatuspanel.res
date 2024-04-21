@@ -2,7 +2,7 @@
 {
     "Background"
     {
-        "image"         "replay/thumbnails/panels/fill_60"
+        "image"         "replay/thumbnails/fill_60"
         "drawcolor"     "0 0 0 255"
     }
 }

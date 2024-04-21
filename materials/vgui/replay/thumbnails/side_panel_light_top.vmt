@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+    "$baseTexture"              "vgui/replay/thumbnails/side_panel_light"
+    "$basetexturetransform"     "center .5 .5 scale 1 1 rotate 90 translate 0 0"
+    "$translucent"              "1"
+    "$vertexalpha"              "1"
+    "$vertexcolor"              "1"
+    "$additive"                 "1"
+}

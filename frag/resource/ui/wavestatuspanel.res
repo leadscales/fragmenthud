@@ -18,7 +18,7 @@
         "zpos"                  "4"
         "wide"                  "200"
         "tall"                  "1"
-        "image"                 "replay/thumbnails/panels/fill_additive"
+        "image"                 "replay/thumbnails/fill_additive"
         "drawcolor"             "FragBlu100"
         "bgcolor_override"      "FragPanelTransparentDark60"
     }

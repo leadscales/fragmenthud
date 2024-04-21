@@ -37,7 +37,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "o1",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/supporters/supporter_bg_0",
+            "image": "replay/thumbnails/supporter_bg_0",
             "scaleimage": "1",
             "drawcolor": "255 0 0 255"
         },
@@ -49,7 +49,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "o1",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/supporters/supporter_bg_1",
+            "image": "replay/thumbnails/supporter_bg_1",
             "scaleimage": "1",
             "drawcolor": "255 0 0 255"
         },
@@ -61,7 +61,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "o1",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/menu/particle_overlay_0",
+            "image": "replay/thumbnails/background/particle_overlay_0",
             "scaleimage": "1",
             "drawcolor": "255 0 0 255"
         },
@@ -73,7 +73,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "o1",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/menu/particle_overlay_1",
+            "image": "replay/thumbnails/background/particle_overlay_1",
             "scaleimage": "1",
             "drawcolor": "255 0 0 255"
         },
@@ -88,7 +88,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "tall": "20",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
-        "image": "replay/thumbnails/panels/fill_additive",
+        "image": "replay/thumbnails/fill_additive",
         "scaleimage": "1"
     },
 
@@ -101,7 +101,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "tall": "f1",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
-        "image": "replay/thumbnails/menu/side_panel_gradient_left",
+        "image": "replay/thumbnails/side_panel_gradient_left",
         "scaleimage": "1",
         "drawcolor": "255 0 0 255"
     },
@@ -193,7 +193,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
             "wide": "f0",
             "tall": "f0",
             "proportionaltoparent": "1",
-            "image": "replay/thumbnails/panels/fill_additive",
+            "image": "replay/thumbnails/fill_additive",
             "scaleimage": "1",
         }
     }

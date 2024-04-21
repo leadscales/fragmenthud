@@ -71,7 +71,7 @@
 
                         "scaleImage"                "1"
                         "image_default"             "replay/thumbnails/blank"
-                        "image_armed"               "replay/thumbnails/menu/side_panel_gradient_left"
+                        "image_armed"               "replay/thumbnails/side_panel_gradient_left"
 
                         "SubImage"
                         {

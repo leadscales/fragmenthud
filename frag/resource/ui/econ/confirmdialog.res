@@ -58,7 +58,7 @@
         "zpos"                  "2"
         "wide"                  "240"
         "tall"                  "1"
-        "image"                 "replay/thumbnails/panels/fill_additive"
+        "image"                 "replay/thumbnails/fill_additive"
         "drawcolor"             "FragPrimary100"
         "scaleImage"            "1"
         "mouseinputenabled"     "0"

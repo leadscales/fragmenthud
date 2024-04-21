@@ -170,7 +170,7 @@
         }
         "LoadoutItemPopupBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque0"
             "src_corner_height"         "6"
             "src_corner_width"          "6"
@@ -180,7 +180,7 @@
         // ---
         "OutlinedGreyBox"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque10"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -189,7 +189,7 @@
         }
         "OutlinedDullGreyBox"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque05"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -198,7 +198,7 @@
         }
         "TFThinLineBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_60"
+            "image"                     "replay/thumbnails/fill_60"
             "color"                     "FragPanelOpaque0"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -207,7 +207,7 @@
         }
         "TFFatLineBorderOpaque"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque10"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -216,7 +216,7 @@
         }
         "TFFatLineBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_80"
+            "image"                     "replay/thumbnails/fill_80"
             "color"                     "FragPanelOpaque0"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -225,7 +225,7 @@
         }
         "TFFatLineBorderRedBG"
         {
-            "image"                     "replay/thumbnails/panels/fill_80"
+            "image"                     "replay/thumbnails/fill_80"
             "color"                     "FragRed100"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -234,7 +234,7 @@
         }
         "TFFatLineBorderBlueBG"
         {
-            "image"                     "replay/thumbnails/panels/fill_80"
+            "image"                     "replay/thumbnails/fill_80"
             "color"                     "FragBlu100"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -243,7 +243,7 @@
         }
         "GrayDialogBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque10"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -252,7 +252,7 @@
         }
         "ReplayFatLineBorderOpaque"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque10"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -261,7 +261,7 @@
         }
         "ReplayGrayDialogBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque20"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -270,7 +270,7 @@
         }
         "ReplayOutlinedGreyBox"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque20"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -279,7 +279,7 @@
         }
         "ReplayOutlinedDullGreyBox"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque05"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -288,7 +288,7 @@
         }
         "ReplayThinLineBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_60"
+            "image"                     "replay/thumbnails/fill_60"
             "color"                     "FragPanelOpaque0"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -297,7 +297,7 @@
         }
         "ReplayDefaultBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque05"
             "src_corner_height"         "0"
             "src_corner_width"          "0"
@@ -306,7 +306,7 @@
         }
         "ReplayHighlightBorder"
         {
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "color"                     "FragPanelOpaque05"
             "src_corner_height"         "0"
             "src_corner_width"          "0"

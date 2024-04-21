@@ -79,7 +79,7 @@
                 "wide"                  "f0"
                 "tall"                  "f0"
                 "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_light_top"
+                "image"                 "replay/thumbnails/side_panel_light_top"
                 "scaleImage"            "1"
                 "drawcolor"             "FragBlu05"
             }
@@ -111,7 +111,7 @@
                 "wide"                  "f0"
                 "tall"                  "f0"
                 "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_light_top"
+                "image"                 "replay/thumbnails/side_panel_light_top"
                 "scaleImage"            "1"
                 "drawcolor"             "FragRed05"
 
@@ -173,7 +173,7 @@
                 "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
-                "image"                     "replay/thumbnails/menu/side_panel_gradient_left"
+                "image"                     "replay/thumbnails/side_panel_gradient_left"
                 "scaleImage"                "1"
                 "drawcolor"                 "FragBlu100"
             }
@@ -186,7 +186,7 @@
                 "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
-                "image"                     "replay/thumbnails/menu/side_panel_gradient_right"
+                "image"                     "replay/thumbnails/side_panel_gradient_right"
                 "scaleImage"                "1"
                 "drawcolor"                 "FragRed100"
             }
@@ -206,7 +206,7 @@
             "wide"                      "200"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive"
+            "image"                     "replay/thumbnails/fill_additive"
             "scaleImage"                "1"
             "drawcolor"                 "FragBlu100"
 
@@ -224,7 +224,7 @@
             "wide"                      "200"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive"
+            "image"                     "replay/thumbnails/fill_additive"
             "scaleImage"                "1"
             "drawcolor"                 "FragRed100"
 
@@ -245,10 +245,10 @@
         "wide"                  "600"
         "tall"                  "1"
         "proportionaltoparent"  "0"
-        "teambg_0"              "replay/thumbnails/panels/fill_additive"
-        "teambg_1"              "replay/thumbnails/panels/fill_additive"
-        "teambg_2"              "replay/thumbnails/panels/fill_additive_red"
-        "teambg_3"              "replay/thumbnails/panels/fill_additive_blu"
+        "teambg_0"              "replay/thumbnails/fill_additive"
+        "teambg_1"              "replay/thumbnails/fill_additive"
+        "teambg_2"              "replay/thumbnails/fill_additive_red"
+        "teambg_3"              "replay/thumbnails/fill_additive_blu"
         "scaleImage"            "1"
 
         "pin_to_sibling"        "CentralScoreBG"
@@ -314,7 +314,7 @@
             "wide"                      "f0"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                     "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"                "1"
             "drawcolor"                 "FragBlu20"
         }
@@ -428,7 +428,7 @@
             "wide"                      "f0"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/side_panel_gradient_right"
+            "image"                     "replay/thumbnails/side_panel_gradient_right"
             "scaleImage"                "1"
             "drawcolor"                 "FragRed20"
         }

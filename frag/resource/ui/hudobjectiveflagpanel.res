@@ -30,7 +30,7 @@
                 "wide"                  "38"
                 "tall"                  "1"
                 "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+                "image"                 "replay/thumbnails/side_panel_gradient_left"
                 "drawcolor"             "FragBlu100"
                 "scaleImage"            "1"
             }
@@ -43,7 +43,7 @@
                 "wide"                  "38"
                 "tall"                  "1"
                 "proportionaltoparent"  "1"
-                "image"                 "replay/thumbnails/menu/side_panel_gradient_right"
+                "image"                 "replay/thumbnails/side_panel_gradient_right"
                 "drawcolor"             "FragRed100"
                 "scaleImage"            "1"
             }
@@ -80,7 +80,7 @@
             "wide"                      "40"
             "tall"                      "1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive"
+            "image"                     "replay/thumbnails/fill_additive"
             "drawcolor"                 "FragBlu100"
             "scaleImage"                "1"
         }
@@ -93,7 +93,7 @@
             "wide"                      "40"
             "tall"                      "1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_additive"
+            "image"                     "replay/thumbnails/fill_additive"
             "drawcolor"                 "FragRed100"
             "scaleImage"                "1"
         }

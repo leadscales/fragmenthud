@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+    "$baseTexture"                  "vgui/replay/thumbnails/supporter_bg"
+    "$basetexturetransform"         "center .5 .5 scale 1 1 rotate 180 translate 0 0"
+    "$translucent"                  "1"
+    "$vertexalpha"                  "1"
+    "$vertexcolor"                  "1"
+    "$additive"                     "1"
+    "Proxies"
+    {
+        "Sine"
+        {
+            "resultVar"         "$alpha"
+            "sineperiod"        "8.5"
+            "sinemin"           "0.2"
+            "sinemax"           "0.5"
+        }
+    }
+}

@@ -21,7 +21,7 @@
         "proportionaltoparent"      "1"
         "visible"                   "1"
         "enabled"                   "1"
-        "image"                     "replay/thumbnails/menu/loading_icon"
+        "image"                     "replay/thumbnails/loading_icon"
         "scaleImage"                "1"
         "drawcolor"                 "FragAccent100"
     }

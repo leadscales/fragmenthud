@@ -2,7 +2,7 @@
 {
     "ProgressBar"
     {
-        "image"         "replay/thumbnails/panels/fill_additive"
+        "image"         "replay/thumbnails/fill_additive"
         "drawcolor"     "FragBlu100"
     }
     "ProgressBarBG"

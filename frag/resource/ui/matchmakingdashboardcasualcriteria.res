@@ -87,7 +87,7 @@
             "wide"                      "p12"
             "tall"                      "o1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/side_panel_light_left"
+            "image"                     "replay/thumbnails/side_panel_light_left"
             "scaleImage"                "1"
             "drawcolor"                 "FragCasual40"
         }
@@ -101,7 +101,7 @@
             "wide"                      "f0"
             "tall"                      "f0"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/menu/noise"
+            "image"                     "replay/thumbnails/noise"
             "tileImage"                 "1"
             "drawcolor"                 "FragNeutral05"
             "visible"                   "1"

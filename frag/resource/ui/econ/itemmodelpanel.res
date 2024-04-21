@@ -2,7 +2,7 @@
 {
     "LoadingSpinner"
     {
-        "image"     "replay/thumbnails/menu/loading_icon"
+        "image"     "replay/thumbnails/loading_icon"
         "alpha"     "51"
     }
 

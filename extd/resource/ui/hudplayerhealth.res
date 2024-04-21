@@ -15,7 +15,7 @@
         "wide"                      "60"
         "tall"                      "20"
         "proportionaltoparent"      "1"
-        "image"                     "replay/thumbnails/menu/side_panel_shadow_left"
+        "image"                     "replay/thumbnails/side_panel_shadow_left"
         "scaleImage"                "1"
         "alpha"                     "153"
     }

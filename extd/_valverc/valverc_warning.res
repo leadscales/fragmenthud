@@ -21,7 +21,7 @@
             "wide"                  "f1"
             "tall"                  "f2"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragNegative40"
         }
@@ -36,7 +36,7 @@
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
-            "image"                 "replay/thumbnails/panels/fill_additive"
+            "image"                 "replay/thumbnails/fill_additive"
             "scaleImage"            "1"
             "drawcolor"             "FragNegative40"
         }
@@ -51,7 +51,7 @@
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragNegative40"
         }
@@ -66,7 +66,7 @@
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragNegative40"
         }

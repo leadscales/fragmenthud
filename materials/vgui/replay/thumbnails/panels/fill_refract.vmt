@@ -1,7 +1,0 @@
-"Refract"
-{
-    "$normalmap"        "vgui/replay/thumbnails/panels/white_solid"
-    "$bluramount"       "1"
-    "$refractamount"    "0"
-    "$nowritez"         "1"
-}

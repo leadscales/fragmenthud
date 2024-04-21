@@ -35,7 +35,7 @@
         "wide"                      "80"
         "tall"                      "1"
         "proportionaltoparent"      "1"
-        "image"                     "replay/thumbnails/panels/fill_100"
+        "image"                     "replay/thumbnails/fill_100"
         "drawcolor"                 "FragAccent100"
 
         "if_match"
@@ -45,7 +45,7 @@
             "wide"                      "f0"
             "tall"                      "1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "drawcolor"                 "FragAccent100"
         }
     }
@@ -84,7 +84,7 @@
         "wide"                      "80"
         "tall"                      "1"
         "proportionaltoparent"      "1"
-        "image"                     "replay/thumbnails/panels/fill_100"
+        "image"                     "replay/thumbnails/fill_100"
         "drawcolor"                 "FragNegative100"
 
         "if_match"
@@ -94,7 +94,7 @@
             "wide"                      "f0"
             "tall"                      "1"
             "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/panels/fill_100"
+            "image"                     "replay/thumbnails/fill_100"
             "drawcolor"                 "FragNegative100"
         }
     }

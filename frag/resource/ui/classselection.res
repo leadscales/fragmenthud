@@ -14,7 +14,7 @@
         "zpos"              "0"
         "wide"              "f0"
         "tall"              "480"
-        "image"             "replay/thumbnails/panels/fill_refract"
+        "image"             "replay/thumbnails/fill_refract"
         "scaleImage"        "1"
     }
 
@@ -27,7 +27,7 @@
         "zpos"              "1"
         "wide"              "f0"
         "tall"              "f0"
-        "image"             "replay/thumbnails/menu/noise"
+        "image"             "replay/thumbnails/noise"
         "tileImage"         "1"
         "drawcolor"         "FragNeutral100"
         "visible"           "1"

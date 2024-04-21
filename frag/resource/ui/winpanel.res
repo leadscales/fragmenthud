@@ -41,7 +41,7 @@
             "ypos"                      "0"
             "wide"                      "p0.6"
             "tall"                      "40"
-            "image"                     "replay/thumbnails/menu/side_panel_gradient_right"
+            "image"                     "replay/thumbnails/side_panel_gradient_right"
             "scaleImage"                "1"
             "drawcolor"                 "FragBlu10"
 
@@ -57,7 +57,7 @@
             "ypos"                      "0"
             "wide"                      "p0.6"
             "tall"                      "40"
-            "image"                     "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                     "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"                "1"
             "drawcolor"                 "FragRed10"
 
@@ -220,7 +220,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragGold100"
 
@@ -237,7 +237,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragSilver100"
 
@@ -254,7 +254,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragBronze100"
 
@@ -271,7 +271,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragNegative100"
 

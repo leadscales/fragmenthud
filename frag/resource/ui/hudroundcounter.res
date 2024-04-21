@@ -17,7 +17,7 @@
             "wide"                  "5"
             "tall"                  "1"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/panels/fill_20"
+            "image"                 "replay/thumbnails/fill_20"
             "drawcolor"             "FragNeutral100"
         }
         "RoundWinPanelRed_kv"
@@ -26,7 +26,7 @@
             "wide"                  "5"
             "tall"                  "1"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/panels/fill_100"
+            "image"                 "replay/thumbnails/fill_100"
             "drawcolor"             "FragRed100"
         }
         "RoundWinPanelBlue_kv"
@@ -35,7 +35,7 @@
             "wide"                  "5"
             "tall"                  "1"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/panels/fill_100"
+            "image"                 "replay/thumbnails/fill_100"
             "drawcolor"             "FragBlu100"
         }
     }

@@ -17,7 +17,7 @@
         "wide"                      "1"
         "tall"                      "f0"
         "proportionaltoparent"      "1"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragAccent100"
     }

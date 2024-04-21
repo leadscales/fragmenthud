@@ -38,7 +38,7 @@
         "zpos"                      "1"
         "wide"                      "18"
         "tall"                      "1"
-        "image"                     "replay/thumbnails/panels/fill_additive_blu"
+        "image"                     "replay/thumbnails/fill_additive_blu"
     }
 
     "EnemyCount"

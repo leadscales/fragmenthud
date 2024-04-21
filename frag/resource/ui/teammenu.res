@@ -14,7 +14,7 @@
         "zpos"              "0"
         "wide"              "f0"
         "tall"              "480"
-        "image"             "replay/thumbnails/panels/fill_refract"
+        "image"             "replay/thumbnails/fill_refract"
         "scaleImage"        "1"
     }
 
@@ -27,7 +27,7 @@
         "zpos"              "1"
         "wide"              "f0"
         "tall"              "f0"
-        "image"             "replay/thumbnails/menu/noise"
+        "image"             "replay/thumbnails/noise"
         "tileImage"         "1"
         "drawcolor"         "FragNeutral100"
         "visible"           "1"
@@ -117,7 +117,7 @@
         "zpos"                          "5"
         "wide"                          "160"
         "tall"                          "40"
-        "image"                         "replay/thumbnails/menu/side_panel_gradient_left"
+        "image"                         "replay/thumbnails/side_panel_gradient_left"
         "scaleImage"                    "1"
         "drawcolor"                     "FragBlu10"
 
@@ -158,7 +158,7 @@
         "zpos"                          "5"
         "wide"                          "160"
         "tall"                          "40"
-        "image"                         "replay/thumbnails/menu/side_panel_gradient_right"
+        "image"                         "replay/thumbnails/side_panel_gradient_right"
         "scaleImage"                    "1"
         "drawcolor"                     "FragRed10"
 

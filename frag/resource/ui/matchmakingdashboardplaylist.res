@@ -48,7 +48,7 @@
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragCasual100"
         }
@@ -63,7 +63,7 @@
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragCommunity100"
         }
@@ -77,7 +77,7 @@
             "wide"                  "220"
             "tall"                  "100"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragCasual20"
         }
@@ -91,7 +91,7 @@
             "wide"                  "220"
             "tall"                  "100"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragCompetitive20"
 
@@ -109,7 +109,7 @@
             "wide"                  "220"
             "tall"                  "100"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragMvM20"
 
@@ -127,7 +127,7 @@
             "wide"                  "220"
             "tall"                  "100"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"            "1"
             "drawcolor"             "FragCommunity20"
 

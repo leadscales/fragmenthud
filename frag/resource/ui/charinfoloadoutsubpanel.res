@@ -50,7 +50,7 @@
             "wide"                              "f80"
             "tall"                              "1"
             "proportionaltoparent"              "1"
-            "image"                             "replay/thumbnails/panels/fill_additive"
+            "image"                             "replay/thumbnails/fill_additive"
             "scaleImage"                        "1"
             "drawcolor"                         "FragPrimary60"
         }
@@ -64,7 +64,7 @@
             "wide"                              "40"
             "tall"                              "1"
             "proportionaltoparent"              "1"
-            "image"                             "replay/thumbnails/menu/side_panel_gradient_right"
+            "image"                             "replay/thumbnails/side_panel_gradient_right"
             "scaleImage"                        "1"
             "drawcolor"                         "FragPrimary60"
             
@@ -82,7 +82,7 @@
             "wide"                              "40"
             "tall"                              "1"
             "proportionaltoparent"              "1"
-            "image"                             "replay/thumbnails/menu/side_panel_gradient_left"
+            "image"                             "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"                        "1"
             "drawcolor"                         "FragPrimary60"
             
@@ -163,7 +163,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -227,7 +227,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -291,7 +291,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -355,7 +355,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -419,7 +419,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -483,7 +483,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -547,7 +547,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -611,7 +611,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -675,7 +675,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_bottom"
+                "image_armed"               "replay/thumbnails/side_triangle_bottom"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonTop"
@@ -751,7 +751,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_top"
+                "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonBottom"
@@ -837,7 +837,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_top"
+                "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonBottom"
@@ -923,7 +923,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_top"
+                "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonBottom"
@@ -1009,7 +1009,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_top"
+                "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonBottom"
@@ -1095,7 +1095,7 @@
                 "scaleimage"                "1"
 
                 "image_default"             "replay/thumbnails/blank"
-                "image_armed"               "replay/thumbnails/menu/side_triangle_top"
+                "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
                 "border_armed"              "FragCharInfoButtonBottom"

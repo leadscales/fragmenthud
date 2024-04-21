@@ -10,7 +10,7 @@
         "wide"                      "60"
         "tall"                      "20"
         "proportionaltoparent"      "1"
-        "image"                     "replay/thumbnails/menu/side_panel_shadow_right"
+        "image"                     "replay/thumbnails/side_panel_shadow_right"
         "scaleImage"                "1"
         "alpha"                     "153"
     }
@@ -26,7 +26,7 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "paintBackgroundType"       "0"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragNeutral100"
 
@@ -46,7 +46,7 @@
         "tall"                      "20"
         "proportionaltoparent"      "1"
         "paintBackgroundType"       "0"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "replay/thumbnails/fill_additive"
         "scaleImage"                "1"
         "drawcolor"                 "FragPositive100"
         "alpha"                     "0"
