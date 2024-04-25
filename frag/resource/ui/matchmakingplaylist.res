@@ -12,7 +12,7 @@
 
         "Button"
         {
-            "ControlName"                   "CExButton"
+            "ControlName"                   "CExImageButton"
             "fieldName"                     "Button"
             "xpos"                          "0"
             "ypos"                          "0"
@@ -24,10 +24,26 @@
             "labeltext"                     ""
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
-            "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "Blank"
-            "defaultfgcolor_override"       "FragCasual100"
-            "armedfgcolor_override"         "FragCasual100"
+            "defaultbgcolor_override"       "Blank"
+            "armedbgcolor_override"         "FragCasual03"
+
+            "image_default"                 "replay/thumbnails/blank"
+            "image_armed"                   "replay/thumbnails/side_panel_light_left"
+
+            "SubImage"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "SubImage"
+                "xpos"                      "0"
+                "ypos"                      "cs-0.5"
+                "wide"                      "o1.25"
+                "tall"                      "p1.35"
+                "proportionaltoparent"      "1"
+                "scaleImage"                "1"
+                "drawcolor"                 "FragCasual100"
+                "drawcolor_override"        "FragCasual100"
+                "alpha"                     "51"
+            }
         }
 
         "Label"
@@ -85,7 +101,7 @@
 
         "Button"
         {
-            "ControlName"                   "CExButton"
+            "ControlName"                   "CExImageButton"
             "fieldName"                     "Button"
             "xpos"                          "0"
             "ypos"                          "0"
@@ -97,10 +113,26 @@
             "labeltext"                     ""
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
-            "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "Blank"
-            "defaultfgcolor_override"       "FragCompetitive100"
-            "armedfgcolor_override"         "FragCompetitive100"
+            "defaultbgcolor_override"       "Blank"
+            "armedbgcolor_override"         "FragCompetitive03"
+
+            "image_default"                 "replay/thumbnails/blank"
+            "image_armed"                   "replay/thumbnails/side_panel_light_left"
+
+            "SubImage"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "SubImage"
+                "xpos"                      "0"
+                "ypos"                      "cs-0.5"
+                "wide"                      "o1.25"
+                "tall"                      "p1.35"
+                "proportionaltoparent"      "1"
+                "scaleImage"                "1"
+                "drawcolor"                 "FragCompetitive100"
+                "drawcolor_override"        "FragCompetitive100"
+                "alpha"                     "51"
+            }
         }
 
         "Label"
@@ -158,7 +190,7 @@
 
         "Button"
         {
-            "ControlName"                   "CExButton"
+            "ControlName"                   "CExImageButton"
             "fieldName"                     "Button"
             "xpos"                          "0"
             "ypos"                          "0"
@@ -170,10 +202,26 @@
             "labeltext"                     ""
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
-            "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "Blank"
-            "defaultfgcolor_override"       "FragMvM100"
-            "armedfgcolor_override"         "FragMvM100"
+            "defaultbgcolor_override"       "Blank"
+            "armedbgcolor_override"         "FragMvM03"
+
+            "image_default"                 "replay/thumbnails/blank"
+            "image_armed"                   "replay/thumbnails/side_panel_light_left"
+
+            "SubImage"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "SubImage"
+                "xpos"                      "0"
+                "ypos"                      "cs-0.5"
+                "wide"                      "o1.25"
+                "tall"                      "p1.35"
+                "proportionaltoparent"      "1"
+                "scaleImage"                "1"
+                "drawcolor"                 "FragMvM100"
+                "drawcolor_override"        "FragMvM100"
+                "alpha"                     "51"
+            }
         }
 
         "Label"
@@ -231,7 +279,7 @@
 
         "Button"
         {
-            "ControlName"                   "CExButton"
+            "ControlName"                   "CExImageButton"
             "fieldName"                     "Button"
             "xpos"                          "0"
             "ypos"                          "0"
@@ -243,10 +291,26 @@
             "labeltext"                     ""
             "sound_depressed"               "UI/buttonclick.wav"
             "sound_released"                "UI/buttonclickrelease.wav"
-            "defaultbgcolor_override"       "FragPanelTransparentDark20"
-            "armedbgcolor_override"         "Blank"
-            "defaultfgcolor_override"       "FragCommunity100"
-            "armedfgcolor_override"         "FragCommunity100"
+            "defaultbgcolor_override"       "Blank"
+            "armedbgcolor_override"         "FragCommunity03"
+
+            "image_default"                 "replay/thumbnails/blank"
+            "image_armed"                   "replay/thumbnails/side_panel_light_left"
+
+            "SubImage"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "SubImage"
+                "xpos"                      "0"
+                "ypos"                      "cs-0.5"
+                "wide"                      "o1.25"
+                "tall"                      "p1.35"
+                "proportionaltoparent"      "1"
+                "scaleImage"                "1"
+                "drawcolor"                 "FragCommunity100"
+                "drawcolor_override"        "FragCommunity100"
+                "alpha"                     "51"
+            }
         }
 
         "Label"

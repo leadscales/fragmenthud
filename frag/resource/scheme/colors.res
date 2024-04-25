@@ -98,6 +98,11 @@
         "FragCompetitive05"                 "255 80 80 13"
         "FragMvM05"                         "64 255 176 13"
         "FragCommunity05"                   "255 192 64 13"
+
+        "FragCasual03"                      "80 176 255 8"
+        "FragCompetitive03"                 "255 80 80 8"
+        "FragMvM03"                         "64 255 176 8"
+        "FragCommunity03"                   "255 192 64 8"
         // Panel Colors
         // Opaque
         "FragPanelOpaque100"                "255 255 255 255"

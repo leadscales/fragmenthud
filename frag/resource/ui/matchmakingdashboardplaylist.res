@@ -19,11 +19,9 @@
         "xpos"                  "rs1"
         "ypos"                  "0"
         "zpos"                  "1001"
-        "wide"                  "221"
+        "wide"                  "f0"
         "tall"                  "f0"
         "proportionaltoparent"  "1"
-
-        "alpha"                 "255"
 
         "SideStroke"
         {
@@ -67,19 +65,31 @@
             "scaleImage"            "1"
             "drawcolor"             "FragCommunity100"
         }
+    }
+
+    "Center"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "Center"
+        "xpos"                  "rs1"
+        "ypos"                  "1"
+        "zpos"                  "1001"
+        "wide"                  "f1"
+        "tall"                  "f2"
+        "proportionaltoparent"  "1"
 
         "CasualGradient"
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "CasualGradient"
-            "xpos"                  "1"
-            "ypos"                  "1"
-            "wide"                  "220"
-            "tall"                  "100"
+            "xpos"                  "0"
+            "ypos"                  "s-0.5+50"
+            "wide"                  "800"
+            "tall"                  "450"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_light_left"
             "scaleImage"            "1"
-            "drawcolor"             "FragCasual20"
+            "drawcolor"             "FragCasual10"
         }
 
         "CompetitiveGradient"
@@ -87,17 +97,13 @@
             "ControlName"           "ImagePanel"
             "fieldName"             "CompetitiveGradient"
             "xpos"                  "0"
-            "ypos"                  "0"
-            "wide"                  "220"
-            "tall"                  "100"
+            "ypos"                  "s-0.5+150"
+            "wide"                  "800"
+            "tall"                  "450"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_light_left"
             "scaleImage"            "1"
-            "drawcolor"             "FragCompetitive20"
-
-            "pin_to_sibling"        "CasualGradient"
-            "pin_corner_to_sibling" "PIN_TOPLEFT"
-            "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+            "drawcolor"             "FragCompetitive10"
         }
 
         "MVMGradient"
@@ -105,17 +111,13 @@
             "ControlName"           "ImagePanel"
             "fieldName"             "MVMGradient"
             "xpos"                  "0"
-            "ypos"                  "0"
-            "wide"                  "220"
-            "tall"                  "100"
+            "ypos"                  "s-0.5+250"
+            "wide"                  "800"
+            "tall"                  "450"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_light_left"
             "scaleImage"            "1"
-            "drawcolor"             "FragMvM20"
-
-            "pin_to_sibling"        "CompetitiveGradient"
-            "pin_corner_to_sibling" "PIN_TOPLEFT"
-            "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+            "drawcolor"             "FragMvM10"
         }
 
         "CommunityGradient"
@@ -123,17 +125,13 @@
             "ControlName"           "ImagePanel"
             "fieldName"             "CommunityGradient"
             "xpos"                  "0"
-            "ypos"                  "0"
-            "wide"                  "220"
-            "tall"                  "100"
+            "ypos"                  "s-0.5+350"
+            "wide"                  "800"
+            "tall"                  "450"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/side_panel_gradient_left"
+            "image"                 "replay/thumbnails/side_panel_light_left"
             "scaleImage"            "1"
-            "drawcolor"             "FragCommunity20"
-
-            "pin_to_sibling"        "MVMGradient"
-            "pin_corner_to_sibling" "PIN_TOPLEFT"
-            "pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+            "drawcolor"             "FragCommunity10"
         }
     }
 
