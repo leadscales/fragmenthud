@@ -74,16 +74,16 @@
         "xpos"                  "5"
         "ypos"                  "r40"
         "zpos"                  "100"
-        "wide"                  "200"
+        "wide"                  "f10"
         "tall"                  "20"
         "auto_wide_tocontents"  "1"
         "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
         "fgcolor"               "FragPrimary100"
 
-        "labelText"             "WIN32" [$WINDOWS]
-        "labelText"             "OSX"   [$OSX]
-        "labelText"             "LINUX" [$LINUX]
+        "labelText"             "WINDOWS"   [$WINDOWS]
+        "labelText"             "OSX"       [$OSX]
+        "labelText"             "LINUX"     [$LINUX]
     }
 
     // 0.6 = ~170, 0.4 = ~115, 0.2 = ~60
