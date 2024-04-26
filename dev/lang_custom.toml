@@ -93,6 +93,7 @@ FRAG_Etc_Large = "Большой"
 
 [polish]
 #TRANSLATIONS BY @qareday, @nuxtjs / melody
+#small fixes by p2l
 #JEŻELI TO CZYTASZ I TEŻ JESTEŚ Z POLSKI, I COŚ WYGLĄDA NIE TAK, TO PRZETŁUMACZ TO ZA NAS, TYLKO UPEWNIJ SIĘ ZE MA SENS <3
 FRAG_Oobe_Description = "Dziękuje za pobranie FRAGMENTHUD.\n\nPracuje nad tym HUDem, więc rzeczy mogą się psuć. Jeżeli znajdziesz jakieś problemy, utwórz wątek na githubie lub dołącz do naszego serwera Discord po pomoc.\n\nTa wiadomość już sie więcej nie pojawi.\n\nDziękuje <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 może chwilowo się zaciąć wychodząc z tego menu, jest to normalne i gra nie przestała działać."
@@ -101,7 +102,7 @@ FRAG_ValveRC_WarnTitle = "UWAGA"
 FRAG_ValveRC_WarnBody = "Uruchomienie frag_autoexec.cfg FRAGMENTHUDa nie powiodło się.\n\nZazwyczaj jest to ponieważ plik valve.rc HUDa nie był uruchamiany przy włączeniu gry, zwyczajnie przez innego moda nadpisującego go.\n\nDostosowywanie nie będzie działać i jest wyłączone, i przez to wiele elementów HUDa będą kompletnie zepsute.\n\nKliknij na przycisk poniżej aby dowiedzieć się jak to naprawić."
 FRAG_ValveRC_WarnFix = "NAPRAW BŁĘDY"
 
-FRAG_Safemode_RenameWarn = "Folder HUDa nie ma zmienionej nazwy."
+FRAG_Safemode_RenameWarn = "Nazwa Folderu HUD nie jest zmieniona (fragmenthud)"
 
 FRAG_Safemode_Supporters_Title = "PODZIĘKOWANIA I SUPPORTERZY"
 FRAG_Safemode_Supporters_Tester = "Tester ★"
@@ -128,15 +129,15 @@ FRAG_Safemode_Scoreboard_Title = "TABELA WYNIKÓW"
 FRAG_Safemode_Scoreboard_Format = "FORMAT"
 
 FRAG_Safemode_Killfeed_Title = "KILLFEED"
-FRAG_Safemode_Killfeed_MaxEntries = "MAKSYMALNA LICZBA WPISÓW"
-FRAG_Safemode_Killfeed_EntryOpacity = "PRZEZROCZYSTOŚĆ WPISU"
+FRAG_Safemode_Killfeed_MaxEntries = "MAKSYMALNA LICZBA ZABÓJSTW"
+FRAG_Safemode_Killfeed_EntryOpacity = "PRZEZROCZYSTOŚĆ ZABÓJSTW"
 
 FRAG_Safemode_Playerclass_Title = "KLASA GRACZA"
 FRAG_Safemode_3DPlayer_Toggle = "MODEL GRACZA 3D"
 FRAG_Safemode_2DPlayer_Toggle = "ZDJĘCIE GRACZA 2D"
-FRAG_Safemode_3DPlayer_Tooltip = "Użyj cl_hud_playerclass_use_playermodel 0/1 aby zmieniać między modelem 3D a zdjęciem 2D."
+FRAG_Safemode_3DPlayer_Tooltip = "Użyj komendy cl_hud_playerclass_use_playermodel 0/1 aby zmieniać między modelem 3D a zdjęciem 2D."
 
-FRAG_Buttons_Info = "Info o HUDzie"
+FRAG_Buttons_Info = "Informacje o HUDzie"
 FRAG_Buttons_Console = "Konsola"
 FRAG_Buttons_DemoUI = "DemoUI"
 FRAG_Buttons_FixIssues = "Spróbuj naprawić wszelkie problemy z HUDem, dzwiękiem lub widocznością"
@@ -145,9 +146,9 @@ FRAG_Buttons_Translate = "Pomóz przetłumaczyć FRAGMENTHUD"
 FRAG_Buttons_Discord = "Dołącz do naszego serwera Discord jeżeli potrzebujesz pomocy"
 FRAG_Buttons_LeadProfile = "Zobacz profil dewelopera"
 
-FRAG_Etc_Small = "Małe"
-FRAG_Etc_Medium = "Średnie"
-FRAG_Etc_Large = "Duże"
+FRAG_Etc_Small = "Mały"
+FRAG_Etc_Medium = "Średni"
+FRAG_Etc_Large = "Duży"
 
 FRAG_CharInfo_Armory = "Katalog"
 
