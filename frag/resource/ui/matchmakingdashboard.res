@@ -398,29 +398,30 @@
         "JoinPartyLobbyContainer"
         {
             "xpos"                      "160"
-            "wide"                      "40"
+            "wide"                      "80"
 
             "JoinNowButton"
             {
-                "xpos"                      "2"
-                "ypos"                      "2"
-                "wide"                      "36"
-                "tall"                      "16"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "proportionaltoparent"      "1"
 
                 "if_queued"
                 {
                     "xpos"                      "0"
                     "ypos"                      "0"
-                    "wide"                      "40"
-                    "tall"                      "20"
+                    "wide"                      "f0"
+                    "tall"                      "f0"
                 }
                 
                 "font"                      "FontMedium_10_Additive"
                 "textalignment"             "center"
                 "allcaps"                   "1"
                 "fgcolor"                   "FragPositive100"
-                "defaultbgcolor_override"   "FragPositive20"
-                "armedbgcolor_override"     "FragPositive40"
+                "defaultbgcolor_override"   "FragPositive05"
+                "armedbgcolor_override"     "FragPositive10"
                 "defaultfgcolor_override"   "FragPositive100"
                 "armedfgcolor_override"     "FragPositive100"
             }
