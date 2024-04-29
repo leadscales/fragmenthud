@@ -488,6 +488,22 @@
             "visible"               "0"
             "enabled"               "0"
         }
+
+        "AccentLogo"
+        {
+            "ControlName"           "CExLabel"
+            "fieldName"             "AccentLogo"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "wide"                  "f0"
+            "tall"                  "f0"
+            "proportionaltoparent"  "1"
+            "labelText"             "¨"
+            "font"                  "Icons_XXLarge_Additive"
+            "textAlignment"         "center"
+            "fgcolor"               "FragPrimary05"
+            "visible"               "0"
+        }
         
         "SteamFriendsList"
         {
