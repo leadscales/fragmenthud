@@ -6,7 +6,7 @@
     {
         "xpos"          "r0"
         "ypos"          "39"
-        "zpos"          "1000"
+        "zpos"          "1001"
         "wide"          "221"
         "tall"          "402"
         "resize_time"   "0"
