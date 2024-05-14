@@ -57,11 +57,12 @@ Your `<TF2 ROOT>/tf/` folder should look something similar to this:
 # Supported Aspect Ratios
 |Ratio|Supported|Comments|
 |:-:|:-:|:--|
+|5:4|❌|HUD won't fit.|
 |4:3|✔️|Supported, all HUD elements fit inside.|
+|16:10 (Steam Deck)|✔️|Supported.|
 |16:9|✔️|Supported, primary ratio where development is done.|
 |21:9|✔️|Supported.|
 |32:9|✔️|Supported.|
-|5:4|❌|HUD won't fit.|
 |Other aspect ratios|⚠️|Divide your resolution's width by its height. If its greater than or equal to `1.333...` then it is supported.|
 
 # Supported Resolutions
