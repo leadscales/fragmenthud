@@ -119,7 +119,7 @@
         "textalignment"             "center"
         "font"                      "FontBold_16_Additive"
         "fgcolor"                   "FragBlu100"
-        "bgcolor_override"          "FragBlu20"
+        "bgcolor_override"          "FragBlu10"
 
         "pin_to_sibling"            "FlagPanelBG"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -135,7 +135,7 @@
         "textalignment"             "center"
         "font"                      "FontBold_16_Additive"
         "fgcolor"                   "FragRed100"
-        "bgcolor_override"          "FragRed20"
+        "bgcolor_override"          "FragRed10"
 
         "pin_to_sibling"            "FlagPanelBG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"

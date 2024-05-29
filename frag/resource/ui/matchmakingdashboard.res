@@ -84,11 +84,11 @@
             "sound_depressed"           "UI/buttonclick.wav"
             "sound_released"            "UI/buttonclickrelease.wav"
 
-            "defaultbgcolor_override"   "FragPanelTransparentDark40"
-            "armedbgcolor_override"     "FragPrimary10"
-            "fgcolor"                   "FragPrimary100"
-            "defaultfgcolor_override"   "FragPrimary100"
-            "armedfgcolor_override"     "FragPrimary100"
+            "defaultbgcolor_override"   "Blank"
+            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "fgcolor"                   "FragNeutral100"
+            "defaultfgcolor_override"   "FragNeutral100"
+            "armedfgcolor_override"     "FragNeutral100"
 
             "SubImage"
             {
@@ -113,6 +113,99 @@
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
             "bgcolor_override"          "FragPanelTransparentDark40"
+        }
+
+        "SlotsGradient"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "SlotsGradient"
+            "xpos"                      "40"
+            "ypos"                      "0"
+            "zpos"                      "99"
+            "wide"                      "120"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "mouseinputenabled"         "0"
+            "alpha"                     "6"
+
+            "0"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "0"
+                "xpos"                  "0"
+                "ypos"                  "cs-0.5"
+                "wide"                  "80"
+                "tall"                  "o1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_gradient_left"
+                "scaleImage"            "1"
+                "drawcolor"             "PartyMember1"
+            }
+            "1"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "1"
+                "xpos"                  "s-0.5+30"
+                "ypos"                  "cs-0.5"
+                "wide"                  "80"
+                "tall"                  "o1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_light_center"
+                "scaleImage"            "1"
+                "drawcolor"             "PartyMember2"
+            }
+            "2"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "2"
+                "xpos"                  "s-0.5+50"
+                "ypos"                  "cs-0.5"
+                "wide"                  "80"
+                "tall"                  "o1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_light_center"
+                "scaleImage"            "1"
+                "drawcolor"             "PartyMember3"
+            }
+            "3"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "3"
+                "xpos"                  "s-0.5+70"
+                "ypos"                  "cs-0.5"
+                "wide"                  "80"
+                "tall"                  "o1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_light_center"
+                "scaleImage"            "1"
+                "drawcolor"             "PartyMember4"
+            }
+            "4"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "4"
+                "xpos"                  "s-0.5+90"
+                "ypos"                  "cs-0.5"
+                "wide"                  "80"
+                "tall"                  "o1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_light_center"
+                "scaleImage"            "1"
+                "drawcolor"             "PartyMember5"
+            }
+            "5"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "5"
+                "xpos"                  "rs1"
+                "ypos"                  "cs-0.5"
+                "wide"                  "80"
+                "tall"                  "o1"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_gradient_right"
+                "scaleImage"            "1"
+                "drawcolor"             "PartyMember6"
+            }
         }
 
         "PartySlot0"
@@ -494,7 +587,7 @@
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/menu/queue_stripes"
                 "tileImage"                 "1"
-                "drawcolor"                 "FragPositive100"
+                "drawcolor"                 "FragAccent100"
                 "alpha"                     "26"
             }
             "QueueTextAnchor"
@@ -518,8 +611,8 @@
                 "visible"                   "1"
                 "enabled"                   "1"
                 "font"                      "FontMedium_12_Additive"
-                "fgcolor_override"          "FragPositive100"
-                "fgcolor"                   "FragPositive100"
+                "fgcolor_override"          "FragAccent100"
+                "fgcolor"                   "FragAccent100"
                 "bgcolor_override"          "Blank"
                 "textAlignment"             "center"
                 "labelText"                 "%queue_state%"
@@ -556,10 +649,10 @@
                 "proportionaltoparent"          "1"
                 "actionsignallevel"             "3"
                 "paintbackground"               "1"
-                "fgcolor"                       "FragPositive20"
-                "defaultFgColor_override"       "FragPositive20"
-                "armedFgColor_override"         "FragPositive100"
-                "depressedFgColor_override"     "FragPositive100"
+                "fgcolor"                       "FragAccent20"
+                "defaultFgColor_override"       "FragAccent20"
+                "armedFgColor_override"         "FragAccent100"
+                "depressedFgColor_override"     "FragAccent100"
                 "defaultbgcolor_override"       "Blank"
                 "armedbgcolor_override"         "Blank"
 
@@ -597,10 +690,10 @@
                 "proportionaltoparent"          "1"
                 "actionsignallevel"             "3"
                 "paintbackground"               "1"
-                "fgcolor"                       "FragPositive20"
-                "defaultFgColor_override"       "FragPositive20"
-                "armedFgColor_override"         "FragPositive100"
-                "depressedFgColor_override"     "FragPositive100"
+                "fgcolor"                       "FragAccent20"
+                "defaultFgColor_override"       "FragAccent20"
+                "armedFgColor_override"         "FragAccent100"
+                "depressedFgColor_override"     "FragAccent100"
                 "defaultbgcolor_override"       "Blank"
                 "armedbgcolor_override"         "Blank"
 
@@ -708,6 +801,47 @@
             "bgcolor_override"          "FragPanelTransparentDark40"
         }
 
+        "GameButtonsGradient"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "GameButtonsGradient"
+            "xpos"                      "rs1"
+            "ypos"                      "0"
+            "zpos"                      "100"
+            "wide"                      "80"
+            "tall"                      "20"
+            "proportionaltoparent"      "1"
+            "mouseinputenabled"         "0"
+            "alpha"                     "6"
+
+            "0"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "0"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "wide"                  "100"
+                "tall"                  "f0"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_gradient_left"
+                "scaleImage"            "1"
+                "drawcolor"             "FragPositive100"
+            }
+            "1"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "1"
+                "xpos"                  "rs1"
+                "ypos"                  "0"
+                "wide"                  "100"
+                "tall"                  "f0"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_gradient_right"
+                "scaleImage"            "1"
+                "drawcolor"             "FragNegative100"
+            }
+        }
+
         "QuitButton2"
         {
             "ControlName"               "CExButton"
@@ -721,7 +855,7 @@
             "visible"                   "1"
             "enabled"                   "1"
 
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "labeltext"                 "x"
             "textalignment"             "center"
 
@@ -751,7 +885,7 @@
             "visible"                   "1"
             "enabled"                   "1"
 
-            "font"                      "Icons_Small"
+            "font"                      "Icons_Small_Additive"
             "labeltext"                 "P"
             "textalignment"             "center"
 

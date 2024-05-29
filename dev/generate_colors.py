@@ -345,9 +345,20 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
 
 
 if __name__ == "__main__":
+    color_name_tuple = (
+        "Primary",
+        "Accent",
+        "Negative",
+        "Positive",
+        "Casual",
+        "Competitive",
+        "MvM",
+        "Community"
+    )
+
     main(
         generate_color_tuple(90, 89.2),
-        ("Primary", "Accent", "Negative", "Positive"),
+        color_name_tuple,
         {
             "100": 255,
             "80": 204,
@@ -355,7 +366,11 @@ if __name__ == "__main__":
             "40": 102,
             "20": 51,
             "10": 26,
-            "05": 13
+            "05": 13,
+            "04": 10,
+            "03": 8,
+            "02": 5,
+            "01": 3
         },
         bool(int(sys.argv[1]))
     )

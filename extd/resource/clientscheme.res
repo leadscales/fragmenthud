@@ -2,5 +2,9 @@
 #base "../_pointers/caccent_ptr.res"
 #base "../_pointers/cnegative_ptr.res"
 #base "../_pointers/cpositive_ptr.res"
+#base "../_pointers/ccasual_ptr.res"
+#base "../_pointers/ccompetitive_ptr.res"
+#base "../_pointers/cmvm_ptr.res"
+#base "../_pointers/ccommunity_ptr.res"
 
 #base "../_color/customization_colors.res"

@@ -25,15 +25,69 @@
 
         "SideStroke"
         {
-            "ControlName"           "ImagePanel"
+            "ControlName"           "EditablePanel"
             "fieldName"             "SideStroke"
             "xpos"                  "0"
             "ypos"                  "1"
             "wide"                  "1"
             "tall"                  "f2"
             "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/menu/matchmaking_gradient"
-            "scaleImage"            "1"
+
+            "CasualGradient"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "CasualGradient"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "wide"                  "o1"
+                "tall"                  "250"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_gradient_top"
+                "scaleImage"            "1"
+                "drawcolor"             "FragCasual100"
+            }
+
+            "CompetitiveGradient"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "CompetitiveGradient"
+                "xpos"                  "cs-0.5"
+                "ypos"                  "s-0.5+150"
+                "wide"                  "800"
+                "tall"                  "250"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_light_center"
+                "scaleImage"            "1"
+                "drawcolor"             "FragCompetitive100"
+            }
+
+            "MVMGradient"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "MVMGradient"
+                "xpos"                  "cs-0.5"
+                "ypos"                  "s-0.5+250"
+                "wide"                  "800"
+                "tall"                  "250"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_light_center"
+                "scaleImage"            "1"
+                "drawcolor"             "FragMvM100"
+            }
+
+            "CommunityGradient"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "CommunityGradient"
+                "xpos"                  "0"
+                "ypos"                  "rs1"
+                "wide"                  "o1"
+                "tall"                  "250"
+                "proportionaltoparent"  "1"
+                "image"                 "replay/thumbnails/side_panel_gradient_bottom"
+                "scaleImage"            "1"
+                "drawcolor"             "FragCommunity100"
+            }
         }
 
         "TopStroke"
