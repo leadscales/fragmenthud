@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-29 23:15:31.837672+00:00
+// GENERATED AT 2024-05-30 16:23:24.284028+00:00
 "Scheme" { "Colors" { "FragNegative100" "90 107 255 255" "FragNegative80" "90 107 255 204" "FragNegative60" "90 107 255 153" "FragNegative40" "90 107 255 102" "FragNegative20" "90 107 255 51" "FragNegative10" "90 107 255 26" "FragNegative05" "90 107 255 13" "FragNegative04" "90 107 255 10" "FragNegative03" "90 107 255 8" "FragNegative02" "90 107 255 5" "FragNegative01" "90 107 255 3" "HUDDeathWarning" "90 107 255 255" "LowHealthRed" "90 107 255 255" "ItemAttribNegative" "90 107 255 255" "ItemLimitedQuantity" "90 107 255 255" "LightRed" "90 107 255 255" "LighterRed" "90 107 255 255" } } 

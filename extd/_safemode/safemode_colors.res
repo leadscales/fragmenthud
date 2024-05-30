@@ -6,6 +6,12 @@
 #base "safemode_colors_competitive.res"
 #base "safemode_colors_mvm.res"
 #base "safemode_colors_community.res"
+#base "safemode_colors_partymember1.res"
+#base "safemode_colors_partymember2.res"
+#base "safemode_colors_partymember3.res"
+#base "safemode_colors_partymember4.res"
+#base "safemode_colors_partymember5.res"
+#base "safemode_colors_partymember6.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -22,12 +28,12 @@
                     "xpos"                      "0"
                     "ypos"                      "0"
                     "wide"                      "f0"
-                    "tall"                      "300"
+                    "tall"                      "510"
                     "proportionaltoparent"      "1"
                     "bgcolor_override"          "0 255 0 0"
 
                     "collapsed_height"          "20"
-                    "expanded_height"           "300"
+                    "expanded_height"           "510"
                     "ignorescheme"              "1"
                     "resize_time"               "0.1"
 
@@ -107,7 +113,7 @@
                         "paintBackground"           "0"
                         "defaultfgcolor_override"   "FragPrimary40"
                         "armedfgcolor_override"     "FragPrimary100"
-                        "command"                   "engine frag_cprimary=def; frag_caccent=def; frag_cnegative=def; frag_cpositive=def; frag_ccasual=def; frag_ccompetitive=def; frag_cmvm=def; frag_ccommunity=def;"
+                        "command"                   "engine frag_cprimary=def; frag_caccent=def; frag_cnegative=def; frag_cpositive=def; frag_ccasual=def; frag_ccompetitive=def; frag_cmvm=def; frag_ccommunity=def; frag_cpartymember1=def; frag_cpartymember2=def; frag_cpartymember3=def; frag_cpartymember4=def; frag_cpartymember5=def; frag_cpartymember6=def;"
                         "actionsignallevel"         "5"
                         "sound_depressed"           "UI/buttonclick.wav"
                         "sound_released"            "UI/buttonclickrelease.wav"
@@ -859,6 +865,558 @@
                                 "defaultfgcolor_override"   "FragAccent40"
                                 "armedfgcolor_override"     "FragAccent100"
                                 "command"                   "engine frag_ccommunity=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "ColorStrip"
+                                {
+                                    "ControlName"               "ImagePanel"
+                                    "fieldName"                 "ColorStrip"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "f0"
+                                    "tall"                      "f0"
+                                    "proportionaltoparent"      "1"
+                                    "image"                     "replay/thumbnails/menu/rainbow_bar"
+                                    "scaleImage"                "1"
+                                }
+                            }
+                        }
+                        "PartyMember1"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "PartyMember1"
+                            "xpos"                      "0"
+                            "ypos"                      "280"
+                            "wide"                      "f0"
+                            "tall"                      "34"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CAutoFittingLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "10"
+                                "ypos"                      "0"
+                                "wide"                      "f35"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Colors_PartyMember1"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "PartyMember1"
+                                "fgcolor_override"          "PartyMember1"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "rs1-10"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_cpartymember1=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "ColorStrip"
+                                {
+                                    "ControlName"               "ImagePanel"
+                                    "fieldName"                 "ColorStrip"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "f0"
+                                    "tall"                      "f0"
+                                    "proportionaltoparent"      "1"
+                                    "image"                     "replay/thumbnails/menu/rainbow_bar"
+                                    "scaleImage"                "1"
+                                }
+                            }
+                        }
+                        "PartyMember2"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "PartyMember2"
+                            "xpos"                      "0"
+                            "ypos"                      "315"
+                            "wide"                      "f0"
+                            "tall"                      "34"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CAutoFittingLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "10"
+                                "ypos"                      "0"
+                                "wide"                      "f35"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Colors_PartyMember2"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "PartyMember2"
+                                "fgcolor_override"          "PartyMember2"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "rs1-10"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_cpartymember2=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "ColorStrip"
+                                {
+                                    "ControlName"               "ImagePanel"
+                                    "fieldName"                 "ColorStrip"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "f0"
+                                    "tall"                      "f0"
+                                    "proportionaltoparent"      "1"
+                                    "image"                     "replay/thumbnails/menu/rainbow_bar"
+                                    "scaleImage"                "1"
+                                }
+                            }
+                        }
+                        "PartyMember3"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "PartyMember3"
+                            "xpos"                      "0"
+                            "ypos"                      "350"
+                            "wide"                      "f0"
+                            "tall"                      "34"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CAutoFittingLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "10"
+                                "ypos"                      "0"
+                                "wide"                      "f35"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Colors_PartyMember3"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "PartyMember3"
+                                "fgcolor_override"          "PartyMember3"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "rs1-10"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_cpartymember3=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "ColorStrip"
+                                {
+                                    "ControlName"               "ImagePanel"
+                                    "fieldName"                 "ColorStrip"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "f0"
+                                    "tall"                      "f0"
+                                    "proportionaltoparent"      "1"
+                                    "image"                     "replay/thumbnails/menu/rainbow_bar"
+                                    "scaleImage"                "1"
+                                }
+                            }
+                        }
+                        "PartyMember4"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "PartyMember4"
+                            "xpos"                      "0"
+                            "ypos"                      "385"
+                            "wide"                      "f0"
+                            "tall"                      "34"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CAutoFittingLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "10"
+                                "ypos"                      "0"
+                                "wide"                      "f35"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Colors_PartyMember4"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "PartyMember4"
+                                "fgcolor_override"          "PartyMember4"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "rs1-10"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_cpartymember4=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "ColorStrip"
+                                {
+                                    "ControlName"               "ImagePanel"
+                                    "fieldName"                 "ColorStrip"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "f0"
+                                    "tall"                      "f0"
+                                    "proportionaltoparent"      "1"
+                                    "image"                     "replay/thumbnails/menu/rainbow_bar"
+                                    "scaleImage"                "1"
+                                }
+                            }
+                        }
+                        "PartyMember5"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "PartyMember5"
+                            "xpos"                      "0"
+                            "ypos"                      "420"
+                            "wide"                      "f0"
+                            "tall"                      "34"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CAutoFittingLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "10"
+                                "ypos"                      "0"
+                                "wide"                      "f35"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Colors_PartyMember5"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "PartyMember5"
+                                "fgcolor_override"          "PartyMember5"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "rs1-10"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_cpartymember5=def;"
+                                "actionsignallevel"         "7"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+                            }
+
+                            "ButtonContainer"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "ButtonContainer"
+                                "xpos"                      "10"
+                                "ypos"                      "20"
+                                "wide"                      "f20"
+                                "tall"                      "f25"
+                                "proportionaltoparent"      "1"
+
+                                "bgcolor_override"          "0 255 0 0"
+
+                                "ColorStrip"
+                                {
+                                    "ControlName"               "ImagePanel"
+                                    "fieldName"                 "ColorStrip"
+                                    "xpos"                      "0"
+                                    "ypos"                      "0"
+                                    "wide"                      "f0"
+                                    "tall"                      "f0"
+                                    "proportionaltoparent"      "1"
+                                    "image"                     "replay/thumbnails/menu/rainbow_bar"
+                                    "scaleImage"                "1"
+                                }
+                            }
+                        }
+                        "PartyMember6"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "PartyMember6"
+                            "xpos"                      "0"
+                            "ypos"                      "455"
+                            "wide"                      "f0"
+                            "tall"                      "34"
+                            "proportionaltoparent"      "1"
+                            
+                            "BGPanel"
+                            {
+                                "ControlName"               "EditablePanel"
+                                "fieldName"                 "BGPanel"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f0"
+                                "proportionaltoparent"      "1"
+                                "bgcolor_override"          "FragPanelTransparentDark40"
+                            }
+
+                            "Title"
+                            {
+                                "ControlName"               "CAutoFittingLabel"
+                                "fieldName"                 "Title"
+                                "xpos"                      "10"
+                                "ypos"                      "0"
+                                "wide"                      "f35"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "#FRAG_Safemode_Colors_PartyMember6"
+                                "allcaps"                   "1"
+                                "font"                      "FontMedium_10_Additive"
+                                "fgcolor"                   "PartyMember6"
+                                "fgcolor_override"          "PartyMember6"
+
+                                "fonts"
+                                {
+                                    "0"                     "FontMedium_10_Additive"
+                                    "1"                     "FontMedium_9_Additive"
+                                    "2"                     "FontMedium_8_Additive"
+                                }
+                            }
+
+                            "ResetButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "ResetButton"
+                                "xpos"                      "rs1-10"
+                                "ypos"                      "0"
+                                "wide"                      "15"
+                                "tall"                      "20"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "R"
+                                "textAlignment"             "center"
+                                "font"                      "Icons_Small_Additive"
+                                "paintBackground"           "0"
+                                "defaultfgcolor_override"   "FragAccent40"
+                                "armedfgcolor_override"     "FragAccent100"
+                                "command"                   "engine frag_cpartymember6=def;"
                                 "actionsignallevel"         "7"
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"

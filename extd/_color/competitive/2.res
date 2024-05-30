@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-29 23:15:31.917747+00:00
+// GENERATED AT 2024-05-30 16:23:24.365101+00:00
 "Scheme" { "Colors" { "FragCompetitive100" "255 83 69 255" "FragCompetitive80" "255 83 69 204" "FragCompetitive60" "255 83 69 153" "FragCompetitive40" "255 83 69 102" "FragCompetitive20" "255 83 69 51" "FragCompetitive10" "255 83 69 26" "FragCompetitive05" "255 83 69 13" "FragCompetitive04" "255 83 69 10" "FragCompetitive03" "255 83 69 8" "FragCompetitive02" "255 83 69 5" "FragCompetitive01" "255 83 69 3" } } 

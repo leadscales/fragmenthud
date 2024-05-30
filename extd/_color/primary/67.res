@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-29 23:15:31.774615+00:00
+// GENERATED AT 2024-05-30 16:23:24.216966+00:00
 "Scheme" { "Colors" { "FragPrimary100" "175 81 255 255" "FragPrimary80" "175 81 255 204" "FragPrimary60" "175 81 255 153" "FragPrimary40" "175 81 255 102" "FragPrimary20" "175 81 255 51" "FragPrimary10" "175 81 255 26" "FragPrimary05" "175 81 255 13" "FragPrimary04" "175 81 255 10" "FragPrimary03" "175 81 255 8" "FragPrimary02" "175 81 255 5" "FragPrimary01" "175 81 255 3" "Orange" "175 81 255 255" "OrangeDim" "175 81 255 102" "LightOrange" "175 81 255 102" "TFOrange" "175 81 255 255" "Purple" "175 81 255 255" "CreditsGreen" "175 81 255 255" "ItemSetItemEquipped" "175 81 255 255" } } 

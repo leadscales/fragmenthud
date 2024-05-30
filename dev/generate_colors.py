@@ -121,9 +121,19 @@ def generate_scheme_override_dict(
     for i, color in enumerate(colors):
         current_scheme = {}
         for alpha_name, alpha_value in color_alphas.items():
-            current_scheme.update({
-                f"Frag{color_name}{alpha_name}": color.as_vdf(alpha_value)
-            })
+            if color_name.startswith("Party"):
+                if alpha_name == "100":
+                    current_scheme.update({
+                        f"{color_name}": color.as_vdf(alpha_value)
+                    })
+                else:
+                    current_scheme.update({
+                        f"{color_name}_{alpha_name}": color.as_vdf(alpha_value)
+                    })
+            else:
+                current_scheme.update({
+                    f"Frag{color_name}{alpha_name}": color.as_vdf(alpha_value)
+                })
         # Overrides
         match color_name:
             case "Primary":
@@ -353,7 +363,13 @@ if __name__ == "__main__":
         "Casual",
         "Competitive",
         "MvM",
-        "Community"
+        "Community",
+        "PartyMember1",
+        "PartyMember2",
+        "PartyMember3",
+        "PartyMember4",
+        "PartyMember5",
+        "PartyMember6",
     )
 
     main(

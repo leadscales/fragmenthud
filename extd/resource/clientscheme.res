@@ -6,5 +6,11 @@
 #base "../_pointers/ccompetitive_ptr.res"
 #base "../_pointers/cmvm_ptr.res"
 #base "../_pointers/ccommunity_ptr.res"
+#base "../_pointers/cpartymember1_ptr.res"
+#base "../_pointers/cpartymember2_ptr.res"
+#base "../_pointers/cpartymember3_ptr.res"
+#base "../_pointers/cpartymember4_ptr.res"
+#base "../_pointers/cpartymember5_ptr.res"
+#base "../_pointers/cpartymember6_ptr.res"
 
 #base "../_color/customization_colors.res"

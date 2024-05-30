@@ -1,0 +1,2 @@
+// GENERATED AT 2024-05-30 16:23:24.587356+00:00
+"Scheme" { "Colors" { "PartyMember4" "255 66 255 255" "PartyMember4_80" "255 66 255 204" "PartyMember4_60" "255 66 255 153" "PartyMember4_40" "255 66 255 102" "PartyMember4_20" "255 66 255 51" "PartyMember4_10" "255 66 255 26" "PartyMember4_05" "255 66 255 13" "PartyMember4_04" "255 66 255 10" "PartyMember4_03" "255 66 255 8" "PartyMember4_02" "255 66 255 5" "PartyMember4_01" "255 66 255 3" } } 
