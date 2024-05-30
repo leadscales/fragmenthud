@@ -126,7 +126,6 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "alpha"                     "6"
 
             "0"
             {
@@ -139,7 +138,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_left"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember1"
+                "drawcolor"             "PartyMember1_03"
             }
             "1"
             {
@@ -152,7 +151,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember2"
+                "drawcolor"             "PartyMember2_03"
             }
             "2"
             {
@@ -165,7 +164,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember3"
+                "drawcolor"             "PartyMember3_03"
             }
             "3"
             {
@@ -178,7 +177,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember4"
+                "drawcolor"             "PartyMember4_03"
             }
             "4"
             {
@@ -191,7 +190,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember5"
+                "drawcolor"             "PartyMember5_03"
             }
             "5"
             {
@@ -204,7 +203,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_right"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember6"
+                "drawcolor"             "PartyMember6_03"
             }
         }
 
@@ -812,7 +811,6 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "alpha"                     "6"
 
             "0"
             {
@@ -825,7 +823,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_left"
                 "scaleImage"            "1"
-                "drawcolor"             "FragPositive100"
+                "drawcolor"             "FragPositive03"
             }
             "1"
             {
@@ -838,7 +836,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_right"
                 "scaleImage"            "1"
-                "drawcolor"             "FragNegative100"
+                "drawcolor"             "FragNegative03"
             }
         }
 
