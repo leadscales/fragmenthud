@@ -41,7 +41,7 @@
         "auto_wide_tocontents"  "1"
         "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
-        "fgcolor"               "FragAccent100"
+        "fgcolor"               "FragSecondary40"
 
         "pin_to_sibling"        "VersionAnchor"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -60,7 +60,7 @@
         "auto_wide_tocontents"  "1"
         "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
-        "fgcolor"               "FragPrimary100"
+        "fgcolor"               "FragSecondary20"
 
         "pin_to_sibling"        "VersionNumber"
         "pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -79,7 +79,7 @@
         "auto_wide_tocontents"  "1"
         "mouseinputenabled"     "0"
         "font"                  "FontMedium_12_Additive"
-        "fgcolor"               "FragPrimary100"
+        "fgcolor"               "FragPrimary20"
 
         "labelText"             "WINDOWS"   [$WINDOWS]
         "labelText"             "OSX"       [$OSX]
@@ -159,6 +159,21 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
+        "BGSplit0"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGSplit0"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/background_split_0"
+            "scaleimage"                "1"
+            "drawcolor"                 "FragSecondary10"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
         "BGParticle1"
         {
             "ControlName"               "ImagePanel"
@@ -187,22 +202,7 @@
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
-            "drawcolor"                 "FragPrimary60"
-        }
-        "BGEffect1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect1"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/background/background_effect_0"
-            "scaleimage"                "1"
-            "drawcolor"                 "FragPrimary100"
-            "visible"                   "1"
-            "enabled"                   "1"
+            "drawcolor"                 "FragSecondary60"
         }
         "BGOverlay1"
         {
@@ -215,21 +215,6 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_overlay_0"
             "scaleimage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-        }
-        "BGEffect2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGEffect2"
-            "xpos"                      "0"
-            "ypos"                      "0"
-            "wide"                      "f0"
-            "tall"                      "f0"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/background/background_effect_1"
-            "scaleimage"                "1"
-            "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -263,43 +248,43 @@
 
         "pin_to_sibling"            "SideElementsAnchor"
 
-        "SidePanelGradient"
+        "SidePanelSideStroke0"
         {
             "ControlName"           "ImagePanel"
-            "fieldName"             "SidePanelGradient"
-            "xpos"                  "rs1-1"
-            "ypos"                  "1"
-            "wide"                  "f1"
-            "tall"                  "f2"
-            "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/side_panel_gradient_right"
-            "scaleImage"            "1"
-            "drawcolor"             "FragPrimary100"
-            "alpha"                 "64"
-        }
-
-        "SidePanelSideStroke"
-        {
-            "ControlName"           "ImagePanel"
-            "fieldName"             "SidePanelSideStroke"
+            "fieldName"             "SidePanelSideStroke0"
             "xpos"                  "rs1"
             "ypos"                  "0"
             "wide"                  "1"
             "tall"                  "f0"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
-            "image"                 "replay/thumbnails/fill_additive"
+            "image"                 "replay/thumbnails/side_panel_gradient_top"
             "scaleImage"            "1"
             "drawcolor"             "FragPrimary40"
+        }
+
+        "SidePanelSideStroke1"
+        {
+            "ControlName"           "ImagePanel"
+            "fieldName"             "SidePanelSideStroke1"
+            "xpos"                  "rs1"
+            "ypos"                  "0"
+            "wide"                  "1"
+            "tall"                  "f0"
+            "proportionaltoparent"  "1"
+            "mouseinputenabled"     "0"
+            "image"                 "replay/thumbnails/side_panel_gradient_bottom"
+            "scaleImage"            "1"
+            "drawcolor"             "FragSecondary40"
         }
 
         "SidePanelTopStroke"
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "SidePanelTopStroke"
-            "xpos"                  "0"
+            "xpos"                  "rs1-1"
             "ypos"                  "0"
-            "wide"                  "f1"
+            "wide"                  "300"
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
@@ -312,15 +297,27 @@
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "SidePanelBottomStroke"
-            "xpos"                  "0"
+            "xpos"                  "rs1-1"
             "ypos"                  "rs1"
-            "wide"                  "f1"
+            "wide"                  "300"
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
             "image"                 "replay/thumbnails/side_panel_gradient_right"
             "scaleImage"            "1"
-            "drawcolor"             "FragPrimary40"
+            "drawcolor"             "FragSecondary40"
+        }
+
+        "RightBGPanel"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "RightBGPanel"
+            "xpos"                  "20"
+            "ypos"                  "1"
+            "wide"                  "f21"
+            "tall"                  "f2"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark40"
         }
 
         "BGPanel"
@@ -332,20 +329,37 @@
             "wide"                  "f1"
             "tall"                  "f2"
             "proportionaltoparent"  "1"
-            "bgcolor_override"      "FragPanelTransparentDark60"
+            "bgcolor_override"      "Blank"
 
-            "RightSideBG"
+            "TopLight"
             {
-                "ControlName"           "EditablePanel"
-                "fieldName"             "RightSideBG"
+                "ControlName"           "ImagePanel"
+                "fieldName"             "TopLight"
                 "xpos"                  "rs1"
-                "ypos"                  "0"
+                "ypos"                  "s-0.5"
                 "zpos"                  "0"
-                "wide"                  "200"
-                "tall"                  "f0"
+                "wide"                  "o1"
+                "tall"                  "1000"
                 "proportionaltoparent"  "1"
-                "paintbackgroundtype"   "0"
-                "bgcolor_override"      "FragPanelTransparentDark40"
+                "mouseinputenabled"     "0"
+                "image"                 "replay/thumbnails/side_panel_light_right"
+                "scaleImage"            "1"
+                "drawcolor"             "FragPrimary05"
+            }
+            "BottomLight"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "BottomLight"
+                "xpos"                  "rs1"
+                "ypos"                  "rs0.5"
+                "zpos"                  "0"
+                "wide"                  "o1"
+                "tall"                  "1000"
+                "proportionaltoparent"  "1"
+                "mouseinputenabled"     "0"
+                "image"                 "replay/thumbnails/side_panel_light_right"
+                "scaleImage"            "1"
+                "drawcolor"             "FragSecondary05"
             }
         }
     }
@@ -587,9 +601,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "3"
 
                 "font"                      "Icons_Small_Additive"
@@ -627,9 +641,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "3"
 
                 "font"                      "Icons_Small_Additive"
@@ -667,9 +681,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "3"
 
                 "font"                      "Icons_Small_Additive"
@@ -707,9 +721,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "3"
 
                 "font"                      "Icons_Small_Additive"
@@ -747,9 +761,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "3"
 
                 "font"                      "Icons_Small_Additive"
@@ -1218,7 +1232,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
@@ -1260,7 +1274,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
@@ -1302,7 +1316,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
@@ -1344,7 +1358,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
@@ -1386,7 +1400,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
@@ -1413,8 +1427,8 @@
             "tall"                      "20"
             "proportionaltoparent"      "0"
             "font"                      "FontMedium_10_Additive"
-            "fgcolor"                   "FragPrimary100"
-            "fgcolor_override"          "FragPrimary100"
+            "fgcolor"                   "FragNeutral100"
+            "fgcolor_override"          "FragNeutral100"
         }
         "TipLabel"
         {
@@ -1424,8 +1438,8 @@
             "tall"                      "20"
             "proportionaltoparent"      "0"
             "font"                      "FontMedium_10_Additive"
-            "fgcolor"                   "FragPrimary100"
-            "fgcolor_override"          "FragPrimary100"
+            "fgcolor"                   "FragNeutral100"
+            "fgcolor_override"          "FragNeutral100"
         }
     }
 

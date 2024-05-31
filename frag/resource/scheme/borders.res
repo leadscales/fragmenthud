@@ -32,6 +32,23 @@
             "paintfirst"                "0"
         }
 
+        "FragCharInfoButtonTopSecondary"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragSecondary05"
+            "image"                     "replay/thumbnails/side_panel_gradient_bottom"
+            "paintfirst"                "0"
+        }
+        "FragCharInfoButtonBottomSecondary"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "color"                     "FragSecondary05"
+            "image"                     "replay/thumbnails/side_panel_gradient_top"
+            "paintfirst"                "0"
+        }
+
         "FragPartyChat"
         {
             "bordertype"                "scalable_image"

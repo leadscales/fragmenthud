@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-30 16:23:24.356093+00:00
+// GENERATED AT 2024-05-31 00:19:27.478727+00:00
 "Scheme" { "Colors" { "FragCasual100" "255 66 255 255" "FragCasual80" "255 66 255 204" "FragCasual60" "255 66 255 153" "FragCasual40" "255 66 255 102" "FragCasual20" "255 66 255 51" "FragCasual10" "255 66 255 26" "FragCasual05" "255 66 255 13" "FragCasual04" "255 66 255 10" "FragCasual03" "255 66 255 8" "FragCasual02" "255 66 255 5" "FragCasual01" "255 66 255 3" } } 

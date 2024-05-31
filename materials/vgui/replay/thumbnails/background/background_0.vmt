@@ -12,7 +12,7 @@
             "resultVar"         "$alpha"
             "sineperiod"        "10"
             "sinemin"           "0.4"
-            "sinemax"           "0.8"
+            "sinemax"           "1.0"
         }
         "TextureScroll"
         {

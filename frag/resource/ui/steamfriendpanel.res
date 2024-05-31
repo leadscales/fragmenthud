@@ -24,14 +24,14 @@
         "stay_armed_on_click"       "1"
         "paintbackground"           "1"
 
-        "defaultbgcolor_override"   "FragPrimary05"
-        "armedbgcolor_override"     "FragPrimary05"
+        "defaultbgcolor_override"   "Blank"
+        "armedbgcolor_override"     "FragPanelTransparentDark40"
 
-        "alpha"                     "102"
+        "alpha"                     "255"
 
         "scaleImage"                "1"
         "image_default"             "replay/thumbnails/blank"
-        "image_armed"               "replay/thumbnails/side_panel_gradient_right"
+        "image_armed"               "replay/thumbnails/blank"
 
         "SubImage"
         {
@@ -43,8 +43,8 @@
             "tall"                      "f0"
             "proportionaltoparent"      "1"
             "scaleImage"                "1"
-            "drawcolor"                 "FragPrimary05"
-            "drawcolor_override"        "FragPrimary05"
+            "drawcolor"                 "Blank"
+            "drawcolor_override"        "Blank"
         }
 
     }
@@ -59,7 +59,7 @@
         "textalignment"             "north-west"
         "font"                      "FontMedium_9_Additive"
         "allcaps"                   "1"
-        "fgcolor_override"          "FragPrimary100"
+        "fgcolor_override"          "FragNeutral100"
     }
 
     "StatusLabel"

@@ -41,20 +41,6 @@
         "tall"                              "1"
         "bgcolor_override"                  "0 255 0 0"
 
-        "CenterStroke"
-        {
-            "ControlName"                       "ImagePanel"
-            "fieldName"                         "CenterStroke"
-            "xpos"                              "cs-0.5"
-            "ypos"                              "0"
-            "wide"                              "f80"
-            "tall"                              "1"
-            "proportionaltoparent"              "1"
-            "image"                             "replay/thumbnails/fill_additive"
-            "scaleImage"                        "1"
-            "drawcolor"                         "FragPrimary60"
-        }
-
         "LeftStroke"
         {
             "ControlName"                       "ImagePanel"
@@ -67,28 +53,56 @@
             "image"                             "replay/thumbnails/side_panel_gradient_right"
             "scaleImage"                        "1"
             "drawcolor"                         "FragPrimary60"
-            
-            "pin_to_sibling"                    "CenterStroke"
-            "pin_corner_to_sibling"             "PIN_TOPRIGHT"
-            "pin_to_sibling_corner"             "PIN_TOPLEFT"
         }
 
         "RightStroke"
         {
             "ControlName"                       "ImagePanel"
             "fieldName"                         "RightStroke"
-            "xpos"                              "0"
+            "xpos"                              "rs1"
             "ypos"                              "0"
             "wide"                              "40"
             "tall"                              "1"
             "proportionaltoparent"              "1"
             "image"                             "replay/thumbnails/side_panel_gradient_left"
             "scaleImage"                        "1"
+            "drawcolor"                         "FragSecondary60"
+        }
+
+        "CenterStroke0"
+        {
+            "ControlName"                       "ImagePanel"
+            "fieldName"                         "CenterStroke0"
+            "xpos"                              "0"
+            "ypos"                              "0"
+            "wide"                              "f100"
+            "tall"                              "1"
+            "proportionaltoparent"              "1"
+            "image"                             "replay/thumbnails/side_panel_gradient_left"
+            "scaleImage"                        "1"
             "drawcolor"                         "FragPrimary60"
-            
-            "pin_to_sibling"                    "CenterStroke"
-            "pin_corner_to_sibling"             "PIN_TOPLEFT"
-            "pin_to_sibling_corner"             "PIN_TOPRIGHT"
+
+            "pin_to_sibling"                    "LeftStroke"
+            "pin_corner_to_sibling"             "PIN_CENTER_LEFT"
+            "pin_to_sibling_corner"             "PIN_CENTER_RIGHT"
+        }
+
+        "CenterStroke1"
+        {
+            "ControlName"                       "ImagePanel"
+            "fieldName"                         "CenterStroke1"
+            "xpos"                              "0"
+            "ypos"                              "0"
+            "wide"                              "f100"
+            "tall"                              "1"
+            "proportionaltoparent"              "1"
+            "image"                             "replay/thumbnails/side_panel_gradient_right"
+            "scaleImage"                        "1"
+            "drawcolor"                         "FragSecondary60"
+
+            "pin_to_sibling"                    "RightStroke"
+            "pin_corner_to_sibling"             "PIN_CENTER_RIGHT"
+            "pin_to_sibling_corner"             "PIN_CENTER_LEFT"
         }
     }
 
@@ -754,12 +768,12 @@
                 "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
-                "border_armed"              "FragCharInfoButtonBottom"
+                "border_armed"              "FragCharInfoButtonBottomSecondary"
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
 
                 "SubImage"
                 {
@@ -771,8 +785,8 @@
                     "tall"                      "p0.2"
                     "proportionaltoparent"      "1"
                     "scaleImage"                "1"
-                    "drawcolor"                 "FragPrimary100"
-                    "drawcolor_override"        "FragPrimary100"
+                    "drawcolor"                 "FragSecondary100"
+                    "drawcolor_override"        "FragSecondary100"
                     "alpha"                     "102"
                 }
             }
@@ -790,7 +804,7 @@
                 "labelText"                     "#BackpackTitle"
                 "textAlignment"                 "center"
                 "font"                          "FontMedium_9_Additive"
-                "fgcolor"                       "FragPrimary40"
+                "fgcolor"                       "FragSecondary40"
                 "allcaps"                       "1"
                 "mouseinputenabled"             "0"
 
@@ -840,12 +854,12 @@
                 "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
-                "border_armed"              "FragCharInfoButtonBottom"
+                "border_armed"              "FragCharInfoButtonBottomSecondary"
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
 
                 "SubImage"
                 {
@@ -857,8 +871,8 @@
                     "tall"                      "p0.2"
                     "proportionaltoparent"      "1"
                     "scaleImage"                "1"
-                    "drawcolor"                 "FragPrimary100"
-                    "drawcolor_override"        "FragPrimary100"
+                    "drawcolor"                 "FragSecondary100"
+                    "drawcolor_override"        "FragSecondary100"
                     "alpha"                     "102"
                 }
             }
@@ -876,7 +890,7 @@
                 "labelText"                     "#Store_Crafting"
                 "textAlignment"                 "center"
                 "font"                          "FontMedium_9_Additive"
-                "fgcolor"                       "FragPrimary40"
+                "fgcolor"                       "FragSecondary40"
                 "allcaps"                       "1"
                 "mouseinputenabled"             "0"
 
@@ -926,12 +940,12 @@
                 "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
-                "border_armed"              "FragCharInfoButtonBottom"
+                "border_armed"              "FragCharInfoButtonBottomSecondary"
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
 
                 "SubImage"
                 {
@@ -943,8 +957,8 @@
                     "tall"                      "p0.2"
                     "proportionaltoparent"      "1"
                     "scaleImage"                "1"
-                    "drawcolor"                 "FragPrimary100"
-                    "drawcolor_override"        "FragPrimary100"
+                    "drawcolor"                 "FragSecondary100"
+                    "drawcolor_override"        "FragSecondary100"
                     "alpha"                     "102"
                 }
             }
@@ -962,7 +976,7 @@
                 "labelText"                     "#FRAG_CharInfo_Armory"
                 "textAlignment"                 "center"
                 "font"                          "FontMedium_9_Additive"
-                "fgcolor"                       "FragPrimary40"
+                "fgcolor"                       "FragSecondary40"
                 "allcaps"                       "1"
                 "mouseinputenabled"             "0"
 
@@ -1012,12 +1026,12 @@
                 "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
-                "border_armed"              "FragCharInfoButtonBottom"
+                "border_armed"              "FragCharInfoButtonBottomSecondary"
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
 
                 "SubImage"
                 {
@@ -1029,8 +1043,8 @@
                     "tall"                      "p0.2"
                     "proportionaltoparent"      "1"
                     "scaleImage"                "1"
-                    "drawcolor"                 "FragPrimary100"
-                    "drawcolor_override"        "FragPrimary100"
+                    "drawcolor"                 "FragSecondary100"
+                    "drawcolor_override"        "FragSecondary100"
                     "alpha"                     "102"
                 }
             }
@@ -1048,7 +1062,7 @@
                 "labelText"                     "#TF_TradeStartDialog_Title"
                 "textAlignment"                 "center"
                 "font"                          "FontMedium_9_Additive"
-                "fgcolor"                       "FragPrimary40"
+                "fgcolor"                       "FragSecondary40"
                 "allcaps"                       "1"
                 "mouseinputenabled"             "0"
 
@@ -1098,12 +1112,12 @@
                 "image_armed"               "replay/thumbnails/side_triangle_top"
 
                 "border_default"            "NoBorder"
-                "border_armed"              "FragCharInfoButtonBottom"
+                "border_armed"              "FragCharInfoButtonBottomSecondary"
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "Blank"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
 
                 "SubImage"
                 {
@@ -1115,8 +1129,8 @@
                     "tall"                      "p0.2"
                     "proportionaltoparent"      "1"
                     "scaleImage"                "1"
-                    "drawcolor"                 "FragPrimary100"
-                    "drawcolor_override"        "FragPrimary100"
+                    "drawcolor"                 "FragSecondary100"
+                    "drawcolor_override"        "FragSecondary100"
                     "alpha"                     "102"
                 }
             }
@@ -1134,7 +1148,7 @@
                 "labelText"                     "#PaintkitTitle"
                 "textAlignment"                 "center"
                 "font"                          "FontMedium_9_Additive"
-                "fgcolor"                       "FragPrimary40"
+                "fgcolor"                       "FragSecondary40"
                 "allcaps"                       "1"
                 "mouseinputenabled"             "0"
 

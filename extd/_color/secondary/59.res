@@ -1,0 +1,2 @@
+// GENERATED AT 2024-05-31 00:19:27.329592+00:00
+"Scheme" { "Colors" { "FragSecondary100" "81 113 255 255" "FragSecondary80" "81 113 255 204" "FragSecondary60" "81 113 255 153" "FragSecondary40" "81 113 255 102" "FragSecondary20" "81 113 255 51" "FragSecondary10" "81 113 255 26" "FragSecondary05" "81 113 255 13" "FragSecondary04" "81 113 255 10" "FragSecondary03" "81 113 255 8" "FragSecondary02" "81 113 255 5" "FragSecondary01" "81 113 255 3" } } 

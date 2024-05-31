@@ -85,10 +85,10 @@
             "sound_released"            "UI/buttonclickrelease.wav"
 
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPanelTransparentDark40"
+            "armedbgcolor_override"     "FragPrimary10"
             "fgcolor"                   "FragNeutral100"
             "defaultfgcolor_override"   "FragNeutral100"
-            "armedfgcolor_override"     "FragNeutral100"
+            "armedfgcolor_override"     "FragPrimary100"
 
             "SubImage"
             {
@@ -107,12 +107,12 @@
             "fieldName"                 "SlotsBG"
             "xpos"                      "0"
             "ypos"                      "0"
-            "zpos"                      "99"
+            "zpos"                      "98"
             "wide"                      "160"
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "bgcolor_override"          "FragPanelTransparentDark40"
+            "bgcolor_override"          "FragPanelOpaque0"
         }
 
         "SlotsGradient"
@@ -138,7 +138,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_left"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember1_03"
+                "drawcolor"             "PartyMember1_02"
             }
             "1"
             {
@@ -151,7 +151,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember2_03"
+                "drawcolor"             "PartyMember2_02"
             }
             "2"
             {
@@ -164,7 +164,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember3_03"
+                "drawcolor"             "PartyMember3_02"
             }
             "3"
             {
@@ -177,7 +177,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember4_03"
+                "drawcolor"             "PartyMember4_02"
             }
             "4"
             {
@@ -190,7 +190,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_light_center"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember5_03"
+                "drawcolor"             "PartyMember5_02"
             }
             "5"
             {
@@ -203,7 +203,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_right"
                 "scaleImage"            "1"
-                "drawcolor"             "PartyMember6_03"
+                "drawcolor"             "PartyMember6_02"
             }
         }
 
@@ -792,12 +792,12 @@
             "fieldName"                 "GameButtonsBG"
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "zpos"                      "100"
+            "zpos"                      "98"
             "wide"                      "80"
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "bgcolor_override"          "FragPanelTransparentDark40"
+            "bgcolor_override"          "FragPanelOpaque0"
         }
 
         "GameButtonsGradient"
@@ -806,7 +806,7 @@
             "fieldName"                 "GameButtonsGradient"
             "xpos"                      "rs1"
             "ypos"                      "0"
-            "zpos"                      "100"
+            "zpos"                      "99"
             "wide"                      "80"
             "tall"                      "20"
             "proportionaltoparent"      "1"
@@ -823,7 +823,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_left"
                 "scaleImage"            "1"
-                "drawcolor"             "FragPositive03"
+                "drawcolor"             "FragPositive02"
             }
             "1"
             {
@@ -836,7 +836,7 @@
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_right"
                 "scaleImage"            "1"
-                "drawcolor"             "FragNegative03"
+                "drawcolor"             "FragNegative02"
             }
         }
 

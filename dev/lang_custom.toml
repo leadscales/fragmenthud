@@ -16,6 +16,7 @@ FRAG_Safemode_Supporters_Donate = "DONATE"
 
 FRAG_Safemode_Colors_Title = "COLORS"
 FRAG_Safemode_Colors_Primary = "PRIMARY"
+FRAG_Safemode_Colors_Secondary = "SECONDARY"
 FRAG_Safemode_Colors_Accent = "ACCENT"
 FRAG_Safemode_Colors_Negative = "NEGATIVE"
 FRAG_Safemode_Colors_Positive = "POSITIVE"

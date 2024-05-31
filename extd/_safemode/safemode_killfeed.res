@@ -38,52 +38,29 @@
                         "xpos"                  "r0"
                     }
 
-                    "BGPanel"
-                    {
-                        "ControlName"               "EditablePanel"
-                        "fieldName"                 "BGPanel"
-                        "xpos"                      "5"
-                        "ypos"                      "0"
-                        "wide"                      "f10"
-                        "tall"                      "19"
-                        "proportionaltoparent"      "1"
-                        "bgcolor_override"          "FragPrimary05"
-                    }
-
                     "Toggle"
                     {
-                        "ControlName"               "CExImageButton"
+                        "ControlName"               "ToggleButton"
                         "fieldName"                 "Toggle"
                         "xpos"                      "5"
                         "ypos"                      "0"
                         "wide"                      "f10"
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
-                        "labelText"                 ""
+                        "labelText"                 "#FRAG_Safemode_Killfeed_Title"
+                        "font"                      "FontMedium_12_Additive"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
                         "sound_depressed"           "UI/buttonclick.wav"
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "Blank"
-                        "armedbgcolor_override"     "Blank"
-
-                        "scaleImage"                "1"
-                        "image_default"             "replay/thumbnails/blank"
-                        "image_armed"               "replay/thumbnails/side_panel_gradient_left"
-
-                        "SubImage"
-                        {
-                            "ControlName"               "ImagePanel"
-                            "fieldName"                 "SubImage"
-                            "xpos"                      "0"
-                            "ypos"                      "0"
-                            "wide"                      "f0"
-                            "tall"                      "f0"
-                            "proportionaltoparent"      "1"
-                            "scaleImage"                "1"
-                            "drawcolor"                 "FragPrimary05"
-                            "drawcolor_override"        "FragPrimary05"
-                        }
+                        "armedbgcolor_override"     "FragPanelTransparentDark40"
+                        "depressedbgcolor_override" "FragPanelTransparentDark40"
+                        "defaultfgcolor_override"   "FragNeutral100"
+                        "armedfgcolor_override"     "FragNeutral100"
+                        "depressedfgcolor_override" "FragPrimary100"
                     }
 
                     "ResetButton"
@@ -99,38 +76,12 @@
                         "textAlignment"             "center"
                         "font"                      "Icons_Small_Additive"
                         "paintBackground"           "0"
-                        "defaultfgcolor_override"   "FragPrimary40"
-                        "armedfgcolor_override"     "FragPrimary100"
+                        "defaultfgcolor_override"   "FragNegative60"
+                        "armedfgcolor_override"     "FragNegative100"
                         "command"                   "engine frag_kfmaxentries=def; frag_kfentryopacity=def;"
                         "actionsignallevel"         "5"
                         "sound_depressed"           "UI/buttonclick.wav"
                         "sound_released"            "UI/buttonclickrelease.wav"
-                    }
-
-                    "TitleText"
-                    {
-                        "ControlName"               "CAutoFittingLabel"
-                        "fieldName"                 "TitleText"
-                        "xpos"                      "5"
-                        "ypos"                      "0"
-                        "wide"                      "f35"
-                        "tall"                      "19"
-                        "proportionaltoparent"      "1"
-                        "mouseinputenabled"         "0"
-                        "labelText"                 "#FRAG_Safemode_Killfeed_Title"
-                        "textAlignment"             "west"
-                        "font"                      "FontMedium_12_Additive"
-                        "textinsetx"                "5"
-                        "use_proportional_insets"   "1"
-                        "fgcolor"                   "FragPrimary100"
-                        "fgcolor_override"          "FragPrimary100"
-
-                        "fonts"
-                        {
-                            "0"                     "FontMedium_12_Additive"
-                            "1"                     "FontMedium_10_Additive"
-                            "2"                     "FontMedium_9_Additive"
-                        }
                     }
 
                     "Sections"

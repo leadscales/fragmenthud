@@ -56,6 +56,21 @@
                 "visible"                   "1"
                 "enabled"                   "1"
             }
+            "BGSplit0"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "BGSplit0"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/background/background_split_0"
+                "scaleimage"                "1"
+                "drawcolor"                 "FragSecondary10"
+                "visible"                   "1"
+                "enabled"                   "1"
+            }
             "BGParticle1"
             {
                 "ControlName"               "ImagePanel"
@@ -84,22 +99,7 @@
                 "scaleimage"                "1"
                 "visible"                   "1"
                 "enabled"                   "1"
-                "drawcolor"                 "FragPrimary60"
-            }
-            "BGEffect1"
-            {
-                "ControlName"               "ImagePanel"
-                "fieldName"                 "BGEffect1"
-                "xpos"                      "0"
-                "ypos"                      "0"
-                "wide"                      "f0"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "image"                     "replay/thumbnails/background/background_effect_0"
-                "scaleimage"                "1"
-                "drawcolor"                 "FragPrimary100"
-                "visible"                   "1"
-                "enabled"                   "1"
+                "drawcolor"                 "FragSecondary60"
             }
             "BGOverlay1"
             {
@@ -112,21 +112,6 @@
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/background/background_overlay_0"
                 "scaleimage"                "1"
-                "visible"                   "1"
-                "enabled"                   "1"
-            }
-            "BGEffect2"
-            {
-                "ControlName"               "ImagePanel"
-                "fieldName"                 "BGEffect2"
-                "xpos"                      "0"
-                "ypos"                      "0"
-                "wide"                      "f0"
-                "tall"                      "f0"
-                "proportionaltoparent"      "1"
-                "image"                     "replay/thumbnails/background/background_effect_1"
-                "scaleimage"                "1"
-                "drawcolor"                 "FragPrimary100"
                 "visible"                   "1"
                 "enabled"                   "1"
             }
@@ -152,7 +137,22 @@
                 "wide"                      "40"
                 "tall"                      "20"
                 "bgcolor_override"          "FragPanelTransparentDark40"
+
+                "Gradient"
+                {
+                    "ControlName"           "ImagePanel"
+                    "fieldName"             "Gradient"
+                    "xpos"                  "cs-0.5"
+                    "ypos"                  "cs-0.5"
+                    "wide"                  "100"
+                    "tall"                  "o1"
+                    "proportionaltoparent"  "1"
+                    "image"                 "replay/thumbnails/side_panel_light_center"
+                    "scaleImage"            "1"
+                    "drawcolor"             "FragNegative03"
+                }
             }
+            
 
             "QuitButton"
             {
@@ -163,7 +163,7 @@
                 "wide"                      "40"
                 "tall"                      "20"
 
-                "font"                      "Icons_Small"
+                "font"                      "Icons_Small_Additive"
                 "labeltext"                 "x"
                 "textalignment"             "center"
 

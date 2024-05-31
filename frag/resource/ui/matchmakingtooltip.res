@@ -24,8 +24,8 @@
             "ypos"                      "5"
             "wide"                      "0"
             "tall"                      "0"
-            "fgcolor"                   "FragPrimary100"
-            "fgcolor_override"          "FragPrimary100"
+            "fgcolor"                   "FragNeutral100"
+            "fgcolor_override"          "FragNeutral100"
             "wrap"                      "0"
         }
     }

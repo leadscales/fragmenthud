@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-30 16:23:24.307049+00:00
+// GENERATED AT 2024-05-31 00:19:27.426681+00:00
 "Scheme" { "Colors" { "FragPositive100" "89 255 64 255" "FragPositive80" "89 255 64 204" "FragPositive60" "89 255 64 153" "FragPositive40" "89 255 64 102" "FragPositive20" "89 255 64 51" "FragPositive10" "89 255 64 26" "FragPositive05" "89 255 64 13" "FragPositive04" "89 255 64 10" "FragPositive03" "89 255 64 8" "FragPositive02" "89 255 64 5" "FragPositive01" "89 255 64 3" "GreenSolid" "89 255 64 255" "StoreGreen" "89 255 64 255" "ItemAttribPositive" "89 255 64 255" "SaleGreen" "89 255 64 255" } } 

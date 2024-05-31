@@ -357,6 +357,7 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
 if __name__ == "__main__":
     color_name_tuple = (
         "Primary",
+        "Secondary",
         "Accent",
         "Negative",
         "Positive",
