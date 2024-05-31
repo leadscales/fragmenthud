@@ -205,7 +205,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
@@ -243,7 +243,7 @@
 
                 "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary100"
+                "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragPrimary100"
             }
         }
