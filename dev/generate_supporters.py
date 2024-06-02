@@ -18,65 +18,28 @@ SUPPORTER_ENTRY_TEMPLATE = {
     "tall": "45",
     "proportionaltoparent": "1",
 
-    "bgpanel": {
+    "bgpanel0": {
         "controlname": "editablepanel",
-        "fieldname": "bgpanel",
+        "fieldname": "bgpanel0",
         "xpos": "5",
         "ypos": "0",
         "wide": "f10",
         "tall": "f1",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
-        "bgcolor_override": "0 0 0 255",
+        "bgcolor_override": "FragPanelTransparentDark60",
+    },
 
-        "subimage1": {
-            "controlname": "imagepanel",
-            "fieldname": "subimage1",
-            "xpos": "0",
-            "ypos": "0",
-            "wide": "f0",
-            "tall": "o1",
-            "proportionaltoparent": "1",
-            "image": "replay/thumbnails/supporter_bg_0",
-            "scaleimage": "1",
-            "drawcolor": "255 0 0 255"
-        },
-        "subimage2": {
-            "controlname": "imagepanel",
-            "fieldname": "subimage2",
-            "xpos": "0",
-            "ypos": "cs-0.5",
-            "wide": "f0",
-            "tall": "o1",
-            "proportionaltoparent": "1",
-            "image": "replay/thumbnails/supporter_bg_1",
-            "scaleimage": "1",
-            "drawcolor": "255 0 0 255"
-        },
-        "subimage3": {
-            "controlname": "imagepanel",
-            "fieldname": "subimage3",
-            "xpos": "0",
-            "ypos": "cs-0.5",
-            "wide": "f0",
-            "tall": "o1",
-            "proportionaltoparent": "1",
-            "image": "replay/thumbnails/background/particle_overlay_0",
-            "scaleimage": "1",
-            "drawcolor": "255 0 0 255"
-        },
-        "subimage4": {
-            "controlname": "imagepanel",
-            "fieldname": "subimage4",
-            "xpos": "0",
-            "ypos": "cs-0.5",
-            "wide": "f0",
-            "tall": "o1",
-            "proportionaltoparent": "1",
-            "image": "replay/thumbnails/background/particle_overlay_1",
-            "scaleimage": "1",
-            "drawcolor": "255 0 0 255"
-        },
+    "bgpanel1": {
+        "controlname": "editablepanel",
+        "fieldname": "bgpanel1",
+        "xpos": "5",
+        "ypos": "0",
+        "wide": "f10",
+        "tall": "f1",
+        "proportionaltoparent": "1",
+        "mouseinputenabled": "0",
+        "bgcolor_override": "255 0 0 255",
     },
 
     "bgpanel2": {
@@ -90,20 +53,6 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "mouseinputenabled": "0",
         "image": "replay/thumbnails/fill_additive",
         "scaleimage": "1"
-    },
-
-    "sideglow": {
-        "controlname": "imagepanel",
-        "fieldname": "sideglow",
-        "xpos": "5",
-        "ypos": "0",
-        "wide": "f10",
-        "tall": "f1",
-        "proportionaltoparent": "1",
-        "mouseinputenabled": "0",
-        "image": "replay/thumbnails/side_panel_gradient_left",
-        "scaleimage": "1",
-        "drawcolor": "255 0 0 255"
     },
 
     "name": {
@@ -248,14 +197,9 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
         _d["fieldname"] = str(index)
         _d["ypos"] = str(y_offset)
 
-        _d["bgpanel"]["subimage1"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.6))
-        _d["bgpanel"]["subimage2"]["drawcolor"] = supporter.color.as_vdf(255)
-        _d["bgpanel"]["subimage3"]["drawcolor"] = supporter.color.as_vdf(255)
-        _d["bgpanel"]["subimage4"]["drawcolor"] = supporter.color.as_vdf(255)
+        _d["bgpanel1"]["bgcolor_override"] = supporter.color.as_vdf(round(255 * 0.05))
 
         _d["bgpanel2"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.05))
-
-        _d["sideglow"]["drawcolor"] = supporter.color.as_vdf(round(255 * 0.05))
 
         _d["name"]["labeltext"] = _name
         _d["name"]["fgcolor"] = supporter.color.as_vdf(255)

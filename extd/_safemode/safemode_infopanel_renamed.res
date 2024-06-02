@@ -12,8 +12,8 @@
             "InfoText"
             {
                 "labeltext"             ""
-                "fgcolor"               "FragAccent100"
-                "fgcolor_override"      "FragAccent100"
+                "fgcolor"               "FragNeutral100"
+                "fgcolor_override"      "FragNeutral100"
             }
         }
     }

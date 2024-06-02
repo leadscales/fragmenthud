@@ -21,7 +21,7 @@
             "ypos"                      "cs-0.5"
             "zpos"                      "0"
             "wide"                      "f0"
-            "tall"                      "o1"
+            "tall"                      "f0"
             "proportionaltoparent"      "0"
             "visible"                   "1"
             "enabled"                   "1"
@@ -33,7 +33,7 @@
                 "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
-                "tall"                      "f0"
+                "tall"                      "o1"
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/background/background_0"
                 "scaleimage"                "1"
@@ -48,7 +48,7 @@
                 "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
-                "tall"                      "f0"
+                "tall"                      "o1"
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/background/background_1"
                 "scaleimage"                "1"
@@ -78,7 +78,7 @@
                 "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
-                "tall"                      "f0"
+                "tall"                      "o1"
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/background/particle_overlay_0"
                 "scaleimage"                "1"
@@ -93,7 +93,7 @@
                 "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
-                "tall"                      "f0"
+                "tall"                      "o1"
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/background/particle_overlay_1"
                 "scaleimage"                "1"
@@ -108,7 +108,7 @@
                 "xpos"                      "0"
                 "ypos"                      "0"
                 "wide"                      "f0"
-                "tall"                      "f0"
+                "tall"                      "o1"
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/background/background_overlay_0"
                 "scaleimage"                "1"
@@ -193,7 +193,7 @@
                 "labelText"                 "¨"
                 "textAlignment"             "center"
                 "font"                      "Icons_Medium_Additive"
-                "fgcolor"                   "FragAccent100"
+                "fgcolor"                   "FragPrimary100"
             }
 
             "Title"
@@ -208,7 +208,7 @@
                 
                 "labelText"                 "FRAGMENTHUD"
                 "font"                      "FontMedium_12_Additive"
-                "fgcolor"                   "FragPrimary100"
+                "fgcolor"                   "FragNeutral100"
             }
         }
 
@@ -256,7 +256,7 @@
                         "labelText"                 "FRAGMENTHUD"
                         "textAlignment"             "center"
                         "font"                      "FontBold_22_Additive"
-                        "fgcolor"                   "FragAccent100"
+                        "fgcolor"                   "FragPrimary100"
                     }
                     "VersionLabel"
                     {
@@ -271,7 +271,7 @@
                         "labelText"                 "#FRAG_Version"
                         "textAlignment"             "center"
                         "font"                      "FontMedium_12_Additive"
-                        "fgcolor"                   "FragPrimary100"
+                        "fgcolor"                   "FragPrimary40"
                     }
                 }
 
@@ -341,9 +341,9 @@
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                        "armedbgcolor_override"     "FragPrimary10"
+                        "armedbgcolor_override"     "FragSecondary10"
                         "defaultfgcolor_override"   "FragNeutral100"
-                        "armedfgcolor_override"     "FragPrimary100"
+                        "armedfgcolor_override"     "FragSecondary100"
                     }
                     "Github"
                     {
@@ -366,9 +366,9 @@
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                        "armedbgcolor_override"     "FragPrimary10"
+                        "armedbgcolor_override"     "FragSecondary10"
                         "defaultfgcolor_override"   "FragNeutral100"
-                        "armedfgcolor_override"     "FragPrimary100"
+                        "armedfgcolor_override"     "FragSecondary100"
                     }
                     "Discord"
                     {
@@ -391,9 +391,9 @@
                         "sound_released"            "UI/buttonclickrelease.wav"
 
                         "defaultbgcolor_override"   "FragPanelTransparentDark60"
-                        "armedbgcolor_override"     "FragPrimary10"
+                        "armedbgcolor_override"     "FragSecondary10"
                         "defaultfgcolor_override"   "FragNeutral100"
-                        "armedfgcolor_override"     "FragPrimary100"
+                        "armedfgcolor_override"     "FragSecondary100"
                     }
                 }
             }
@@ -436,7 +436,7 @@
                 "labeltext"                 "§"
                 "textalignment"             "east"
                 "font"                      "Icons_Small_Additive"
-                "fgcolor"                   "0 255 240 255"
+                "fgcolor"                   "64 255 240 255"
             }
 
             "HangWarning"
@@ -451,7 +451,7 @@
                 "labelText"                 "#FRAG_Oobe_HangWarn"
                 "font"                      "FontMedium_12_Additive"
                 "textAlignment"             "center"
-                "fgcolor"                   "FragPrimary40"
+                "fgcolor"                   "FragSecondary40"
             }
         }
     }

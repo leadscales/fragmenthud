@@ -194,7 +194,7 @@
                     "defaultfgcolor_override"   "FragPrimary20"
                     "armedfgcolor_override"     "FragPrimary100"
                     "defaultbgcolor_override"   "Blank"
-                    "armedbgcolor_override"     "Blank"
+                    "armedbgcolor_override"     "FragPrimary05"
 
                     "sound_depressed"           "UI/buttonclick.wav"
                     "sound_released"            "UI/buttonclickrelease.wav"
@@ -230,7 +230,7 @@
                     "defaultfgcolor_override"   "FragPrimary20"
                     "armedfgcolor_override"     "FragPrimary100"
                     "defaultbgcolor_override"   "Blank"
-                    "armedbgcolor_override"     "Blank"
+                    "armedbgcolor_override"     "FragPrimary05"
 
                     "sound_depressed"           "UI/buttonclick.wav"
                     "sound_released"            "UI/buttonclickrelease.wav"

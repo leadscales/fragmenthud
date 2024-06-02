@@ -5,13 +5,14 @@
     "$vertexalpha"      "1"
     "$vertexcolor"      "1"
     "$additive"         "1"
+
     "Proxies"
     {
-        "TextureScroll"
+        "AnimatedTexture"
         {
-            "texturescrollvar"          "$baseTextureTransform"
-            "texturescrollrate"         "0.4"
-            "texturescrollangle"        "180"
+            "animatedtexturevar"            "$basetexture"
+            "animatedtextureframenumvar"    "$frame"
+            "animatedtextureframerate"      "60"
         }
     }
 }

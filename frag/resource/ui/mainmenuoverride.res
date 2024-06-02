@@ -124,7 +124,7 @@
         "ypos"                      "cs-0.5"
         "zpos"                      "0"
         "wide"                      "f0"
-        "tall"                      "o1"
+        "tall"                      "f0"
         "proportionaltoparent"      "0"
         "visible"                   "1"
         "enabled"                   "1"
@@ -136,7 +136,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_0"
             "scaleimage"                "1"
@@ -151,7 +151,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_1"
             "scaleimage"                "1"
@@ -181,7 +181,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/particle_overlay_0"
             "scaleimage"                "1"
@@ -196,7 +196,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/particle_overlay_1"
             "scaleimage"                "1"
@@ -211,7 +211,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_overlay_0"
             "scaleimage"                "1"
@@ -985,9 +985,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent10"
-                "defaultfgcolor_override"   "FragAccent100"
-                "armedfgcolor_override"     "FragAccent100"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragSecondary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -1025,9 +1025,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent10"
-                "defaultfgcolor_override"   "FragAccent100"
-                "armedfgcolor_override"     "FragAccent100"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragSecondary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -1065,9 +1065,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent10"
-                "defaultfgcolor_override"   "FragAccent100"
-                "armedfgcolor_override"     "FragAccent100"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragSecondary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -1105,9 +1105,9 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragAccent10"
-                "defaultfgcolor_override"   "FragAccent100"
-                "armedfgcolor_override"     "FragAccent100"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragSecondary100"
+                "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
                 "font"                      "Icons_Small_Additive"
@@ -1171,9 +1171,9 @@
             "default"                   "1"
             "actionsignallevel"         "2"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragAccent10"
-            "defaultfgcolor_override"   "FragAccent100"
-            "armedfgcolor_override"     "FragAccent100"
+            "armedbgcolor_override"     "FragPrimary10"
+            "defaultfgcolor_override"   "FragPrimary100"
+            "armedfgcolor_override"     "FragPrimary100"
             "paintBackground"           "1"
 
             "SubImage"
@@ -1231,9 +1231,9 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
 
@@ -1273,9 +1273,9 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
 
@@ -1315,9 +1315,9 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
 
@@ -1357,9 +1357,9 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
 
@@ -1399,9 +1399,9 @@
                 "paintBackground"           "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
     }
@@ -1416,7 +1416,8 @@
     {
         "wide"                          "0"
         "tall"                          "0"
-        "border"                        "FragTooltip"
+        "paintBorder"                   "0"
+        "roundedcorners"                "0"
         "bgcolor_override"              "FragPanelTransparentDark80"
 
         "TipSubLabel"

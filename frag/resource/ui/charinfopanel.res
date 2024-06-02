@@ -21,7 +21,7 @@
         "ypos"                      "cs-0.5"
         "zpos"                      "-2"
         "wide"                      "f0"
-        "tall"                      "o1"
+        "tall"                      "f0"
         "proportionaltoparent"      "0"
         "visible"                   "1"
         "enabled"                   "1"
@@ -33,7 +33,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_0"
             "scaleimage"                "1"
@@ -48,7 +48,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_1"
             "scaleimage"                "1"
@@ -78,7 +78,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/particle_overlay_0"
             "scaleimage"                "1"
@@ -93,7 +93,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/particle_overlay_1"
             "scaleimage"                "1"
@@ -108,7 +108,7 @@
             "xpos"                      "0"
             "ypos"                      "0"
             "wide"                      "f0"
-            "tall"                      "f0"
+            "tall"                      "o1"
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_overlay_0"
             "scaleimage"                "1"
@@ -204,9 +204,9 @@
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
 
@@ -242,9 +242,9 @@
                 "roundedcorners"            "0"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
+                "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
-                "armedfgcolor_override"     "FragPrimary100"
+                "armedfgcolor_override"     "FragSecondary100"
             }
         }
     }

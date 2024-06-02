@@ -4,7 +4,8 @@
     {
         "wide"                  "0"
         "tall"                  "0"
-        "border"                "FragTooltip"
+        "paintBorder"           "0"
+        "roundedcorners"        "0"
         "bgcolor_override"      "FragPanelTransparentDark80"
         "TipLabel"
         {

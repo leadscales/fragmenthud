@@ -44,8 +44,8 @@
                                 "labelText"                 "#FRAG_Safemode_MMenu_FList"
                                 "allcaps"                   "1"
                                 "font"                      "FontMedium_10_Additive"
-                                "fgcolor"                   "FragAccent40"
-                                "fgcolor_override"          "FragAccent40"
+                                "fgcolor"                   "FragSecondary40"
+                                "fgcolor_override"          "FragSecondary40"
 
                                 "fonts"
                                 {
@@ -68,8 +68,8 @@
                                 "textAlignment"             "center"
                                 "font"                      "Icons_Small_Additive"
                                 "paintBackground"           "0"
-                                "defaultfgcolor_override"   "FragAccent40"
-                                "armedfgcolor_override"     "FragAccent100"
+                                "defaultfgcolor_override"   "FragNeutral40"
+                                "armedfgcolor_override"     "FragNeutral100"
                                 "command"                   "engine frag_mmenu_flist=def;"
                                 "actionsignallevel"         "7"
                                 "sound_depressed"           "UI/buttonclick.wav"

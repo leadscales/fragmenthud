@@ -18,7 +18,7 @@
         "proportionaltoparent"      "1"
         "labelText"                 "S"
         "font"                      "Icons_XSmall"
-        "fgcolor"                   "FragAccent100"
+        "fgcolor"                   "FragNeutral100"
     }
     "BannedIcon"
     {

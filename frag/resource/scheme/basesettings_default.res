@@ -35,6 +35,8 @@
         "ItemColor"                         "FragNeutral100"
         "ItemColor"                         "FragPanelOpaque60"
 
+        "ToggleButton.SelectedTextColor"    "FragPrimary100"
+
         "Frame.ClientInsetY"                "0"
     }
 }
