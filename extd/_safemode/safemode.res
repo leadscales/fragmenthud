@@ -191,7 +191,7 @@
                     "use_proportional_insets"   "1"
                     "allcaps"                   "1"
 
-                    "defaultfgcolor_override"   "FragPrimary20"
+                    "defaultfgcolor_override"   "FragPrimary60"
                     "armedfgcolor_override"     "FragPrimary100"
                     "defaultbgcolor_override"   "Blank"
                     "armedbgcolor_override"     "FragPrimary05"
@@ -227,7 +227,7 @@
                     "use_proportional_insets"   "1"
                     "allcaps"                   "1"
 
-                    "defaultfgcolor_override"   "FragPrimary20"
+                    "defaultfgcolor_override"   "FragPrimary60"
                     "armedfgcolor_override"     "FragPrimary100"
                     "defaultbgcolor_override"   "Blank"
                     "armedbgcolor_override"     "FragPrimary05"

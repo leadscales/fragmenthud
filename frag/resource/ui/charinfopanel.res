@@ -67,7 +67,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_split_0"
             "scaleimage"                "1"
-            "drawcolor"                 "FragSecondary10"
+            "drawcolor"                 "FragSecondary20"
             "visible"                   "1"
             "enabled"                   "1"
         }

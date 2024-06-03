@@ -10,21 +10,7 @@
         "wide"                      "221"
         "tall"                      "402"
         "proportionaltoparent"      "0"
-        "bgcolor_override"          "FragNegative05"
-
-        "Gradient"
-        {
-            "ControlName"           "ImagePanel"
-            "fieldName"             "Gradient"
-            "xpos"                  "1"
-            "ypos"                  "1"
-            "wide"                  "f1"
-            "tall"                  "f2"
-            "proportionaltoparent"  "1"
-            "image"                 "replay/thumbnails/side_panel_gradient_left"
-            "scaleImage"            "1"
-            "drawcolor"             "FragNegative40"
-        }
+        "bgcolor_override"          "Blank"
 
         "Stroke"
         {
@@ -45,9 +31,9 @@
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "TopStroke"
-            "xpos"                  "rs1"
+            "xpos"                  "1"
             "ypos"                  "0"
-            "wide"                  "f1"
+            "wide"                  "300"
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
@@ -60,9 +46,9 @@
         {
             "ControlName"           "ImagePanel"
             "fieldName"             "BottomStroke"
-            "xpos"                  "rs1"
+            "xpos"                  "1"
             "ypos"                  "rs1"
-            "wide"                  "f1"
+            "wide"                  "300"
             "tall"                  "1"
             "proportionaltoparent"  "1"
             "mouseinputenabled"     "0"
@@ -81,6 +67,37 @@
             "tall"                  "f2"
             "proportionaltoparent"  "1"
             "bgcolor_override"      "FragPanelTransparentDark60"
+
+            "TopLight"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "TopLight"
+                "xpos"                  "0"
+                "ypos"                  "s-0.5"
+                "zpos"                  "0"
+                "wide"                  "o1"
+                "tall"                  "1000"
+                "proportionaltoparent"  "1"
+                "mouseinputenabled"     "0"
+                "image"                 "replay/thumbnails/side_panel_light_left"
+                "scaleImage"            "1"
+                "drawcolor"             "FragNegative05"
+            }
+            "BottomLight"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "BottomLight"
+                "xpos"                  "0"
+                "ypos"                  "rs0.5"
+                "zpos"                  "0"
+                "wide"                  "o1"
+                "tall"                  "1000"
+                "proportionaltoparent"  "1"
+                "mouseinputenabled"     "0"
+                "image"                 "replay/thumbnails/side_panel_light_left"
+                "scaleImage"            "1"
+                "drawcolor"             "FragNegative05"
+            }
         }
 
         "TitlePanel"
@@ -147,6 +164,18 @@
             "bgcolor_override"          "255 0 0 0"
         }
 
+        "BottomBG"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "BottomBG"
+            "xpos"                  "1"
+            "ypos"                  "rs1-1"
+            "wide"                  "f1"
+            "tall"                  "20"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark40"
+        }
+
         "FixButton"
         {
             "ControlName"               "CExButton"
@@ -161,8 +190,8 @@
             "font"                      "FontMedium_12_Additive"
             "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Fixing-frag_autoexec.cfg"
 
-            "defaultbgcolor_override"   "FragPanelTransparentDark40"
-            "armedbgcolor_override"     "FragPanelTransparentDark60"
+            "defaultbgcolor_override"   "Blank"
+            "armedbgcolor_override"     "FragNegative10"
             "defaultfgcolor_override"   "FragNegative100"
             "armedfgcolor_override"     "FragNegative100"
 

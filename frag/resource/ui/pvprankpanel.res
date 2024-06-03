@@ -34,7 +34,7 @@
             "visible"                           "1"
             "enabled"                           "1"
             "font"                              "FontMedium_12_Additive"
-            "fgcolor_override"                  "FragPrimary40"
+            "fgcolor_override"                  "FragPrimary60"
             "textAlignment"                     "west"
             "labelText"                         "%desc1%"
             "textinsetx"                        "5"
@@ -67,7 +67,7 @@
             "visible"                           "1"
             "enabled"                           "1"
             "font"                              "FontMedium_12_Additive"
-            "fgcolor_override"                  "FragPrimary40"
+            "fgcolor_override"                  "FragPrimary60"
             "textAlignment"                     "east"
             "labelText"                         "%desc2%"
             "textinsetx"                        "5"
@@ -89,8 +89,8 @@
 
             "colors"
             {
-                "1"                             "FragPrimary40"
-                "2"                             "FragPrimary40"
+                "1"                             "FragPrimary60"
+                "2"                             "FragPrimary60"
             }
         }
 

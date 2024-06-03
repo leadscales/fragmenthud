@@ -160,7 +160,7 @@
         "teamblue"          "FragBlu100"
         "teamred"           "FragRed100"
         "purpletext"        "192 128 255 255"
-        "greentext"         "64 255 176 255"
+        "greentext"         "64 255 160 255"
         "iconcolor"         "FragNeutral100"
         "localplayercolor"  "FragPanelOpaque0"
 

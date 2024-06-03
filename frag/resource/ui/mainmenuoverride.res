@@ -170,7 +170,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_split_0"
             "scaleimage"                "1"
-            "drawcolor"                 "FragSecondary10"
+            "drawcolor"                 "FragSecondary20"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -460,7 +460,7 @@
         "pinCorner"                 "0"
         "paintBackground"           "0"
 
-        "defaultfgcolor_override"   "FragPrimary20"
+        "defaultfgcolor_override"   "FragPrimary60"
         "armedfgcolor_override"     "FragPrimary100"
 
         "pin_to_sibling"            "RankPanel"
@@ -1171,9 +1171,9 @@
             "default"                   "1"
             "actionsignallevel"         "2"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragPrimary10"
-            "defaultfgcolor_override"   "FragPrimary100"
-            "armedfgcolor_override"     "FragPrimary100"
+            "armedbgcolor_override"     "FragSecondary10"
+            "defaultfgcolor_override"   "FragSecondary100"
+            "armedfgcolor_override"     "FragSecondary100"
             "paintBackground"           "1"
 
             "SubImage"
@@ -1446,6 +1446,15 @@
 
     // DISABLED
 
+    "RankTooltipPanel"
+    {
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+    }
     "CallVoteButton"
     {
         "xpos"          "9999"

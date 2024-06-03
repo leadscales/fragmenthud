@@ -237,7 +237,6 @@ def generate_supporter_vdf(supporters: list[Supporter], y_offset: int) -> dict:
                         "supporters": {
                             "tall": str(y_offset + 20),
                             "expanded_height": str(y_offset + 20),
-                            "resize_time": str(round(len(supporters) * 0.025, 2)),
                             "sections": result
                         }
                     }
