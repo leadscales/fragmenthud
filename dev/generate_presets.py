@@ -56,18 +56,6 @@ PRESET_RES_TEMPLATE = {
         "actionsignallevel": "9"
     },
 
-    # "bgpanel0": {
-    #     "controlname": "editablepanel",
-    #     "fieldname": "bgpanel0",
-    #     "xpos": "0",
-    #     "ypos": "0",
-    #     "wide": "f0",
-    #     "tall": "f0",
-    #     "proportionaltoparent": "1",
-    #     "mouseinputenabled": "0",
-    #     "bgcolor_override": "FragPanelTransparentDark60",
-    # },
-
     "name": {
         "controlname": "cautofittinglabel",
         "fieldname": "name",
@@ -161,10 +149,6 @@ def prepare_preset(d: dict):
     preset = PRESET_BASE.copy()
     preset.update(d)
     return preset
-
-
-# def determine_preset_entry_color(input: str | int):
-#     return int(input) // HUE_DIV_FACTOR
 
 
 def determine_preset_entry_color(hue: str | int):
