@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-31 00:19:27.801020+00:00
-"Scheme" { "Colors" { "PartyMember6" "255 69 205 255" "PartyMember6_80" "255 69 205 204" "PartyMember6_60" "255 69 205 153" "PartyMember6_40" "255 69 205 102" "PartyMember6_20" "255 69 205 51" "PartyMember6_10" "255 69 205 26" "PartyMember6_05" "255 69 205 13" "PartyMember6_04" "255 69 205 10" "PartyMember6_03" "255 69 205 8" "PartyMember6_02" "255 69 205 5" "PartyMember6_01" "255 69 205 3" } } 
+// GENERATED AT 2024-06-04 16:33:41.948139+00:00
+"Scheme" { "Colors" { "PartyMember6" "255 70 193 255" "PartyMember6_80" "255 70 193 204" "PartyMember6_60" "255 70 193 153" "PartyMember6_40" "255 70 193 102" "PartyMember6_20" "255 70 193 51" "PartyMember6_10" "255 70 193 26" "PartyMember6_05" "255 70 193 13" "PartyMember6_04" "255 70 193 10" "PartyMember6_03" "255 70 193 8" "PartyMember6_02" "255 70 193 5" "PartyMember6_01" "255 70 193 3" } } 

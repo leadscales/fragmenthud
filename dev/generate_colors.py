@@ -196,7 +196,7 @@ def generate_color_cfg(
     result += s
 
     for i in range(len(colors)):
-        index = i + 1
+        index = i
 
         alias_name = "frag_c{0}={1}".format(
             color_name,
@@ -227,7 +227,7 @@ def generate_color_buttons(
     result = {}
 
     for i in range(len(colors)):
-        index = i + 1
+        index = i
         res_data = {
             str(index): {
                 "ControlName": "CExButton",
@@ -302,7 +302,28 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
     main_dir = root.joinpath("extd/_color")
 
     # Delete incase we generate less colors than before
+    main_dir.mkdir(exist_ok=True, parents=True)
     shutil.rmtree(main_dir)
+    main_dir.mkdir(exist_ok=True, parents=True)
+
+    # # Add res file for custom colors
+    # _d = {}
+    # _s = ""
+    # for index, color in enumerate(colors):
+    #     _d.update({f"FragCColor{index}": color.as_vdf(255)})
+    # with open(main_dir.joinpath("colors.res"), "w", encoding="utf-8") as file:
+    #     _s = vdf.dumps(
+    #         {
+    #             "Scheme": {
+    #                 "Colors": _d
+    #             }
+    #         },
+    #         False,
+    #         False
+    #     )
+    #     _s = _s.replace("\n", " ")
+    #     _s = f"// GENERATED AT {datetime.datetime.now(datetime.UTC)}\n{_s}"
+    #     file.write(_s)
 
     for color_name in color_names:
 
@@ -315,7 +336,7 @@ def main(colors: tuple[Color, ...], color_names: typing.Sequence[str], color_alp
         )
 
         for index, data in scheme.items():
-            with open(work_dir.joinpath(f"{index + 1}.res"), "w", encoding="utf-8") as file:
+            with open(work_dir.joinpath(f"{index}.res"), "w", encoding="utf-8") as file:
                 _s = ""
                 _s = vdf.dumps(
                     {

@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-31 00:19:27.466717+00:00
-"Scheme" { "Colors" { "FragCasual100" "64 255 204 255" "FragCasual80" "64 255 204 204" "FragCasual60" "64 255 204 153" "FragCasual40" "64 255 204 102" "FragCasual20" "64 255 204 51" "FragCasual10" "64 255 204 26" "FragCasual05" "64 255 204 13" "FragCasual04" "64 255 204 10" "FragCasual03" "64 255 204 8" "FragCasual02" "64 255 204 5" "FragCasual01" "64 255 204 3" } } 
+// GENERATED AT 2024-06-04 16:33:41.638231+00:00
+"Scheme" { "Colors" { "FragCasual100" "64 255 217 255" "FragCasual80" "64 255 217 204" "FragCasual60" "64 255 217 153" "FragCasual40" "64 255 217 102" "FragCasual20" "64 255 217 51" "FragCasual10" "64 255 217 26" "FragCasual05" "64 255 217 13" "FragCasual04" "64 255 217 10" "FragCasual03" "64 255 217 8" "FragCasual02" "64 255 217 5" "FragCasual01" "64 255 217 3" } } 

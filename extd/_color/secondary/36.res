@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-31 00:19:27.320584+00:00
-"Scheme" { "Colors" { "FragSecondary100" "64 255 127 255" "FragSecondary80" "64 255 127 204" "FragSecondary60" "64 255 127 153" "FragSecondary40" "64 255 127 102" "FragSecondary20" "64 255 127 51" "FragSecondary10" "64 255 127 26" "FragSecondary05" "64 255 127 13" "FragSecondary04" "64 255 127 10" "FragSecondary03" "64 255 127 8" "FragSecondary02" "64 255 127 5" "FragSecondary01" "64 255 127 3" } } 
+// GENERATED AT 2024-06-04 16:33:41.492347+00:00
+"Scheme" { "Colors" { "FragSecondary100" "64 255 140 255" "FragSecondary80" "64 255 140 204" "FragSecondary60" "64 255 140 153" "FragSecondary40" "64 255 140 102" "FragSecondary20" "64 255 140 51" "FragSecondary10" "64 255 140 26" "FragSecondary05" "64 255 140 13" "FragSecondary04" "64 255 140 10" "FragSecondary03" "64 255 140 8" "FragSecondary02" "64 255 140 5" "FragSecondary01" "64 255 140 3" } } 

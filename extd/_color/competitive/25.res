@@ -1,2 +1,2 @@
-// GENERATED AT 2024-05-31 00:19:27.496744+00:00
-"Scheme" { "Colors" { "FragCompetitive100" "140 255 64 255" "FragCompetitive80" "140 255 64 204" "FragCompetitive60" "140 255 64 153" "FragCompetitive40" "140 255 64 102" "FragCompetitive20" "140 255 64 51" "FragCompetitive10" "140 255 64 26" "FragCompetitive05" "140 255 64 13" "FragCompetitive04" "140 255 64 10" "FragCompetitive03" "140 255 64 8" "FragCompetitive02" "140 255 64 5" "FragCompetitive01" "140 255 64 3" } } 
+// GENERATED AT 2024-06-04 16:33:41.664947+00:00
+"Scheme" { "Colors" { "FragCompetitive100" "128 255 64 255" "FragCompetitive80" "128 255 64 204" "FragCompetitive60" "128 255 64 153" "FragCompetitive40" "128 255 64 102" "FragCompetitive20" "128 255 64 51" "FragCompetitive10" "128 255 64 26" "FragCompetitive05" "128 255 64 13" "FragCompetitive04" "128 255 64 10" "FragCompetitive03" "128 255 64 8" "FragCompetitive02" "128 255 64 5" "FragCompetitive01" "128 255 64 3" } } 

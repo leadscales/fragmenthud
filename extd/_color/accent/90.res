@@ -1,2 +1,0 @@
-// GENERATED AT 2024-05-31 00:19:27.375634+00:00
-"Scheme" { "Colors" { "FragAccent100" "255 76 91 255" "FragAccent80" "255 76 91 204" "FragAccent60" "255 76 91 153" "FragAccent40" "255 76 91 102" "FragAccent20" "255 76 91 51" "FragAccent10" "255 76 91 26" "FragAccent05" "255 76 91 13" "FragAccent04" "255 76 91 10" "FragAccent03" "255 76 91 8" "FragAccent02" "255 76 91 5" "FragAccent01" "255 76 91 3" "ItemIsotope" "255 76 91 255" "ItemBundleItem" "255 76 91 255" "ItemLimitedUse" "255 76 91 255" "ItemSetName" "255 76 91 255" } } 

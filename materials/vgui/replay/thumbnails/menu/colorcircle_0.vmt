@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture"      "vgui/replay/thumbnails/menu/colorcircle"
+    "$translucent"      "1"
+    "$vertexalpha"      "1"
+    "$vertexcolor"      "1"
+    "$frame"            "0"
+}

@@ -13,5 +13,3 @@
 #base "../_pointers/cpartymember4_ptr.res"
 #base "../_pointers/cpartymember5_ptr.res"
 #base "../_pointers/cpartymember6_ptr.res"
-
-#base "../_color/customization_colors.res"
