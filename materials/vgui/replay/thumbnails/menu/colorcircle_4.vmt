@@ -4,5 +4,6 @@
     "$translucent"      "1"
     "$vertexalpha"      "1"
     "$vertexcolor"      "1"
-    "$frame"            "4"
+    "$additive"         "1"
+    "$frame"            "5"
 }

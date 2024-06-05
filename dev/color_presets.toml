@@ -1,7 +1,7 @@
 [[presets]]
 name = "LEADHUD"
 primary = 330
-secondary = 260
+secondary = 235
 accent = 180
 negative = 359
 positive = 165

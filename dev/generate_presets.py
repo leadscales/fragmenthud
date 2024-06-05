@@ -76,6 +76,19 @@ PRESET_RES_TEMPLATE = {
         }
     },
 
+    "cbg": {
+        "controlname": "imagepanel",
+        "fieldname": "cbg",
+        "xpos": "5",
+        "ypos": "5",
+        "wide": "10",
+        "tall": "o1",
+        "proportionaltoparent": "1",
+        "mouseinputenabled": "0",
+        "image": "replay/thumbnails/menu/colorcircle_bg",
+        "scaleimage": "1"
+    },
+
     "c0": {
         "controlname": "imagepanel",
         "fieldname": "c0",
