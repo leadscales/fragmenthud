@@ -189,7 +189,7 @@ def generate_preset_cfg(presets: list[dict]) -> str:
 
         for key, value in preset.items():
             if isinstance(value, int):
-                hue = value // HUE_DIV_FACTOR
+                hue = clamp(0, (360 // HUE_DIV_FACTOR) - 1, round(value / HUE_DIV_FACTOR))
             else:
                 hue = "def"
             s += f"frag_c{key}={hue}; "
