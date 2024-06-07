@@ -37,7 +37,7 @@ FRAG_Safemode_MMenu_Title = "MAIN MENU"
 FRAG_Safemode_MMenu_FList = "FRIENDS LIST"
 FRAG_Safemode_MMenu_UserBG = "USER BACKGROUND"
 FRAG_Safemode_MMenu_UserBG_Fill = "FILL"
-FRAG_Safemode_MMenu_UserBG_Prop = "PROP"       # Abbreviated proportional
+FRAG_Safemode_MMenu_UserBG_Even = "EVEN"
 
 FRAG_Safemode_Hitmarker_Title = "HITMARKER"
 FRAG_Safemode_Hitmarker_Toggle = "HITMARKER TOGGLE"
