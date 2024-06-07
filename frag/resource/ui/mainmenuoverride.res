@@ -240,6 +240,31 @@
         }
     }
 
+    "UserBGAtMenu"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "UserBGAtMenu"
+        "xpos"                  "cs-0.5"
+        "ypos"                  "cs-0.5"
+        "zpos"                  "0"
+        "wide"                  "0"
+        "tall"                  "0"
+        "visible"               "1"
+        "enabled"               "1"
+    }
+    "UserBGInGame"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "UserBGInGame"
+        "xpos"                  "cs-0.5"
+        "ypos"                  "cs-0.5"
+        "zpos"                  "0"
+        "wide"                  "0"
+        "tall"                  "0"
+        "visible"               "1"
+        "enabled"               "1"
+    }
+
     "SideElementsAnchor"
     {
         "ControlName"               "EditablePanel"

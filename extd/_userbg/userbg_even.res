@@ -2,7 +2,12 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
-    "UserBG"
+    "UserBGAtMenu"
+    {
+        "wide"      "f0"
+        "tall"      "o1"
+    }
+    "UserBGInGame"
     {
         "wide"      "f0"
         "tall"      "o1"

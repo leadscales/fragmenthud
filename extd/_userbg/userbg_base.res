@@ -10,18 +10,38 @@
         "tall"              "0"
         "visible"           "0"
     }
-    "UserBG"
+    "UserBGAtMenu"
     {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "UserBG"
-        "xpos"                  "cs-0.5"
-        "ypos"                  "cs-0.5"
-        "zpos"                  "0"
-        "wide"                  "0"
-        "tall"                  "0"
-        "visible"               "1"
-        "enabled"               "1"
-        "image"                 "replay/thumbnails/userbg"
-        "scaleImage"            "1"
+        "SubImage"
+        {
+            "ControlName"                   "ImagePanel"
+            "fieldName"                     "SubImage"
+            "xpos"                          "cs-0.5"
+            "ypos"                          "cs-0.5"
+            "wide"                          "f0"
+            "tall"                          "f0"
+            "proportionaltoparent"          "1"
+            "visible"                       "1"
+            "enabled"                       "1"
+            "image"                         "replay/thumbnails/userbg"
+            "scaleImage"                    "1"
+        }
+    }
+    "UserBGInGame"
+    {
+        "SubImage"
+        {
+            "ControlName"                   "ImagePanel"
+            "fieldName"                     "SubImage"
+            "xpos"                          "cs-0.5"
+            "ypos"                          "cs-0.5"
+            "wide"                          "f0"
+            "tall"                          "f0"
+            "proportionaltoparent"          "1"
+            "visible"                       "1"
+            "enabled"                       "1"
+            "image"                         "replay/thumbnails/userbg"
+            "scaleImage"                    "1"
+        }
     }
 }

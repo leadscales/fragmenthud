@@ -82,6 +82,16 @@
         "OnlyInGame"        "1"
         "tooltip"           "#FRAG_Buttons_FixIssues"
     }
+    "UserBGAtMenu"
+    {
+        "command"           "engine"
+        "OnlyAtMenu"        "1"
+    }
+    "UserBGInGame"
+    {
+        "command"           "engine"
+        "OnlyInGame"        "1"
+    }
     "ApplyButtonAtMenu"
     {
         "label"             "D"
