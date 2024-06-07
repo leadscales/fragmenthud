@@ -2,6 +2,7 @@
 #base "../../_oobe/oobe.res" // Disabled by default
 #base "../../_pointers/valverc_ptr.res"
 #base "../../_pointers/mmenu_flist_ptr.res"
+#base "../../_pointers/mmenu_userbg_ptr.res"
 #base "../../_valverc/valverc_warning.res"
 #base "../../_preload/preload.res"
 #base "../../_safemode/safemode.res"

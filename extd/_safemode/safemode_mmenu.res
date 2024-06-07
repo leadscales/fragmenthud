@@ -1,4 +1,5 @@
 #base "safemode_mmenu_flist.res"
+#base "safemode_mmenu_userbg.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -15,12 +16,12 @@
                     "xpos"                      "0"
                     "ypos"                      "0"
                     "wide"                      "f0"
-                    "tall"                      "65"
+                    "tall"                      "110"
                     "proportionaltoparent"      "1"
                     "bgcolor_override"          "0 255 0 0"
 
                     "collapsed_height"          "20"
-                    "expanded_height"           "65"
+                    "expanded_height"           "110"
                     "ignorescheme"              "1"
                     "resize_time"               "0.1"
 
