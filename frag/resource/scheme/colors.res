@@ -103,6 +103,18 @@
         "FragSilver100"                     "160 224 255 255"
         "FragBronze100"                     "255 160 128 255"
 
+        "FragPip100"                        "64 255 64 255"
+        "FragPip80"                         "64 255 64 204"
+        "FragPip60"                         "64 255 64 153"
+        "FragPip40"                         "64 255 64 102"
+        "FragPip20"                         "64 255 64 51"
+        "FragPip10"                         "64 255 64 26"
+        "FragPip05"                         "64 255 64 13"
+        "FragPip04"                         "64 255 64 10"
+        "FragPip03"                         "64 255 64 8"
+        "FragPip02"                         "64 255 64 5"
+        "FragPip01"                         "64 255 64 3"
+
         "FragCasual100"                     "80 176 255 255"
         "FragCasual80"                      "80 176 255 204"
         "FragCasual60"                      "80 176 255 153"
