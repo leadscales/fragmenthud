@@ -324,6 +324,14 @@
         "tall"                      "70"
     }
 
+    "HudEurekaEffectTeleportMenu"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "c100"
+        "wide"                      "90"
+        "tall"                      "70"
+    }
+
     "DisguiseStatus"
     {
         "xpos"                      "5"
