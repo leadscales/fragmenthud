@@ -46,7 +46,7 @@
         "sound_depressed"           "ui/buttonclick.wav"
         "sound_released"            "ui/buttonclickrelease.wav"
 
-        "command"                   "url https://www.youtube.com/watch?v=Ej2tqhERgz8"
+        "command"                   "url https://www.youtube.com/watch?v=z65OW_rSt3o"
 
         "paintBackground"           "0"
         "fgcolor"                   "FragSecondary20"

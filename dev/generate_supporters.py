@@ -27,7 +27,7 @@ SUPPORTER_ENTRY_TEMPLATE = {
         "tall": "f1",
         "proportionaltoparent": "1",
         "mouseinputenabled": "0",
-        "bgcolor_override": "FragPanelTransparentDark60",
+        "bgcolor_override": "0 0 0 255",
     },
 
     "bgpanel1": {
