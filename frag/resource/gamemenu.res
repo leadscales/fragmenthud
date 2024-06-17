@@ -14,9 +14,15 @@
     }
     "DemoUI"
     {
-        "label"             "g"
+        "label"             "P"
         "command"           "engine demoui"
         "tooltip"           "#FRAG_Buttons_DemoUI"
+    }
+    "Replays"
+    {
+        "label"             "g"
+        "command"           "engine open_replaybrowser"
+        "tooltip"           "#MMenu_Tooltip_Replay"
     }
     "Contracts"
     {
@@ -29,6 +35,30 @@
         "label"             "a"
         "command"           "openachievementsdialog"
         "tooltip"           "#MMenu_Tooltip_Achievements"
+    }
+    "Training"
+    {
+        "label"             "G"
+        "command"           "engine training_showdlg"
+        "tooltip"           "#MMenu_PlayList_Training_Button"
+    }
+    "LocalServer"
+    {
+        "label"             "e"
+        "command"           "opencreatemultiplayergamedialog"
+        "tooltip"           "#MMenu_PlayList_CreateServer_Button"
+    }
+    "Workshop"
+    {
+        "label"             "B"
+        "command"           "engine OpenSteamWorkshopDialog"
+        "tooltip"           "#MMenu_Tooltip_Workshop"
+    }
+    "Itemtest"
+    {
+        "label"             "I"
+        "command"           "engine itemtest"
+        "tooltip"           "#FRAG_Buttons_Itemtest"
     }
     "BugReport"
     {
@@ -53,6 +83,30 @@
         "label"             "§"
         "command"           "url https://steamcommunity.com/profiles/76561199066986123"
         "tooltip"           "#FRAG_Buttons_LeadProfile"
+    }
+    "Fragment"
+    {
+        "label"             "¨"
+        "command"           "url https://github.com/leadscales/fragmenthud"
+        "tooltip"           ""
+    }
+    "FavServer0"
+    {
+        "label"             "H"
+        "command"           "url https://github.com/leadscales/fragmenthud/wiki/Favorite-Servers"
+        "tooltip"           "#FRAG_Buttons_FavServer0"
+    }
+    "FavServer1"
+    {
+        "label"             "H"
+        "command"           "url https://github.com/leadscales/fragmenthud/wiki/Favorite-Servers"
+        "tooltip"           "#FRAG_Buttons_FavServer1"
+    }
+    "FavServer2"
+    {
+        "label"             "H"
+        "command"           "url https://github.com/leadscales/fragmenthud/wiki/Favorite-Servers"
+        "tooltip"           "#FRAG_Buttons_FavServer2"
     }
     "CallVote"
     {

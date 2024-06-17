@@ -1,0 +1,18 @@
+"GameMenu"
+{
+    "FavServer0" // Rightmost button
+    {
+        "command" "engine connect 123.123.123.123:27015"
+        "tooltip" "Awesome server"
+    }
+    "FavServer1" // Middle button
+    {
+        "command" "engine connect tf2.com:27015"
+        "tooltip" "Awesome server, 2"
+    }
+    "FavServer2" // Leftmost button
+    {
+        "command" "engine connect 127.0.0.1:27015"
+        "tooltip" "The third server"
+    }
+}

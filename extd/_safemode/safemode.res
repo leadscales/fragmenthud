@@ -82,6 +82,18 @@
             "drawcolor"             "FragSecondary40"
         }
 
+        "SideBGPanel"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "SideBGPanel"
+            "xpos"                  "rs1"
+            "ypos"                  "1"
+            "wide"                  "20"
+            "tall"                  "f2"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark40"
+        }
+
         "LeftBGPanel"
         {
             "ControlName"           "EditablePanel"
@@ -91,7 +103,7 @@
             "wide"                  "f21"
             "tall"                  "f2"
             "proportionaltoparent"  "1"
-            "bgcolor_override"      "FragPanelTransparentDark40"
+            "bgcolor_override"      "FragPanelTransparentDark60"
         }
 
         "BGPanel"

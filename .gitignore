@@ -1,13 +1,28 @@
-__pycache__/
+__pycache__/**
+__pycache__/*.*
 .venv
+*.pyc
+
+# ---
+
 *.cache
 *.tga
 *.psd
 *.ai
-user/
+
+# ---
+
+user/**
+!user/**/*.example
+materials/vgui/replay/thumbnails/user/**
+scripts/hudanimations_user.txt
+
+# ---
+
 temp/
 assets/screenshots/jpg/
+
 # ---
+
 supporters.toml
-hudanimations_user.txt
-frag_usercfg*
+frag_usercfg*.*

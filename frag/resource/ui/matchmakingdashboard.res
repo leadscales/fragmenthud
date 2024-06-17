@@ -112,7 +112,7 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "bgcolor_override"          "FragPanelOpaque0"
+            "bgcolor_override"          "FragPanelTransparentDark40"
         }
 
         "SlotsGradient"
@@ -797,7 +797,7 @@
             "tall"                      "20"
             "proportionaltoparent"      "1"
             "mouseinputenabled"         "0"
-            "bgcolor_override"          "FragPanelOpaque0"
+            "bgcolor_override"          "FragPanelTransparentDark40"
         }
 
         "GameButtonsGradient"
@@ -818,7 +818,7 @@
                 "fieldName"             "0"
                 "xpos"                  "0"
                 "ypos"                  "0"
-                "wide"                  "100"
+                "wide"                  "80"
                 "tall"                  "f0"
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_left"
@@ -831,7 +831,7 @@
                 "fieldName"             "1"
                 "xpos"                  "rs1"
                 "ypos"                  "0"
-                "wide"                  "100"
+                "wide"                  "80"
                 "tall"                  "f0"
                 "proportionaltoparent"  "1"
                 "image"                 "replay/thumbnails/side_panel_gradient_right"

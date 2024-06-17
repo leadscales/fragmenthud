@@ -368,6 +368,18 @@
             "drawcolor"             "FragSecondary40"
         }
 
+        "SideBGPanel"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "SideBGPanel"
+            "xpos"                  "0"
+            "ypos"                  "1"
+            "wide"                  "20"
+            "tall"                  "f2"
+            "proportionaltoparent"  "1"
+            "bgcolor_override"      "FragPanelTransparentDark40"
+        }
+
         "RightBGPanel"
         {
             "ControlName"           "EditablePanel"
@@ -377,7 +389,7 @@
             "wide"                  "f21"
             "tall"                  "f2"
             "proportionaltoparent"  "1"
-            "bgcolor_override"      "FragPanelTransparentDark40"
+            "bgcolor_override"      "FragPanelTransparentDark60"
         }
 
         "BGPanel"
@@ -450,12 +462,12 @@
 
     "RankPanel"
     {
-        "xpos"              "-20"
-        "ypos"              "0"
-        "zpos"              "11"
-        "wide"              "200"
-        "tall"              "40"
-        "bgcolor_override"  "FragPanelTransparentDark40"
+        "xpos"                      "-20"
+        "ypos"                      "0"
+        "zpos"                      "11"
+        "wide"                      "200"
+        "tall"                      "40"
+        "bgcolor_override"          "FragPanelTransparentDark40"
 
         "pin_to_sibling"            "SideElementsAnchor"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -643,7 +655,7 @@
             "fieldName"                 "Info"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "40"
+            "wide"                      "20"
             "tall"                      "f0"
             "visible"                   "1"
             "proportionaltoparent"      "1"
@@ -679,7 +691,7 @@
             "fieldName"                 "Console"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "40"
+            "wide"                      "20"
             "tall"                      "f0"
             "visible"                   "1"
             "proportionaltoparent"      "1"
@@ -719,12 +731,52 @@
             "fieldName"                 "DemoUI"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "40"
+            "wide"                      "20"
             "tall"                      "f0"
             "visible"                   "1"
             "proportionaltoparent"      "1"
 
             "pin_to_sibling"            "Console"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "Replays"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Replays"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "DemoUI"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
 
@@ -759,12 +811,12 @@
             "fieldName"                 "Contracts"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "40"
+            "wide"                      "20"
             "tall"                      "f0"
             "visible"                   "1"
             "proportionaltoparent"      "1"
 
-            "pin_to_sibling"            "DemoUI"
+            "pin_to_sibling"            "Replays"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
 
@@ -799,12 +851,172 @@
             "fieldName"                 "Achievements"
             "xpos"                      "0"
             "ypos"                      "0"
-            "wide"                      "40"
+            "wide"                      "20"
             "tall"                      "f0"
             "visible"                   "1"
             "proportionaltoparent"      "1"
 
             "pin_to_sibling"            "Contracts"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "Training"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Training"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Achievements"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "LocalServer"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "LocalServer"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Training"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "Workshop"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Workshop"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "LocalServer"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "3"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "Itemtest"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Itemtest"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "pin_to_sibling"            "Workshop"
             "pin_corner_to_sibling"     "PIN_TOPLEFT"
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
 
@@ -873,8 +1085,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary60"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragPrimary40"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
@@ -913,8 +1125,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary60"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragPrimary40"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
@@ -953,8 +1165,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary60"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragPrimary40"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
@@ -993,8 +1205,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragPrimary10"
-                "defaultfgcolor_override"   "FragPrimary60"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragPrimary40"
                 "armedfgcolor_override"     "FragPrimary100"
                 "actionsignallevel"         "2"
 
@@ -1045,8 +1257,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragSecondary10"
-                "defaultfgcolor_override"   "FragSecondary100"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragSecondary40"
                 "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
@@ -1085,8 +1297,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragSecondary10"
-                "defaultfgcolor_override"   "FragSecondary100"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragSecondary40"
                 "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
@@ -1125,8 +1337,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragSecondary10"
-                "defaultfgcolor_override"   "FragSecondary100"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragSecondary40"
                 "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
@@ -1165,8 +1377,8 @@
                 "proportionaltoparent"      "1"
 
                 "defaultbgcolor_override"   "Blank"
-                "armedbgcolor_override"     "FragSecondary10"
-                "defaultfgcolor_override"   "FragSecondary100"
+                "armedbgcolor_override"     "Blank"
+                "defaultfgcolor_override"   "FragSecondary40"
                 "armedfgcolor_override"     "FragSecondary100"
                 "actionsignallevel"         "2"
 
@@ -1231,8 +1443,8 @@
             "default"                   "1"
             "actionsignallevel"         "2"
             "defaultbgcolor_override"   "Blank"
-            "armedbgcolor_override"     "FragSecondary10"
-            "defaultfgcolor_override"   "FragSecondary100"
+            "armedbgcolor_override"     "Blank"
+            "defaultfgcolor_override"   "FragSecondary40"
             "armedfgcolor_override"     "FragSecondary100"
             "paintBackground"           "1"
 
@@ -1251,9 +1463,10 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "20"
-        "wide"                          "500"
+        "wide"                          "400"
         "tall"                          "20"
         "proportionaltoparent"          "1"
+        "bgcolor_override"              "FragPanelTransparentDark40"
 
         "pin_to_sibling"                "BottomPanel"
         "pin_corner_to_sibling"         "PIN_CENTER_TOP"
@@ -1462,6 +1675,184 @@
                 "armedbgcolor_override"     "FragSecondary10"
                 "defaultfgcolor_override"   "FragNeutral100"
                 "armedfgcolor_override"     "FragSecondary100"
+            }
+        }
+    }
+
+    "BottomPanelLeftButtons"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "BottomPanelLeftButtons"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "20"
+        "wide"                          "20"
+        "tall"                          "20"
+        "proportionaltoparent"          "1"
+        "bgcolor_override"              "FragPanelTransparentDark40"
+
+        "pin_to_sibling"                "BottomPanel"
+        "pin_corner_to_sibling"         "PIN_TOPLEFT"
+        "pin_to_sibling_corner"         "PIN_TOPLEFT"
+
+        "Fragment"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Fragment"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+    }
+
+    "BottomPanelRightButtons"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "BottomPanelRightButtons"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "20"
+        "wide"                          "60"
+        "tall"                          "20"
+        "proportionaltoparent"          "1"
+        "bgcolor_override"              "FragPanelTransparentDark40"
+
+        "pin_to_sibling"                "BottomPanel"
+        "pin_corner_to_sibling"         "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"         "PIN_TOPRIGHT"
+
+        "FavServer0"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "FavServer0"
+            "xpos"                      "rs1"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "FavServer1"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "FavServer1"
+            "xpos"                      "rs1-20"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
+            }
+        }
+
+        "FavServer2"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "FavServer2"
+            "xpos"                      "rs1-40"
+            "ypos"                      "0"
+            "wide"                      "20"
+            "tall"                      "f0"
+            "visible"                   "1"
+            "proportionaltoparent"      "1"
+
+            "SubButton"
+            {
+                "ControlName"               "CExImageButton"
+                "fieldName"                 "SubButton"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "wide"                      "f0"
+                "tall"                      "f0"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "proportionaltoparent"      "1"
+
+                "defaultbgcolor_override"   "Blank"
+                "armedbgcolor_override"     "FragSecondary10"
+                "defaultfgcolor_override"   "FragNeutral100"
+                "armedfgcolor_override"     "FragSecondary100"
+                "actionsignallevel"         "2"
+
+                "font"                      "Icons_Small_Additive"
+                "textAlignment"             "center"
+                "sound_depressed"           "UI/buttonclick.wav"
+                "sound_released"            "UI/buttonclickrelease.wav"
             }
         }
     }
