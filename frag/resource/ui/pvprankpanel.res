@@ -13,7 +13,7 @@
             "fieldName"                     "NameLabel"
             "xpos"                          "0"
             "ypos"                          "0"
-            "wide"                          "f20"
+            "wide"                          "f25"
             "font"                          "FontMedium_12_Additive"
             "textAlignment"                 "west"
             "fgcolor_override"              "FragPrimary100"

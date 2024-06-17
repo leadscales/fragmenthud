@@ -707,7 +707,7 @@
             "allcaps"                   "1"
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
-            "fgcolor"                   "FragPositive100"
+            "fgcolor"                   "FragAccent100"
 
             "pin_to_sibling"            "KADDPanel"
         }
@@ -739,7 +739,7 @@
             "allcaps"                   "1"
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
-            "fgcolor"                   "FragNegative100"
+            "fgcolor"                   "FragAccent100"
 
             "pin_to_sibling"            "KADDPanel"
         }
@@ -774,7 +774,7 @@
             "textAlignment"             "east"
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
-            "fgcolor"                   "FragPositive100"
+            "fgcolor"                   "FragAccent100"
             "font"                      "FontMedium_12_Additive"
 
             "pin_to_sibling"            "KADDPanel"
@@ -812,7 +812,7 @@
             "textAlignment"             "east"
             "textinsetx"                "5"
             "use_proportional_insets"   "1"
-            "fgcolor"                   "FragNegative100"
+            "fgcolor"                   "FragAccent100"
             "font"                      "FontMedium_12_Additive"
 
             "pin_to_sibling"            "KADDPanel"

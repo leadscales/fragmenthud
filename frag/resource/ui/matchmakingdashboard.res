@@ -490,7 +490,7 @@
         "JoinPartyLobbyContainer"
         {
             "xpos"                      "160"
-            "wide"                      "80"
+            "wide"                      "20"
 
             "JoinNowButton"
             {
@@ -508,14 +508,14 @@
                     "tall"                      "f0"
                 }
                 
-                "font"                      "FontMedium_10_Additive"
+                "font"                      "Icons_Medium_Additive"
+                "labeltext"                 "p"
                 "textalignment"             "center"
-                "allcaps"                   "1"
-                "fgcolor"                   "FragPositive100"
-                "defaultbgcolor_override"   "FragPositive05"
-                "armedbgcolor_override"     "FragPositive10"
-                "defaultfgcolor_override"   "FragPositive100"
-                "armedfgcolor_override"     "FragPositive100"
+                "fgcolor"                   "FragPrimary100"
+                "defaultbgcolor_override"   "FragPrimary05"
+                "armedbgcolor_override"     "FragPrimary10"
+                "defaultfgcolor_override"   "FragPrimary100"
+                "armedfgcolor_override"     "FragPrimary100"
             }
             
             "OuterShadow"

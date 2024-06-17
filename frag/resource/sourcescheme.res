@@ -104,7 +104,7 @@
         {
             "bordertype"                "scalable_image"
             "backgroundtype"            "0"
-            "image"                     "replay/thumbnails/panels/border_strokefade"
+            "image"                     "replay/thumbnails/panels/source_border"
             "color"                     "FragPrimary100"
             "src_corner_height"         "6"
             "src_corner_width"          "6"

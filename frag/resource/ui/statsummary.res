@@ -27,6 +27,36 @@
         "visible"                   "1"
         "enabled"                   "1"
 
+        "BGParticle1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGParticle1"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/particle_overlay_0"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "drawcolor"                 "FragPrimary60"
+        }
+        "BGParticle2"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGParticle2"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/particle_overlay_1"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "drawcolor"                 "FragSecondary60"
+        }
         "BGImage1"
         {
             "ControlName"               "ImagePanel"
@@ -72,40 +102,10 @@
             "visible"                   "1"
             "enabled"                   "1"
         }
-        "BGParticle1"
+        "BGOverlay0"
         {
             "ControlName"               "ImagePanel"
-            "fieldName"                 "BGParticle1"
-            "xpos"                      "cs-0.5"
-            "ypos"                      "cs-0.5"
-            "wide"                      "f0"
-            "tall"                      "o1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/background/particle_overlay_0"
-            "scaleimage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-            "drawcolor"                 "FragPrimary60"
-        }
-        "BGParticle2"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGParticle2"
-            "xpos"                      "cs-0.5"
-            "ypos"                      "cs-0.5"
-            "wide"                      "f0"
-            "tall"                      "o1"
-            "proportionaltoparent"      "1"
-            "image"                     "replay/thumbnails/background/particle_overlay_1"
-            "scaleimage"                "1"
-            "visible"                   "1"
-            "enabled"                   "1"
-            "drawcolor"                 "FragSecondary60"
-        }
-        "BGOverlay1"
-        {
-            "ControlName"               "ImagePanel"
-            "fieldName"                 "BGOverlay1"
+            "fieldName"                 "BGOverlay0"
             "xpos"                      "cs-0.5"
             "ypos"                      "cs-0.5"
             "wide"                      "f0"
@@ -115,6 +115,21 @@
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
+        }
+        "BGNoise0"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGNoise0"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/noise"
+            "tileimage"                 "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "alpha"                     "0x40"
         }
     }
 
