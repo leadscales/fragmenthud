@@ -151,7 +151,7 @@
         "tall"                          "20"
         "font"                          "FontMedium_12_Additive"
         "allcaps"                       "1"
-        "fgcolor"                       "FragAccent100"
+        "fgcolor"                       "FragSecondary100"
     }
 
     // DISABLED
