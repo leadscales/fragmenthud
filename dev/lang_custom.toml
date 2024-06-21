@@ -112,8 +112,7 @@ FRAG_Etc_Medium = "Средний"
 FRAG_Etc_Large = "Большой"
 
 [polish]
-#TRANSLATIONS BY @qareday, @nuxtjs / melody
-#small fixes by p2l
+#TRANSLATIONS BY @qareday, @nuxtjs / melody, pee2loser
 #JEŻELI TO CZYTASZ I TEŻ JESTEŚ Z POLSKI, I COŚ WYGLĄDA NIE TAK, TO PRZETŁUMACZ TO ZA NAS, TYLKO UPEWNIJ SIĘ ZE MA SENS <3
 FRAG_Oobe_Description = "Dziękuje za pobranie FRAGMENTHUD.\n\nPracuje nad tym HUDem, więc rzeczy mogą się psuć. Jeżeli znajdziesz jakieś problemy, utwórz wątek na githubie lub dołącz do naszego serwera Discord po pomoc.\n\nTa wiadomość już sie więcej nie pojawi.\n\nDziękuje <3\n\n-Lead"
 FRAG_Oobe_HangWarn = "TF2 może chwilowo się zaciąć wychodząc z tego menu, jest to normalne i gra nie przestała działać."
@@ -135,10 +134,24 @@ FRAG_Safemode_Colors_Primary = "GŁÓWNY"
 FRAG_Safemode_Colors_Accent = "AKCENT"
 FRAG_Safemode_Colors_Negative = "NEGATYWNY"
 FRAG_Safemode_Colors_Positive = "POZYTYWNY"
+FRAG_Safemode_Colors_Casual = "SWOBODNY (CASUAL)"
+FRAG_Safemode_Colors_Competitive = "RANKINGOWY (COMPETITIVE)"
+FRAG_Safemode_Colors_MvM = "MVM (MANN VS MASZYNY)"
+FRAG_Safemode_Colors_Community = "SPOŁECZNOŚĆ"
+FRAG_Safemode_Colors_PartyMember1 = "CZŁONEK DRUŻYNY 1"
+FRAG_Safemode_Colors_PartyMember2 = "CZŁONEK DRUŻYNY 2"
+FRAG_Safemode_Colors_PartyMember3 = "CZŁONEK DRUŻYNY 3"
+FRAG_Safemode_Colors_PartyMember4 = "CZŁONEK DRUŻYNY 4"
+FRAG_Safemode_Colors_PartyMember5 = "CZŁONEK DRUŻYNY 5"
+FRAG_Safemode_Colors_PartyMember6 = "CZŁONEK DRUŻYNY 6"
 FRAG_Safemode_Colors_Warning = "Zresetuj TF2 po wybraniu swojego koloru aby zobaczyć zmiany."
 
 FRAG_Safemode_MMenu_Title = "GŁÓWNE MENU"
 FRAG_Safemode_MMenu_FList = "LISTA ZNAJOMYCH"
+FRAG_Safemode_MMenu_UserBG = "TŁO UZYTKOWNIKA"
+FRAG_Safemode_MMenu_UserBG_Fill = "WYPEŁNIJ"
+FRAG_Safemode_MMenu_UserBG_Even = "ROZCIĄGNIJ"
+FRAG_Safemode_MMenu_UserBG_IGO = "PRZEZROCZYSTOŚĆ TŁA UZYTKOWNIKA W GRZE"
 
 FRAG_Safemode_Hitmarker_Title = "HITMARKER"
 FRAG_Safemode_Hitmarker_Toggle = "PRZEŁĄCZNIK HITMARKERA"
@@ -165,6 +178,10 @@ FRAG_Buttons_BugReport = "Zgłoś błąd z HUDem"
 FRAG_Buttons_Translate = "Pomóz przetłumaczyć FRAGMENTHUD"
 FRAG_Buttons_Discord = "Dołącz do naszego serwera Discord jeżeli potrzebujesz pomocy"
 FRAG_Buttons_LeadProfile = "Zobacz profil dewelopera"
+FRAG_Buttons_Itemtest = "Itemtest"
+FRAG_Buttons_FavServer0 = "Ulubiony Server 1"
+FRAG_Buttons_FavServer1 = "Ulubiony Server 2"
+FRAG_Buttons_FavServer2 = "Ulubiony Server 3"
 
 FRAG_Etc_Small = "Mały"
 FRAG_Etc_Medium = "Średni"
