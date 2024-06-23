@@ -94,7 +94,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/blob/master/donations.md"
+                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 

@@ -69,7 +69,7 @@
     "Translate"
     {
         "label"             "L"
-        "command"           "url https://github.com/leadscales/fragmenthud/blob/master/translations.md"
+        "command"           "url https://github.com/leadscales/fragmenthud/wiki/Donations"
         "tooltip"           "#FRAG_Buttons_Translate"
     }
     "Discord"
